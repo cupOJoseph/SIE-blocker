@@ -1,0 +1,182 @@
+[
+  {
+    "id": 123,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Passing the SIE exam alone allows a candidate to:",
+    "choices": ["Solicit securities orders from the public", "Demonstrate basic industry knowledge — but not to conduct securities business until a representative-level 'top-off' exam and registration are completed", "Act as a principal of a member firm", "Trade for a firm's proprietary account"],
+    "answer": 1,
+    "explanation": "The SIE is a prerequisite, not a registration. To function as a representative, the candidate must be associated with a member firm, pass a top-off exam such as the Series 6 or 7, and be registered. An SIE passing result remains valid for 4 years."
+  },
+  {
+    "id": 124,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "The Uniform Application for Securities Industry Registration or Transfer, used to register an associated person with a firm, is:",
+    "choices": ["Form U5", "Form U4", "Form BD", "Form 144"],
+    "answer": 1,
+    "explanation": "Form U4 registers individuals and discloses their history (employment, residences, criminal and financial events). Material changes must be reported by amending the U4, generally within 30 days."
+  },
+  {
+    "id": 125,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "When a registered representative leaves a firm, the firm must file Form U5 within:",
+    "choices": ["10 days of termination", "30 days of termination", "60 days of termination", "6 months of termination"],
+    "answer": 1,
+    "explanation": "Form U5 must be filed within 30 days of termination, with a copy provided to the departing rep. The individual's registration can generally be reactivated at a new firm within 2 years without re-testing."
+  },
+  {
+    "id": 126,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Which event would subject a person to statutory disqualification from the securities industry?",
+    "choices": ["A speeding ticket from last year", "A felony conviction within the past 10 years", "A personal bankruptcy filed 12 years ago", "A dismissed civil lawsuit"],
+    "answer": 1,
+    "explanation": "Statutory disqualification includes any felony conviction, or a securities/money-related misdemeanor conviction, within the past 10 years, as well as certain bars, suspensions, and injunctions."
+  },
+  {
+    "id": 127,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "The Regulatory Element of FINRA's continuing education program must be completed:",
+    "choices": ["Every three years", "Annually, by December 31", "Only in the second year of registration", "Only after a disciplinary event"],
+    "answer": 1,
+    "explanation": "Registered persons must complete the Regulatory Element each year by December 31. Firms must also deliver annual Firm Element training. Failure to complete CE results in a CE-inactive status."
+  },
+  {
+    "id": 128,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "Before taking a paid weekend job outside the firm, a registered representative must:",
+    "choices": ["Do nothing — outside work is personal business", "Provide prior written notice of the outside business activity to the firm", "Obtain approval from FINRA directly", "Resign from the firm"],
+    "answer": 1,
+    "explanation": "Outside business activities (OBAs) require prior written notice to the employing firm, which may restrict or prohibit the activity. Passive investments generally don't count as OBAs."
+  },
+  {
+    "id": 129,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "A rep helps a friend's startup sell shares to investors, away from the rep's firm, and receives compensation. Without notifying the firm, this is a violation known as:",
+    "choices": ["Churning", "Selling away (an unapproved private securities transaction)", "Front-running", "Interpositioning"],
+    "answer": 1,
+    "explanation": "Private securities transactions require prior written notice; if the rep is compensated, the firm must approve, record, and supervise the transactions. Doing it secretly is 'selling away.'"
+  },
+  {
+    "id": 130,
+    "section": "Regulatory Framework",
+    "topic": "Gifts",
+    "type": "type_in",
+    "question": "Under FINRA's gifts rule, what is the maximum dollar value of gifts a member may give per person, per year, in connection with the firm's business? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "$100", "100 dollars"],
+    "explanation": "FINRA Rule 3220 caps business-related gifts at $100 per person per year. Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
+  },
+  {
+    "id": 131,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "Under FINRA's communications rules, a 'retail communication' is any written communication distributed to more than how many retail investors within a 30-day period?",
+    "choices": ["10", "25", "50", "100"],
+    "answer": 1,
+    "explanation": "Retail communications (more than 25 retail investors in 30 days) generally require approval by a registered principal before use. Correspondence (25 or fewer) and institutional communications are subject to review and supervision."
+  },
+  {
+    "id": 132,
+    "section": "Regulatory Framework",
+    "topic": "Telemarketing",
+    "type": "multiple_choice",
+    "question": "Under telemarketing rules, unsolicited cold calls to prospects may generally be made only between:",
+    "choices": ["8:00 am and 9:00 pm in the prospect's local time zone", "9:00 am and 5:00 pm in the caller's time zone", "7:00 am and 11:00 pm in the prospect's local time zone", "Any hours on weekdays"],
+    "answer": 0,
+    "explanation": "Cold calls are restricted to 8 am – 9 pm local time of the person called, callers must identify themselves and the firm, and firms must honor the national and firm-specific do-not-call lists. Established business relationships and invited calls are exceptions."
+  },
+  {
+    "id": 133,
+    "section": "Regulatory Framework",
+    "topic": "Political Contributions",
+    "type": "multiple_choice",
+    "question": "Under MSRB pay-to-play rules, a municipal finance professional may contribute up to what amount per election to a candidate they are entitled to vote for, without triggering a two-year ban on the firm's negotiated municipal business with that issuer?",
+    "choices": ["$100", "$250", "$1,000", "There is no permitted amount"],
+    "answer": 1,
+    "explanation": "MSRB Rule G-37 allows a de minimis contribution of $250 per candidate per election if the professional can vote for the candidate. Larger contributions trigger a two-year ban."
+  },
+  {
+    "id": 134,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "type_in",
+    "question": "A passing result on the SIE exam remains valid for how many years? (Enter a number)",
+    "answer": "4",
+    "accepted": ["4", "4 years", "four", "four years"],
+    "explanation": "SIE results are valid for 4 years. Representative-level registrations generally lapse after 2 years away from the industry (extendable via the Maintaining Qualifications Program)."
+  },
+  {
+    "id": 135,
+    "section": "Regulatory Framework",
+    "topic": "Reportable Events",
+    "type": "multiple_choice",
+    "question": "Which event must a registered representative report to their firm by amending Form U4?",
+    "choices": ["Getting married", "A compromise with creditors or personal bankruptcy", "Buying a new home", "Taking a vacation abroad"],
+    "answer": 1,
+    "explanation": "Reportable U4 events include criminal charges and convictions, customer complaints meeting thresholds, liens and judgments, bankruptcies and compromises with creditors, and certain regulatory actions."
+  },
+  {
+    "id": 176,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "An unregistered administrative assistant at a member firm may:",
+    "choices": ["Accept an unsolicited customer order", "Invite prospects to a firm seminar without discussing specific securities", "Briefly describe a mutual fund's features if a principal listens in", "Prequalify prospects by asking about their investment goals"],
+    "answer": 1,
+    "explanation": "Unregistered persons may perform clerical tasks and extend invitations to firm events, but they may not solicit business, discuss products, prequalify prospects, or accept orders — even unsolicited ones."
+  },
+  {
+    "id": 177,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "The Firm Element of the continuing education requirement is BEST described as:",
+    "choices": ["FINRA-administered computer training taken every three years", "Annual, firm-designed training on job- and product-related topics for covered persons", "A requalification exam after any disciplinary event", "Optional training the firm may offer new hires"],
+    "answer": 1,
+    "explanation": "The Firm Element is annual training that each firm designs from its own needs analysis, covering products, regulations, and suitability relevant to its business. The Regulatory Element is the separate, FINRA-administered annual requirement."
+  },
+  {
+    "id": 178,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "A written message a firm sends to 20 retail investors within a 30-day period is classified under FINRA rules as:",
+    "choices": ["Retail communication", "Correspondence", "Institutional communication", "An advertisement"],
+    "answer": 1,
+    "explanation": "Correspondence is a written communication to 25 or fewer retail investors within 30 days. It requires supervision and review but not principal pre-approval, unlike most retail communications (more than 25 retail investors)."
+  },
+  {
+    "id": 179,
+    "section": "Regulatory Framework",
+    "topic": "Gifts",
+    "type": "multiple_choice",
+    "question": "A registered representative wants to take a client to a professional basketball game. Under FINRA rules, this entertainment is permissible if:",
+    "choices": ["Its value is under $100, like any gift", "The representative attends with the client and the entertainment is neither excessive nor a condition of doing business", "The client reimburses half the cost", "A principal attends as chaperone"],
+    "answer": 1,
+    "explanation": "Business entertainment is not subject to the $100 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $100 cap."
+  },
+  {
+    "id": 180,
+    "section": "Regulatory Framework",
+    "topic": "Political Contributions",
+    "type": "multiple_choice",
+    "question": "A municipal finance professional contributes $500 to the campaign of a mayor for whom the MFP cannot vote. The consequence for the firm is:",
+    "choices": ["Nothing - contributions under $1,000 are always permitted", "A two-year ban on negotiated municipal securities business with that issuer", "A fine payable to the MSRB", "The MFP must resign"],
+    "answer": 1,
+    "explanation": "Under MSRB Rule G-37, a contribution above the de minimis allowance ($250, and only where the MFP can vote for the candidate) triggers a two-year ban on negotiated municipal underwriting business with that issuer."
+  }
+]

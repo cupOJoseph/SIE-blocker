@@ -1,0 +1,282 @@
+[
+  {
+    "id": 23,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Preemptive rights give a common stockholder the ability to:",
+    "choices": ["Vote on the corporation's dividend policy", "Maintain their proportionate ownership when new shares are issued", "Convert common stock into preferred stock", "Receive dividends before preferred stockholders"],
+    "answer": 1,
+    "explanation": "Preemptive rights let existing shareholders buy enough of a new issue to keep their ownership percentage from being diluted."
+  },
+  {
+    "id": 24,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which voting method gives smaller shareholders the best chance of electing a director, by letting them pool all their votes on a single candidate?",
+    "choices": ["Statutory voting", "Cumulative voting", "Proxy voting", "Preemptive voting"],
+    "answer": 1,
+    "explanation": "Cumulative voting lets a shareholder concentrate all votes (shares × open seats) on one candidate, which benefits minority shareholders. Statutory voting requires votes to be spread evenly."
+  },
+  {
+    "id": 25,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "In a corporate liquidation, which party is paid LAST?",
+    "choices": ["Secured bondholders", "General (unsecured) creditors", "Preferred stockholders", "Common stockholders"],
+    "answer": 3,
+    "explanation": "The priority order is: secured creditors, then unsecured creditors and debentures, then subordinated debt, then preferred stock, and finally common stock — the residual claim."
+  },
+  {
+    "id": 26,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A corporation skipped its preferred dividend for two years. Before it may pay any dividend to common shareholders, it must first pay all missed dividends to holders of:",
+    "choices": ["Callable preferred", "Cumulative preferred", "Participating preferred", "Convertible preferred"],
+    "answer": 1,
+    "explanation": "Cumulative preferred accrues any skipped dividends (dividends in arrears), and all arrears plus the current preferred dividend must be paid before common receives anything."
+  },
+  {
+    "id": 27,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An issuer is MOST likely to call its outstanding callable preferred stock when:",
+    "choices": ["Interest rates have risen", "Interest rates have fallen", "The common stock price has fallen", "The dividend is in arrears"],
+    "answer": 1,
+    "explanation": "When rates fall, the issuer can call the old high-dividend preferred and reissue at a lower rate — the same logic as refinancing a mortgage. This creates call risk and reinvestment risk for the holder."
+  },
+  {
+    "id": 28,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An American Depositary Receipt (ADR) is designed to:",
+    "choices": ["Let U.S. investors conveniently trade shares of foreign companies in U.S. markets", "Let foreign investors trade U.S. stocks abroad", "Eliminate currency risk for U.S. investors", "Guarantee dividend payments in U.S. dollars"],
+    "answer": 0,
+    "explanation": "ADRs are receipts for foreign shares held by a U.S. bank, trading in U.S. dollars in U.S. markets. Holders still bear currency (exchange-rate) risk, and ADR holders generally do not receive preemptive rights."
+  },
+  {
+    "id": 29,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which statement correctly compares warrants and rights?",
+    "choices": ["Warrants are short-term; rights are long-term", "Warrants are issued with an exercise price above the current market price; rights are issued with a subscription price below it", "Rights are usually attached to bond offerings as sweeteners", "Warrants are issued only to existing shareholders"],
+    "answer": 1,
+    "explanation": "Warrants are long-term instruments with exercise prices above the market at issuance, often attached to bonds as sweeteners. Rights are short-term, offered to existing shareholders at below-market prices."
+  },
+  {
+    "id": 30,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "To be entitled to a declared cash dividend, an investor must purchase the stock:",
+    "choices": ["On or after the ex-dividend date", "Before the ex-dividend date", "On the payable date", "Within one week of the declaration date"],
+    "answer": 1,
+    "explanation": "Buying before the ex-date means the trade settles by the record date, so the buyer is a shareholder of record. On or after the ex-date, the stock trades without the dividend and its price is reduced accordingly."
+  },
+  {
+    "id": 31,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Under SEC rules, a penny stock is generally an unlisted equity security priced below:",
+    "choices": ["$1 per share", "$3 per share", "$5 per share", "$10 per share"],
+    "answer": 2,
+    "explanation": "Penny stocks are non-exchange-listed equities trading under $5 per share. Extra suitability and disclosure rules apply when soliciting new customers to buy them."
+  },
+  {
+    "id": 32,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "When market interest rates rise, the prices of existing fixed-rate bonds generally:",
+    "choices": ["Rise", "Fall", "Stay the same", "Move in the same direction as rates"],
+    "answer": 1,
+    "explanation": "Bond prices and market interest rates move inversely. Existing bonds with lower coupons become less attractive when new bonds pay more, so their prices fall."
+  },
+  {
+    "id": 33,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond is trading at a premium. Which ranking of its yields is correct?",
+    "choices": ["Nominal yield > current yield > yield to maturity", "Yield to maturity > current yield > nominal yield", "Current yield > nominal yield > yield to maturity", "All three yields are equal"],
+    "answer": 0,
+    "explanation": "At a premium, the coupon (nominal yield) is highest and YTM is lowest. At a discount the order flips; at par all yields are equal."
+  },
+  {
+    "id": 34,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond with a 6% coupon ($60 annual interest) is trading at $1,200. What is its current yield?",
+    "choices": ["4%", "5%", "6%", "7.2%"],
+    "answer": 1,
+    "explanation": "Current yield = annual interest ÷ current market price = $60 ÷ $1,200 = 5%."
+  },
+  {
+    "id": 35,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A corporate bond is quoted at 102 1/2. What is its dollar price? (Enter a number, e.g. 1000)",
+    "answer": "1025",
+    "accepted": ["1025", "$1025", "$1,025", "1,025", "1025 dollars"],
+    "explanation": "Corporate bond quotes are a percentage of $1,000 par, in eighths. 102 1/2 = 102.5% × $1,000 = $1,025."
+  },
+  {
+    "id": 36,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which is TRUE of zero-coupon bonds?",
+    "choices": ["They pay semiannual interest", "They are purchased at a discount and are the most price-sensitive to interest rate changes for a given maturity", "They carry no tax consequences until maturity", "They have high reinvestment risk"],
+    "answer": 1,
+    "explanation": "Zeros pay no periodic interest, are bought at a deep discount, and exhibit the greatest price volatility for a given maturity. They eliminate reinvestment risk, but taxable zeros generate annual 'phantom income' on the accreted discount."
+  },
+  {
+    "id": 37,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which Treasury security is issued at a discount, pays no coupon, and has a maximum maturity of 52 weeks?",
+    "choices": ["Treasury bill", "Treasury note", "Treasury bond", "TIPS"],
+    "answer": 0,
+    "explanation": "T-bills are short-term discount instruments (4 to 52 weeks). T-notes run 2–10 years and T-bonds 20–30 years; both pay semiannual interest."
+  },
+  {
+    "id": 38,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Treasury notes are issued with maturities of:",
+    "choices": ["4 to 52 weeks", "2 to 10 years", "20 to 30 years", "30 to 40 years"],
+    "answer": 1,
+    "explanation": "Notes: 2–10 years. Bills: up to 52 weeks. Bonds: 20–30 years."
+  },
+  {
+    "id": 39,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "TIPS (Treasury Inflation-Protected Securities) protect investors against inflation by:",
+    "choices": ["Paying a floating coupon rate tied to the fed funds rate", "Adjusting the principal value based on changes in the CPI", "Guaranteeing a real return of at least 5%", "Paying interest that is exempt from all taxation"],
+    "answer": 1,
+    "explanation": "TIPS have a fixed coupon rate applied to a principal amount that adjusts with the Consumer Price Index, so interest payments and the final principal keep pace with inflation."
+  },
+  {
+    "id": 40,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Interest received from U.S. Treasury securities is:",
+    "choices": ["Exempt from federal tax but subject to state tax", "Subject to federal tax but exempt from state and local tax", "Exempt from all taxation", "Fully taxable at every level"],
+    "answer": 1,
+    "explanation": "Treasury interest is federally taxable but exempt from state and local income taxes — the mirror image of municipal bond interest."
+  },
+  {
+    "id": 41,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A general obligation (GO) municipal bond is backed by:",
+    "choices": ["Revenues of the facility it finances", "The full faith, credit, and taxing power of the issuer", "A corporate guarantee", "Federal government backing"],
+    "answer": 1,
+    "explanation": "GO bonds are supported by the issuer's taxing power and typically require voter approval. Revenue bonds are backed only by revenues from the financed project (tolls, fees, etc.)."
+  },
+  {
+    "id": 42,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A revenue bond issued to build a toll road would MOST likely be evaluated using a:",
+    "choices": ["Voter referendum", "Feasibility study of projected tolls and expenses", "Analysis of the issuer's property tax base", "Debt-per-capita ratio"],
+    "answer": 1,
+    "explanation": "Revenue bonds are analyzed on the project's ability to generate revenue, so a feasibility study is key. Taxing-power measures like tax base and debt per capita apply to GO bonds."
+  },
+  {
+    "id": 43,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "Municipal bond interest is most valuable to which investor?",
+    "choices": ["A low-income retiree in the 10% bracket", "An investor in the highest federal tax bracket", "A tax-deferred retirement account", "A foreign investor with no U.S. tax liability"],
+    "answer": 1,
+    "explanation": "Muni interest is generally exempt from federal income tax, so the benefit grows with the investor's tax bracket. Holding munis inside tax-deferred accounts wastes the exemption."
+  },
+  {
+    "id": 44,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "An investor in the 25% federal tax bracket is considering a municipal bond yielding 4.5%. What is the approximate tax-equivalent yield?",
+    "choices": ["3.4%", "4.5%", "5.0%", "6.0%"],
+    "answer": 3,
+    "explanation": "Tax-equivalent yield = muni yield ÷ (1 − tax rate) = 4.5% ÷ 0.75 = 6.0%. A taxable bond must yield 6% to match the muni after tax."
+  },
+  {
+    "id": 45,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "The lowest rating that is still considered investment grade is:",
+    "choices": ["AA / Aa2", "BBB- / Baa3", "BB+ / Ba1", "CCC / Caa"],
+    "answer": 1,
+    "explanation": "Investment grade runs from AAA down to BBB- (S&P/Fitch) or Baa3 (Moody's). Anything below is high-yield ('junk'), carrying greater default risk."
+  },
+  {
+    "id": 46,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A convertible bond ($1,000 par) is convertible at $40 per share. How many shares does the holder receive upon conversion? (Enter a number)",
+    "answer": "25",
+    "accepted": ["25", "25 shares"],
+    "explanation": "Conversion ratio = par ÷ conversion price = $1,000 ÷ $40 = 25 shares."
+  },
+  {
+    "id": 47,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An investor holding a callable bond faces the greatest risk of the bond being called when:",
+    "choices": ["Interest rates rise sharply", "Interest rates fall sharply", "The issuer's credit rating is downgraded", "The bond trades at a deep discount"],
+    "answer": 1,
+    "explanation": "Issuers call bonds to refinance at lower rates. When rates fall, callable bonds are redeemed early, forcing investors to reinvest at the new lower rates (reinvestment risk)."
+  },
+  {
+    "id": 48,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Holders of mortgage-backed securities face prepayment risk, which is greatest when:",
+    "choices": ["Interest rates rise and homeowners stop refinancing", "Interest rates fall and homeowners refinance their mortgages", "Home prices decline", "The Fed raises the discount rate"],
+    "answer": 1,
+    "explanation": "Falling rates trigger refinancing, returning principal to MBS investors early — exactly when reinvestment options pay less. Rising rates cause the opposite: extension risk."
+  },
+  {
+    "id": 49,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Which money market instrument is most commonly used to finance international trade?",
+    "choices": ["Commercial paper", "Banker's acceptance", "Negotiable CD", "Repurchase agreement"],
+    "answer": 1,
+    "explanation": "A banker's acceptance is a time draft guaranteed by a bank, traditionally used to finance imports and exports."
+  },
+  {
+    "id": 50,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Negotiable (jumbo) certificates of deposit typically have a minimum face value of:",
+    "choices": ["$1,000", "$10,000", "$100,000", "$1,000,000"],
+    "answer": 2,
+    "explanation": "Negotiable CDs are issued in minimum denominations of $100,000 and can be traded in the secondary market before maturity."
+  }
+]

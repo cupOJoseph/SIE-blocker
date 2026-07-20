@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "Which piece of legislation created the Securities and Exchange Commission (SEC)?",
+    "choices": ["Securities Act of 1933", "Securities Exchange Act of 1934", "Investment Company Act of 1940", "Trust Indenture Act of 1939"],
+    "answer": 1,
+    "explanation": "The Securities Exchange Act of 1934 created the SEC and governs the secondary market. The Securities Act of 1933 governs new issues (the primary market)."
+  },
+  {
+    "id": 2,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "The Securities Act of 1933 primarily regulates which of the following?",
+    "choices": ["Trading of outstanding securities between investors", "Registration and disclosure requirements for new issues of securities", "The activities of investment advisers", "Margin lending by broker-dealers"],
+    "answer": 1,
+    "explanation": "The 1933 Act covers the primary market: it requires issuers of new securities to register with the SEC and deliver a prospectus so investors receive full and fair disclosure."
+  },
+  {
+    "id": 3,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "Which self-regulatory organization writes rules for municipal securities dealers but has NO authority to enforce them?",
+    "choices": ["FINRA", "MSRB", "SIPC", "The Federal Reserve"],
+    "answer": 1,
+    "explanation": "The MSRB (Municipal Securities Rulemaking Board) makes rules for the municipal market but does not enforce them. Enforcement is handled by FINRA, the SEC, and bank regulators."
+  },
+  {
+    "id": 4,
+    "section": "Capital Markets",
+    "topic": "Investor Protection",
+    "type": "multiple_choice",
+    "question": "If a broker-dealer fails, SIPC protects each separate customer up to:",
+    "choices": ["$250,000 total, including $100,000 in cash", "$500,000 total, including $250,000 in cash", "$500,000 in cash only", "An unlimited amount of securities"],
+    "answer": 1,
+    "explanation": "SIPC coverage is $500,000 per separate customer, of which no more than $250,000 may be cash. SIPC covers broker-dealer failure, not market losses."
+  },
+  {
+    "id": 5,
+    "section": "Capital Markets",
+    "topic": "Investor Protection",
+    "type": "multiple_choice",
+    "question": "Which statement about FDIC insurance is TRUE?",
+    "choices": ["It covers securities held at a broker-dealer", "It covers bank deposits up to $250,000 per depositor, per bank, per ownership category", "It protects investors from market losses", "It covers money market mutual funds"],
+    "answer": 1,
+    "explanation": "The FDIC insures bank deposits (checking, savings, CDs) up to $250,000 per depositor, per insured bank, per ownership category. It never covers securities or mutual funds, even those sold at a bank."
+  },
+  {
+    "id": 6,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a tool of the Federal Reserve's monetary policy?",
+    "choices": ["Open market operations", "Setting the discount rate", "Changing reserve requirements", "Raising or lowering federal income tax rates"],
+    "answer": 3,
+    "explanation": "Taxation and government spending are fiscal policy, controlled by Congress and the President. The Fed's monetary tools include open market operations, the discount rate, and reserve requirements."
+  },
+  {
+    "id": 7,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "The Federal Open Market Committee (FOMC) implements monetary policy primarily by:",
+    "choices": ["Buying and selling U.S. government securities in the open market", "Setting the prime rate that banks charge customers", "Approving new stock exchange listings", "Setting margin requirements for customers"],
+    "answer": 0,
+    "explanation": "The FOMC conducts open market operations — buying Treasuries to inject money into the economy or selling them to drain it. The prime rate is set by banks themselves."
+  },
+  {
+    "id": 8,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "If the Federal Reserve sells securities in the open market, the most likely short-term result is:",
+    "choices": ["Interest rates fall and the money supply expands", "Interest rates rise and the money supply contracts", "Interest rates fall and the money supply contracts", "No effect on interest rates or money supply"],
+    "answer": 1,
+    "explanation": "Selling securities pulls cash out of the banking system, shrinking the money supply and pushing interest rates up. This is tightening. Buying securities is easing."
+  },
+  {
+    "id": 9,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "An inverted yield curve exists when:",
+    "choices": ["Short-term yields are higher than long-term yields", "Long-term yields are higher than short-term yields", "All maturities yield the same amount", "Bond prices and yields move together"],
+    "answer": 0,
+    "explanation": "A normal curve slopes upward (longer maturities yield more). When short-term yields exceed long-term yields, the curve is inverted — historically viewed as a possible recession signal."
+  },
+  {
+    "id": 10,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "type_in",
+    "question": "What is the common three-letter abbreviation for the economic indicator that tracks the average change in prices consumers pay for a basket of goods and services?",
+    "answer": "CPI",
+    "accepted": ["cpi", "consumer price index", "the consumer price index"],
+    "explanation": "The Consumer Price Index (CPI) is the most widely used measure of inflation."
+  },
+  {
+    "id": 11,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which sequence correctly lists the four phases of the business cycle?",
+    "choices": ["Expansion, peak, contraction, trough", "Peak, expansion, trough, contraction", "Trough, contraction, peak, expansion", "Contraction, expansion, trough, peak"],
+    "answer": 0,
+    "explanation": "The cycle runs expansion → peak → contraction → trough, then repeats. A prolonged contraction is a recession (commonly described as two consecutive quarters of declining GDP)."
+  },
+  {
+    "id": 12,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "In which market does the issuing company actually receive the proceeds from the sale of its securities?",
+    "choices": ["Secondary market", "Primary market", "Third market", "Fourth market"],
+    "answer": 1,
+    "explanation": "Primary market transactions (like IPOs) raise capital for the issuer. In the secondary market, investors trade with each other and the issuer receives nothing."
+  },
+  {
+    "id": 13,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "A company that is already publicly traded issues additional new shares to raise capital. This is best described as a(n):",
+    "choices": ["Initial public offering (IPO)", "Follow-on (subsequent/additional) offering", "Secondary market transaction", "Private placement"],
+    "answer": 1,
+    "explanation": "An IPO is a company's first sale of stock to the public. Later primary offerings by an already-public issuer are follow-on (also called subsequent or additional) offerings."
+  },
+  {
+    "id": 14,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "Exchange-listed securities trading over-the-counter (away from the exchange) describes the:",
+    "choices": ["First market", "Second market", "Third market", "Fourth market"],
+    "answer": 2,
+    "explanation": "First market = listed securities on an exchange; second market = unlisted securities OTC; third market = listed securities traded OTC; fourth market = institutions trading directly with each other (often via ECNs)."
+  },
+  {
+    "id": 15,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "Two large institutions trade directly with each other through an electronic communication network, with no broker-dealer in between. This occurs in the:",
+    "choices": ["Primary market", "Second market", "Third market", "Fourth market"],
+    "answer": 3,
+    "explanation": "Direct institution-to-institution trading, typically through ECNs, is the fourth market."
+  },
+  {
+    "id": 16,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a firm commitment underwriting, the underwriter:",
+    "choices": ["Acts as the issuer's agent and returns unsold shares", "Buys the entire issue from the issuer and bears the risk of unsold shares", "Guarantees the stock price will not fall after the offering", "Sells shares only to accredited investors"],
+    "answer": 1,
+    "explanation": "In a firm commitment, the underwriter acts as principal, purchasing the whole issue and reselling it — taking on the financial risk. In a best efforts deal, the underwriter acts only as agent."
+  },
+  {
+    "id": 17,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a best efforts underwriting, unsold shares are:",
+    "choices": ["Purchased by the underwriter", "Returned to the issuer unsold", "Allocated to the syndicate manager", "Sold short by the underwriter"],
+    "answer": 1,
+    "explanation": "In best efforts deals, the underwriter acts as agent and has no obligation to buy what it cannot sell; unsold shares go back to the issuer."
+  },
+  {
+    "id": 18,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "When a firm sells a security to a customer out of its own inventory and charges a markup, the firm is acting as a:",
+    "choices": ["Broker (agent)", "Dealer (principal)", "Transfer agent", "Custodian"],
+    "answer": 1,
+    "explanation": "Acting as principal from inventory = dealer, compensated by a markup or markdown. Acting as agent matching a buyer and seller = broker, compensated by a commission. A firm may not act as both in the same trade."
+  },
+  {
+    "id": 19,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "To qualify as an accredited investor based on income, an individual generally must have earned income exceeding:",
+    "choices": ["$100,000 in the most recent year", "$200,000 (or $300,000 jointly with a spouse) in each of the two most recent years", "$500,000 in each of the past five years", "$1,000,000 in the most recent year"],
+    "answer": 1,
+    "explanation": "Under Regulation D, an accredited investor includes an individual with income over $200,000 ($300,000 joint) in each of the last two years with the same expectation this year, or net worth over $1 million excluding the primary residence."
+  },
+  {
+    "id": 20,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "type_in",
+    "question": "Commercial paper is exempt from SEC registration if its maturity does not exceed how many days?",
+    "answer": "270",
+    "accepted": ["270", "270 days"],
+    "explanation": "Corporate commercial paper with a maturity of 270 days or less is an exempt security under the Securities Act of 1933."
+  },
+  {
+    "id": 21,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "Which market participant is responsible for maintaining records of a corporation's shareholders and canceling old certificates when shares change hands?",
+    "choices": ["The underwriter", "The transfer agent", "The market maker", "The clearing corporation"],
+    "answer": 1,
+    "explanation": "The transfer agent keeps the shareholder records, issues and cancels certificates, and handles lost certificates. (The registrar audits that shares outstanding never exceed shares authorized.)"
+  },
+  {
+    "id": 22,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "During the cooling-off period between filing a registration statement and its effective date, which activity IS permitted?",
+    "choices": ["Taking binding orders for the new issue", "Distributing a preliminary prospectus (red herring)", "Delivering the final prospectus with a confirmed sale", "Guaranteeing allocation of shares to customers"],
+    "answer": 1,
+    "explanation": "During the cooling-off period, firms may gather indications of interest and distribute the preliminary prospectus, but no sales may occur and no final price is set until the registration is effective."
+  },
+  {
+    "id": 136,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In which type of underwriting is the entire offering canceled and all investor funds returned unless every share is sold?",
+    "choices": ["Firm commitment", "Best efforts all-or-none", "Standby", "Best efforts mini-max"],
+    "answer": 1,
+    "explanation": "In an all-or-none (AON) best efforts deal, investor funds are held in escrow and returned if the full issue does not sell. A mini-max deal sets a minimum floor rather than requiring every share to sell."
+  },
+  {
+    "id": 137,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "A corporation conducting a rights offering hires an investment bank to purchase any shares its existing shareholders do not subscribe to. This arrangement is called a:",
+    "choices": ["Standby underwriting", "Firm commitment underwriting", "Best efforts underwriting", "Private placement"],
+    "answer": 0,
+    "explanation": "In a standby underwriting, the underwriter agrees in advance to 'stand by' and buy whatever shares remain unsubscribed after a rights offering, guaranteeing the issuer its capital."
+  },
+  {
+    "id": 138,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Under Regulation D Rule 506(b), a private placement may be sold to an unlimited number of accredited investors plus a maximum of how many non-accredited (but sophisticated) purchasers?",
+    "choices": ["0", "10", "35", "100"],
+    "answer": 2,
+    "explanation": "Rule 506(b) allows unlimited accredited investors and up to 35 non-accredited purchasers who are financially sophisticated. General solicitation is not permitted under 506(b)."
+  },
+  {
+    "id": 139,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Restricted stock of an SEC-reporting company acquired in a private placement generally must be held for how long before it can be resold under Rule 144?",
+    "choices": ["30 days", "90 days", "6 months", "2 years"],
+    "answer": 2,
+    "explanation": "Rule 144 imposes a 6-month holding period on restricted securities of SEC-reporting issuers (12 months for non-reporting issuers) before public resale is permitted."
+  },
+  {
+    "id": 140,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "A broker-dealer accepts customer orders and handles the customer relationship, but a second firm executes the trades, settles them, and holds the customers' cash and securities. The second firm is the:",
+    "choices": ["Introducing firm", "Clearing (carrying) firm", "Transfer agent", "Investment adviser"],
+    "answer": 1,
+    "explanation": "The clearing (carrying) firm executes, settles, and custodies assets; the introducing firm maintains the customer relationship and passes orders along on a fully disclosed basis."
+  },
+  {
+    "id": 141,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is a LEADING economic indicator?",
+    "choices": ["Average duration of unemployment", "Building permits for new housing", "Industrial production", "The average prime rate charged by banks"],
+    "answer": 1,
+    "explanation": "Building permits signal future construction activity, making them a leading indicator. Industrial production is coincident; unemployment duration and the prime rate are lagging indicators."
+  },
+  {
+    "id": 142,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A recession is most commonly described as a decline in real GDP lasting at least:",
+    "choices": ["One quarter", "Two consecutive quarters", "Four consecutive quarters", "Eighteen months"],
+    "answer": 1,
+    "explanation": "The rule-of-thumb definition of a recession is two consecutive quarters of declining real GDP. A depression is a severe, prolonged downturn (often described as six quarters or more)."
+  },
+  {
+    "id": 143,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A significantly stronger U.S. dollar most directly benefits which of the following?",
+    "choices": ["U.S. exporters selling goods abroad", "U.S. importers buying foreign goods", "U.S. companies earning most of their revenue overseas", "Foreign tourists vacationing in the United States"],
+    "answer": 1,
+    "explanation": "A strong dollar makes foreign goods cheaper for U.S. importers and consumers. It hurts U.S. exporters (their goods cost more abroad) and shrinks the dollar value of overseas earnings."
+  }
+]

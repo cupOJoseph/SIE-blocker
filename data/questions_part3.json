@@ -1,0 +1,542 @@
+[
+  {
+    "id": 51,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "An investor places an order to buy mutual fund shares at 2:00 pm ET. The price the investor pays is based on:",
+    "choices": ["The NAV calculated the previous day", "The next NAV calculated after the order is received (forward pricing)", "The average NAV of the past week", "The intraday market price at 2:00 pm"],
+    "answer": 1,
+    "explanation": "Open-end funds use forward pricing: orders receive the next computed NAV (typically calculated once daily after the market close), plus any applicable sales charge."
+  },
+  {
+    "id": 52,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which statement about open-end mutual fund shares is TRUE?",
+    "choices": ["They trade between investors on an exchange", "They are purchased from and redeemed by the fund itself", "They may trade at a discount to NAV", "The number of shares outstanding is fixed"],
+    "answer": 1,
+    "explanation": "Open-end funds continuously issue and redeem shares at NAV (plus/minus charges); there is no secondary market. Closed-end funds have a fixed share count and trade on exchanges at premiums or discounts to NAV."
+  },
+  {
+    "id": 53,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, the maximum sales charge on a mutual fund purchase is:",
+    "choices": ["5% of the amount invested", "8.5% of the public offering price", "10% of NAV", "There is no maximum"],
+    "answer": 1,
+    "explanation": "FINRA caps mutual fund sales charges at 8.5% of the public offering price, and a fund may only charge the maximum if it offers breakpoints and rights of accumulation."
+  },
+  {
+    "id": 54,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A registered representative encourages a customer to invest $95,000 in a fund when investing $100,000 would qualify for a reduced sales charge. This violation is called a:",
+    "choices": ["Breakpoint sale", "Freeriding violation", "Selling dividends", "Interpositioning"],
+    "answer": 0,
+    "explanation": "Selling shares just below a breakpoint to earn a higher commission is a prohibited 'breakpoint sale.' Reps must disclose breakpoints and how to reach them (including letters of intent)."
+  },
+  {
+    "id": 55,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A letter of intent allows a mutual fund investor to qualify for a breakpoint by committing to invest a target amount over how many months? (Enter a number)",
+    "answer": "13",
+    "accepted": ["13", "13 months", "thirteen"],
+    "explanation": "A letter of intent covers 13 months and may be backdated up to 90 days to include a prior purchase."
+  },
+  {
+    "id": 56,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which mutual fund share class typically charges a front-end sales load and offers breakpoint discounts for large purchases?",
+    "choices": ["Class A", "Class B", "Class C", "Class R"],
+    "answer": 0,
+    "explanation": "Class A shares charge a front-end load with breakpoints — usually best for large or long-term investments. Class B carry a declining back-end charge (CDSC); Class C charge a level annual load."
+  },
+  {
+    "id": 57,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Shares of a closed-end fund are priced by:",
+    "choices": ["The fund's NAV plus a sales charge", "Supply and demand in the secondary market", "A formula set by the SEC", "The fund's board of directors each morning"],
+    "answer": 1,
+    "explanation": "After the IPO, closed-end fund shares trade on exchanges like stock and can trade at a premium or discount to NAV."
+  },
+  {
+    "id": 58,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Compared with traditional open-end index mutual funds, ETFs generally offer:",
+    "choices": ["Intraday trading, the ability to be sold short, and margin eligibility", "Guaranteed returns tied to the index", "Forward pricing once per day", "Freedom from all market risk"],
+    "answer": 0,
+    "explanation": "ETFs trade throughout the day at market prices, can be bought on margin or sold short, and tend to have low expense ratios — but they still carry the full market risk of what they hold, and trades incur commissions."
+  },
+  {
+    "id": 59,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which statement about money market mutual funds is TRUE?",
+    "choices": ["They are guaranteed by the FDIC", "They aim to maintain a stable $1.00 NAV but this is not guaranteed", "They cannot lose value", "They invest primarily in long-term bonds"],
+    "answer": 1,
+    "explanation": "Money market funds target a stable $1 NAV using short-term debt, but they are not insured or guaranteed and can 'break the buck.'"
+  },
+  {
+    "id": 60,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A unit investment trust (UIT) is BEST described as having:",
+    "choices": ["An actively managed portfolio and a board of directors", "A fixed, unmanaged portfolio with redeemable units and a termination date", "Exchange-traded shares priced at a premium to NAV", "A portfolio that changes daily at the sponsor's discretion"],
+    "answer": 1,
+    "explanation": "UITs assemble a fixed portfolio, issue redeemable units, have no investment adviser or active management, and terminate on a set date."
+  },
+  {
+    "id": 61,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "To avoid taxation at the entity level, a REIT must distribute to shareholders at least what portion of its taxable income?",
+    "choices": ["50%", "75%", "90%", "100%"],
+    "answer": 2,
+    "explanation": "A REIT must pay out at least 90% of taxable income as dividends (and meet asset/income tests). REIT dividends are generally taxed to investors as ordinary income."
+  },
+  {
+    "id": 62,
+    "section": "Products and Risks",
+    "topic": "Alternatives",
+    "type": "multiple_choice",
+    "question": "Which characteristic is typical of hedge funds?",
+    "choices": ["Daily redemption at NAV for any investor", "Registration and pricing rules identical to mutual funds", "Limited liquidity, performance-based fees, and availability mainly to accredited investors", "FDIC insurance on invested capital"],
+    "answer": 2,
+    "explanation": "Hedge funds are typically private, lightly regulated pools open to accredited or qualified investors, often using leverage and short selling, charging management plus performance fees, with restricted (lock-up) liquidity."
+  },
+  {
+    "id": 63,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "In a limited partnership (direct participation program), which party has unlimited liability for the partnership's debts?",
+    "choices": ["The limited partners", "The general partner", "All investors equally", "No one — liability is capped for everyone"],
+    "answer": 1,
+    "explanation": "The general partner manages the business and bears unlimited liability. Limited partners are passive, risking only their investment. DPPs pass income and losses directly through to investors and are highly illiquid."
+  },
+  {
+    "id": 64,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "The buyer of a call option has the:",
+    "choices": ["Obligation to buy the stock at the strike price", "Right to buy the stock at the strike price", "Right to sell the stock at the strike price", "Obligation to sell the stock at the strike price"],
+    "answer": 1,
+    "explanation": "Buyers hold rights; sellers (writers) take on obligations. A call buyer has the right to buy at the strike and is bullish; a put buyer has the right to sell and is bearish."
+  },
+  {
+    "id": 65,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor buys 1 XYZ 50 put at 2. What is the maximum potential gain?",
+    "choices": ["$200", "$4,800", "$5,000", "Unlimited"],
+    "answer": 1,
+    "explanation": "A put's maximum gain occurs if the stock falls to zero: (strike − premium) × 100 = (50 − 2) × 100 = $4,800. The maximum loss is the $200 premium paid."
+  },
+  {
+    "id": 66,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor who owns 100 shares of stock writes a call against the position. This covered call strategy is designed to:",
+    "choices": ["Provide unlimited upside potential", "Generate premium income while capping the upside", "Fully protect against a decline in the stock", "Increase leverage on the position"],
+    "answer": 1,
+    "explanation": "Writing a covered call earns the premium and provides only that much downside cushion; if the stock rallies past the strike, the shares are called away, capping gains."
+  },
+  {
+    "id": 67,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which option position exposes the investor to theoretically UNLIMITED loss?",
+    "choices": ["Buying a call", "Buying a put", "Writing an uncovered (naked) call", "Writing a covered call"],
+    "answer": 2,
+    "explanation": "A naked call writer must deliver stock they don't own; since a stock's price has no ceiling, potential loss is unlimited. Option buyers can never lose more than the premium."
+  },
+  {
+    "id": 68,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "One standard equity option contract covers how many shares of the underlying stock? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "100 shares", "one hundred"],
+    "explanation": "Standard listed equity options cover 100 shares per contract, so premiums are multiplied by 100."
+  },
+  {
+    "id": 69,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor buys 1 ABC 50 call at 3. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "53",
+    "accepted": ["53", "$53", "53 dollars"],
+    "explanation": "Call breakeven = strike + premium = 50 + 3 = 53. (Put breakeven = strike − premium.)"
+  },
+  {
+    "id": 70,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which organization issues and guarantees the performance of listed option contracts?",
+    "choices": ["FINRA", "The Options Clearing Corporation (OCC)", "The SEC", "The exchange where the option trades"],
+    "answer": 1,
+    "explanation": "The OCC is the issuer and guarantor of listed options, standing between buyers and sellers to eliminate counterparty risk."
+  },
+  {
+    "id": 71,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "A 45 call is trading while the underlying stock is at 52. What is the option's intrinsic value? (Enter a number)",
+    "answer": "7",
+    "accepted": ["7", "$7", "7 points"],
+    "explanation": "A call's intrinsic value = stock price − strike = 52 − 45 = 7. Options never have negative intrinsic value; any premium above intrinsic value is time value."
+  },
+  {
+    "id": 72,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "When an index option is exercised, the writer must deliver:",
+    "choices": ["A basket of the index's component stocks", "Cash equal to the option's in-the-money amount", "Shares of an index ETF", "A futures contract on the index"],
+    "answer": 1,
+    "explanation": "Index options settle in cash — the in-the-money amount times the multiplier — since delivering hundreds of stocks would be impractical."
+  },
+  {
+    "id": 73,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which statement about variable annuities is TRUE?",
+    "choices": ["Contributions are invested in the insurer's general account", "The insurance company bears the investment risk", "Payments are funded through a separate account, and the product is regulated as a security", "Returns are guaranteed by the issuing insurer"],
+    "answer": 2,
+    "explanation": "Variable annuity premiums go into a separate account invested in subaccounts; the annuitant bears the investment risk, so the product must be registered as a security and sold with a prospectus."
+  },
+  {
+    "id": 74,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "The greatest risk faced by the owner of a FIXED annuity is:",
+    "choices": ["Market risk", "Purchasing power (inflation) risk", "Liquidity risk during the payout phase", "Default risk of the separate account"],
+    "answer": 1,
+    "explanation": "Fixed annuities guarantee a payment from the insurer's general account, so the danger is that fixed payments lose purchasing power to inflation. Fixed annuities are insurance products, not securities."
+  },
+  {
+    "id": 75,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "A Section 1035 exchange allows an investor to:",
+    "choices": ["Exchange one annuity contract for another without current taxation", "Withdraw annuity earnings tax-free before age 59 1/2", "Convert a traditional IRA into a Roth IRA tax-free", "Exchange stock for bonds without capital gains tax"],
+    "answer": 0,
+    "explanation": "A 1035 exchange defers tax when swapping one insurance/annuity contract for another — but surrender charges and a new surrender period may still apply, so suitability matters."
+  },
+  {
+    "id": 76,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which annuity payout option provides the LARGEST monthly payment?",
+    "choices": ["Life with 10-year period certain", "Joint and last survivor", "Straight life (life only)", "Unit refund life"],
+    "answer": 2,
+    "explanation": "Straight life pays only while the annuitant lives, with nothing to beneficiaries — the least protection, so the insurer can pay the most per month."
+  },
+  {
+    "id": 77,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Which life insurance product requires the salesperson to hold BOTH an insurance license and a securities registration?",
+    "choices": ["Term life", "Whole life", "Variable life", "Universal life (fixed)"],
+    "answer": 2,
+    "explanation": "Variable life invests cash value in a separate account, making it a security. It requires prospectus delivery and securities registration in addition to a state insurance license."
+  },
+  {
+    "id": 78,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Diversifying a portfolio across many different companies primarily reduces:",
+    "choices": ["Systematic risk", "Nonsystematic (company-specific) risk", "Inflation risk", "Interest rate risk"],
+    "answer": 1,
+    "explanation": "Diversification reduces nonsystematic risks like business and credit risk. Systematic risks — market, interest rate, inflation — affect the entire market and cannot be diversified away."
+  },
+  {
+    "id": 79,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which bond has the GREATEST interest rate (price) risk?",
+    "choices": ["A 1-year Treasury bill", "A 5-year corporate note", "A 30-year zero-coupon bond", "A money market instrument"],
+    "answer": 2,
+    "explanation": "Price sensitivity rises with maturity and falls with coupon size. A long-term zero-coupon bond has the longest duration and therefore the greatest interest rate risk."
+  },
+  {
+    "id": 80,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "An investor whose entire portfolio is long-term fixed-rate bonds and a fixed annuity is MOST exposed to:",
+    "choices": ["Currency risk", "Purchasing power (inflation) risk", "Business risk", "Regulatory risk"],
+    "answer": 1,
+    "explanation": "Fixed payment streams lose real value when inflation rises. Equities historically offer better inflation protection than fixed-income products."
+  },
+  {
+    "id": 81,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which investment carries the GREATEST liquidity risk?",
+    "choices": ["Shares of a large-cap NYSE-listed stock", "A Treasury note", "A limited partnership (DPP) interest", "A listed ETF"],
+    "answer": 2,
+    "explanation": "DPP interests have no active secondary market and often require general partner approval to transfer, making them among the least liquid investments."
+  },
+  {
+    "id": 82,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "A U.S. investor holding ADRs of a Japanese company is exposed to which risk NOT faced by an investor holding only U.S. domestic stocks?",
+    "choices": ["Market risk", "Currency (exchange-rate) risk", "Interest rate risk", "Reinvestment risk"],
+    "answer": 1,
+    "explanation": "Even though ADRs trade in dollars, the underlying shares and dividends are in yen, so changes in the dollar/yen exchange rate affect returns."
+  },
+  {
+    "id": 83,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Reinvestment risk is the risk that:",
+    "choices": ["A bond's issuer will default", "Interest payments and returned principal must be reinvested at lower rates", "A stock cannot be sold quickly", "The market as a whole declines"],
+    "answer": 1,
+    "explanation": "When rates fall, coupons and called/matured principal can only be reinvested at lower yields. Zero-coupon bonds held to maturity avoid reinvestment risk because there are no coupons to reinvest."
+  },
+  {
+    "id": 84,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "The risk that a single company's poor management decisions cause its stock to fall is called:",
+    "choices": ["Market risk", "Business risk", "Inflation risk", "Interest rate risk"],
+    "answer": 1,
+    "explanation": "Business risk is nonsystematic, company-specific risk. It can be reduced through diversification, unlike market-wide (systematic) risk."
+  },
+  {
+    "id": 85,
+    "section": "Products and Risks",
+    "topic": "Indices",
+    "type": "type_in",
+    "question": "The Dow Jones Industrial Average is a price-weighted index composed of how many stocks? (Enter a number)",
+    "answer": "30",
+    "accepted": ["30", "30 stocks", "thirty"],
+    "explanation": "The DJIA tracks 30 large U.S. companies and is price-weighted. The S&P 500 tracks about 500 companies and is market-cap weighted — a broader market measure."
+  },
+  {
+    "id": 144,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which agency's mortgage-backed pass-through securities are backed by the full faith and credit of the U.S. government?",
+    "choices": ["Fannie Mae (FNMA)", "Freddie Mac (FHLMC)", "Ginnie Mae (GNMA)", "The Federal Home Loan Banks"],
+    "answer": 2,
+    "explanation": "Only Ginnie Mae securities carry the direct full-faith-and-credit guarantee of the U.S. government. Fannie Mae and Freddie Mac are government-sponsored enterprises whose securities do not carry that explicit guarantee."
+  },
+  {
+    "id": 145,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A collateralized mortgage obligation (CMO) differs from a simple mortgage pass-through primarily because a CMO:",
+    "choices": ["Is backed by the U.S. government", "Divides cash flows into tranches with different expected maturities and risk levels", "Pays no interest until maturity", "Is free of prepayment risk"],
+    "answer": 1,
+    "explanation": "A CMO carves mortgage cash flows into tranches; each tranche has its own expected maturity and priority for receiving principal, letting investors choose different prepayment-risk profiles."
+  },
+  {
+    "id": 146,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An investor wants a U.S. government-backed zero-coupon security to fund a known expense 15 years from now. Which security fits best?",
+    "choices": ["Treasury bills", "Treasury notes", "Treasury STRIPS", "Treasury Inflation-Protected Securities (TIPS)"],
+    "answer": 2,
+    "explanation": "STRIPS are Treasury notes/bonds whose coupons and principal have been separated and sold as individual zero-coupon securities — long-term, government-backed, and purchased at a discount to face value."
+  },
+  {
+    "id": 147,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "Treasury securities are quoted in 32nds. What is the dollar price of a $1,000-par Treasury note quoted at 98:16? (Enter a number)",
+    "answer": "985",
+    "accepted": ["985", "985.00", "$985", "$985.00"],
+    "explanation": "98:16 means 98 and 16/32 percent of par = 98.5% x $1,000 = $985. Government securities are quoted in 32nds; corporate bonds in eighths or decimals."
+  },
+  {
+    "id": 148,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond is trading at a discount. Which of its yields is the HIGHEST?",
+    "choices": ["Nominal (coupon) yield", "Current yield", "Yield to maturity", "Yield to call"],
+    "answer": 3,
+    "explanation": "For a discount bond the order from lowest to highest is: nominal, current, YTM, YTC. The discount is earned faster if the bond is called early, so yield to call is highest. (For a premium bond the order reverses.)"
+  },
+  {
+    "id": 149,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A corporate bond backed only by the issuer's general creditworthiness, with no specific collateral pledged, is a:",
+    "choices": ["Mortgage bond", "Equipment trust certificate", "Debenture", "Collateral trust bond"],
+    "answer": 2,
+    "explanation": "A debenture is unsecured — backed by the issuer's full faith and credit only. Mortgage bonds, equipment trust certificates, and collateral trust bonds are each secured by specific pledged assets."
+  },
+  {
+    "id": 150,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Compared with a similar nonconvertible bond from the same issuer, a convertible bond typically pays:",
+    "choices": ["A higher coupon, because it is riskier", "A lower coupon, because the conversion feature has value to the investor", "The same coupon", "No coupon at all"],
+    "answer": 1,
+    "explanation": "The right to convert into common stock is valuable, so investors accept a lower coupon. The issuer gets cheaper financing in exchange for potential future dilution."
+  },
+  {
+    "id": 151,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "A dealer sells Treasury securities to an investor and simultaneously agrees to buy them back the next day at a slightly higher price. This transaction is a:",
+    "choices": ["Banker's acceptance", "Repurchase agreement (repo)", "Negotiable CD", "Commercial paper placement"],
+    "answer": 1,
+    "explanation": "In a repurchase agreement the seller agrees to buy the securities back at a higher price; the difference functions as interest on what is effectively a short-term collateralized loan."
+  },
+  {
+    "id": 152,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An investor owns 100 shares of XYZ purchased at $80 per share. After a 2-for-1 stock split, the investor's position is:",
+    "choices": ["100 shares with a cost basis of $80 each", "200 shares with a cost basis of $40 each", "200 shares with a cost basis of $80 each", "50 shares with a cost basis of $160 each"],
+    "answer": 1,
+    "explanation": "A 2-for-1 split doubles the share count and halves the per-share price and cost basis. Total value and total basis are unchanged — a split is not a taxable event."
+  },
+  {
+    "id": 153,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Shares that a corporation has repurchased and now holds in its own treasury:",
+    "choices": ["Receive dividends but cannot vote", "Vote but receive no dividends", "Neither vote nor receive dividends", "Both vote and receive dividends"],
+    "answer": 2,
+    "explanation": "Treasury stock has no voting rights and receives no dividends. Buybacks reduce shares outstanding, which increases earnings per share for the remaining holders."
+  },
+  {
+    "id": 154,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A corporation has 10 million shares authorized, 6 million issued, and 1 million held as treasury stock. How many shares are outstanding?",
+    "choices": ["4 million", "5 million", "6 million", "10 million"],
+    "answer": 1,
+    "explanation": "Outstanding = issued minus treasury: 6 million - 1 million = 5 million. Authorized shares are simply the maximum the charter permits the company to issue."
+  },
+  {
+    "id": 155,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A 12b-1 fee charged by a mutual fund pays for:",
+    "choices": ["The portfolio manager's advisory services", "Distribution and marketing costs, deducted annually from fund assets", "Brokerage commissions on portfolio trades", "The one-time cost of buying fund shares"],
+    "answer": 1,
+    "explanation": "12b-1 fees cover distribution, marketing, and sometimes shareholder-service costs. They are taken out of fund assets each year, reducing the investor's return — they are not a sales load paid at purchase."
+  },
+  {
+    "id": 156,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "To advertise itself as a 'diversified' investment company, a fund must meet the 75-5-10 test, which requires that:",
+    "choices": ["75% of shareholders approve the strategy each year", "In at least 75% of its assets, no more than 5% is in any one issuer and no more than 10% of any issuer's voting stock is owned", "The fund hold at least 75 different stocks across 10 sectors", "No single holding exceed 75% of assets"],
+    "answer": 1,
+    "explanation": "The Investment Company Act's 75-5-10 test: within 75% of the portfolio, max 5% of fund assets in any single issuer and max 10% of any one issuer's voting shares. The remaining 25% is unrestricted."
+  },
+  {
+    "id": 157,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor owns 500 shares of ABC and is worried about a near-term decline but wants to keep the stock. Which options strategy provides the best protection?",
+    "choices": ["Write 5 ABC calls", "Buy 5 ABC puts", "Write 5 ABC puts", "Buy 5 ABC calls"],
+    "answer": 1,
+    "explanation": "Buying puts against a long stock position (a protective put) works like insurance: the puts gain if the stock falls, and the maximum downside is locked in at the strike minus the premium paid."
+  },
+  {
+    "id": 158,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "With the underlying stock at $57, an XYZ 60 put is trading at a premium of 4. What is the option's time value?",
+    "choices": ["0", "1", "3", "4"],
+    "answer": 1,
+    "explanation": "The put is in the money by 3 (60 - 57 = intrinsic value). Time value = premium minus intrinsic value = 4 - 3 = 1."
+  },
+  {
+    "id": 159,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor buys 1 XYZ 50 put at 3. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "47",
+    "accepted": ["47", "47.00", "$47", "$47.00"],
+    "explanation": "Put breakeven = strike price minus premium: 50 - 3 = 47. The stock must fall below $47 for the put buyer to profit (call breakeven is strike plus premium)."
+  },
+  {
+    "id": 160,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Once a variable annuity is annuitized, which statement about annuity units is TRUE?",
+    "choices": ["The number of units and their value are both fixed", "The number of units is fixed, but each unit's value varies with separate account performance", "The number of units varies, but each unit's value is fixed", "Both the number of units and their value vary each month"],
+    "answer": 1,
+    "explanation": "At annuitization, accumulation units convert into a fixed number of annuity units. The monthly check equals that fixed number times the fluctuating unit value, which depends on separate account performance versus the assumed interest rate (AIR)."
+  },
+  {
+    "id": 161,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Which statement about term life insurance is TRUE?",
+    "choices": ["It builds cash value that can be borrowed against", "It provides a pure death benefit for a set period and builds no cash value", "It requires a securities license to sell", "Its premiums never change, even upon renewal at an older age"],
+    "answer": 1,
+    "explanation": "Term insurance is pure protection: coverage for a stated period, no cash value. It is the cheapest form of life insurance initially, but renewal premiums rise with age. No securities registration is needed because there is no investment component."
+  },
+  {
+    "id": 162,
+    "section": "Products and Risks",
+    "topic": "Indices",
+    "type": "multiple_choice",
+    "question": "The S&P 500 index weights its component companies by:",
+    "choices": ["Share price", "Market capitalization", "Dividend yield", "Equal weighting of all 500 companies"],
+    "answer": 1,
+    "explanation": "The S&P 500 is market-cap weighted (float-adjusted), so the largest companies move the index the most. By contrast, the Dow Jones Industrial Average is price-weighted."
+  }
+]

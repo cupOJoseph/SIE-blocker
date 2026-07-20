@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Study first — SIE Study Gate</title>
+  <link rel="stylesheet" href="blocked.css">
+</head>
+<body>
+  <div class="tape" aria-hidden="true">
+    <div class="tape-track" id="tapeTrack"></div>
+  </div>
+
+  <main class="desk">
+    <header class="desk-head">
+      <p class="desk-kicker">Route intercepted</p>
+      <h1 class="desk-title">One card between you and the feed</h1>
+      <p class="desk-sub" id="progressLine">Answer correctly to continue.</p>
+    </header>
+
+    <section class="card" id="card" aria-live="polite">
+      <div class="card-topline">
+        <span class="card-section" id="qSection">—</span>
+        <span class="card-number" id="qNumber">Card —</span>
+      </div>
+
+      <p class="card-question" id="qText">Loading question…</p>
+
+      <div class="card-answers" id="answerArea"></div>
+
+      <div class="card-feedback" id="feedback" hidden>
+        <p class="feedback-verdict" id="verdict"></p>
+        <p class="feedback-explain" id="explain"></p>
+      </div>
+
+      <div class="card-actions">
+        <button class="btn btn-primary" id="submitBtn" type="button">Check answer</button>
+        <button class="btn btn-ghost" id="nextBtn" type="button" hidden>Next card</button>
+        <button class="btn btn-continue" id="continueBtn" type="button" hidden>Continue to site</button>
+      </div>
+
+      <div class="stamp" id="stamp" aria-hidden="true">CLEARED</div>
+    </section>
+
+    <footer class="desk-foot">
+      <div class="stat"><span class="stat-label">Session</span><span class="stat-value" id="sessionStat">0 / 0</span></div>
+      <div class="stat"><span class="stat-label">Streak</span><span class="stat-value" id="streakStat">0</span></div>
+      <div class="stat"><span class="stat-label">All-time</span><span class="stat-value" id="allTimeStat">0%</span></div>
+      <a class="foot-link" href="#" id="optionsLink">Settings</a>
+    </footer>
+  </main>
+
+  <script src="blocked.js"></script>
+</body>
+</html>

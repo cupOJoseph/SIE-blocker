@@ -1,0 +1,1802 @@
+[
+  {
+    "id": 1,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "Which piece of legislation created the Securities and Exchange Commission (SEC)?",
+    "choices": ["Securities Act of 1933", "Securities Exchange Act of 1934", "Investment Company Act of 1940", "Trust Indenture Act of 1939"],
+    "answer": 1,
+    "explanation": "The Securities Exchange Act of 1934 created the SEC and governs the secondary market. The Securities Act of 1933 governs new issues (the primary market)."
+  },
+  {
+    "id": 2,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "The Securities Act of 1933 primarily regulates which of the following?",
+    "choices": ["Trading of outstanding securities between investors", "Registration and disclosure requirements for new issues of securities", "The activities of investment advisers", "Margin lending by broker-dealers"],
+    "answer": 1,
+    "explanation": "The 1933 Act covers the primary market: it requires issuers of new securities to register with the SEC and deliver a prospectus so investors receive full and fair disclosure."
+  },
+  {
+    "id": 3,
+    "section": "Capital Markets",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "Which self-regulatory organization writes rules for municipal securities dealers but has NO authority to enforce them?",
+    "choices": ["FINRA", "MSRB", "SIPC", "The Federal Reserve"],
+    "answer": 1,
+    "explanation": "The MSRB (Municipal Securities Rulemaking Board) makes rules for the municipal market but does not enforce them. Enforcement is handled by FINRA, the SEC, and bank regulators."
+  },
+  {
+    "id": 4,
+    "section": "Capital Markets",
+    "topic": "Investor Protection",
+    "type": "multiple_choice",
+    "question": "If a broker-dealer fails, SIPC protects each separate customer up to:",
+    "choices": ["$250,000 total, including $100,000 in cash", "$500,000 total, including $250,000 in cash", "$500,000 in cash only", "An unlimited amount of securities"],
+    "answer": 1,
+    "explanation": "SIPC coverage is $500,000 per separate customer, of which no more than $250,000 may be cash. SIPC covers broker-dealer failure, not market losses."
+  },
+  {
+    "id": 5,
+    "section": "Capital Markets",
+    "topic": "Investor Protection",
+    "type": "multiple_choice",
+    "question": "Which statement about FDIC insurance is TRUE?",
+    "choices": ["It covers securities held at a broker-dealer", "It covers bank deposits up to $250,000 per depositor, per bank, per ownership category", "It protects investors from market losses", "It covers money market mutual funds"],
+    "answer": 1,
+    "explanation": "The FDIC insures bank deposits (checking, savings, CDs) up to $250,000 per depositor, per insured bank, per ownership category. It never covers securities or mutual funds, even those sold at a bank."
+  },
+  {
+    "id": 6,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a tool of the Federal Reserve's monetary policy?",
+    "choices": ["Open market operations", "Setting the discount rate", "Changing reserve requirements", "Raising or lowering federal income tax rates"],
+    "answer": 3,
+    "explanation": "Taxation and government spending are fiscal policy, controlled by Congress and the President. The Fed's monetary tools include open market operations, the discount rate, and reserve requirements."
+  },
+  {
+    "id": 7,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "The Federal Open Market Committee (FOMC) implements monetary policy primarily by:",
+    "choices": ["Buying and selling U.S. government securities in the open market", "Setting the prime rate that banks charge customers", "Approving new stock exchange listings", "Setting margin requirements for customers"],
+    "answer": 0,
+    "explanation": "The FOMC conducts open market operations — buying Treasuries to inject money into the economy or selling them to drain it. The prime rate is set by banks themselves."
+  },
+  {
+    "id": 8,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "If the Federal Reserve sells securities in the open market, the most likely short-term result is:",
+    "choices": ["Interest rates fall and the money supply expands", "Interest rates rise and the money supply contracts", "Interest rates fall and the money supply contracts", "No effect on interest rates or money supply"],
+    "answer": 1,
+    "explanation": "Selling securities pulls cash out of the banking system, shrinking the money supply and pushing interest rates up. This is tightening. Buying securities is easing."
+  },
+  {
+    "id": 9,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "An inverted yield curve exists when:",
+    "choices": ["Short-term yields are higher than long-term yields", "Long-term yields are higher than short-term yields", "All maturities yield the same amount", "Bond prices and yields move together"],
+    "answer": 0,
+    "explanation": "A normal curve slopes upward (longer maturities yield more). When short-term yields exceed long-term yields, the curve is inverted — historically viewed as a possible recession signal."
+  },
+  {
+    "id": 10,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "type_in",
+    "question": "What is the common three-letter abbreviation for the economic indicator that tracks the average change in prices consumers pay for a basket of goods and services?",
+    "answer": "CPI",
+    "accepted": ["cpi", "consumer price index", "the consumer price index"],
+    "explanation": "The Consumer Price Index (CPI) is the most widely used measure of inflation."
+  },
+  {
+    "id": 11,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which sequence correctly lists the four phases of the business cycle?",
+    "choices": ["Expansion, peak, contraction, trough", "Peak, expansion, trough, contraction", "Trough, contraction, peak, expansion", "Contraction, expansion, trough, peak"],
+    "answer": 0,
+    "explanation": "The cycle runs expansion → peak → contraction → trough, then repeats. A prolonged contraction is a recession (commonly described as two consecutive quarters of declining GDP)."
+  },
+  {
+    "id": 12,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "In which market does the issuing company actually receive the proceeds from the sale of its securities?",
+    "choices": ["Secondary market", "Primary market", "Third market", "Fourth market"],
+    "answer": 1,
+    "explanation": "Primary market transactions (like IPOs) raise capital for the issuer. In the secondary market, investors trade with each other and the issuer receives nothing."
+  },
+  {
+    "id": 13,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "A company that is already publicly traded issues additional new shares to raise capital. This is best described as a(n):",
+    "choices": ["Initial public offering (IPO)", "Follow-on (subsequent/additional) offering", "Secondary market transaction", "Private placement"],
+    "answer": 1,
+    "explanation": "An IPO is a company's first sale of stock to the public. Later primary offerings by an already-public issuer are follow-on (also called subsequent or additional) offerings."
+  },
+  {
+    "id": 14,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "Exchange-listed securities trading over-the-counter (away from the exchange) describes the:",
+    "choices": ["First market", "Second market", "Third market", "Fourth market"],
+    "answer": 2,
+    "explanation": "First market = listed securities on an exchange; second market = unlisted securities OTC; third market = listed securities traded OTC; fourth market = institutions trading directly with each other (often via ECNs)."
+  },
+  {
+    "id": 15,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "Two large institutions trade directly with each other through an electronic communication network, with no broker-dealer in between. This occurs in the:",
+    "choices": ["Primary market", "Second market", "Third market", "Fourth market"],
+    "answer": 3,
+    "explanation": "Direct institution-to-institution trading, typically through ECNs, is the fourth market."
+  },
+  {
+    "id": 16,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a firm commitment underwriting, the underwriter:",
+    "choices": ["Acts as the issuer's agent and returns unsold shares", "Buys the entire issue from the issuer and bears the risk of unsold shares", "Guarantees the stock price will not fall after the offering", "Sells shares only to accredited investors"],
+    "answer": 1,
+    "explanation": "In a firm commitment, the underwriter acts as principal, purchasing the whole issue and reselling it — taking on the financial risk. In a best efforts deal, the underwriter acts only as agent."
+  },
+  {
+    "id": 17,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a best efforts underwriting, unsold shares are:",
+    "choices": ["Purchased by the underwriter", "Returned to the issuer unsold", "Allocated to the syndicate manager", "Sold short by the underwriter"],
+    "answer": 1,
+    "explanation": "In best efforts deals, the underwriter acts as agent and has no obligation to buy what it cannot sell; unsold shares go back to the issuer."
+  },
+  {
+    "id": 18,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "When a firm sells a security to a customer out of its own inventory and charges a markup, the firm is acting as a:",
+    "choices": ["Broker (agent)", "Dealer (principal)", "Transfer agent", "Custodian"],
+    "answer": 1,
+    "explanation": "Acting as principal from inventory = dealer, compensated by a markup or markdown. Acting as agent matching a buyer and seller = broker, compensated by a commission. A firm may not act as both in the same trade."
+  },
+  {
+    "id": 19,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "To qualify as an accredited investor based on income, an individual generally must have earned income exceeding:",
+    "choices": ["$100,000 in the most recent year", "$200,000 (or $300,000 jointly with a spouse) in each of the two most recent years", "$500,000 in each of the past five years", "$1,000,000 in the most recent year"],
+    "answer": 1,
+    "explanation": "Under Regulation D, an accredited investor includes an individual with income over $200,000 ($300,000 joint) in each of the last two years with the same expectation this year, or net worth over $1 million excluding the primary residence."
+  },
+  {
+    "id": 20,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "type_in",
+    "question": "Commercial paper is exempt from SEC registration if its maturity does not exceed how many days?",
+    "answer": "270",
+    "accepted": ["270", "270 days"],
+    "explanation": "Corporate commercial paper with a maturity of 270 days or less is an exempt security under the Securities Act of 1933."
+  },
+  {
+    "id": 21,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "Which market participant is responsible for maintaining records of a corporation's shareholders and canceling old certificates when shares change hands?",
+    "choices": ["The underwriter", "The transfer agent", "The market maker", "The clearing corporation"],
+    "answer": 1,
+    "explanation": "The transfer agent keeps the shareholder records, issues and cancels certificates, and handles lost certificates. (The registrar audits that shares outstanding never exceed shares authorized.)"
+  },
+  {
+    "id": 22,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "During the cooling-off period between filing a registration statement and its effective date, which activity IS permitted?",
+    "choices": ["Taking binding orders for the new issue", "Distributing a preliminary prospectus (red herring)", "Delivering the final prospectus with a confirmed sale", "Guaranteeing allocation of shares to customers"],
+    "answer": 1,
+    "explanation": "During the cooling-off period, firms may gather indications of interest and distribute the preliminary prospectus, but no sales may occur and no final price is set until the registration is effective."
+  },
+  {
+    "id": 23,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Preemptive rights give a common stockholder the ability to:",
+    "choices": ["Vote on the corporation's dividend policy", "Maintain their proportionate ownership when new shares are issued", "Convert common stock into preferred stock", "Receive dividends before preferred stockholders"],
+    "answer": 1,
+    "explanation": "Preemptive rights let existing shareholders buy enough of a new issue to keep their ownership percentage from being diluted."
+  },
+  {
+    "id": 24,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which voting method gives smaller shareholders the best chance of electing a director, by letting them pool all their votes on a single candidate?",
+    "choices": ["Statutory voting", "Cumulative voting", "Proxy voting", "Preemptive voting"],
+    "answer": 1,
+    "explanation": "Cumulative voting lets a shareholder concentrate all votes (shares × open seats) on one candidate, which benefits minority shareholders. Statutory voting requires votes to be spread evenly."
+  },
+  {
+    "id": 25,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "In a corporate liquidation, which party is paid LAST?",
+    "choices": ["Secured bondholders", "General (unsecured) creditors", "Preferred stockholders", "Common stockholders"],
+    "answer": 3,
+    "explanation": "The priority order is: secured creditors, then unsecured creditors and debentures, then subordinated debt, then preferred stock, and finally common stock — the residual claim."
+  },
+  {
+    "id": 26,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A corporation skipped its preferred dividend for two years. Before it may pay any dividend to common shareholders, it must first pay all missed dividends to holders of:",
+    "choices": ["Callable preferred", "Cumulative preferred", "Participating preferred", "Convertible preferred"],
+    "answer": 1,
+    "explanation": "Cumulative preferred accrues any skipped dividends (dividends in arrears), and all arrears plus the current preferred dividend must be paid before common receives anything."
+  },
+  {
+    "id": 27,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An issuer is MOST likely to call its outstanding callable preferred stock when:",
+    "choices": ["Interest rates have risen", "Interest rates have fallen", "The common stock price has fallen", "The dividend is in arrears"],
+    "answer": 1,
+    "explanation": "When rates fall, the issuer can call the old high-dividend preferred and reissue at a lower rate — the same logic as refinancing a mortgage. This creates call risk and reinvestment risk for the holder."
+  },
+  {
+    "id": 28,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An American Depositary Receipt (ADR) is designed to:",
+    "choices": ["Let U.S. investors conveniently trade shares of foreign companies in U.S. markets", "Let foreign investors trade U.S. stocks abroad", "Eliminate currency risk for U.S. investors", "Guarantee dividend payments in U.S. dollars"],
+    "answer": 0,
+    "explanation": "ADRs are receipts for foreign shares held by a U.S. bank, trading in U.S. dollars in U.S. markets. Holders still bear currency (exchange-rate) risk, and ADR holders generally do not receive preemptive rights."
+  },
+  {
+    "id": 29,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which statement correctly compares warrants and rights?",
+    "choices": ["Warrants are short-term; rights are long-term", "Warrants are issued with an exercise price above the current market price; rights are issued with a subscription price below it", "Rights are usually attached to bond offerings as sweeteners", "Warrants are issued only to existing shareholders"],
+    "answer": 1,
+    "explanation": "Warrants are long-term instruments with exercise prices above the market at issuance, often attached to bonds as sweeteners. Rights are short-term, offered to existing shareholders at below-market prices."
+  },
+  {
+    "id": 30,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "To be entitled to a declared cash dividend, an investor must purchase the stock:",
+    "choices": ["On or after the ex-dividend date", "Before the ex-dividend date", "On the payable date", "Within one week of the declaration date"],
+    "answer": 1,
+    "explanation": "Buying before the ex-date means the trade settles by the record date, so the buyer is a shareholder of record. On or after the ex-date, the stock trades without the dividend and its price is reduced accordingly."
+  },
+  {
+    "id": 31,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Under SEC rules, a penny stock is generally an unlisted equity security priced below:",
+    "choices": ["$1 per share", "$3 per share", "$5 per share", "$10 per share"],
+    "answer": 2,
+    "explanation": "Penny stocks are non-exchange-listed equities trading under $5 per share. Extra suitability and disclosure rules apply when soliciting new customers to buy them."
+  },
+  {
+    "id": 32,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "When market interest rates rise, the prices of existing fixed-rate bonds generally:",
+    "choices": ["Rise", "Fall", "Stay the same", "Move in the same direction as rates"],
+    "answer": 1,
+    "explanation": "Bond prices and market interest rates move inversely. Existing bonds with lower coupons become less attractive when new bonds pay more, so their prices fall."
+  },
+  {
+    "id": 33,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond is trading at a premium. Which ranking of its yields is correct?",
+    "choices": ["Nominal yield > current yield > yield to maturity", "Yield to maturity > current yield > nominal yield", "Current yield > nominal yield > yield to maturity", "All three yields are equal"],
+    "answer": 0,
+    "explanation": "At a premium, the coupon (nominal yield) is highest and YTM is lowest. At a discount the order flips; at par all yields are equal."
+  },
+  {
+    "id": 34,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond with a 6% coupon ($60 annual interest) is trading at $1,200. What is its current yield?",
+    "choices": ["4%", "5%", "6%", "7.2%"],
+    "answer": 1,
+    "explanation": "Current yield = annual interest ÷ current market price = $60 ÷ $1,200 = 5%."
+  },
+  {
+    "id": 35,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A corporate bond is quoted at 102 1/2. What is its dollar price? (Enter a number, e.g. 1000)",
+    "answer": "1025",
+    "accepted": ["1025", "$1025", "$1,025", "1,025", "1025 dollars"],
+    "explanation": "Corporate bond quotes are a percentage of $1,000 par, in eighths. 102 1/2 = 102.5% × $1,000 = $1,025."
+  },
+  {
+    "id": 36,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which is TRUE of zero-coupon bonds?",
+    "choices": ["They pay semiannual interest", "They are purchased at a discount and are the most price-sensitive to interest rate changes for a given maturity", "They carry no tax consequences until maturity", "They have high reinvestment risk"],
+    "answer": 1,
+    "explanation": "Zeros pay no periodic interest, are bought at a deep discount, and exhibit the greatest price volatility for a given maturity. They eliminate reinvestment risk, but taxable zeros generate annual 'phantom income' on the accreted discount."
+  },
+  {
+    "id": 37,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which Treasury security is issued at a discount, pays no coupon, and has a maximum maturity of 52 weeks?",
+    "choices": ["Treasury bill", "Treasury note", "Treasury bond", "TIPS"],
+    "answer": 0,
+    "explanation": "T-bills are short-term discount instruments (4 to 52 weeks). T-notes run 2–10 years and T-bonds 20–30 years; both pay semiannual interest."
+  },
+  {
+    "id": 38,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Treasury notes are issued with maturities of:",
+    "choices": ["4 to 52 weeks", "2 to 10 years", "20 to 30 years", "30 to 40 years"],
+    "answer": 1,
+    "explanation": "Notes: 2–10 years. Bills: up to 52 weeks. Bonds: 20–30 years."
+  },
+  {
+    "id": 39,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "TIPS (Treasury Inflation-Protected Securities) protect investors against inflation by:",
+    "choices": ["Paying a floating coupon rate tied to the fed funds rate", "Adjusting the principal value based on changes in the CPI", "Guaranteeing a real return of at least 5%", "Paying interest that is exempt from all taxation"],
+    "answer": 1,
+    "explanation": "TIPS have a fixed coupon rate applied to a principal amount that adjusts with the Consumer Price Index, so interest payments and the final principal keep pace with inflation."
+  },
+  {
+    "id": 40,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Interest received from U.S. Treasury securities is:",
+    "choices": ["Exempt from federal tax but subject to state tax", "Subject to federal tax but exempt from state and local tax", "Exempt from all taxation", "Fully taxable at every level"],
+    "answer": 1,
+    "explanation": "Treasury interest is federally taxable but exempt from state and local income taxes — the mirror image of municipal bond interest."
+  },
+  {
+    "id": 41,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A general obligation (GO) municipal bond is backed by:",
+    "choices": ["Revenues of the facility it finances", "The full faith, credit, and taxing power of the issuer", "A corporate guarantee", "Federal government backing"],
+    "answer": 1,
+    "explanation": "GO bonds are supported by the issuer's taxing power and typically require voter approval. Revenue bonds are backed only by revenues from the financed project (tolls, fees, etc.)."
+  },
+  {
+    "id": 42,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A revenue bond issued to build a toll road would MOST likely be evaluated using a:",
+    "choices": ["Voter referendum", "Feasibility study of projected tolls and expenses", "Analysis of the issuer's property tax base", "Debt-per-capita ratio"],
+    "answer": 1,
+    "explanation": "Revenue bonds are analyzed on the project's ability to generate revenue, so a feasibility study is key. Taxing-power measures like tax base and debt per capita apply to GO bonds."
+  },
+  {
+    "id": 43,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "Municipal bond interest is most valuable to which investor?",
+    "choices": ["A low-income retiree in the 10% bracket", "An investor in the highest federal tax bracket", "A tax-deferred retirement account", "A foreign investor with no U.S. tax liability"],
+    "answer": 1,
+    "explanation": "Muni interest is generally exempt from federal income tax, so the benefit grows with the investor's tax bracket. Holding munis inside tax-deferred accounts wastes the exemption."
+  },
+  {
+    "id": 44,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "An investor in the 25% federal tax bracket is considering a municipal bond yielding 4.5%. What is the approximate tax-equivalent yield?",
+    "choices": ["3.4%", "4.5%", "5.0%", "6.0%"],
+    "answer": 3,
+    "explanation": "Tax-equivalent yield = muni yield ÷ (1 − tax rate) = 4.5% ÷ 0.75 = 6.0%. A taxable bond must yield 6% to match the muni after tax."
+  },
+  {
+    "id": 45,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "The lowest rating that is still considered investment grade is:",
+    "choices": ["AA / Aa2", "BBB- / Baa3", "BB+ / Ba1", "CCC / Caa"],
+    "answer": 1,
+    "explanation": "Investment grade runs from AAA down to BBB- (S&P/Fitch) or Baa3 (Moody's). Anything below is high-yield ('junk'), carrying greater default risk."
+  },
+  {
+    "id": 46,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A convertible bond ($1,000 par) is convertible at $40 per share. How many shares does the holder receive upon conversion? (Enter a number)",
+    "answer": "25",
+    "accepted": ["25", "25 shares"],
+    "explanation": "Conversion ratio = par ÷ conversion price = $1,000 ÷ $40 = 25 shares."
+  },
+  {
+    "id": 47,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An investor holding a callable bond faces the greatest risk of the bond being called when:",
+    "choices": ["Interest rates rise sharply", "Interest rates fall sharply", "The issuer's credit rating is downgraded", "The bond trades at a deep discount"],
+    "answer": 1,
+    "explanation": "Issuers call bonds to refinance at lower rates. When rates fall, callable bonds are redeemed early, forcing investors to reinvest at the new lower rates (reinvestment risk)."
+  },
+  {
+    "id": 48,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Holders of mortgage-backed securities face prepayment risk, which is greatest when:",
+    "choices": ["Interest rates rise and homeowners stop refinancing", "Interest rates fall and homeowners refinance their mortgages", "Home prices decline", "The Fed raises the discount rate"],
+    "answer": 1,
+    "explanation": "Falling rates trigger refinancing, returning principal to MBS investors early — exactly when reinvestment options pay less. Rising rates cause the opposite: extension risk."
+  },
+  {
+    "id": 49,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Which money market instrument is most commonly used to finance international trade?",
+    "choices": ["Commercial paper", "Banker's acceptance", "Negotiable CD", "Repurchase agreement"],
+    "answer": 1,
+    "explanation": "A banker's acceptance is a time draft guaranteed by a bank, traditionally used to finance imports and exports."
+  },
+  {
+    "id": 50,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Negotiable (jumbo) certificates of deposit typically have a minimum face value of:",
+    "choices": ["$1,000", "$10,000", "$100,000", "$1,000,000"],
+    "answer": 2,
+    "explanation": "Negotiable CDs are issued in minimum denominations of $100,000 and can be traded in the secondary market before maturity."
+  },
+  {
+    "id": 51,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "An investor places an order to buy mutual fund shares at 2:00 pm ET. The price the investor pays is based on:",
+    "choices": ["The NAV calculated the previous day", "The next NAV calculated after the order is received (forward pricing)", "The average NAV of the past week", "The intraday market price at 2:00 pm"],
+    "answer": 1,
+    "explanation": "Open-end funds use forward pricing: orders receive the next computed NAV (typically calculated once daily after the market close), plus any applicable sales charge."
+  },
+  {
+    "id": 52,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which statement about open-end mutual fund shares is TRUE?",
+    "choices": ["They trade between investors on an exchange", "They are purchased from and redeemed by the fund itself", "They may trade at a discount to NAV", "The number of shares outstanding is fixed"],
+    "answer": 1,
+    "explanation": "Open-end funds continuously issue and redeem shares at NAV (plus/minus charges); there is no secondary market. Closed-end funds have a fixed share count and trade on exchanges at premiums or discounts to NAV."
+  },
+  {
+    "id": 53,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, the maximum sales charge on a mutual fund purchase is:",
+    "choices": ["5% of the amount invested", "8.5% of the public offering price", "10% of NAV", "There is no maximum"],
+    "answer": 1,
+    "explanation": "FINRA caps mutual fund sales charges at 8.5% of the public offering price, and a fund may only charge the maximum if it offers breakpoints and rights of accumulation."
+  },
+  {
+    "id": 54,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A registered representative encourages a customer to invest $95,000 in a fund when investing $100,000 would qualify for a reduced sales charge. This violation is called a:",
+    "choices": ["Breakpoint sale", "Freeriding violation", "Selling dividends", "Interpositioning"],
+    "answer": 0,
+    "explanation": "Selling shares just below a breakpoint to earn a higher commission is a prohibited 'breakpoint sale.' Reps must disclose breakpoints and how to reach them (including letters of intent)."
+  },
+  {
+    "id": 55,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A letter of intent allows a mutual fund investor to qualify for a breakpoint by committing to invest a target amount over how many months? (Enter a number)",
+    "answer": "13",
+    "accepted": ["13", "13 months", "thirteen"],
+    "explanation": "A letter of intent covers 13 months and may be backdated up to 90 days to include a prior purchase."
+  },
+  {
+    "id": 56,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which mutual fund share class typically charges a front-end sales load and offers breakpoint discounts for large purchases?",
+    "choices": ["Class A", "Class B", "Class C", "Class R"],
+    "answer": 0,
+    "explanation": "Class A shares charge a front-end load with breakpoints — usually best for large or long-term investments. Class B carry a declining back-end charge (CDSC); Class C charge a level annual load."
+  },
+  {
+    "id": 57,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Shares of a closed-end fund are priced by:",
+    "choices": ["The fund's NAV plus a sales charge", "Supply and demand in the secondary market", "A formula set by the SEC", "The fund's board of directors each morning"],
+    "answer": 1,
+    "explanation": "After the IPO, closed-end fund shares trade on exchanges like stock and can trade at a premium or discount to NAV."
+  },
+  {
+    "id": 58,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Compared with traditional open-end index mutual funds, ETFs generally offer:",
+    "choices": ["Intraday trading, the ability to be sold short, and margin eligibility", "Guaranteed returns tied to the index", "Forward pricing once per day", "Freedom from all market risk"],
+    "answer": 0,
+    "explanation": "ETFs trade throughout the day at market prices, can be bought on margin or sold short, and tend to have low expense ratios — but they still carry the full market risk of what they hold, and trades incur commissions."
+  },
+  {
+    "id": 59,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which statement about money market mutual funds is TRUE?",
+    "choices": ["They are guaranteed by the FDIC", "They aim to maintain a stable $1.00 NAV but this is not guaranteed", "They cannot lose value", "They invest primarily in long-term bonds"],
+    "answer": 1,
+    "explanation": "Money market funds target a stable $1 NAV using short-term debt, but they are not insured or guaranteed and can 'break the buck.'"
+  },
+  {
+    "id": 60,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A unit investment trust (UIT) is BEST described as having:",
+    "choices": ["An actively managed portfolio and a board of directors", "A fixed, unmanaged portfolio with redeemable units and a termination date", "Exchange-traded shares priced at a premium to NAV", "A portfolio that changes daily at the sponsor's discretion"],
+    "answer": 1,
+    "explanation": "UITs assemble a fixed portfolio, issue redeemable units, have no investment adviser or active management, and terminate on a set date."
+  },
+  {
+    "id": 61,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "To avoid taxation at the entity level, a REIT must distribute to shareholders at least what portion of its taxable income?",
+    "choices": ["50%", "75%", "90%", "100%"],
+    "answer": 2,
+    "explanation": "A REIT must pay out at least 90% of taxable income as dividends (and meet asset/income tests). REIT dividends are generally taxed to investors as ordinary income."
+  },
+  {
+    "id": 62,
+    "section": "Products and Risks",
+    "topic": "Alternatives",
+    "type": "multiple_choice",
+    "question": "Which characteristic is typical of hedge funds?",
+    "choices": ["Daily redemption at NAV for any investor", "Registration and pricing rules identical to mutual funds", "Limited liquidity, performance-based fees, and availability mainly to accredited investors", "FDIC insurance on invested capital"],
+    "answer": 2,
+    "explanation": "Hedge funds are typically private, lightly regulated pools open to accredited or qualified investors, often using leverage and short selling, charging management plus performance fees, with restricted (lock-up) liquidity."
+  },
+  {
+    "id": 63,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "In a limited partnership (direct participation program), which party has unlimited liability for the partnership's debts?",
+    "choices": ["The limited partners", "The general partner", "All investors equally", "No one — liability is capped for everyone"],
+    "answer": 1,
+    "explanation": "The general partner manages the business and bears unlimited liability. Limited partners are passive, risking only their investment. DPPs pass income and losses directly through to investors and are highly illiquid."
+  },
+  {
+    "id": 64,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "The buyer of a call option has the:",
+    "choices": ["Obligation to buy the stock at the strike price", "Right to buy the stock at the strike price", "Right to sell the stock at the strike price", "Obligation to sell the stock at the strike price"],
+    "answer": 1,
+    "explanation": "Buyers hold rights; sellers (writers) take on obligations. A call buyer has the right to buy at the strike and is bullish; a put buyer has the right to sell and is bearish."
+  },
+  {
+    "id": 65,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor buys 1 XYZ 50 put at 2. What is the maximum potential gain?",
+    "choices": ["$200", "$4,800", "$5,000", "Unlimited"],
+    "answer": 1,
+    "explanation": "A put's maximum gain occurs if the stock falls to zero: (strike − premium) × 100 = (50 − 2) × 100 = $4,800. The maximum loss is the $200 premium paid."
+  },
+  {
+    "id": 66,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor who owns 100 shares of stock writes a call against the position. This covered call strategy is designed to:",
+    "choices": ["Provide unlimited upside potential", "Generate premium income while capping the upside", "Fully protect against a decline in the stock", "Increase leverage on the position"],
+    "answer": 1,
+    "explanation": "Writing a covered call earns the premium and provides only that much downside cushion; if the stock rallies past the strike, the shares are called away, capping gains."
+  },
+  {
+    "id": 67,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which option position exposes the investor to theoretically UNLIMITED loss?",
+    "choices": ["Buying a call", "Buying a put", "Writing an uncovered (naked) call", "Writing a covered call"],
+    "answer": 2,
+    "explanation": "A naked call writer must deliver stock they don't own; since a stock's price has no ceiling, potential loss is unlimited. Option buyers can never lose more than the premium."
+  },
+  {
+    "id": 68,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "One standard equity option contract covers how many shares of the underlying stock? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "100 shares", "one hundred"],
+    "explanation": "Standard listed equity options cover 100 shares per contract, so premiums are multiplied by 100."
+  },
+  {
+    "id": 69,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor buys 1 ABC 50 call at 3. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "53",
+    "accepted": ["53", "$53", "53 dollars"],
+    "explanation": "Call breakeven = strike + premium = 50 + 3 = 53. (Put breakeven = strike − premium.)"
+  },
+  {
+    "id": 70,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which organization issues and guarantees the performance of listed option contracts?",
+    "choices": ["FINRA", "The Options Clearing Corporation (OCC)", "The SEC", "The exchange where the option trades"],
+    "answer": 1,
+    "explanation": "The OCC is the issuer and guarantor of listed options, standing between buyers and sellers to eliminate counterparty risk."
+  },
+  {
+    "id": 71,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "A 45 call is trading while the underlying stock is at 52. What is the option's intrinsic value? (Enter a number)",
+    "answer": "7",
+    "accepted": ["7", "$7", "7 points"],
+    "explanation": "A call's intrinsic value = stock price − strike = 52 − 45 = 7. Options never have negative intrinsic value; any premium above intrinsic value is time value."
+  },
+  {
+    "id": 72,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "When an index option is exercised, the writer must deliver:",
+    "choices": ["A basket of the index's component stocks", "Cash equal to the option's in-the-money amount", "Shares of an index ETF", "A futures contract on the index"],
+    "answer": 1,
+    "explanation": "Index options settle in cash — the in-the-money amount times the multiplier — since delivering hundreds of stocks would be impractical."
+  },
+  {
+    "id": 73,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which statement about variable annuities is TRUE?",
+    "choices": ["Contributions are invested in the insurer's general account", "The insurance company bears the investment risk", "Payments are funded through a separate account, and the product is regulated as a security", "Returns are guaranteed by the issuing insurer"],
+    "answer": 2,
+    "explanation": "Variable annuity premiums go into a separate account invested in subaccounts; the annuitant bears the investment risk, so the product must be registered as a security and sold with a prospectus."
+  },
+  {
+    "id": 74,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "The greatest risk faced by the owner of a FIXED annuity is:",
+    "choices": ["Market risk", "Purchasing power (inflation) risk", "Liquidity risk during the payout phase", "Default risk of the separate account"],
+    "answer": 1,
+    "explanation": "Fixed annuities guarantee a payment from the insurer's general account, so the danger is that fixed payments lose purchasing power to inflation. Fixed annuities are insurance products, not securities."
+  },
+  {
+    "id": 75,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "A Section 1035 exchange allows an investor to:",
+    "choices": ["Exchange one annuity contract for another without current taxation", "Withdraw annuity earnings tax-free before age 59 1/2", "Convert a traditional IRA into a Roth IRA tax-free", "Exchange stock for bonds without capital gains tax"],
+    "answer": 0,
+    "explanation": "A 1035 exchange defers tax when swapping one insurance/annuity contract for another — but surrender charges and a new surrender period may still apply, so suitability matters."
+  },
+  {
+    "id": 76,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which annuity payout option provides the LARGEST monthly payment?",
+    "choices": ["Life with 10-year period certain", "Joint and last survivor", "Straight life (life only)", "Unit refund life"],
+    "answer": 2,
+    "explanation": "Straight life pays only while the annuitant lives, with nothing to beneficiaries — the least protection, so the insurer can pay the most per month."
+  },
+  {
+    "id": 77,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Which life insurance product requires the salesperson to hold BOTH an insurance license and a securities registration?",
+    "choices": ["Term life", "Whole life", "Variable life", "Universal life (fixed)"],
+    "answer": 2,
+    "explanation": "Variable life invests cash value in a separate account, making it a security. It requires prospectus delivery and securities registration in addition to a state insurance license."
+  },
+  {
+    "id": 78,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Diversifying a portfolio across many different companies primarily reduces:",
+    "choices": ["Systematic risk", "Nonsystematic (company-specific) risk", "Inflation risk", "Interest rate risk"],
+    "answer": 1,
+    "explanation": "Diversification reduces nonsystematic risks like business and credit risk. Systematic risks — market, interest rate, inflation — affect the entire market and cannot be diversified away."
+  },
+  {
+    "id": 79,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which bond has the GREATEST interest rate (price) risk?",
+    "choices": ["A 1-year Treasury bill", "A 5-year corporate note", "A 30-year zero-coupon bond", "A money market instrument"],
+    "answer": 2,
+    "explanation": "Price sensitivity rises with maturity and falls with coupon size. A long-term zero-coupon bond has the longest duration and therefore the greatest interest rate risk."
+  },
+  {
+    "id": 80,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "An investor whose entire portfolio is long-term fixed-rate bonds and a fixed annuity is MOST exposed to:",
+    "choices": ["Currency risk", "Purchasing power (inflation) risk", "Business risk", "Regulatory risk"],
+    "answer": 1,
+    "explanation": "Fixed payment streams lose real value when inflation rises. Equities historically offer better inflation protection than fixed-income products."
+  },
+  {
+    "id": 81,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which investment carries the GREATEST liquidity risk?",
+    "choices": ["Shares of a large-cap NYSE-listed stock", "A Treasury note", "A limited partnership (DPP) interest", "A listed ETF"],
+    "answer": 2,
+    "explanation": "DPP interests have no active secondary market and often require general partner approval to transfer, making them among the least liquid investments."
+  },
+  {
+    "id": 82,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "A U.S. investor holding ADRs of a Japanese company is exposed to which risk NOT faced by an investor holding only U.S. domestic stocks?",
+    "choices": ["Market risk", "Currency (exchange-rate) risk", "Interest rate risk", "Reinvestment risk"],
+    "answer": 1,
+    "explanation": "Even though ADRs trade in dollars, the underlying shares and dividends are in yen, so changes in the dollar/yen exchange rate affect returns."
+  },
+  {
+    "id": 83,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Reinvestment risk is the risk that:",
+    "choices": ["A bond's issuer will default", "Interest payments and returned principal must be reinvested at lower rates", "A stock cannot be sold quickly", "The market as a whole declines"],
+    "answer": 1,
+    "explanation": "When rates fall, coupons and called/matured principal can only be reinvested at lower yields. Zero-coupon bonds held to maturity avoid reinvestment risk because there are no coupons to reinvest."
+  },
+  {
+    "id": 84,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "The risk that a single company's poor management decisions cause its stock to fall is called:",
+    "choices": ["Market risk", "Business risk", "Inflation risk", "Interest rate risk"],
+    "answer": 1,
+    "explanation": "Business risk is nonsystematic, company-specific risk. It can be reduced through diversification, unlike market-wide (systematic) risk."
+  },
+  {
+    "id": 85,
+    "section": "Products and Risks",
+    "topic": "Indices",
+    "type": "type_in",
+    "question": "The Dow Jones Industrial Average is a price-weighted index composed of how many stocks? (Enter a number)",
+    "answer": "30",
+    "accepted": ["30", "30 stocks", "thirty"],
+    "explanation": "The DJIA tracks 30 large U.S. companies and is price-weighted. The S&P 500 tracks about 500 companies and is market-cap weighted — a broader market measure."
+  },
+  {
+    "id": 86,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "Regular way settlement for a corporate stock trade occurs:",
+    "choices": ["The same day as the trade (T+0)", "One business day after the trade date (T+1)", "Two business days after the trade date (T+2)", "Three business days after the trade date (T+3)"],
+    "answer": 1,
+    "explanation": "Since May 2024, regular way settlement for equities, corporate bonds, and municipal bonds is T+1 — one business day after the trade date. Treasuries and listed options also settle T+1."
+  },
+  {
+    "id": 87,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Under Regulation T, a customer's payment for a purchase in a cash account is due no later than:",
+    "choices": ["The trade date", "One business day after the trade date", "Two business days after the settlement date", "Ten business days after the trade date"],
+    "answer": 2,
+    "explanation": "Reg T payment is due two business days after regular way settlement. With T+1 settlement, that means payment is due by T+3."
+  },
+  {
+    "id": 88,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A customer buys stock in a cash account and sells it before paying for the original purchase. The consequence of this freeriding violation is:",
+    "choices": ["A fine payable to FINRA", "The account is frozen for 90 days, requiring cash up front for purchases", "Permanent closure of the account", "Conversion of the account to a margin account"],
+    "answer": 1,
+    "explanation": "Freeriding — paying for a purchase with the proceeds of its own sale — results in a 90-day freeze during which the customer must deposit full payment before any buy order."
+  },
+  {
+    "id": 89,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "Under Regulation T, what percentage of a marginable stock purchase must a customer initially deposit? (Enter a number)",
+    "answer": "50",
+    "accepted": ["50", "50%", "50 percent", "fifty"],
+    "explanation": "The Federal Reserve's Regulation T sets the initial margin requirement at 50% of the purchase price for most equity securities."
+  },
+  {
+    "id": 90,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "FINRA's minimum maintenance margin requirements for long and short equity positions are:",
+    "choices": ["50% long / 50% short", "25% long / 30% short", "30% long / 25% short", "25% long / 50% short"],
+    "answer": 1,
+    "explanation": "Equity must be maintained at no less than 25% of market value for long positions and 30% for short positions. Falling below triggers a maintenance call."
+  },
+  {
+    "id": 91,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "What is the minimum equity, in dollars, required to open a margin account under FINRA rules? (Enter a number)",
+    "answer": "2000",
+    "accepted": ["2000", "$2000", "$2,000", "2,000"],
+    "explanation": "A margin account requires minimum equity of $2,000 (or 100% of the purchase price if less, for long accounts). Short accounts always require at least $2,000."
+  },
+  {
+    "id": 92,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Which margin account document is REQUIRED and pledges the customer's securities as collateral for the loan?",
+    "choices": ["The loan consent agreement", "The hypothecation agreement", "The trusted contact form", "The options agreement"],
+    "answer": 1,
+    "explanation": "The credit agreement and hypothecation agreement are mandatory; hypothecation pledges the securities as collateral. The loan consent form — permitting the firm to lend the customer's shares to short sellers — is optional."
+  },
+  {
+    "id": 93,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "A pattern day trader must maintain minimum equity of how many dollars in the margin account? (Enter a number)",
+    "answer": "25000",
+    "accepted": ["25000", "$25000", "$25,000", "25,000", "25k", "$25k"],
+    "explanation": "Pattern day traders (4 or more day trades within 5 business days, above thresholds) must maintain at least $25,000 in equity."
+  },
+  {
+    "id": 94,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Which order type guarantees execution but NOT a specific price?",
+    "choices": ["Limit order", "Market order", "Stop-limit order", "All-or-none order"],
+    "answer": 1,
+    "explanation": "A market order executes immediately at the best available price — execution is certain, price is not. A limit order guarantees price (or better) but not execution."
+  },
+  {
+    "id": 95,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A buy limit order at $40 will be executed:",
+    "choices": ["At $40 or lower", "At $40 or higher", "Only exactly at $40", "Immediately at the market price"],
+    "answer": 0,
+    "explanation": "Buy limit orders fill at the limit price or better (lower). Sell limit orders fill at the limit price or better (higher)."
+  },
+  {
+    "id": 96,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "An investor is long 500 shares at $60 and wants to protect against a sharp decline. Which order accomplishes this?",
+    "choices": ["Buy stop at $65", "Sell stop at $55", "Sell limit at $65", "Buy limit at $55"],
+    "answer": 1,
+    "explanation": "A sell stop placed below the market becomes a market order if the stock trades at or below the stop price, limiting downside on a long position. Buy stops protect short positions."
+  },
+  {
+    "id": 97,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "The main risk of using a stop-limit order instead of a plain stop order is that:",
+    "choices": ["It converts to a market order at the worst price", "The order may never be executed if the price gaps through the limit", "It expires at the end of the day automatically", "It requires a margin account"],
+    "answer": 1,
+    "explanation": "Once triggered, a stop-limit becomes a limit order. In a fast-moving market the price can blow through the limit and the investor may be left unprotected with no execution."
+  },
+  {
+    "id": 98,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "A market maker quotes XYZ at 20.00 – 20.10. A customer entering a market order to BUY will pay approximately:",
+    "choices": ["$20.00, the bid", "$20.10, the ask (offer)", "$20.05, the midpoint", "Whatever price the customer chooses"],
+    "answer": 1,
+    "explanation": "Customers buy at the ask and sell at the bid. The 10-cent difference is the spread, which compensates the market maker."
+  },
+  {
+    "id": 99,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "Which statement about short selling is TRUE?",
+    "choices": ["Maximum loss is limited to the amount invested", "The trade must occur in a cash account", "Shares must be located and borrowed, and potential loss is unlimited", "Short sales are prohibited on exchange-listed stocks"],
+    "answer": 2,
+    "explanation": "Short sellers borrow shares (Regulation SHO requires a locate) and profit if the price falls. Because a stock can rise without limit, the potential loss is unlimited, and short sales must occur in a margin account."
+  },
+  {
+    "id": 100,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A trader enters a series of buy orders in the final minutes of the session solely to push a stock's closing price higher. This manipulation is known as:",
+    "choices": ["Front-running", "Marking the close", "Churning", "Freeriding"],
+    "answer": 1,
+    "explanation": "Marking the close (or open) means trading to influence the official closing/opening price. It is a form of market manipulation."
+  },
+  {
+    "id": 101,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A registered representative learns a large institutional buy order is about to be placed and buys the stock for their own account first. This is:",
+    "choices": ["Position trading", "Front-running", "Arbitrage", "Hedging"],
+    "answer": 1,
+    "explanation": "Trading ahead of a known customer order (or pending research) to profit from the expected price move is front-running, a prohibited practice."
+  },
+  {
+    "id": 102,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Excessive trading in a customer's account primarily to generate commissions is called:",
+    "choices": ["Churning", "Rebalancing", "Dollar-cost averaging", "Laddering"],
+    "answer": 0,
+    "explanation": "Churning is measured against the customer's objectives and resources, not any fixed number of trades. It violates FINRA rules and Reg BI."
+  },
+  {
+    "id": 103,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Under insider trading law, a person who trades on material nonpublic information may face a civil penalty of up to:",
+    "choices": ["The amount of the profit gained", "Twice the profit gained or loss avoided", "Three times the profit gained or loss avoided", "$10,000 regardless of profit"],
+    "answer": 2,
+    "explanation": "Civil penalties can reach treble (3x) the profit gained or loss avoided; criminal penalties can include large fines and prison. Both tippers and tippees can be liable."
+  },
+  {
+    "id": 104,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Under the Customer Identification Program (CIP), which of the following is NOT required to open an account for an individual?",
+    "choices": ["Name", "Date of birth", "Physical address", "Employer's federal tax bracket"],
+    "answer": 3,
+    "explanation": "CIP requires name, date of birth, address, and an identification number (usually SSN or taxpayer ID), and the firm must verify the customer's identity. Tax bracket is suitability information, not CIP."
+  },
+  {
+    "id": 105,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "When opening an account for a retail customer, FINRA rules require the firm to make reasonable efforts to obtain the name of a:",
+    "choices": ["Co-signer for the account", "Trusted contact person age 18 or older", "Beneficiary for the account", "Power of attorney"],
+    "answer": 1,
+    "explanation": "Firms must ask for a trusted contact person the firm may reach about possible financial exploitation or diminished capacity. The customer can decline, and the account can still be opened."
+  },
+  {
+    "id": 106,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A registered representative decides the security, and the number of shares to buy for a customer without speaking to them first. This is permissible ONLY if:",
+    "choices": ["The trade is under $10,000", "The customer has provided written discretionary authorization accepted by the firm", "The rep calls the customer within 24 hours", "The customer has a margin account"],
+    "answer": 1,
+    "explanation": "Choosing the asset, action, or amount requires prior written discretionary authority. Choosing only time and/or price for an order the customer specified is NOT discretion."
+  },
+  {
+    "id": 107,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement about UGMA/UTMA custodial accounts is TRUE?",
+    "choices": ["There may be multiple custodians and multiple minors on one account", "Gifts to the account are revocable until the minor turns 18", "The account uses the minor's Social Security number and gifts are irrevocable", "The custodian may trade on margin freely"],
+    "answer": 2,
+    "explanation": "Custodial accounts have one custodian and one minor; the minor is the beneficial owner (minor's SSN), all gifts are irrevocable, and assets transfer to the child at the age of majority. Margin trading is prohibited."
+  },
+  {
+    "id": 108,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Two unrelated business partners want an account where a deceased owner's share passes to their own estate, not to the surviving owner. They should open a:",
+    "choices": ["Joint tenants with rights of survivorship (JTWROS) account", "Tenants in common (TIC) account", "Custodial account", "Discretionary account"],
+    "answer": 1,
+    "explanation": "In TIC, each owner holds a distinct percentage that passes to their estate at death. In JTWROS — common for married couples — the survivor automatically absorbs the decedent's interest."
+  },
+  {
+    "id": 109,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which statement about traditional IRAs is TRUE?",
+    "choices": ["Withdrawals of earnings are always tax-free", "Contributions may be tax-deductible, and withdrawals before age 59 1/2 generally incur a 10% penalty", "There are no required minimum distributions", "Only employees of large companies may contribute"],
+    "answer": 1,
+    "explanation": "Traditional IRA contributions may be deductible (subject to income limits if covered by a workplace plan), growth is tax-deferred, distributions are taxed as ordinary income, early withdrawals generally face a 10% penalty, and RMDs currently begin at age 73."
+  },
+  {
+    "id": 110,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which feature belongs to a Roth IRA but NOT a traditional IRA?",
+    "choices": ["Tax-deferred growth", "A 10% penalty on some early withdrawals", "Tax-free qualified withdrawals and no lifetime required minimum distributions", "Annual contribution limits"],
+    "answer": 2,
+    "explanation": "Roth contributions are made after-tax; qualified distributions (account open 5 years and owner 59 1/2, among other triggers) are entirely tax-free, and Roth IRA owners face no lifetime RMDs."
+  },
+  {
+    "id": 111,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "For 2026, the annual IRA contribution limit for an investor under age 50 is:",
+    "choices": ["$6,500", "$7,000", "$7,500", "$8,600"],
+    "answer": 2,
+    "explanation": "The IRS set the 2026 IRA limit at $7,500, with an additional $1,100 catch-up for those 50 and older ($8,600 total). The 2026 employee 401(k) deferral limit is $24,500."
+  },
+  {
+    "id": 112,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement about 529 college savings plans is TRUE?",
+    "choices": ["Contributions are deductible on federal income taxes", "Earnings grow tax-deferred and qualified education withdrawals are federal tax-free", "The beneficiary controls the account at age 18", "Contributions are limited to $2,000 per year"],
+    "answer": 1,
+    "explanation": "529 plans are municipal fund securities: after-tax contributions, tax-deferred growth, and tax-free withdrawals for qualified education expenses. The account owner — not the beneficiary — retains control."
+  },
+  {
+    "id": 113,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "type_in",
+    "question": "An investor sells stock at a loss and buys it back 20 days later. The wash sale rule disallows the loss if repurchase occurs within how many days before or after the sale? (Enter a number)",
+    "answer": "30",
+    "accepted": ["30", "30 days", "thirty"],
+    "explanation": "Buying the same or substantially identical security within 30 days before or after a sale at a loss triggers the wash sale rule; the disallowed loss is added to the cost basis of the new shares."
+  },
+  {
+    "id": 114,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "To qualify for long-term capital gains treatment, an investor must hold a security for:",
+    "choices": ["More than 6 months", "More than 1 year", "More than 2 years", "More than 18 months"],
+    "answer": 1,
+    "explanation": "Holding periods over one year receive preferential long-term capital gains rates; one year or less is short-term, taxed as ordinary income."
+  },
+  {
+    "id": 115,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor inherits stock that the deceased bought at $20 per share; it is worth $50 on the date of death. The heir's cost basis is:",
+    "choices": ["$20 — the original purchase price", "$50 — stepped up to the value at death", "$35 — the average of the two", "Zero until the heir sells"],
+    "answer": 1,
+    "explanation": "Inherited securities receive a stepped-up basis to fair market value at death, and the holding period is automatically long-term. Gifted securities, by contrast, generally carry over the donor's basis."
+  },
+  {
+    "id": 116,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "type_in",
+    "question": "For 2026, what is the annual gift tax exclusion per recipient, in dollars? (Enter a number)",
+    "answer": "19000",
+    "accepted": ["19000", "$19000", "$19,000", "19,000", "19k", "$19k"],
+    "explanation": "The IRS set the 2026 annual gift tax exclusion at $19,000 per recipient (unchanged from 2025). Gifts above that reduce the donor's lifetime exemption ($15 million in 2026) and require filing Form 709."
+  },
+  {
+    "id": 117,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Customer account statements must be sent at least:",
+    "choices": ["Monthly in all cases", "Quarterly, and monthly for any month with activity", "Annually", "Only when the customer requests one"],
+    "answer": 1,
+    "explanation": "Statements go out at least quarterly; accounts with activity (trades, or receipt/delivery of cash or securities) receive a statement for that month."
+  },
+  {
+    "id": 118,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "A trade confirmation must be delivered to the customer:",
+    "choices": ["At or before the completion of the transaction (settlement date)", "Within one week of the trade", "Only for trades over $10,000", "Quarterly with the account statement"],
+    "answer": 0,
+    "explanation": "Confirmations disclosing the trade details (security, price, capacity, commission) must reach the customer at or before completion of the transaction — the settlement date."
+  },
+  {
+    "id": 119,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "A currency transaction report (CTR) must be filed for cash transactions exceeding:",
+    "choices": ["$3,000", "$5,000", "$10,000", "$25,000"],
+    "answer": 2,
+    "explanation": "CTRs are filed with FinCEN for currency transactions over $10,000 in a single day. Structuring deposits to stay under the threshold is itself a crime."
+  },
+  {
+    "id": 120,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "Which sequence correctly orders the three stages of money laundering?",
+    "choices": ["Layering, placement, integration", "Placement, layering, integration", "Integration, placement, layering", "Placement, integration, layering"],
+    "answer": 1,
+    "explanation": "Placement puts illicit cash into the financial system; layering hides its origin through complex transactions; integration returns it to the launderer as apparently legitimate funds."
+  },
+  {
+    "id": 121,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "A firm detects a suspicious transaction involving at least $5,000 and suspects the funds derive from illegal activity. The firm must file a:",
+    "choices": ["Currency transaction report (CTR)", "Suspicious activity report (SAR), without notifying the customer", "Form U4 amendment", "Complaint with the SEC, copying the customer"],
+    "answer": 1,
+    "explanation": "SARs are filed confidentially with FinCEN (generally within 30 days of detection). Tipping off the customer that a SAR was filed is prohibited."
+  },
+  {
+    "id": 122,
+    "section": "Trading & Accounts",
+    "topic": "Privacy",
+    "type": "multiple_choice",
+    "question": "Regulation S-P requires broker-dealers to:",
+    "choices": ["Report all customer trades to the IRS", "Provide privacy notices and give customers the chance to opt out of sharing nonpublic personal information with nonaffiliated third parties", "Encrypt every email to customers", "Share customer data freely with marketing partners"],
+    "answer": 1,
+    "explanation": "Reg S-P (the SEC's privacy rule) requires initial and annual privacy notices, opt-out rights for sharing with nonaffiliated third parties, and safeguards for customer records."
+  },
+  {
+    "id": 123,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Passing the SIE exam alone allows a candidate to:",
+    "choices": ["Solicit securities orders from the public", "Demonstrate basic industry knowledge — but not to conduct securities business until a representative-level 'top-off' exam and registration are completed", "Act as a principal of a member firm", "Trade for a firm's proprietary account"],
+    "answer": 1,
+    "explanation": "The SIE is a prerequisite, not a registration. To function as a representative, the candidate must be associated with a member firm, pass a top-off exam such as the Series 6 or 7, and be registered. An SIE passing result remains valid for 4 years."
+  },
+  {
+    "id": 124,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "The Uniform Application for Securities Industry Registration or Transfer, used to register an associated person with a firm, is:",
+    "choices": ["Form U5", "Form U4", "Form BD", "Form 144"],
+    "answer": 1,
+    "explanation": "Form U4 registers individuals and discloses their history (employment, residences, criminal and financial events). Material changes must be reported by amending the U4, generally within 30 days."
+  },
+  {
+    "id": 125,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "When a registered representative leaves a firm, the firm must file Form U5 within:",
+    "choices": ["10 days of termination", "30 days of termination", "60 days of termination", "6 months of termination"],
+    "answer": 1,
+    "explanation": "Form U5 must be filed within 30 days of termination, with a copy provided to the departing rep. The individual's registration can generally be reactivated at a new firm within 2 years without re-testing."
+  },
+  {
+    "id": 126,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Which event would subject a person to statutory disqualification from the securities industry?",
+    "choices": ["A speeding ticket from last year", "A felony conviction within the past 10 years", "A personal bankruptcy filed 12 years ago", "A dismissed civil lawsuit"],
+    "answer": 1,
+    "explanation": "Statutory disqualification includes any felony conviction, or a securities/money-related misdemeanor conviction, within the past 10 years, as well as certain bars, suspensions, and injunctions."
+  },
+  {
+    "id": 127,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "The Regulatory Element of FINRA's continuing education program must be completed:",
+    "choices": ["Every three years", "Annually, by December 31", "Only in the second year of registration", "Only after a disciplinary event"],
+    "answer": 1,
+    "explanation": "Registered persons must complete the Regulatory Element each year by December 31. Firms must also deliver annual Firm Element training. Failure to complete CE results in a CE-inactive status."
+  },
+  {
+    "id": 128,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "Before taking a paid weekend job outside the firm, a registered representative must:",
+    "choices": ["Do nothing — outside work is personal business", "Provide prior written notice of the outside business activity to the firm", "Obtain approval from FINRA directly", "Resign from the firm"],
+    "answer": 1,
+    "explanation": "Outside business activities (OBAs) require prior written notice to the employing firm, which may restrict or prohibit the activity. Passive investments generally don't count as OBAs."
+  },
+  {
+    "id": 129,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "A rep helps a friend's startup sell shares to investors, away from the rep's firm, and receives compensation. Without notifying the firm, this is a violation known as:",
+    "choices": ["Churning", "Selling away (an unapproved private securities transaction)", "Front-running", "Interpositioning"],
+    "answer": 1,
+    "explanation": "Private securities transactions require prior written notice; if the rep is compensated, the firm must approve, record, and supervise the transactions. Doing it secretly is 'selling away.'"
+  },
+  {
+    "id": 130,
+    "section": "Regulatory Framework",
+    "topic": "Gifts",
+    "type": "type_in",
+    "question": "Under FINRA's gifts rule, what is the maximum dollar value of gifts a member may give per person, per year, in connection with the firm's business? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "$100", "100 dollars"],
+    "explanation": "FINRA Rule 3220 caps business-related gifts at $100 per person per year. Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
+  },
+  {
+    "id": 131,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "Under FINRA's communications rules, a 'retail communication' is any written communication distributed to more than how many retail investors within a 30-day period?",
+    "choices": ["10", "25", "50", "100"],
+    "answer": 1,
+    "explanation": "Retail communications (more than 25 retail investors in 30 days) generally require approval by a registered principal before use. Correspondence (25 or fewer) and institutional communications are subject to review and supervision."
+  },
+  {
+    "id": 132,
+    "section": "Regulatory Framework",
+    "topic": "Telemarketing",
+    "type": "multiple_choice",
+    "question": "Under telemarketing rules, unsolicited cold calls to prospects may generally be made only between:",
+    "choices": ["8:00 am and 9:00 pm in the prospect's local time zone", "9:00 am and 5:00 pm in the caller's time zone", "7:00 am and 11:00 pm in the prospect's local time zone", "Any hours on weekdays"],
+    "answer": 0,
+    "explanation": "Cold calls are restricted to 8 am – 9 pm local time of the person called, callers must identify themselves and the firm, and firms must honor the national and firm-specific do-not-call lists. Established business relationships and invited calls are exceptions."
+  },
+  {
+    "id": 133,
+    "section": "Regulatory Framework",
+    "topic": "Political Contributions",
+    "type": "multiple_choice",
+    "question": "Under MSRB pay-to-play rules, a municipal finance professional may contribute up to what amount per election to a candidate they are entitled to vote for, without triggering a two-year ban on the firm's negotiated municipal business with that issuer?",
+    "choices": ["$100", "$250", "$1,000", "There is no permitted amount"],
+    "answer": 1,
+    "explanation": "MSRB Rule G-37 allows a de minimis contribution of $250 per candidate per election if the professional can vote for the candidate. Larger contributions trigger a two-year ban."
+  },
+  {
+    "id": 134,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "type_in",
+    "question": "A passing result on the SIE exam remains valid for how many years? (Enter a number)",
+    "answer": "4",
+    "accepted": ["4", "4 years", "four", "four years"],
+    "explanation": "SIE results are valid for 4 years. Representative-level registrations generally lapse after 2 years away from the industry (extendable via the Maintaining Qualifications Program)."
+  },
+  {
+    "id": 135,
+    "section": "Regulatory Framework",
+    "topic": "Reportable Events",
+    "type": "multiple_choice",
+    "question": "Which event must a registered representative report to their firm by amending Form U4?",
+    "choices": ["Getting married", "A compromise with creditors or personal bankruptcy", "Buying a new home", "Taking a vacation abroad"],
+    "answer": 1,
+    "explanation": "Reportable U4 events include criminal charges and convictions, customer complaints meeting thresholds, liens and judgments, bankruptcies and compromises with creditors, and certain regulatory actions."
+  },
+  {
+    "id": 136,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In which type of underwriting is the entire offering canceled and all investor funds returned unless every share is sold?",
+    "choices": ["Firm commitment", "Best efforts all-or-none", "Standby", "Best efforts mini-max"],
+    "answer": 1,
+    "explanation": "In an all-or-none (AON) best efforts deal, investor funds are held in escrow and returned if the full issue does not sell. A mini-max deal sets a minimum floor rather than requiring every share to sell."
+  },
+  {
+    "id": 137,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "A corporation conducting a rights offering hires an investment bank to purchase any shares its existing shareholders do not subscribe to. This arrangement is called a:",
+    "choices": ["Standby underwriting", "Firm commitment underwriting", "Best efforts underwriting", "Private placement"],
+    "answer": 0,
+    "explanation": "In a standby underwriting, the underwriter agrees in advance to 'stand by' and buy whatever shares remain unsubscribed after a rights offering, guaranteeing the issuer its capital."
+  },
+  {
+    "id": 138,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Under Regulation D Rule 506(b), a private placement may be sold to an unlimited number of accredited investors plus a maximum of how many non-accredited (but sophisticated) purchasers?",
+    "choices": ["0", "10", "35", "100"],
+    "answer": 2,
+    "explanation": "Rule 506(b) allows unlimited accredited investors and up to 35 non-accredited purchasers who are financially sophisticated. General solicitation is not permitted under 506(b)."
+  },
+  {
+    "id": 139,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Restricted stock of an SEC-reporting company acquired in a private placement generally must be held for how long before it can be resold under Rule 144?",
+    "choices": ["30 days", "90 days", "6 months", "2 years"],
+    "answer": 2,
+    "explanation": "Rule 144 imposes a 6-month holding period on restricted securities of SEC-reporting issuers (12 months for non-reporting issuers) before public resale is permitted."
+  },
+  {
+    "id": 140,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "A broker-dealer accepts customer orders and handles the customer relationship, but a second firm executes the trades, settles them, and holds the customers' cash and securities. The second firm is the:",
+    "choices": ["Introducing firm", "Clearing (carrying) firm", "Transfer agent", "Investment adviser"],
+    "answer": 1,
+    "explanation": "The clearing (carrying) firm executes, settles, and custodies assets; the introducing firm maintains the customer relationship and passes orders along on a fully disclosed basis."
+  },
+  {
+    "id": 141,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is a LEADING economic indicator?",
+    "choices": ["Average duration of unemployment", "Building permits for new housing", "Industrial production", "The average prime rate charged by banks"],
+    "answer": 1,
+    "explanation": "Building permits signal future construction activity, making them a leading indicator. Industrial production is coincident; unemployment duration and the prime rate are lagging indicators."
+  },
+  {
+    "id": 142,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A recession is most commonly described as a decline in real GDP lasting at least:",
+    "choices": ["One quarter", "Two consecutive quarters", "Four consecutive quarters", "Eighteen months"],
+    "answer": 1,
+    "explanation": "The rule-of-thumb definition of a recession is two consecutive quarters of declining real GDP. A depression is a severe, prolonged downturn (often described as six quarters or more)."
+  },
+  {
+    "id": 143,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A significantly stronger U.S. dollar most directly benefits which of the following?",
+    "choices": ["U.S. exporters selling goods abroad", "U.S. importers buying foreign goods", "U.S. companies earning most of their revenue overseas", "Foreign tourists vacationing in the United States"],
+    "answer": 1,
+    "explanation": "A strong dollar makes foreign goods cheaper for U.S. importers and consumers. It hurts U.S. exporters (their goods cost more abroad) and shrinks the dollar value of overseas earnings."
+  },
+  {
+    "id": 144,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which agency's mortgage-backed pass-through securities are backed by the full faith and credit of the U.S. government?",
+    "choices": ["Fannie Mae (FNMA)", "Freddie Mac (FHLMC)", "Ginnie Mae (GNMA)", "The Federal Home Loan Banks"],
+    "answer": 2,
+    "explanation": "Only Ginnie Mae securities carry the direct full-faith-and-credit guarantee of the U.S. government. Fannie Mae and Freddie Mac are government-sponsored enterprises whose securities do not carry that explicit guarantee."
+  },
+  {
+    "id": 145,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A collateralized mortgage obligation (CMO) differs from a simple mortgage pass-through primarily because a CMO:",
+    "choices": ["Is backed by the U.S. government", "Divides cash flows into tranches with different expected maturities and risk levels", "Pays no interest until maturity", "Is free of prepayment risk"],
+    "answer": 1,
+    "explanation": "A CMO carves mortgage cash flows into tranches; each tranche has its own expected maturity and priority for receiving principal, letting investors choose different prepayment-risk profiles."
+  },
+  {
+    "id": 146,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An investor wants a U.S. government-backed zero-coupon security to fund a known expense 15 years from now. Which security fits best?",
+    "choices": ["Treasury bills", "Treasury notes", "Treasury STRIPS", "Treasury Inflation-Protected Securities (TIPS)"],
+    "answer": 2,
+    "explanation": "STRIPS are Treasury notes/bonds whose coupons and principal have been separated and sold as individual zero-coupon securities — long-term, government-backed, and purchased at a discount to face value."
+  },
+  {
+    "id": 147,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "Treasury securities are quoted in 32nds. What is the dollar price of a $1,000-par Treasury note quoted at 98:16? (Enter a number)",
+    "answer": "985",
+    "accepted": ["985", "985.00", "$985", "$985.00"],
+    "explanation": "98:16 means 98 and 16/32 percent of par = 98.5% x $1,000 = $985. Government securities are quoted in 32nds; corporate bonds in eighths or decimals."
+  },
+  {
+    "id": 148,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond is trading at a discount. Which of its yields is the HIGHEST?",
+    "choices": ["Nominal (coupon) yield", "Current yield", "Yield to maturity", "Yield to call"],
+    "answer": 3,
+    "explanation": "For a discount bond the order from lowest to highest is: nominal, current, YTM, YTC. The discount is earned faster if the bond is called early, so yield to call is highest. (For a premium bond the order reverses.)"
+  },
+  {
+    "id": 149,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A corporate bond backed only by the issuer's general creditworthiness, with no specific collateral pledged, is a:",
+    "choices": ["Mortgage bond", "Equipment trust certificate", "Debenture", "Collateral trust bond"],
+    "answer": 2,
+    "explanation": "A debenture is unsecured — backed by the issuer's full faith and credit only. Mortgage bonds, equipment trust certificates, and collateral trust bonds are each secured by specific pledged assets."
+  },
+  {
+    "id": 150,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Compared with a similar nonconvertible bond from the same issuer, a convertible bond typically pays:",
+    "choices": ["A higher coupon, because it is riskier", "A lower coupon, because the conversion feature has value to the investor", "The same coupon", "No coupon at all"],
+    "answer": 1,
+    "explanation": "The right to convert into common stock is valuable, so investors accept a lower coupon. The issuer gets cheaper financing in exchange for potential future dilution."
+  },
+  {
+    "id": 151,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "A dealer sells Treasury securities to an investor and simultaneously agrees to buy them back the next day at a slightly higher price. This transaction is a:",
+    "choices": ["Banker's acceptance", "Repurchase agreement (repo)", "Negotiable CD", "Commercial paper placement"],
+    "answer": 1,
+    "explanation": "In a repurchase agreement the seller agrees to buy the securities back at a higher price; the difference functions as interest on what is effectively a short-term collateralized loan."
+  },
+  {
+    "id": 152,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An investor owns 100 shares of XYZ purchased at $80 per share. After a 2-for-1 stock split, the investor's position is:",
+    "choices": ["100 shares with a cost basis of $80 each", "200 shares with a cost basis of $40 each", "200 shares with a cost basis of $80 each", "50 shares with a cost basis of $160 each"],
+    "answer": 1,
+    "explanation": "A 2-for-1 split doubles the share count and halves the per-share price and cost basis. Total value and total basis are unchanged — a split is not a taxable event."
+  },
+  {
+    "id": 153,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Shares that a corporation has repurchased and now holds in its own treasury:",
+    "choices": ["Receive dividends but cannot vote", "Vote but receive no dividends", "Neither vote nor receive dividends", "Both vote and receive dividends"],
+    "answer": 2,
+    "explanation": "Treasury stock has no voting rights and receives no dividends. Buybacks reduce shares outstanding, which increases earnings per share for the remaining holders."
+  },
+  {
+    "id": 154,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A corporation has 10 million shares authorized, 6 million issued, and 1 million held as treasury stock. How many shares are outstanding?",
+    "choices": ["4 million", "5 million", "6 million", "10 million"],
+    "answer": 1,
+    "explanation": "Outstanding = issued minus treasury: 6 million - 1 million = 5 million. Authorized shares are simply the maximum the charter permits the company to issue."
+  },
+  {
+    "id": 155,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A 12b-1 fee charged by a mutual fund pays for:",
+    "choices": ["The portfolio manager's advisory services", "Distribution and marketing costs, deducted annually from fund assets", "Brokerage commissions on portfolio trades", "The one-time cost of buying fund shares"],
+    "answer": 1,
+    "explanation": "12b-1 fees cover distribution, marketing, and sometimes shareholder-service costs. They are taken out of fund assets each year, reducing the investor's return — they are not a sales load paid at purchase."
+  },
+  {
+    "id": 156,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "To advertise itself as a 'diversified' investment company, a fund must meet the 75-5-10 test, which requires that:",
+    "choices": ["75% of shareholders approve the strategy each year", "In at least 75% of its assets, no more than 5% is in any one issuer and no more than 10% of any issuer's voting stock is owned", "The fund hold at least 75 different stocks across 10 sectors", "No single holding exceed 75% of assets"],
+    "answer": 1,
+    "explanation": "The Investment Company Act's 75-5-10 test: within 75% of the portfolio, max 5% of fund assets in any single issuer and max 10% of any one issuer's voting shares. The remaining 25% is unrestricted."
+  },
+  {
+    "id": 157,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor owns 500 shares of ABC and is worried about a near-term decline but wants to keep the stock. Which options strategy provides the best protection?",
+    "choices": ["Write 5 ABC calls", "Buy 5 ABC puts", "Write 5 ABC puts", "Buy 5 ABC calls"],
+    "answer": 1,
+    "explanation": "Buying puts against a long stock position (a protective put) works like insurance: the puts gain if the stock falls, and the maximum downside is locked in at the strike minus the premium paid."
+  },
+  {
+    "id": 158,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "With the underlying stock at $57, an XYZ 60 put is trading at a premium of 4. What is the option's time value?",
+    "choices": ["0", "1", "3", "4"],
+    "answer": 1,
+    "explanation": "The put is in the money by 3 (60 - 57 = intrinsic value). Time value = premium minus intrinsic value = 4 - 3 = 1."
+  },
+  {
+    "id": 159,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor buys 1 XYZ 50 put at 3. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "47",
+    "accepted": ["47", "47.00", "$47", "$47.00"],
+    "explanation": "Put breakeven = strike price minus premium: 50 - 3 = 47. The stock must fall below $47 for the put buyer to profit (call breakeven is strike plus premium)."
+  },
+  {
+    "id": 160,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Once a variable annuity is annuitized, which statement about annuity units is TRUE?",
+    "choices": ["The number of units and their value are both fixed", "The number of units is fixed, but each unit's value varies with separate account performance", "The number of units varies, but each unit's value is fixed", "Both the number of units and their value vary each month"],
+    "answer": 1,
+    "explanation": "At annuitization, accumulation units convert into a fixed number of annuity units. The monthly check equals that fixed number times the fluctuating unit value, which depends on separate account performance versus the assumed interest rate (AIR)."
+  },
+  {
+    "id": 161,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Which statement about term life insurance is TRUE?",
+    "choices": ["It builds cash value that can be borrowed against", "It provides a pure death benefit for a set period and builds no cash value", "It requires a securities license to sell", "Its premiums never change, even upon renewal at an older age"],
+    "answer": 1,
+    "explanation": "Term insurance is pure protection: coverage for a stated period, no cash value. It is the cheapest form of life insurance initially, but renewal premiums rise with age. No securities registration is needed because there is no investment component."
+  },
+  {
+    "id": 162,
+    "section": "Products and Risks",
+    "topic": "Indices",
+    "type": "multiple_choice",
+    "question": "The S&P 500 index weights its component companies by:",
+    "choices": ["Share price", "Market capitalization", "Dividend yield", "Equal weighting of all 500 companies"],
+    "answer": 1,
+    "explanation": "The S&P 500 is market-cap weighted (float-adjusted), so the largest companies move the index the most. By contrast, the Dow Jones Industrial Average is price-weighted."
+  },
+  {
+    "id": 163,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "An investor sold short 500 shares of ABC at $40 and wants to limit losses if the stock rises. Which order accomplishes this?",
+    "choices": ["Sell stop at $35", "Buy stop at $45", "Sell limit at $45", "Buy limit at $35"],
+    "answer": 1,
+    "explanation": "A short seller loses when the price rises, so protection is a buy stop placed above the market — it triggers a purchase to cover the short if the stock climbs to the stop price."
+  },
+  {
+    "id": 164,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Unless the customer specifies otherwise, an order entered during market hours is assumed to be:",
+    "choices": ["Good-til-canceled (GTC)", "A day order that expires at the close if unexecuted", "Immediate-or-cancel", "Good for one week"],
+    "answer": 1,
+    "explanation": "Orders are day orders by default — if not executed by the close, they expire. A customer must explicitly mark an order GTC for it to carry over to later sessions."
+  },
+  {
+    "id": 165,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A customer tells a registered representative to sell 1,000 shares of XYZ 'whenever you think the price is best today.' Without written discretionary authority, the representative:",
+    "choices": ["Must refuse the order", "May accept it — time and price discretion is permitted verbally for that day", "May choose a different stock if it seems better", "Must have a principal place the trade"],
+    "answer": 1,
+    "explanation": "When the customer names the security, the action, and the amount, choosing only time and price is a 'not held' order — valid without written discretionary authorization, but good for that trading day only."
+  },
+  {
+    "id": 166,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "A trade executed 'for cash' (a cash settlement trade) settles:",
+    "choices": ["The same day", "The next business day", "Two business days after the trade", "At the end of the month"],
+    "answer": 0,
+    "explanation": "Cash settlement means same-day settlement, typically used when an investor needs same-day ownership (for example, around a record date or year-end tax deadline). Regular way for corporate securities is T+1."
+  },
+  {
+    "id": 167,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Which of the following may be purchased on margin?",
+    "choices": ["Mutual fund shares", "An IPO during its first 30 days of trading", "An exchange-listed common stock", "Long equity options"],
+    "answer": 2,
+    "explanation": "Exchange-listed stocks are marginable. Mutual funds and new issues (for 30 days) must be paid in full, and long options are not marginable — the premium must be deposited in full."
+  },
+  {
+    "id": 168,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A customer wants their brokerage account identified only by a number for privacy. This is permitted if:",
+    "choices": ["A principal approves it verbally", "The customer signs a written statement attesting to ownership of the account", "The account is a margin account", "FINRA grants a written exemption"],
+    "answer": 1,
+    "explanation": "Numbered (or symbol-titled) accounts are allowed, but the firm must keep a written statement, signed by the customer, attesting to who actually owns the account."
+  },
+  {
+    "id": 169,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "The main benefit of adding a transfer-on-death (TOD) designation to an individual brokerage account is that at the owner's death, the assets:",
+    "choices": ["Avoid estate taxes entirely", "Pass directly to the named beneficiary without going through probate", "Transfer to the surviving joint tenant", "Are liquidated automatically and mailed as a check"],
+    "answer": 1,
+    "explanation": "TOD registration passes the account directly to named beneficiaries, bypassing probate. It does not avoid estate tax, and the owner keeps full control during their lifetime."
+  },
+  {
+    "id": 170,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Under current law, a traditional IRA owner generally must begin taking required minimum distributions (RMDs) starting at age:",
+    "choices": ["59 1/2", "65", "72", "73"],
+    "answer": 3,
+    "explanation": "The SECURE 2.0 Act set the RMD beginning age at 73 (for those reaching 72 after 2022). Age 59 1/2 is when the 10% early-withdrawal penalty ends — a separate threshold."
+  },
+  {
+    "id": 171,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "ERISA's rules on participation, vesting, and fiduciary conduct apply to:",
+    "choices": ["All retirement plans, including IRAs", "Private-sector employer retirement plans", "Federal and state government pension plans", "Social Security benefits"],
+    "answer": 1,
+    "explanation": "ERISA governs private-sector (corporate) retirement plans. Government plans are exempt, and IRAs are individual accounts, not employer plans."
+  },
+  {
+    "id": 172,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "After netting all capital gains and losses, an investor has a $10,000 net capital loss this year. On this year's return, the investor may deduct against ordinary income a maximum of:",
+    "choices": ["$0", "$3,000, carrying the remaining $7,000 forward", "$10,000", "$5,000, forfeiting the rest"],
+    "answer": 1,
+    "explanation": "Net capital losses offset ordinary income up to $3,000 per year; the unused balance carries forward indefinitely to future years."
+  },
+  {
+    "id": 173,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor receives stock as a gift. The donor bought it at $30 per share, and it is worth $50 when gifted. For calculating a future gain, the recipient's cost basis is:",
+    "choices": ["$50 - the value on the gift date", "$30 - the donor's original cost basis carries over", "$0", "The average of $30 and $50"],
+    "answer": 1,
+    "explanation": "Gifted securities keep the donor's basis for gains ($30 here). Contrast with inherited securities, which are stepped up to fair market value at the date of death."
+  },
+  {
+    "id": 174,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Two traders repeatedly buy and sell the same security back and forth between their accounts, with no change in beneficial ownership, to create the appearance of heavy trading volume. This prohibited practice is called:",
+    "choices": ["Front-running", "Matched orders (painting the tape)", "Churning", "Freeriding"],
+    "answer": 1,
+    "explanation": "Matched orders or wash trades — offsetting trades with no real change in ownership — manufacture fake volume to lure investors, a form of market manipulation often called painting the tape."
+  },
+  {
+    "id": 175,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "After a customer's account loses value, a registered representative offers to personally repay the losses if the customer stays with the firm. This is:",
+    "choices": ["Permitted if the rep uses personal funds", "Permitted with written principal approval", "Prohibited - guaranteeing a customer against loss is never allowed", "Required under FINRA's customer-protection rules"],
+    "answer": 2,
+    "explanation": "Guaranteeing customers against loss (or promising a specific return) is strictly prohibited, no matter whose money is used or who approves it. Sharing in an account's gains and losses is allowed only in narrow, pre-approved proportionate arrangements."
+  },
+  {
+    "id": 176,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "An unregistered administrative assistant at a member firm may:",
+    "choices": ["Accept an unsolicited customer order", "Invite prospects to a firm seminar without discussing specific securities", "Briefly describe a mutual fund's features if a principal listens in", "Prequalify prospects by asking about their investment goals"],
+    "answer": 1,
+    "explanation": "Unregistered persons may perform clerical tasks and extend invitations to firm events, but they may not solicit business, discuss products, prequalify prospects, or accept orders — even unsolicited ones."
+  },
+  {
+    "id": 177,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "The Firm Element of the continuing education requirement is BEST described as:",
+    "choices": ["FINRA-administered computer training taken every three years", "Annual, firm-designed training on job- and product-related topics for covered persons", "A requalification exam after any disciplinary event", "Optional training the firm may offer new hires"],
+    "answer": 1,
+    "explanation": "The Firm Element is annual training that each firm designs from its own needs analysis, covering products, regulations, and suitability relevant to its business. The Regulatory Element is the separate, FINRA-administered annual requirement."
+  },
+  {
+    "id": 178,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "A written message a firm sends to 20 retail investors within a 30-day period is classified under FINRA rules as:",
+    "choices": ["Retail communication", "Correspondence", "Institutional communication", "An advertisement"],
+    "answer": 1,
+    "explanation": "Correspondence is a written communication to 25 or fewer retail investors within 30 days. It requires supervision and review but not principal pre-approval, unlike most retail communications (more than 25 retail investors)."
+  },
+  {
+    "id": 179,
+    "section": "Regulatory Framework",
+    "topic": "Gifts",
+    "type": "multiple_choice",
+    "question": "A registered representative wants to take a client to a professional basketball game. Under FINRA rules, this entertainment is permissible if:",
+    "choices": ["Its value is under $100, like any gift", "The representative attends with the client and the entertainment is neither excessive nor a condition of doing business", "The client reimburses half the cost", "A principal attends as chaperone"],
+    "answer": 1,
+    "explanation": "Business entertainment is not subject to the $100 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $100 cap."
+  },
+  {
+    "id": 180,
+    "section": "Regulatory Framework",
+    "topic": "Political Contributions",
+    "type": "multiple_choice",
+    "question": "A municipal finance professional contributes $500 to the campaign of a mayor for whom the MFP cannot vote. The consequence for the firm is:",
+    "choices": ["Nothing - contributions under $1,000 are always permitted", "A two-year ban on negotiated municipal securities business with that issuer", "A fine payable to the MSRB", "The MFP must resign"],
+    "answer": 1,
+    "explanation": "Under MSRB Rule G-37, a contribution above the de minimis allowance ($250, and only where the MFP can vote for the candidate) triggers a two-year ban on negotiated municipal underwriting business with that issuer."
+  }
+]

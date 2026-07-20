@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIE Study Gate — Settings</title>
+  <style>
+    :root {
+      --desk: #151a22;
+      --paper: #f7f3e8;
+      --ink: #262c35;
+      --ink-soft: #5b6472;
+      --rule-red: #c2504b;
+      --amber: #e3a93c;
+      --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
+      --serif: Charter, "Iowan Old Style", Georgia, serif;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--desk);
+      color: #d8dce3;
+      font-family: var(--mono);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .panel {
+      background: var(--paper);
+      color: var(--ink);
+      border-radius: 6px;
+      padding: 2rem 2.2rem;
+      width: min(460px, 100%);
+      box-shadow: 0 18px 40px -18px rgba(0,0,0,.5);
+    }
+    h1 {
+      font-family: var(--serif);
+      font-weight: 500;
+      font-size: 1.3rem;
+      margin-bottom: 0.3rem;
+    }
+    .sub { font-size: 0.72rem; color: var(--ink-soft); margin-bottom: 1.6rem; }
+    label {
+      display: block;
+      font-size: 0.68rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--rule-red);
+      margin: 1.1rem 0 0.35rem;
+    }
+    input[type="number"] {
+      width: 100%;
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      color: var(--ink);
+      border: none;
+      border-bottom: 2px solid var(--rule-red);
+      background: transparent;
+      padding: 0.3rem 0.2rem;
+    }
+    input:focus-visible { outline: 2px solid var(--rule-red); outline-offset: 3px; }
+    .hint { font-size: 0.7rem; color: var(--ink-soft); margin-top: 0.3rem; font-family: var(--serif); }
+    .row { display: flex; gap: 0.8rem; align-items: center; margin-top: 1.8rem; }
+    button {
+      font-family: var(--mono);
+      font-size: 0.72rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      background: var(--ink);
+      color: var(--paper);
+      border: none;
+      border-radius: 4px;
+      padding: 0.6rem 1.2rem;
+      cursor: pointer;
+    }
+    button:hover { background: #10141b; }
+    button:focus-visible { outline: 2px solid var(--rule-red); outline-offset: 2px; }
+    #saved { font-size: 0.72rem; color: #3f9d6c; opacity: 0; transition: opacity .2s; }
+    #saved.show { opacity: 1; }
+    .danger { margin-top: 2rem; border-top: 1px solid #ddd6c4; padding-top: 1rem; }
+    .danger button { background: transparent; color: var(--rule-red); border: 1px solid var(--rule-red); }
+    .danger button:hover { background: rgba(194,80,75,.08); }
+    .sites { margin-top: 2rem; border-top: 1px solid #ddd6c4; padding-top: 0.4rem; }
+    .site-list { list-style: none; margin: 0.6rem 0 0.9rem; }
+    .site-list li {
+      font-family: var(--serif);
+      font-size: 0.95rem;
+      padding: 0.35rem 0.2rem;
+      border-bottom: 1px dotted #ddd6c4;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 0.8rem;
+    }
+    .site-tag {
+      font-family: var(--mono);
+      font-size: 0.6rem;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-soft);
+    }
+    .add-row { display: flex; gap: 0.6rem; align-items: flex-end; }
+    .add-row input[type="text"] {
+      flex: 1;
+      font-family: var(--serif);
+      font-size: 1.05rem;
+      color: var(--ink);
+      border: none;
+      border-bottom: 2px solid var(--rule-red);
+      background: transparent;
+      padding: 0.3rem 0.2rem;
+    }
+    .add-row button { white-space: nowrap; }
+    #siteMsg { font-size: 0.7rem; margin-top: 0.4rem; font-family: var(--serif); min-height: 1em; }
+    #siteMsg.err { color: var(--rule-red); }
+    #siteMsg.ok { color: #3f9d6c; }
+  </style>
+</head>
+<body>
+  <main class="panel">
+    <h1>SIE Study Gate</h1>
+    <p class="sub">Settings apply the next time the gate appears.</p>
+
+    <label for="passMinutes">Pass duration (minutes)</label>
+    <input type="number" id="passMinutes" min="1" max="120" step="1">
+    <p class="hint">How long you can browse X/Twitter after answering correctly. 1–120.</p>
+
+    <label for="requiredCorrect">Correct answers required</label>
+    <input type="number" id="requiredCorrect" min="1" max="5" step="1">
+    <p class="hint">Cards you must get right in one sitting to unlock. 1–5.</p>
+
+    <div class="row">
+      <button id="saveBtn" type="button">Save settings</button>
+      <span id="saved">Saved</span>
+    </div>
+
+    <div class="sites">
+      <label for="siteInput">Blocked sites</label>
+      <ul id="siteList" class="site-list"></ul>
+      <div class="add-row">
+        <input type="text" id="siteInput" placeholder="e.g. reddit.com" autocomplete="off" spellcheck="false">
+        <button id="addSiteBtn" type="button">Add site</button>
+      </div>
+      <p id="siteMsg"></p>
+      <p class="hint">Adding a site is permanent — there is no remove button, on purpose. Subdomains are blocked automatically (adding reddit.com also blocks old.reddit.com).</p>
+    </div>
+
+    <div class="danger">
+      <button id="resetBtn" type="button">Reset all-time stats</button>
+    </div>
+  </main>
+  <script src="options.js"></script>
+</body>
+</html>

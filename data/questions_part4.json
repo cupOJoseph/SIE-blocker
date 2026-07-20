@@ -1,0 +1,502 @@
+[
+  {
+    "id": 86,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "Regular way settlement for a corporate stock trade occurs:",
+    "choices": ["The same day as the trade (T+0)", "One business day after the trade date (T+1)", "Two business days after the trade date (T+2)", "Three business days after the trade date (T+3)"],
+    "answer": 1,
+    "explanation": "Since May 2024, regular way settlement for equities, corporate bonds, and municipal bonds is T+1 — one business day after the trade date. Treasuries and listed options also settle T+1."
+  },
+  {
+    "id": 87,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Under Regulation T, a customer's payment for a purchase in a cash account is due no later than:",
+    "choices": ["The trade date", "One business day after the trade date", "Two business days after the settlement date", "Ten business days after the trade date"],
+    "answer": 2,
+    "explanation": "Reg T payment is due two business days after regular way settlement. With T+1 settlement, that means payment is due by T+3."
+  },
+  {
+    "id": 88,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A customer buys stock in a cash account and sells it before paying for the original purchase. The consequence of this freeriding violation is:",
+    "choices": ["A fine payable to FINRA", "The account is frozen for 90 days, requiring cash up front for purchases", "Permanent closure of the account", "Conversion of the account to a margin account"],
+    "answer": 1,
+    "explanation": "Freeriding — paying for a purchase with the proceeds of its own sale — results in a 90-day freeze during which the customer must deposit full payment before any buy order."
+  },
+  {
+    "id": 89,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "Under Regulation T, what percentage of a marginable stock purchase must a customer initially deposit? (Enter a number)",
+    "answer": "50",
+    "accepted": ["50", "50%", "50 percent", "fifty"],
+    "explanation": "The Federal Reserve's Regulation T sets the initial margin requirement at 50% of the purchase price for most equity securities."
+  },
+  {
+    "id": 90,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "FINRA's minimum maintenance margin requirements for long and short equity positions are:",
+    "choices": ["50% long / 50% short", "25% long / 30% short", "30% long / 25% short", "25% long / 50% short"],
+    "answer": 1,
+    "explanation": "Equity must be maintained at no less than 25% of market value for long positions and 30% for short positions. Falling below triggers a maintenance call."
+  },
+  {
+    "id": 91,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "What is the minimum equity, in dollars, required to open a margin account under FINRA rules? (Enter a number)",
+    "answer": "2000",
+    "accepted": ["2000", "$2000", "$2,000", "2,000"],
+    "explanation": "A margin account requires minimum equity of $2,000 (or 100% of the purchase price if less, for long accounts). Short accounts always require at least $2,000."
+  },
+  {
+    "id": 92,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Which margin account document is REQUIRED and pledges the customer's securities as collateral for the loan?",
+    "choices": ["The loan consent agreement", "The hypothecation agreement", "The trusted contact form", "The options agreement"],
+    "answer": 1,
+    "explanation": "The credit agreement and hypothecation agreement are mandatory; hypothecation pledges the securities as collateral. The loan consent form — permitting the firm to lend the customer's shares to short sellers — is optional."
+  },
+  {
+    "id": 93,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "A pattern day trader must maintain minimum equity of how many dollars in the margin account? (Enter a number)",
+    "answer": "25000",
+    "accepted": ["25000", "$25000", "$25,000", "25,000", "25k", "$25k"],
+    "explanation": "Pattern day traders (4 or more day trades within 5 business days, above thresholds) must maintain at least $25,000 in equity."
+  },
+  {
+    "id": 94,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Which order type guarantees execution but NOT a specific price?",
+    "choices": ["Limit order", "Market order", "Stop-limit order", "All-or-none order"],
+    "answer": 1,
+    "explanation": "A market order executes immediately at the best available price — execution is certain, price is not. A limit order guarantees price (or better) but not execution."
+  },
+  {
+    "id": 95,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A buy limit order at $40 will be executed:",
+    "choices": ["At $40 or lower", "At $40 or higher", "Only exactly at $40", "Immediately at the market price"],
+    "answer": 0,
+    "explanation": "Buy limit orders fill at the limit price or better (lower). Sell limit orders fill at the limit price or better (higher)."
+  },
+  {
+    "id": 96,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "An investor is long 500 shares at $60 and wants to protect against a sharp decline. Which order accomplishes this?",
+    "choices": ["Buy stop at $65", "Sell stop at $55", "Sell limit at $65", "Buy limit at $55"],
+    "answer": 1,
+    "explanation": "A sell stop placed below the market becomes a market order if the stock trades at or below the stop price, limiting downside on a long position. Buy stops protect short positions."
+  },
+  {
+    "id": 97,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "The main risk of using a stop-limit order instead of a plain stop order is that:",
+    "choices": ["It converts to a market order at the worst price", "The order may never be executed if the price gaps through the limit", "It expires at the end of the day automatically", "It requires a margin account"],
+    "answer": 1,
+    "explanation": "Once triggered, a stop-limit becomes a limit order. In a fast-moving market the price can blow through the limit and the investor may be left unprotected with no execution."
+  },
+  {
+    "id": 98,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "A market maker quotes XYZ at 20.00 – 20.10. A customer entering a market order to BUY will pay approximately:",
+    "choices": ["$20.00, the bid", "$20.10, the ask (offer)", "$20.05, the midpoint", "Whatever price the customer chooses"],
+    "answer": 1,
+    "explanation": "Customers buy at the ask and sell at the bid. The 10-cent difference is the spread, which compensates the market maker."
+  },
+  {
+    "id": 99,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "Which statement about short selling is TRUE?",
+    "choices": ["Maximum loss is limited to the amount invested", "The trade must occur in a cash account", "Shares must be located and borrowed, and potential loss is unlimited", "Short sales are prohibited on exchange-listed stocks"],
+    "answer": 2,
+    "explanation": "Short sellers borrow shares (Regulation SHO requires a locate) and profit if the price falls. Because a stock can rise without limit, the potential loss is unlimited, and short sales must occur in a margin account."
+  },
+  {
+    "id": 100,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A trader enters a series of buy orders in the final minutes of the session solely to push a stock's closing price higher. This manipulation is known as:",
+    "choices": ["Front-running", "Marking the close", "Churning", "Freeriding"],
+    "answer": 1,
+    "explanation": "Marking the close (or open) means trading to influence the official closing/opening price. It is a form of market manipulation."
+  },
+  {
+    "id": 101,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A registered representative learns a large institutional buy order is about to be placed and buys the stock for their own account first. This is:",
+    "choices": ["Position trading", "Front-running", "Arbitrage", "Hedging"],
+    "answer": 1,
+    "explanation": "Trading ahead of a known customer order (or pending research) to profit from the expected price move is front-running, a prohibited practice."
+  },
+  {
+    "id": 102,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Excessive trading in a customer's account primarily to generate commissions is called:",
+    "choices": ["Churning", "Rebalancing", "Dollar-cost averaging", "Laddering"],
+    "answer": 0,
+    "explanation": "Churning is measured against the customer's objectives and resources, not any fixed number of trades. It violates FINRA rules and Reg BI."
+  },
+  {
+    "id": 103,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Under insider trading law, a person who trades on material nonpublic information may face a civil penalty of up to:",
+    "choices": ["The amount of the profit gained", "Twice the profit gained or loss avoided", "Three times the profit gained or loss avoided", "$10,000 regardless of profit"],
+    "answer": 2,
+    "explanation": "Civil penalties can reach treble (3x) the profit gained or loss avoided; criminal penalties can include large fines and prison. Both tippers and tippees can be liable."
+  },
+  {
+    "id": 104,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Under the Customer Identification Program (CIP), which of the following is NOT required to open an account for an individual?",
+    "choices": ["Name", "Date of birth", "Physical address", "Employer's federal tax bracket"],
+    "answer": 3,
+    "explanation": "CIP requires name, date of birth, address, and an identification number (usually SSN or taxpayer ID), and the firm must verify the customer's identity. Tax bracket is suitability information, not CIP."
+  },
+  {
+    "id": 105,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "When opening an account for a retail customer, FINRA rules require the firm to make reasonable efforts to obtain the name of a:",
+    "choices": ["Co-signer for the account", "Trusted contact person age 18 or older", "Beneficiary for the account", "Power of attorney"],
+    "answer": 1,
+    "explanation": "Firms must ask for a trusted contact person the firm may reach about possible financial exploitation or diminished capacity. The customer can decline, and the account can still be opened."
+  },
+  {
+    "id": 106,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A registered representative decides the security, and the number of shares to buy for a customer without speaking to them first. This is permissible ONLY if:",
+    "choices": ["The trade is under $10,000", "The customer has provided written discretionary authorization accepted by the firm", "The rep calls the customer within 24 hours", "The customer has a margin account"],
+    "answer": 1,
+    "explanation": "Choosing the asset, action, or amount requires prior written discretionary authority. Choosing only time and/or price for an order the customer specified is NOT discretion."
+  },
+  {
+    "id": 107,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement about UGMA/UTMA custodial accounts is TRUE?",
+    "choices": ["There may be multiple custodians and multiple minors on one account", "Gifts to the account are revocable until the minor turns 18", "The account uses the minor's Social Security number and gifts are irrevocable", "The custodian may trade on margin freely"],
+    "answer": 2,
+    "explanation": "Custodial accounts have one custodian and one minor; the minor is the beneficial owner (minor's SSN), all gifts are irrevocable, and assets transfer to the child at the age of majority. Margin trading is prohibited."
+  },
+  {
+    "id": 108,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Two unrelated business partners want an account where a deceased owner's share passes to their own estate, not to the surviving owner. They should open a:",
+    "choices": ["Joint tenants with rights of survivorship (JTWROS) account", "Tenants in common (TIC) account", "Custodial account", "Discretionary account"],
+    "answer": 1,
+    "explanation": "In TIC, each owner holds a distinct percentage that passes to their estate at death. In JTWROS — common for married couples — the survivor automatically absorbs the decedent's interest."
+  },
+  {
+    "id": 109,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which statement about traditional IRAs is TRUE?",
+    "choices": ["Withdrawals of earnings are always tax-free", "Contributions may be tax-deductible, and withdrawals before age 59 1/2 generally incur a 10% penalty", "There are no required minimum distributions", "Only employees of large companies may contribute"],
+    "answer": 1,
+    "explanation": "Traditional IRA contributions may be deductible (subject to income limits if covered by a workplace plan), growth is tax-deferred, distributions are taxed as ordinary income, early withdrawals generally face a 10% penalty, and RMDs currently begin at age 73."
+  },
+  {
+    "id": 110,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which feature belongs to a Roth IRA but NOT a traditional IRA?",
+    "choices": ["Tax-deferred growth", "A 10% penalty on some early withdrawals", "Tax-free qualified withdrawals and no lifetime required minimum distributions", "Annual contribution limits"],
+    "answer": 2,
+    "explanation": "Roth contributions are made after-tax; qualified distributions (account open 5 years and owner 59 1/2, among other triggers) are entirely tax-free, and Roth IRA owners face no lifetime RMDs."
+  },
+  {
+    "id": 111,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "For 2026, the annual IRA contribution limit for an investor under age 50 is:",
+    "choices": ["$6,500", "$7,000", "$7,500", "$8,600"],
+    "answer": 2,
+    "explanation": "The IRS set the 2026 IRA limit at $7,500, with an additional $1,100 catch-up for those 50 and older ($8,600 total). The 2026 employee 401(k) deferral limit is $24,500."
+  },
+  {
+    "id": 112,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement about 529 college savings plans is TRUE?",
+    "choices": ["Contributions are deductible on federal income taxes", "Earnings grow tax-deferred and qualified education withdrawals are federal tax-free", "The beneficiary controls the account at age 18", "Contributions are limited to $2,000 per year"],
+    "answer": 1,
+    "explanation": "529 plans are municipal fund securities: after-tax contributions, tax-deferred growth, and tax-free withdrawals for qualified education expenses. The account owner — not the beneficiary — retains control."
+  },
+  {
+    "id": 113,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "type_in",
+    "question": "An investor sells stock at a loss and buys it back 20 days later. The wash sale rule disallows the loss if repurchase occurs within how many days before or after the sale? (Enter a number)",
+    "answer": "30",
+    "accepted": ["30", "30 days", "thirty"],
+    "explanation": "Buying the same or substantially identical security within 30 days before or after a sale at a loss triggers the wash sale rule; the disallowed loss is added to the cost basis of the new shares."
+  },
+  {
+    "id": 114,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "To qualify for long-term capital gains treatment, an investor must hold a security for:",
+    "choices": ["More than 6 months", "More than 1 year", "More than 2 years", "More than 18 months"],
+    "answer": 1,
+    "explanation": "Holding periods over one year receive preferential long-term capital gains rates; one year or less is short-term, taxed as ordinary income."
+  },
+  {
+    "id": 115,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor inherits stock that the deceased bought at $20 per share; it is worth $50 on the date of death. The heir's cost basis is:",
+    "choices": ["$20 — the original purchase price", "$50 — stepped up to the value at death", "$35 — the average of the two", "Zero until the heir sells"],
+    "answer": 1,
+    "explanation": "Inherited securities receive a stepped-up basis to fair market value at death, and the holding period is automatically long-term. Gifted securities, by contrast, generally carry over the donor's basis."
+  },
+  {
+    "id": 116,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "type_in",
+    "question": "For 2026, what is the annual gift tax exclusion per recipient, in dollars? (Enter a number)",
+    "answer": "19000",
+    "accepted": ["19000", "$19000", "$19,000", "19,000", "19k", "$19k"],
+    "explanation": "The IRS set the 2026 annual gift tax exclusion at $19,000 per recipient (unchanged from 2025). Gifts above that reduce the donor's lifetime exemption ($15 million in 2026) and require filing Form 709."
+  },
+  {
+    "id": 117,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Customer account statements must be sent at least:",
+    "choices": ["Monthly in all cases", "Quarterly, and monthly for any month with activity", "Annually", "Only when the customer requests one"],
+    "answer": 1,
+    "explanation": "Statements go out at least quarterly; accounts with activity (trades, or receipt/delivery of cash or securities) receive a statement for that month."
+  },
+  {
+    "id": 118,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "A trade confirmation must be delivered to the customer:",
+    "choices": ["At or before the completion of the transaction (settlement date)", "Within one week of the trade", "Only for trades over $10,000", "Quarterly with the account statement"],
+    "answer": 0,
+    "explanation": "Confirmations disclosing the trade details (security, price, capacity, commission) must reach the customer at or before completion of the transaction — the settlement date."
+  },
+  {
+    "id": 119,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "A currency transaction report (CTR) must be filed for cash transactions exceeding:",
+    "choices": ["$3,000", "$5,000", "$10,000", "$25,000"],
+    "answer": 2,
+    "explanation": "CTRs are filed with FinCEN for currency transactions over $10,000 in a single day. Structuring deposits to stay under the threshold is itself a crime."
+  },
+  {
+    "id": 120,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "Which sequence correctly orders the three stages of money laundering?",
+    "choices": ["Layering, placement, integration", "Placement, layering, integration", "Integration, placement, layering", "Placement, integration, layering"],
+    "answer": 1,
+    "explanation": "Placement puts illicit cash into the financial system; layering hides its origin through complex transactions; integration returns it to the launderer as apparently legitimate funds."
+  },
+  {
+    "id": 121,
+    "section": "Trading & Accounts",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "A firm detects a suspicious transaction involving at least $5,000 and suspects the funds derive from illegal activity. The firm must file a:",
+    "choices": ["Currency transaction report (CTR)", "Suspicious activity report (SAR), without notifying the customer", "Form U4 amendment", "Complaint with the SEC, copying the customer"],
+    "answer": 1,
+    "explanation": "SARs are filed confidentially with FinCEN (generally within 30 days of detection). Tipping off the customer that a SAR was filed is prohibited."
+  },
+  {
+    "id": 122,
+    "section": "Trading & Accounts",
+    "topic": "Privacy",
+    "type": "multiple_choice",
+    "question": "Regulation S-P requires broker-dealers to:",
+    "choices": ["Report all customer trades to the IRS", "Provide privacy notices and give customers the chance to opt out of sharing nonpublic personal information with nonaffiliated third parties", "Encrypt every email to customers", "Share customer data freely with marketing partners"],
+    "answer": 1,
+    "explanation": "Reg S-P (the SEC's privacy rule) requires initial and annual privacy notices, opt-out rights for sharing with nonaffiliated third parties, and safeguards for customer records."
+  },
+  {
+    "id": 163,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "An investor sold short 500 shares of ABC at $40 and wants to limit losses if the stock rises. Which order accomplishes this?",
+    "choices": ["Sell stop at $35", "Buy stop at $45", "Sell limit at $45", "Buy limit at $35"],
+    "answer": 1,
+    "explanation": "A short seller loses when the price rises, so protection is a buy stop placed above the market — it triggers a purchase to cover the short if the stock climbs to the stop price."
+  },
+  {
+    "id": 164,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Unless the customer specifies otherwise, an order entered during market hours is assumed to be:",
+    "choices": ["Good-til-canceled (GTC)", "A day order that expires at the close if unexecuted", "Immediate-or-cancel", "Good for one week"],
+    "answer": 1,
+    "explanation": "Orders are day orders by default — if not executed by the close, they expire. A customer must explicitly mark an order GTC for it to carry over to later sessions."
+  },
+  {
+    "id": 165,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A customer tells a registered representative to sell 1,000 shares of XYZ 'whenever you think the price is best today.' Without written discretionary authority, the representative:",
+    "choices": ["Must refuse the order", "May accept it — time and price discretion is permitted verbally for that day", "May choose a different stock if it seems better", "Must have a principal place the trade"],
+    "answer": 1,
+    "explanation": "When the customer names the security, the action, and the amount, choosing only time and price is a 'not held' order — valid without written discretionary authorization, but good for that trading day only."
+  },
+  {
+    "id": 166,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "A trade executed 'for cash' (a cash settlement trade) settles:",
+    "choices": ["The same day", "The next business day", "Two business days after the trade", "At the end of the month"],
+    "answer": 0,
+    "explanation": "Cash settlement means same-day settlement, typically used when an investor needs same-day ownership (for example, around a record date or year-end tax deadline). Regular way for corporate securities is T+1."
+  },
+  {
+    "id": 167,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Which of the following may be purchased on margin?",
+    "choices": ["Mutual fund shares", "An IPO during its first 30 days of trading", "An exchange-listed common stock", "Long equity options"],
+    "answer": 2,
+    "explanation": "Exchange-listed stocks are marginable. Mutual funds and new issues (for 30 days) must be paid in full, and long options are not marginable — the premium must be deposited in full."
+  },
+  {
+    "id": 168,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A customer wants their brokerage account identified only by a number for privacy. This is permitted if:",
+    "choices": ["A principal approves it verbally", "The customer signs a written statement attesting to ownership of the account", "The account is a margin account", "FINRA grants a written exemption"],
+    "answer": 1,
+    "explanation": "Numbered (or symbol-titled) accounts are allowed, but the firm must keep a written statement, signed by the customer, attesting to who actually owns the account."
+  },
+  {
+    "id": 169,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "The main benefit of adding a transfer-on-death (TOD) designation to an individual brokerage account is that at the owner's death, the assets:",
+    "choices": ["Avoid estate taxes entirely", "Pass directly to the named beneficiary without going through probate", "Transfer to the surviving joint tenant", "Are liquidated automatically and mailed as a check"],
+    "answer": 1,
+    "explanation": "TOD registration passes the account directly to named beneficiaries, bypassing probate. It does not avoid estate tax, and the owner keeps full control during their lifetime."
+  },
+  {
+    "id": 170,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Under current law, a traditional IRA owner generally must begin taking required minimum distributions (RMDs) starting at age:",
+    "choices": ["59 1/2", "65", "72", "73"],
+    "answer": 3,
+    "explanation": "The SECURE 2.0 Act set the RMD beginning age at 73 (for those reaching 72 after 2022). Age 59 1/2 is when the 10% early-withdrawal penalty ends — a separate threshold."
+  },
+  {
+    "id": 171,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "ERISA's rules on participation, vesting, and fiduciary conduct apply to:",
+    "choices": ["All retirement plans, including IRAs", "Private-sector employer retirement plans", "Federal and state government pension plans", "Social Security benefits"],
+    "answer": 1,
+    "explanation": "ERISA governs private-sector (corporate) retirement plans. Government plans are exempt, and IRAs are individual accounts, not employer plans."
+  },
+  {
+    "id": 172,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "After netting all capital gains and losses, an investor has a $10,000 net capital loss this year. On this year's return, the investor may deduct against ordinary income a maximum of:",
+    "choices": ["$0", "$3,000, carrying the remaining $7,000 forward", "$10,000", "$5,000, forfeiting the rest"],
+    "answer": 1,
+    "explanation": "Net capital losses offset ordinary income up to $3,000 per year; the unused balance carries forward indefinitely to future years."
+  },
+  {
+    "id": 173,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor receives stock as a gift. The donor bought it at $30 per share, and it is worth $50 when gifted. For calculating a future gain, the recipient's cost basis is:",
+    "choices": ["$50 - the value on the gift date", "$30 - the donor's original cost basis carries over", "$0", "The average of $30 and $50"],
+    "answer": 1,
+    "explanation": "Gifted securities keep the donor's basis for gains ($30 here). Contrast with inherited securities, which are stepped up to fair market value at the date of death."
+  },
+  {
+    "id": 174,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Two traders repeatedly buy and sell the same security back and forth between their accounts, with no change in beneficial ownership, to create the appearance of heavy trading volume. This prohibited practice is called:",
+    "choices": ["Front-running", "Matched orders (painting the tape)", "Churning", "Freeriding"],
+    "answer": 1,
+    "explanation": "Matched orders or wash trades — offsetting trades with no real change in ownership — manufacture fake volume to lure investors, a form of market manipulation often called painting the tape."
+  },
+  {
+    "id": 175,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "After a customer's account loses value, a registered representative offers to personally repay the losses if the customer stays with the firm. This is:",
+    "choices": ["Permitted if the rep uses personal funds", "Permitted with written principal approval", "Prohibited - guaranteeing a customer against loss is never allowed", "Required under FINRA's customer-protection rules"],
+    "answer": 2,
+    "explanation": "Guaranteeing customers against loss (or promising a specific return) is strictly prohibited, no matter whose money is used or who approves it. Sharing in an account's gains and losses is allowed only in narrow, pre-approved proportionate arrangements."
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "SIE Study Gate",
+  "version": "1.1.0",
+  "description": "Answer an SIE exam practice question correctly before you can open X/Twitter or other sites you add. Turn doomscrolling into study time.",
+  "permissions": ["storage", "webNavigation", "tabs"],
+  "host_permissions": [
+    "*://x.com/*",
+    "*://*.x.com/*",
+    "*://twitter.com/*",
+    "*://*.twitter.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "web_accessible_resources": []
+}
