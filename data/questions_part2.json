@@ -117,7 +117,7 @@
     "question": "A bond with a 6% coupon ($60 annual interest) is trading at $1,200. What is its current yield?",
     "choices": ["4%", "5%", "6%", "7.2%"],
     "answer": 1,
-    "explanation": "Current yield = annual interest ÷ current market price = $60 ÷ $1,200 = 5%."
+    "explanation": "Current yield = annual interest / current market price = $60 / $1,200 = 5%. Dividing by par instead of market price gives the 6% coupon rate, which is wrong for any bond trading away from par: paying a premium for the same $60 of interest pushes the yield below the coupon."
   },
   {
     "id": 35,
@@ -127,7 +127,7 @@
     "question": "A corporate bond is quoted at 102 1/2. What is its dollar price? (Enter a number, e.g. 1000)",
     "answer": "1025",
     "accepted": ["1025", "$1025", "$1,025", "1,025", "1025 dollars"],
-    "explanation": "Corporate bond quotes are a percentage of $1,000 par, in eighths. 102 1/2 = 102.5% × $1,000 = $1,025."
+    "explanation": "Corporate bonds are quoted as a percentage of $1,000 par, in eighths: 102 1/2 = 102.5% x $1,000 = $1,025. Reading the quote as a dollar figure ($102.50) is the trap. Government securities differ by quoting in 32nds instead of eighths."
   },
   {
     "id": 36,
@@ -157,7 +157,7 @@
     "question": "Treasury notes are issued with maturities of:",
     "choices": ["4 to 52 weeks", "2 to 10 years", "20 to 30 years", "30 to 40 years"],
     "answer": 1,
-    "explanation": "Notes: 2–10 years. Bills: up to 52 weeks. Bonds: 20–30 years."
+    "explanation": "Treasury notes fill the middle of the curve with 2-10 year maturities. The other ranges belong to different instruments: bills run up to 52 weeks and are sold at a discount, while Treasury bonds cover the long end at 20-30 years."
   },
   {
     "id": 39,
@@ -237,7 +237,7 @@
     "question": "A convertible bond ($1,000 par) is convertible at $40 per share. How many shares does the holder receive upon conversion? (Enter a number)",
     "answer": "25",
     "accepted": ["25", "25 shares"],
-    "explanation": "Conversion ratio = par ÷ conversion price = $1,000 ÷ $40 = 25 shares."
+    "explanation": "Conversion ratio = par / conversion price = $1,000 / $40 = 25 shares. Always start from the $1,000 par value — dividing the bond's market price by the conversion price is the common trap, and the market price is irrelevant to how many shares the bond converts into."
   },
   {
     "id": 47,

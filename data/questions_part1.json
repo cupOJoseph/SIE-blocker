@@ -97,7 +97,7 @@
     "question": "What is the common three-letter abbreviation for the economic indicator that tracks the average change in prices consumers pay for a basket of goods and services?",
     "answer": "CPI",
     "accepted": ["cpi", "consumer price index", "the consumer price index"],
-    "explanation": "The Consumer Price Index (CPI) is the most widely used measure of inflation."
+    "explanation": "The Consumer Price Index (CPI) tracks what consumers pay for a fixed basket of goods and services, making it the most widely used inflation gauge. GDP measures total output, not prices, and the PPI tracks wholesale prices producers receive rather than what consumers pay."
   },
   {
     "id": 11,
@@ -147,7 +147,7 @@
     "question": "Two large institutions trade directly with each other through an electronic communication network, with no broker-dealer in between. This occurs in the:",
     "choices": ["Primary market", "Second market", "Third market", "Fourth market"],
     "answer": 3,
-    "explanation": "Direct institution-to-institution trading, typically through ECNs, is the fourth market."
+    "explanation": "Direct institution-to-institution trading through ECNs, with no broker-dealer in the middle, is the fourth market. The third market is exchange-listed stock traded over-the-counter by broker-dealers — whether a dealer sits between the parties is what separates the two."
   },
   {
     "id": 16,

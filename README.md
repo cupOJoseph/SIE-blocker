@@ -76,12 +76,17 @@ blocked.html/css/js   The flashcard gate page
 options.html/js  Settings page
 questions.json   The 180-question bank
 data/            The bank split by section (source of truth for edits)
+scripts/         merge-questions.js rebuilds questions.json from data/
 icons/           Extension icons
 ```
 
 ## Contributing
 
-PRs welcome — especially new questions. Add them to the right file in `data/`, keep wording original, cite a primary source in your PR description, and re-merge `questions.json`.
+PRs welcome — especially new questions. Add them to the right file in `data/`, keep wording original, cite a primary source in your PR description, and rebuild the merged bank with:
+
+```
+node scripts/merge-questions.js
+```
 
 ## Disclaimer
 

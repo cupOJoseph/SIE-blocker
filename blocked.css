@@ -223,6 +223,27 @@ body {
   color: var(--ink-soft);
 }
 
+.explain-label {
+  font-family: var(--mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--rule-red);
+  border: 1px solid var(--rule-red);
+  border-radius: 3px;
+  padding: 0.1rem 0.35rem;
+  margin-right: 0.5rem;
+  vertical-align: 0.1em;
+}
+
+.kbd-hint {
+  margin-left: auto;
+  font-size: 0.62rem;
+  letter-spacing: 0.08em;
+  color: var(--ink-soft);
+  opacity: 0.8;
+}
+
 /* ---- Buttons ---- */
 .card-actions {
   display: flex;

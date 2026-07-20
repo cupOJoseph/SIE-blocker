@@ -30,13 +30,14 @@
 
       <div class="card-feedback" id="feedback" hidden>
         <p class="feedback-verdict" id="verdict"></p>
-        <p class="feedback-explain" id="explain"></p>
+        <p class="feedback-explain"><span class="explain-label">Why</span><span id="explain"></span></p>
       </div>
 
       <div class="card-actions">
         <button class="btn btn-primary" id="submitBtn" type="button">Check answer</button>
         <button class="btn btn-ghost" id="nextBtn" type="button" hidden>Next card</button>
         <button class="btn btn-continue" id="continueBtn" type="button" hidden>Continue to site</button>
+        <span class="kbd-hint" id="kbdHint" hidden>Enter or Space &rarr; next card</span>
       </div>
 
       <div class="stamp" id="stamp" aria-hidden="true">CLEARED</div>

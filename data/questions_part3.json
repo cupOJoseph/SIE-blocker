@@ -47,7 +47,7 @@
     "question": "A letter of intent allows a mutual fund investor to qualify for a breakpoint by committing to invest a target amount over how many months? (Enter a number)",
     "answer": "13",
     "accepted": ["13", "13 months", "thirteen"],
-    "explanation": "A letter of intent covers 13 months and may be backdated up to 90 days to include a prior purchase."
+    "explanation": "A letter of intent gives the investor 13 months to reach the breakpoint amount and may be backdated up to 90 days to count a recent purchase. It is not binding: if the target is missed, the fund collects the higher sales charge retroactively from shares held in escrow."
   },
   {
     "id": 56,
@@ -177,7 +177,7 @@
     "question": "One standard equity option contract covers how many shares of the underlying stock? (Enter a number)",
     "answer": "100",
     "accepted": ["100", "100 shares", "one hundred"],
-    "explanation": "Standard listed equity options cover 100 shares per contract, so premiums are multiplied by 100."
+    "explanation": "One standard listed equity option contract covers 100 shares, so a quoted premium of 3 means $300 (3 x 100). That multiplier is also why exercise involves 100 shares per contract. (Contract size only changes after adjustments like stock splits.)"
   },
   {
     "id": 69,
@@ -187,7 +187,7 @@
     "question": "An investor buys 1 ABC 50 call at 3. At what stock price does the investor break even at expiration? (Enter a number)",
     "answer": "53",
     "accepted": ["53", "$53", "53 dollars"],
-    "explanation": "Call breakeven = strike + premium = 50 + 3 = 53. (Put breakeven = strike − premium.)"
+    "explanation": "Call breakeven = strike + premium = 50 + 3 = 53: the stock must climb far enough past the strike to recover the $3 paid for the option. Subtracting the premium to get 47 is the put formula — the classic trap. Breakeven formulas are the same for the buyer and the writer."
   },
   {
     "id": 70,

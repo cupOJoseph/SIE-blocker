@@ -16,6 +16,7 @@ const els = {
   nextBtn: document.getElementById("nextBtn"),
   continueBtn: document.getElementById("continueBtn"),
   stamp: document.getElementById("stamp"),
+  kbdHint: document.getElementById("kbdHint"),
   sessionStat: document.getElementById("sessionStat"),
   streakStat: document.getElementById("streakStat"),
   allTimeStat: document.getElementById("allTimeStat"),
@@ -145,6 +146,7 @@ function nextQuestion() {
   els.submitBtn.disabled = true;
   els.nextBtn.hidden = true;
   els.continueBtn.hidden = true;
+  els.kbdHint.hidden = true;
   els.answerArea.innerHTML = "";
 
   if (q.type === "multiple_choice") {
@@ -252,14 +254,17 @@ function grade() {
   renderStats();
   updateProgressLine();
 
-  if (state.sessionCorrect >= state.settings.requiredCorrect && correct) {
-    els.stamp.classList.add("show");
+  // Next card is always offered, so studying can continue past the unlock.
+  // Once the pass is earned it stays earned for the session, even if a
+  // later practice answer is wrong.
+  const earned = state.sessionCorrect >= state.settings.requiredCorrect;
+  els.nextBtn.hidden = false;
+  els.kbdHint.hidden = false;
+  if (earned) {
     els.continueBtn.hidden = false;
-    els.continueBtn.focus();
-  } else {
-    els.nextBtn.hidden = false;
-    els.nextBtn.focus();
+    if (correct) els.stamp.classList.add("show");
   }
+  els.nextBtn.focus();
 }
 
 async function unlock() {
@@ -303,6 +308,18 @@ function updateProgressLine() {
 els.submitBtn.addEventListener("click", grade);
 els.nextBtn.addEventListener("click", nextQuestion);
 els.continueBtn.addEventListener("click", unlock);
+
+// Once the answer is shown, Enter or Space jumps to the next card.
+// Exception: if the Continue button was deliberately focused (tab), let
+// Enter/Space keep their native meaning and activate it.
+document.addEventListener("keydown", (e) => {
+  if (!state.answered) return;
+  if (e.key !== "Enter" && e.key !== " ") return;
+  if (e.repeat) return;
+  if (document.activeElement === els.continueBtn) return;
+  e.preventDefault();
+  nextQuestion();
+});
 els.optionsLink.addEventListener("click", (e) => {
   e.preventDefault();
   chrome.runtime.openOptionsPage();
