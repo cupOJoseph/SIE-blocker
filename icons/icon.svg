@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- SIE Study Blocker icon: Material-style lock with SIE on the body -->
+  <rect width="128" height="128" rx="28" fill="#151a22"/>
+  <!-- shackle -->
+  <path d="M44 60 V44 a20 20 0 0 1 40 0 V60" fill="none" stroke="#f7f3e8" stroke-width="11" stroke-linecap="round"/>
+  <!-- body -->
+  <rect x="30" y="56" width="68" height="48" rx="10" fill="#f7f3e8"/>
+  <text x="64" y="88" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="26" font-weight="800" letter-spacing="1" fill="#c2504b">SIE</text>
+</svg>
