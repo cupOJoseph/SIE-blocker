@@ -86,6 +86,10 @@ PRs welcome — especially new questions. Add them to the right file in `data/`,
 node scripts/merge-questions.js
 ```
 
+## Privacy
+
+SIE Study Blocker collects no data. Your block list and study stats stay in your browser's local storage and never leave your machine — full details in [PRIVACY.md](PRIVACY.md). No remote code, no analytics, no tracking.
+
 ## Disclaimer
 
 This is a study aid, not exam prep advice, and it is not affiliated with or endorsed by FINRA. Verify current figures against official sources before your exam date.
