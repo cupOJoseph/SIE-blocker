@@ -1,4 +1,4 @@
-// SIE Study Gate — blocked.js
+// SIE Study Blocker — blocked.js
 // Renders a random flashcard and unlocks the target site after the
 // required number of correct answers.
 

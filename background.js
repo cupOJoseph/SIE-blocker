@@ -1,4 +1,4 @@
-// SIE Study Gate — background service worker (Manifest V3)
+// SIE Study Blocker — background service worker (Manifest V3)
 // Intercepts navigation to blocked sites and redirects to the
 // flashcard page unless the user has recently earned a study pass.
 

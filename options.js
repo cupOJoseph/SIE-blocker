@@ -1,4 +1,4 @@
-// SIE Study Gate — options page logic
+// SIE Study Blocker — options page logic
 
 const DEFAULTS = { passMinutes: 10, requiredCorrect: 1 };
 
