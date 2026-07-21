@@ -16,7 +16,7 @@
   --wrong-red: #d4655f;
   --mono: ui-monospace, "SF Mono", "Cascadia Mono", Menlo, Consolas, monospace;
   --serif: Charter, "Iowan Old Style", Georgia, "Times New Roman", serif;
-  --line: 2rem; /* ruled line height on the card */
+  --line: 2.4rem; /* ruled line height on the card */
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -33,39 +33,15 @@ body {
   min-height: 100vh;
 }
 
-/* ---- Ticker tape strip ---- */
-.tape {
-  overflow: hidden;
-  border-bottom: 1px solid rgba(227, 169, 60, 0.35);
-  background: rgba(0, 0, 0, 0.35);
-  white-space: nowrap;
-}
-
-.tape-track {
-  display: inline-block;
-  padding: 0.45rem 0;
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  color: var(--tape-amber);
-  animation: tape-scroll 60s linear infinite;
-}
-
-.tape-track b { color: #f2d9a4; font-weight: 600; }
-
-@keyframes tape-scroll {
-  from { transform: translateX(0); }
-  to   { transform: translateX(-50%); }
-}
-
 /* ---- Layout ---- */
 .desk {
   flex: 1;
-  width: min(680px, 92vw);
+  width: min(880px, 94vw);
   margin: 0 auto;
-  padding: 2.5rem 0 2rem;
+  padding: 2rem 0;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1.4rem;
 }
 
 .desk-head { text-align: center; }
@@ -114,7 +90,7 @@ body {
     0 18px 40px -18px var(--paper-shadow),
     0 4px 10px rgba(0, 0, 0, 0.35);
   color: var(--ink);
-  padding: calc(var(--line) * 0.5) 2rem calc(var(--line) * 0.75);
+  padding: calc(var(--line) * 0.5) 2.6rem calc(var(--line) * 0.75);
   animation: card-deal 0.45s cubic-bezier(0.2, 0.8, 0.3, 1) both;
 }
 
@@ -129,7 +105,7 @@ body {
   align-items: baseline;
   height: var(--line);
   line-height: var(--line);
-  font-size: 0.68rem;
+  font-size: 0.85rem;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--rule-red);
@@ -139,10 +115,10 @@ body {
 
 .card-question {
   font-family: var(--serif);
-  font-size: 1.06rem;
+  font-size: 1.35rem;
   line-height: var(--line);
   padding-top: var(--line);
-  min-height: calc(var(--line) * 3);
+  min-height: calc(var(--line) * 2);
 }
 
 /* ---- Answers ---- */
@@ -159,7 +135,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   font-family: var(--serif);
-  font-size: 0.98rem;
+  font-size: 1.25rem;
   color: var(--ink);
   line-height: var(--line);
   min-height: var(--line);
@@ -177,9 +153,9 @@ body {
 
 .choice-letter {
   font-family: var(--mono);
-  font-size: 0.72rem;
+  font-size: 0.92rem;
   color: var(--rule-red);
-  min-width: 1.2rem;
+  min-width: 1.5rem;
 }
 
 .choice.selected { background: rgba(194, 80, 75, 0.14); }
@@ -193,7 +169,7 @@ body {
   border-bottom: 2px solid var(--rule-red);
   background: transparent;
   font-family: var(--serif);
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   color: var(--ink);
   line-height: var(--line);
   height: var(--line);
@@ -207,7 +183,7 @@ body {
 
 .feedback-verdict {
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.95rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   line-height: var(--line);
@@ -218,14 +194,14 @@ body {
 
 .feedback-explain {
   font-family: var(--serif);
-  font-size: 0.92rem;
+  font-size: 1.18rem;
   line-height: var(--line);
   color: var(--ink-soft);
 }
 
 .explain-label {
   font-family: var(--mono);
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   letter-spacing: 0.16em;
   text-transform: uppercase;
   color: var(--rule-red);
@@ -238,7 +214,7 @@ body {
 
 .kbd-hint {
   margin-left: auto;
-  font-size: 0.62rem;
+  font-size: 0.78rem;
   letter-spacing: 0.08em;
   color: var(--ink-soft);
   opacity: 0.8;
@@ -254,11 +230,11 @@ body {
 
 .btn {
   font-family: var(--mono);
-  font-size: 0.75rem;
+  font-size: 0.94rem;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   border-radius: 4px;
-  padding: 0.55rem 1.1rem;
+  padding: 0.7rem 1.4rem;
   cursor: pointer;
   border: 1px solid transparent;
 }
@@ -276,39 +252,6 @@ body {
   color: var(--ink-soft);
 }
 .btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
-
-.btn-continue {
-  background: var(--board-green);
-  color: #f2f7f0;
-}
-.btn-continue:hover { background: #35845b; }
-
-/* ---- CLEARED stamp ---- */
-.stamp {
-  position: absolute;
-  top: 14%;
-  right: 6%;
-  font-family: var(--mono);
-  font-size: 1.5rem;
-  letter-spacing: 0.3em;
-  font-weight: 700;
-  color: var(--board-green);
-  border: 3px solid var(--board-green);
-  border-radius: 6px;
-  padding: 0.3rem 0.8rem;
-  transform: rotate(8deg) scale(0);
-  opacity: 0;
-  pointer-events: none;
-}
-
-.stamp.show {
-  animation: stamp-in 0.35s cubic-bezier(0.2, 1.4, 0.4, 1) forwards;
-}
-
-@keyframes stamp-in {
-  from { transform: rotate(8deg) scale(1.8); opacity: 0; }
-  to   { transform: rotate(8deg) scale(1);   opacity: 0.85; }
-}
 
 /* ---- Footer stats ---- */
 .desk-foot {
@@ -332,7 +275,5 @@ body {
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .tape-track { animation: none; }
   .card { animation: none; }
-  .stamp.show { animation: none; transform: rotate(8deg) scale(1); opacity: 0.85; }
 }

@@ -1,41 +1,17 @@
 // SIE Study Blocker — options page logic
 
-const DEFAULTS = { passMinutes: 10, requiredCorrect: 1 };
-
 // Always blocked; user-added sites are stored separately in blockedSites.
 const DEFAULT_SITES = ["x.com", "twitter.com"];
 
-const passInput = document.getElementById("passMinutes");
-const reqInput = document.getElementById("requiredCorrect");
-const saveBtn = document.getElementById("saveBtn");
-const savedTag = document.getElementById("saved");
 const resetBtn = document.getElementById("resetBtn");
 const siteList = document.getElementById("siteList");
 const siteInput = document.getElementById("siteInput");
 const addSiteBtn = document.getElementById("addSiteBtn");
 const siteMsg = document.getElementById("siteMsg");
 
-function clamp(n, lo, hi, fallback) {
-  n = parseInt(n, 10);
-  if (Number.isNaN(n)) return fallback;
-  return Math.min(hi, Math.max(lo, n));
-}
-
 async function load() {
-  const cfg = await chrome.storage.local.get({ ...DEFAULTS, blockedSites: [] });
-  passInput.value = clamp(cfg.passMinutes, 1, 120, DEFAULTS.passMinutes);
-  reqInput.value = clamp(cfg.requiredCorrect, 1, 5, DEFAULTS.requiredCorrect);
-  renderSites(Array.isArray(cfg.blockedSites) ? cfg.blockedSites : []);
-}
-
-async function save() {
-  const passMinutes = clamp(passInput.value, 1, 120, DEFAULTS.passMinutes);
-  const requiredCorrect = clamp(reqInput.value, 1, 5, DEFAULTS.requiredCorrect);
-  passInput.value = passMinutes;
-  reqInput.value = requiredCorrect;
-  await chrome.storage.local.set({ passMinutes, requiredCorrect });
-  savedTag.classList.add("show");
-  setTimeout(() => savedTag.classList.remove("show"), 1800);
+  const { blockedSites = [] } = await chrome.storage.local.get("blockedSites");
+  renderSites(Array.isArray(blockedSites) ? blockedSites : []);
 }
 
 // ---------- blocked sites (add-only) ----------
@@ -121,7 +97,6 @@ async function resetStats() {
   setTimeout(() => (resetBtn.textContent = "Reset all-time stats"), 1800);
 }
 
-saveBtn.addEventListener("click", save);
 resetBtn.addEventListener("click", resetStats);
 addSiteBtn.addEventListener("click", addSite);
 siteInput.addEventListener("keydown", (e) => {

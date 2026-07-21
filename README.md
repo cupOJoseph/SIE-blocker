@@ -1,6 +1,6 @@
 # SIE Study Blocker
 
-Chrome extension that blocks distracting websites and replaces them with random SIE (Securities Industry Essentials) exam study questions. Answer correctly and you earn a timed browsing pass. Get distracted, get educated.
+Chrome extension that blocks distracting websites and replaces them with random SIE (Securities Industry Essentials) exam study questions. It's a blocker, not a gate: there's no "answer to unlock" — the study cards are the point. Get distracted, get educated.
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
@@ -9,9 +9,9 @@ If you find any mistakes in the questions, please [open an issue](https://github
 ## How it works
 
 1. You navigate to x.com, twitter.com, or any site on your blocklist.
-2. The extension intercepts the navigation and shows a random flashcard — multiple choice or type-in.
-3. Answer correctly (configurable: 1–5 correct required) and you get a browsing pass (default 10 minutes, configurable 1–120).
-4. When the pass expires, the next visit shows a new card.
+2. The extension intercepts the navigation and shows a random flashcard — multiple choice or type-in — with the answer and an explanation once you check it.
+3. Hit **Next card** (or press Enter/Space) for another one. Study as long as you like.
+4. There's no pass and no way through to the site — when you're done studying, close the tab and get back to work.
 
 Session stats, all-time accuracy, and answer streaks are tracked locally via `chrome.storage.local`. Nothing leaves your machine.
 
@@ -27,8 +27,6 @@ Session stats, all-time accuracy, and answer streaks are tracked locally via `ch
 
 Right-click the extension icon → **Options** (or click "Settings" on the block page):
 
-- **Pass duration** — minutes of browsing earned per unlock (1–120, default 10).
-- **Correct answers required** — cards you must get right per unlock (1–5, default 1).
 - **Blocked sites** — add more domains to the blocklist (subdomains are covered automatically). **Add-only by design:** there is no remove button, so Future You can't negotiate their way back to the feed. Removing a site requires reinstalling the extension.
 - **Reset all-time stats** — clears accuracy and streak counters.
 

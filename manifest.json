@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
   "name": "SIE Study Blocker",
-  "version": "1.1.1",
-  "description": "Answer an SIE exam practice question correctly to unlock X/Twitter and other sites you block. Turn doomscrolling into study time.",
+  "version": "1.2.0",
+  "description": "Blocks X/Twitter and any sites you add, replacing them with SIE exam practice questions. Turn doomscrolling into study time.",
   "permissions": ["storage", "webNavigation"],
   "background": {
     "service_worker": "background.js"

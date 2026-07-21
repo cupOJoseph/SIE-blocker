@@ -7,15 +7,11 @@
   <link rel="stylesheet" href="blocked.css">
 </head>
 <body>
-  <div class="tape" aria-hidden="true">
-    <div class="tape-track" id="tapeTrack"></div>
-  </div>
-
   <main class="desk">
     <header class="desk-head">
       <p class="desk-kicker">Route intercepted</p>
-      <h1 class="desk-title">One card between you and the feed</h1>
-      <p class="desk-sub" id="progressLine">Answer correctly to continue.</p>
+      <h1 class="desk-title">Study instead</h1>
+      <p class="desk-sub" id="progressLine">This site is blocked. Run as many SIE cards as you like, then get back to work.</p>
     </header>
 
     <section class="card" id="card" aria-live="polite">
@@ -36,11 +32,8 @@
       <div class="card-actions">
         <button class="btn btn-primary" id="submitBtn" type="button">Check answer</button>
         <button class="btn btn-ghost" id="nextBtn" type="button" hidden>Next card</button>
-        <button class="btn btn-continue" id="continueBtn" type="button" hidden>Continue to site</button>
         <span class="kbd-hint" id="kbdHint" hidden>Enter or Space &rarr; next card</span>
       </div>
-
-      <div class="stamp" id="stamp" aria-hidden="true">CLEARED</div>
     </section>
 
     <footer class="desk-foot">
