@@ -75,9 +75,9 @@
     "topic": "Gifts",
     "type": "type_in",
     "question": "Under FINRA's gifts rule, what is the maximum dollar value of gifts a member may give per person, per year, in connection with the firm's business? (Enter a number)",
-    "answer": "100",
-    "accepted": ["100", "$100", "100 dollars"],
-    "explanation": "FINRA Rule 3220 caps business-related gifts at $100 per person per year. Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
+    "answer": "300",
+    "accepted": ["300", "$300", "300 dollars"],
+    "explanation": "FINRA Rule 3220 caps business-related gifts at $300 per person per year (raised from $100, effective March 30, 2026). Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
   },
   {
     "id": 131,
@@ -165,9 +165,9 @@
     "topic": "Gifts",
     "type": "multiple_choice",
     "question": "A registered representative wants to take a client to a professional basketball game. Under FINRA rules, this entertainment is permissible if:",
-    "choices": ["Its value is under $100, like any gift", "The representative attends with the client and the entertainment is neither excessive nor a condition of doing business", "The client reimburses half the cost", "A principal attends as chaperone"],
+    "choices": ["Its value is under $300, like any gift", "The representative attends with the client and the entertainment is neither excessive nor a condition of doing business", "The client reimburses half the cost", "A principal attends as chaperone"],
     "answer": 1,
-    "explanation": "Business entertainment is not subject to the $100 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $100 cap."
+    "explanation": "Business entertainment is not subject to the $300 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $300 cap."
   },
   {
     "id": 180,

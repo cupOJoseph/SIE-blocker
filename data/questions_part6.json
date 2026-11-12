@@ -1,0 +1,702 @@
+[
+  {
+    "id": 181,
+    "section": "Capital Markets",
+    "topic": "Monetary Policy",
+    "type": "type_in",
+    "question": "What is the name of the interest rate the Federal Reserve charges member banks that borrow directly from it?",
+    "answer": "Discount rate",
+    "accepted": ["discount rate", "the discount rate", "discount window rate"],
+    "explanation": "The discount rate is what the Fed charges banks that borrow at its discount window, and the Fed sets it directly. The federal funds rate is different: it is the rate banks charge one another for overnight loans of reserves."
+  },
+  {
+    "id": 182,
+    "section": "Capital Markets",
+    "topic": "Monetary Policy",
+    "type": "multiple_choice",
+    "question": "The federal funds rate is the interest rate that:",
+    "choices": ["The Federal Reserve charges member banks that borrow at the discount window", "Banks charge their most creditworthy corporate customers", "Banks charge one another for overnight loans of reserves", "The U.S. Treasury pays on newly issued 13-week bills"],
+    "answer": 2,
+    "explanation": "The fed funds rate is what banks charge each other for overnight loans of reserves, and the FOMC sets a target range for it. The rate the Fed itself charges banks is the discount rate, and the rate for top corporate borrowers is the prime rate."
+  },
+  {
+    "id": 183,
+    "section": "Capital Markets",
+    "topic": "Monetary Policy",
+    "type": "multiple_choice",
+    "question": "If the Federal Reserve raises the reserve requirement for member banks, the most likely result is:",
+    "choices": ["Banks have less money to lend, so the money supply tightens and interest rates tend to rise", "Banks have more money to lend, so interest rates tend to fall", "The federal budget deficit shrinks immediately", "Bond prices tend to rise across all maturities"],
+    "answer": 0,
+    "explanation": "A higher reserve requirement means banks must hold back more of their deposits, leaving less to lend, which tightens credit and pushes rates up. Rising rates push bond prices down, not up."
+  },
+  {
+    "id": 184,
+    "section": "Capital Markets",
+    "topic": "Monetary Policy",
+    "type": "multiple_choice",
+    "question": "A Federal Reserve decision to lower the discount rate is generally viewed as a sign of:",
+    "choices": ["Tight (contractionary) monetary policy", "Expansionary fiscal policy", "An effort to strengthen the U.S. dollar", "Easy (expansionary) monetary policy"],
+    "answer": 3,
+    "explanation": "Lowering the discount rate makes borrowing cheaper for banks, encouraging lending and economic activity, so it signals easy money. It is monetary policy because the Fed sets it; fiscal policy is taxing and spending by Congress and the President."
+  },
+  {
+    "id": 185,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Fiscal policy, meaning decisions about government taxing and spending, is set by:",
+    "choices": ["The Federal Reserve Board", "Congress and the President", "The Federal Open Market Committee", "The Securities and Exchange Commission"],
+    "answer": 1,
+    "explanation": "Fiscal policy comes from Congress and the President through tax laws and the federal budget. The Federal Reserve and its FOMC run monetary policy, which works through interest rates and the money supply."
+  },
+  {
+    "id": 186,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is a LAGGING economic indicator?",
+    "choices": ["Building permits for new private housing", "The average prime rate charged by banks", "The S&P 500 stock index", "New orders for consumer goods"],
+    "answer": 1,
+    "explanation": "Lagging indicators change after the economy has already turned; the average prime rate and the average duration of unemployment are classic examples. Building permits, stock prices and new orders are leading indicators that tend to move before the economy does."
+  },
+  {
+    "id": 187,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is a COINCIDENT economic indicator, moving at about the same time as the overall economy?",
+    "choices": ["Building permits for new housing", "Average duration of unemployment", "Stock prices", "Personal income (excluding transfer payments)"],
+    "answer": 3,
+    "explanation": "Coincident indicators such as personal income, industrial production, nonfarm payrolls and manufacturing and trade sales track the economy in real time. Building permits and stock prices are leading indicators, and the average duration of unemployment is a lagging one."
+  },
+  {
+    "id": 188,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "type_in",
+    "question": "What three-letter abbreviation names the total market value of all final goods and services produced within a country's borders during a period?",
+    "answer": "GDP",
+    "accepted": ["gdp", "gross domestic product", "the gross domestic product"],
+    "explanation": "Gross domestic product (GDP) measures the value of everything produced inside a country and is the broadest gauge of economic output. Two consecutive quarters of declining real GDP is the common shorthand for a recession."
+  },
+  {
+    "id": 189,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A normal (positive) yield curve is one in which:",
+    "choices": ["Long-term interest rates are higher than short-term rates", "Short-term interest rates are higher than long-term rates", "Short-term and long-term rates are about the same", "Bond prices rise as yields rise"],
+    "answer": 0,
+    "explanation": "A normal yield curve slopes upward because investors expect extra yield for tying up money longer. Short-term rates above long-term rates describe an inverted curve, and roughly equal rates describe a flat curve."
+  },
+  {
+    "id": 190,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Economists and investors often view an inverted yield curve as a signal that:",
+    "choices": ["Inflation is about to accelerate sharply", "The economy is entering a strong expansion", "The economy may slow down or enter a recession", "Long-term bonds have become free of risk"],
+    "answer": 2,
+    "explanation": "An inverted curve often appears when the market expects the Fed to cut rates in a weakening economy, so it has historically been read as a recession warning. A strong expansion is more often associated with a normal, upward-sloping curve."
+  },
+  {
+    "id": 191,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Stagflation describes an economy experiencing:",
+    "choices": ["High inflation combined with slow growth and high unemployment", "Falling prices combined with rapid growth", "Low inflation combined with full employment", "Rising GDP and a strengthening currency"],
+    "answer": 0,
+    "explanation": "Stagflation pairs rising prices with a stagnant economy and high unemployment, which makes it hard for policymakers to respond. A sustained fall in prices is deflation, a different condition."
+  },
+  {
+    "id": 192,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "The United States runs a balance of trade deficit when:",
+    "choices": ["Federal spending exceeds tax revenue", "Exports of goods exceed imports of goods", "Imports of goods exceed exports of goods", "Foreign investors sell U.S. Treasury securities"],
+    "answer": 2,
+    "explanation": "The balance of trade compares exports with imports, so buying more from abroad than the country sells produces a trade deficit. Federal spending above tax revenue is a budget deficit, which is a fiscal measure."
+  },
+  {
+    "id": 193,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "A U.S. investor owns shares of a European company priced in euros. If the U.S. dollar weakens against the euro and the share price in euros is unchanged, the value of the investment in dollars will:",
+    "choices": ["Decrease", "Increase", "Stay the same", "Be locked in at the original exchange rate"],
+    "answer": 1,
+    "explanation": "When the dollar weakens, each euro converts into more dollars, so the same euro-priced shares are worth more to a U.S. investor. This is currency (exchange-rate) risk working in the investor's favor; a stronger dollar would reduce the dollar value."
+  },
+  {
+    "id": 194,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Which of the following is an example of EXPANSIONARY fiscal policy?",
+    "choices": ["The Federal Reserve buying Treasury securities in the open market", "Congress raising income tax rates", "Congress cutting government spending", "Congress cutting taxes and increasing government spending"],
+    "answer": 3,
+    "explanation": "Lower taxes and higher government spending put more money into the economy, which is expansionary fiscal policy. The Fed buying Treasuries is also expansionary, but it is monetary policy, not fiscal."
+  },
+  {
+    "id": 195,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "During an economic downturn, which type of company's earnings tend to hold up BEST?",
+    "choices": ["An automobile manufacturer", "A heavy-equipment maker", "A luxury cruise line", "A food and household products company"],
+    "answer": 3,
+    "explanation": "Defensive companies such as food, household products and utilities sell necessities that people keep buying in any economy. Cars, heavy equipment and luxury travel are cyclical, so their sales tend to drop in a recession."
+  },
+  {
+    "id": 196,
+    "section": "Capital Markets",
+    "topic": "Economic Factors",
+    "type": "multiple_choice",
+    "question": "Real GDP differs from nominal GDP because real GDP:",
+    "choices": ["Includes only goods, not services", "Is adjusted for changes in the price level (inflation)", "Counts output of U.S. companies anywhere in the world", "Is reported monthly instead of quarterly"],
+    "answer": 1,
+    "explanation": "Real GDP removes the effect of inflation, so it shows whether the economy actually produced more rather than just charged higher prices. Both real and nominal GDP include goods and services produced within the country's borders."
+  },
+  {
+    "id": 197,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Shelf registration under SEC Rule 415 allows an eligible issuer to:",
+    "choices": ["Sell securities without ever filing a registration statement", "Skip delivering a prospectus to investors", "Register securities now and sell them in portions over time, generally up to three years", "Sell restricted stock to the public after a six-month holding period"],
+    "answer": 2,
+    "explanation": "A shelf registration lets a qualifying issuer register securities once and take them 'off the shelf' as needed, generally over up to three years. The issuer still files a registration statement and provides a prospectus."
+  },
+  {
+    "id": 198,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Which information is typically NOT included in a preliminary prospectus (red herring)?",
+    "choices": ["The final public offering price", "A description of the issuer's business", "The issuer's financial statements", "The intended use of the proceeds"],
+    "answer": 0,
+    "explanation": "The red herring is distributed before the registration is effective, so it lacks the final offering price (it may show an estimated range) and the effective date. It does contain the business description, financial statements and use of proceeds."
+  },
+  {
+    "id": 199,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "A tombstone advertisement for a new issue is BEST described as:",
+    "choices": ["A binding offer to sell shares at a stated price", "A required filing that makes the registration statement effective", "A brief announcement of basic offering facts that states it is not an offer to sell", "A notice published when an issuer files for bankruptcy"],
+    "answer": 2,
+    "explanation": "A tombstone announces the basic facts of an offering, such as the issuer, security, amount and where to get a prospectus, and says it is neither an offer to sell nor a solicitation. Only the prospectus can be used to offer the securities."
+  },
+  {
+    "id": 200,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "type_in",
+    "question": "Under the Securities Act of 1933, the cooling-off period after a registration statement is filed generally lasts a minimum of how many days? (Enter a number)",
+    "answer": "20",
+    "accepted": ["20", "twenty", "20 days", "twenty days"],
+    "explanation": "The cooling-off period runs at least 20 calendar days from filing while the SEC reviews the registration statement. During it, firms may gather indications of interest and send the red herring but may not take orders."
+  },
+  {
+    "id": 201,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Rule 144A allows restricted securities to be resold, without SEC registration, to:",
+    "choices": ["Any retail investor after a 90-day wait", "Up to 35 non-accredited investors", "Residents of the issuer's home state only", "Qualified institutional buyers (QIBs)"],
+    "answer": 3,
+    "explanation": "Rule 144A creates a resale market for restricted securities among qualified institutional buyers, generally institutions that own and invest at least $100 million in securities. The 35 non-accredited purchaser limit belongs to Rule 506(b), and in-state sales describe Rule 147."
+  },
+  {
+    "id": 202,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "An issuer organized and doing business in Ohio wants to raise capital only from Ohio residents without registering with the SEC. Which exemption fits BEST?",
+    "choices": ["Rule 147 (intrastate offering)", "Rule 144", "Regulation S", "Rule 144A"],
+    "answer": 0,
+    "explanation": "Rule 147 exempts intrastate offerings in which the issuer and all purchasers are in the same state, though the offering must still meet that state's blue-sky rules. Regulation S covers offerings made outside the United States, and Rule 144 governs resales, not new issues."
+  },
+  {
+    "id": 203,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Under Regulation A, a Tier 2 offering may raise up to how much in a 12-month period?",
+    "choices": ["$20 million", "$75 million", "$5 million", "$150 million"],
+    "answer": 1,
+    "explanation": "Regulation A+ allows Tier 2 offerings of up to $75 million in 12 months with ongoing SEC reporting. Tier 1 is capped at $20 million."
+  },
+  {
+    "id": 204,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Which statement about a Regulation D Rule 506(c) offering is TRUE?",
+    "choices": ["Up to 35 non-accredited investors may participate", "General solicitation is allowed, but every purchaser must be accredited and the issuer must take reasonable steps to verify that status", "The securities are freely tradable immediately after purchase", "The offering is limited to $5 million"],
+    "answer": 1,
+    "explanation": "Rule 506(c) permits general solicitation and advertising in exchange for selling only to verified accredited investors. The allowance for up to 35 non-accredited purchasers belongs to Rule 506(b), and Rule 506 offerings have no dollar cap."
+  },
+  {
+    "id": 205,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Under the net worth test, an individual is an accredited investor if their net worth, alone or with a spouse or spousal equivalent, exceeds:",
+    "choices": ["$1 million, excluding the value of the primary residence", "$1 million, including the value of the primary residence", "$500,000, excluding the value of the primary residence", "$5 million, including all real estate"],
+    "answer": 0,
+    "explanation": "An individual qualifies with net worth over $1 million, alone or jointly, not counting the primary residence. The home has been excluded from the calculation since the Dodd-Frank Act."
+  },
+  {
+    "id": 206,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "An affiliate of XYZ Corp wants to sell stock under Rule 144. XYZ has 20 million shares outstanding, and average weekly trading volume over the past four weeks was 150,000 shares. What is the maximum the affiliate may sell in a 90-day period?",
+    "choices": ["50,000 shares", "150,000 shares", "600,000 shares", "200,000 shares"],
+    "answer": 3,
+    "explanation": "The Rule 144 volume limit is the greater of 1% of shares outstanding or the average weekly volume over the prior four weeks. Here 1% of 20 million is 200,000, which beats 150,000, so 200,000 shares is the limit."
+  },
+  {
+    "id": 207,
+    "section": "Capital Markets",
+    "topic": "Exempt Securities",
+    "type": "multiple_choice",
+    "question": "Which security is exempt from registration under the Securities Act of 1933?",
+    "choices": ["Common stock in a company's initial public offering", "Shares of a closed-end fund", "A general obligation bond issued by a city", "A corporate debenture with a 10-year maturity"],
+    "answer": 2,
+    "explanation": "Municipal securities, like U.S. government securities, are exempt securities under the 1933 Act. Corporate stock and bonds and investment company shares must be registered unless the transaction qualifies for an exemption."
+  },
+  {
+    "id": 208,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a mini-max underwriting:",
+    "choices": ["A minimum amount must be sold before the deal proceeds, and investor funds are held in escrow until it is reached", "The underwriter buys the entire issue and resells it to the public", "Every share must be sold or the entire deal is canceled", "The underwriter buys any shares left unsubscribed in a rights offering"],
+    "answer": 0,
+    "explanation": "A mini-max is a best efforts underwriting with a minimum that must be sold, up to a stated maximum, with funds held in escrow until the minimum is met. Buying the whole issue is a firm commitment, and selling every share or canceling is all-or-none."
+  },
+  {
+    "id": 209,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "How does a selling group member differ from a member of the underwriting syndicate?",
+    "choices": ["Selling group members sign the underwriting agreement with the issuer", "Selling group members manage the offering and allocate shares", "Selling group members receive the entire underwriting spread", "Selling group members sell shares as agents and have no financial liability for unsold shares"],
+    "answer": 3,
+    "explanation": "Selling group firms help distribute the issue as agents and earn the selling concession, but they take on no underwriting risk. Syndicate members commit capital and share liability for unsold shares, and the managing underwriter runs the deal."
+  },
+  {
+    "id": 210,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "In a typical underwriting spread, the LARGEST component is usually the:",
+    "choices": ["Manager's fee", "Underwriting fee", "Selling concession", "Registration fee paid to the SEC"],
+    "answer": 2,
+    "explanation": "The spread is split into the manager's fee, the underwriting fee and the selling concession, and the selling concession is usually the largest piece because it pays the firms that actually sell the shares. The manager's fee is typically the smallest."
+  },
+  {
+    "id": 211,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "To support the market price of a new issue during the offering, the managing underwriter may stabilize by placing bids:",
+    "choices": ["Above the public offering price", "At or below the public offering price", "Only after the offering is complete", "At any price the issuer approves"],
+    "answer": 1,
+    "explanation": "Stabilizing bids may be entered at or below the public offering price to keep the price from falling during distribution. Bidding above the offering price would be manipulation."
+  },
+  {
+    "id": 212,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "multiple_choice",
+    "question": "Company insiders sell a large block of their existing shares to the public in a registered offering. Who receives the proceeds?",
+    "choices": ["The issuing company", "The SEC, until the offering is complete", "The underwriter, which keeps them as its fee", "The selling shareholders"],
+    "answer": 3,
+    "explanation": "In a secondary distribution, already-outstanding shares are sold, so the proceeds go to the selling shareholders. The issuer receives proceeds only when it sells newly issued shares."
+  },
+  {
+    "id": 213,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "A firm that continuously publishes both a bid and an ask price for a security and stands ready to buy or sell for its own account is a:",
+    "choices": ["Transfer agent", "Introducing broker", "Market maker", "Custodian bank"],
+    "answer": 2,
+    "explanation": "A market maker quotes two-sided markets and trades from its own inventory, acting as a dealer. A transfer agent keeps shareholder records and does not trade."
+  },
+  {
+    "id": 214,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "A dark pool is BEST described as:",
+    "choices": ["An unregulated market with no SEC oversight", "An alternative trading system that does not publicly display quotes, used largely for large institutional orders", "The market for securities that have been delisted from an exchange", "A Federal Reserve facility for overnight bank lending"],
+    "answer": 1,
+    "explanation": "Dark pools let institutions trade large blocks without displaying their orders publicly, which limits market impact. They are regulated by the SEC as alternative trading systems under Regulation ATS."
+  },
+  {
+    "id": 215,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "Which of the following is a secondary market transaction?",
+    "choices": ["An investor buys 100 shares of a listed stock from another investor on an exchange", "An investor buys shares in a company's initial public offering", "A public company sells newly issued shares in a follow-on offering", "A startup sells new shares to accredited investors in a private placement"],
+    "answer": 0,
+    "explanation": "In the secondary market, investors trade already-outstanding securities with each other, and the issuer receives nothing. IPOs, follow-on offerings and private placements are all primary market sales of new securities."
+  },
+  {
+    "id": 216,
+    "section": "Capital Markets",
+    "topic": "Market Participants",
+    "type": "multiple_choice",
+    "question": "On the NYSE, the firm responsible for maintaining a fair and orderly market in its assigned stocks, trading for its own account when needed, is the:",
+    "choices": ["Floor broker", "Transfer agent", "Designated market maker (DMM)", "Syndicate manager"],
+    "answer": 2,
+    "explanation": "The designated market maker oversees trading in its assigned stocks and commits its own capital to smooth out imbalances. A floor broker executes orders for customers as an agent and does not have that obligation."
+  },
+  {
+    "id": 217,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "multiple_choice",
+    "question": "A broker-dealer must file Form 211 with FINRA before it:",
+    "choices": ["Opens a new branch office", "Begins publishing quotations for an OTC equity security in a quotation medium", "Hires a new registered representative", "Underwrites a municipal bond issue"],
+    "answer": 1,
+    "explanation": "Form 211 shows FINRA that the firm has reviewed current information about the issuer, as SEC Rule 15c2-11 requires, before it starts quoting an OTC equity security. Hiring a representative uses Form U4."
+  },
+  {
+    "id": 218,
+    "section": "Capital Markets",
+    "topic": "Investor Protection",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT protected by SIPC when a broker-dealer fails?",
+    "choices": ["Losses caused by a decline in the market value of securities", "Stocks held in a customer's account at the failed firm", "Cash held in a customer's brokerage account for buying securities", "Treasury bonds held in a customer's account at the failed firm"],
+    "answer": 0,
+    "explanation": "SIPC restores missing customer securities and cash when a member firm fails, within its coverage limits. It does not protect against ordinary investment losses from falling market prices."
+  },
+  {
+    "id": 219,
+    "section": "Capital Markets",
+    "topic": "Market Structure",
+    "type": "type_in",
+    "question": "Dark pools and electronic communication networks are regulated by the SEC as what type of trading venue? (Enter the three-letter acronym)",
+    "answer": "ATS",
+    "accepted": ["ats", "alternative trading system", "an alternative trading system", "alternative trading systems", "the alternative trading system"],
+    "explanation": "Dark pools and ECNs operate as alternative trading systems (ATSs) under the SEC's Regulation ATS. They match buyers and sellers like an exchange but register as broker-dealers rather than as exchanges."
+  },
+  {
+    "id": 220,
+    "section": "Capital Markets",
+    "topic": "Offerings",
+    "type": "type_in",
+    "question": "Restricted stock of a company that is NOT an SEC-reporting company must generally be held for how many years under Rule 144 before it can be resold? (Enter a number)",
+    "answer": "1",
+    "accepted": ["1", "one", "1 year", "one year", "12 months", "twelve months", "a year"],
+    "explanation": "For a non-reporting issuer, the Rule 144 holding period for restricted stock is one year. For an issuer that has been SEC-reporting for at least 90 days, the holding period is six months."
+  },
+  {
+    "id": 221,
+    "section": "Regulatory Framework",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a self-regulatory organization (SRO)?",
+    "choices": ["FINRA", "The MSRB", "Cboe", "The SEC"],
+    "answer": 3,
+    "explanation": "The SEC is a federal government agency that oversees the SROs. FINRA, the MSRB and exchanges such as Cboe are self-regulatory organizations that write rules for their members."
+  },
+  {
+    "id": 222,
+    "section": "Regulatory Framework",
+    "topic": "Regulators",
+    "type": "multiple_choice",
+    "question": "State securities laws, which govern the registration of securities and securities professionals within each state, are commonly called:",
+    "choices": ["Blue-sky laws", "Sunshine laws", "Prudent investor laws", "Glass-Steagall laws"],
+    "answer": 0,
+    "explanation": "State securities laws are known as blue-sky laws and are administered by each state's securities administrator. Glass-Steagall was a federal banking law that separated commercial and investment banking."
+  },
+  {
+    "id": 223,
+    "section": "Regulatory Framework",
+    "topic": "Arbitration",
+    "type": "type_in",
+    "question": "Under FINRA's Code of Arbitration Procedure, customer claims up to what dollar amount qualify for simplified arbitration, typically decided by a single arbitrator? (Enter a number)",
+    "answer": "50000",
+    "accepted": ["50000", "50 thousand", "fifty thousand", "50k"],
+    "explanation": "Customer claims of $50,000 or less go to simplified arbitration, usually decided by one arbitrator based on written submissions. Larger claims are heard by a panel, typically with in-person hearings."
+  },
+  {
+    "id": 224,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Generally, how soon must a Form U4 be amended after the representative or firm learns of a reportable event, such as being charged with a felony?",
+    "choices": ["Within 10 days", "Within 30 days", "Within 60 days", "Within 90 days"],
+    "answer": 1,
+    "explanation": "Most Form U4 amendments must be filed within 30 days of learning of the event. An amendment involving a statutory disqualification has a shorter deadline of 10 days."
+  },
+  {
+    "id": 225,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Which of the following would MOST likely result in statutory disqualification?",
+    "choices": ["A customer complaint that was later withdrawn", "Being terminated by a prior firm for missing sales goals", "A traffic ticket for speeding", "A misdemeanor conviction for embezzlement within the past 10 years"],
+    "answer": 3,
+    "explanation": "Statutory disqualification includes any felony conviction within 10 years and misdemeanors within 10 years that involve securities, money or dishonesty, such as embezzlement. Withdrawn complaints, routine terminations and traffic tickets are not disqualifying."
+  },
+  {
+    "id": 226,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "A representative leaves the industry and does not enroll in FINRA's Maintaining Qualifications Program. Their representative-level exam qualifications generally lapse unless they re-register within:",
+    "choices": ["6 months", "1 year", "2 years", "10 years"],
+    "answer": 2,
+    "explanation": "Qualification exams generally stay valid for two years after a registration ends. Joining the Maintaining Qualifications Program and completing annual CE can extend that window to five years."
+  },
+  {
+    "id": 227,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "type_in",
+    "question": "What is the three-letter abbreviation for the FINRA-operated database that holds the registration, employment and disciplinary records of firms and individuals?",
+    "answer": "CRD",
+    "accepted": ["crd", "central registration depository", "the central registration depository", "web crd"],
+    "explanation": "The Central Registration Depository (CRD) holds the information filed on Forms U4, U5 and BD. Much of that information is shown to the public through FINRA BrokerCheck."
+  },
+  {
+    "id": 228,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Which free FINRA tool lets the public research the professional background and disciplinary history of brokers and firms?",
+    "choices": ["EDGAR", "TRACE", "EMMA", "BrokerCheck"],
+    "answer": 3,
+    "explanation": "BrokerCheck draws on CRD data to show investors a broker's or firm's employment history, licenses and disclosures. EDGAR is the SEC's filing database, EMMA is the MSRB's municipal disclosure site, and TRACE reports bond trades."
+  },
+  {
+    "id": 229,
+    "section": "Regulatory Framework",
+    "topic": "Registration",
+    "type": "multiple_choice",
+    "question": "Which statement about eligibility to take the SIE exam is TRUE?",
+    "choices": ["It is open to anyone age 18 or older, without sponsorship by a member firm", "Candidates must be sponsored by a FINRA member firm", "Candidates must first pass the Series 7", "Only college graduates may take the exam"],
+    "answer": 0,
+    "explanation": "Anyone 18 or older, including students, may take the SIE without being associated with a firm. Firm sponsorship is required for the representative-level top-off exams such as the Series 7, which come after the SIE."
+  },
+  {
+    "id": 230,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "A registered representative fails to complete the Regulatory Element of continuing education by the deadline. As a result, the representative:",
+    "choices": ["Has their registration permanently revoked", "Pays a fine but may keep working as usual", "Becomes CE inactive and may not perform, or be paid for, registered activities until the requirement is completed", "Must retake the SIE exam"],
+    "answer": 2,
+    "explanation": "Missing the Regulatory Element deadline makes the person CE inactive, which bars registered activity and related compensation until the training is done. Registration is not revoked immediately, and the SIE does not need to be retaken."
+  },
+  {
+    "id": 231,
+    "section": "Regulatory Framework",
+    "topic": "Continuing Education",
+    "type": "multiple_choice",
+    "question": "FINRA's Maintaining Qualifications Program lets a person who leaves a registered role keep their exam qualifications valid for up to how long, if they complete annual continuing education?",
+    "choices": ["2 years", "5 years", "3 years", "10 years"],
+    "answer": 1,
+    "explanation": "Through the Maintaining Qualifications Program, a person can extend their qualifications for up to five years by completing annual CE. Without the program, qualifications generally lapse after two years."
+  },
+  {
+    "id": 232,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "A registered representative wants to participate in a private securities transaction away from the firm and will be paid for it. Under FINRA Rule 3280, the representative must:",
+    "choices": ["Simply notify the customer in writing", "Give prior written notice to the firm, and if the firm approves, the transaction is recorded and supervised as if it were the firm's own", "Obtain approval from the SEC", "File a Form U5 before the transaction"],
+    "answer": 1,
+    "explanation": "For a paid private securities transaction, the rep must give the firm prior written notice, and an approving firm must record and supervise it as its own business. Doing it without notice is selling away."
+  },
+  {
+    "id": 233,
+    "section": "Regulatory Framework",
+    "topic": "Outside Activities",
+    "type": "multiple_choice",
+    "question": "A registered representative wants to open a brokerage account at a different FINRA member firm. Under FINRA Rule 3210, the representative must first:",
+    "choices": ["Notify FINRA in writing", "Close all accounts at the employing firm", "Obtain prior written consent from the employing firm", "Have the account approved by the SEC"],
+    "answer": 2,
+    "explanation": "Rule 3210 requires prior written consent from the employing firm before an associated person opens an account at another member. The executing firm must send duplicate statements and confirmations to the employing firm on request."
+  },
+  {
+    "id": 234,
+    "section": "Regulatory Framework",
+    "topic": "Gifts",
+    "type": "multiple_choice",
+    "question": "A representative gives an employee of an institutional client a $200 bottle of wine in March and a $150 gift basket in December, both in connection with the firm's business. Under FINRA's gifts rule, these gifts:",
+    "choices": ["Exceed the $300 annual limit per recipient", "Are permitted because each gift is under $300", "Are permitted because they were given in different quarters", "Are permitted as long as the client's employer approves"],
+    "answer": 0,
+    "explanation": "Since March 30, 2026, FINRA Rule 3220 limits business-related gifts to $300 per recipient per year (up from $100), and the limit applies to the total for the year: $200 plus $150 equals $350. Each gift being under $300 on its own does not matter."
+  },
+  {
+    "id": 235,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 2210, a retail communication generally must be:",
+    "choices": ["Filed with the SEC before use", "Reviewed by a principal within 30 days after first use", "Approved by the customer before distribution", "Approved by an appropriately qualified registered principal before use or filing"],
+    "answer": 3,
+    "explanation": "Retail communications generally need registered principal approval before the earlier of first use or filing with FINRA. Post-use review is the approach for correspondence, not retail communications."
+  },
+  {
+    "id": 236,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "Which communication generally does NOT require approval by a principal before use, as long as the firm's written supervisory procedures cover it?",
+    "choices": ["A newspaper advertisement for the firm's brokerage services", "A television commercial promoting a mutual fund", "A presentation distributed only to institutional investors", "A public webpage describing the firm's investment products"],
+    "answer": 2,
+    "explanation": "Institutional communications go only to institutional investors, so they need no principal pre-approval, though they must be covered by written supervisory procedures. Newspaper ads, TV commercials and public webpages are retail communications that require pre-approval."
+  },
+  {
+    "id": 237,
+    "section": "Regulatory Framework",
+    "topic": "Communications",
+    "type": "multiple_choice",
+    "question": "During its first year as a FINRA member, a firm must file certain retail communications (such as those in electronic or other public media) with FINRA at least how long before first use?",
+    "choices": ["30 calendar days", "5 business days", "Within 10 business days after first use", "10 business days"],
+    "answer": 3,
+    "explanation": "A new member must file retail communications used in electronic or other public media at least 10 business days before first use during its first year of membership. Many other filings after that period may be made within 10 business days after first use."
+  },
+  {
+    "id": 238,
+    "section": "Regulatory Framework",
+    "topic": "Arbitration",
+    "type": "multiple_choice",
+    "question": "An award issued in a FINRA arbitration is generally:",
+    "choices": ["Advisory only, and either party may ignore it", "Final and binding, with very limited grounds for a court to overturn it", "Automatically appealable to the SEC", "Binding on the customer but not on the firm"],
+    "answer": 1,
+    "explanation": "FINRA arbitration awards are final and binding on all parties, and courts may vacate them only on narrow grounds such as fraud or arbitrator misconduct. There is no automatic appeal to the SEC."
+  },
+  {
+    "id": 239,
+    "section": "Regulatory Framework",
+    "topic": "Telemarketing",
+    "type": "type_in",
+    "question": "When a person asks to be placed on a firm's do-not-call list, the firm must honor the request for how many years? (Enter a number)",
+    "answer": "5",
+    "accepted": ["5", "five", "5 years", "five years"],
+    "explanation": "A firm-specific do-not-call request must be put in place within a reasonable time, no more than 30 days, and honored for five years. Calls are also limited to 8:00 am to 9:00 pm in the recipient's local time."
+  },
+  {
+    "id": 240,
+    "section": "Regulatory Framework",
+    "topic": "Telemarketing",
+    "type": "multiple_choice",
+    "question": "A firm may make a telemarketing call to a person listed on the national do-not-call registry if:",
+    "choices": ["The person has an established business relationship with the firm, such as being a current customer", "The call is made between 8:00 am and 9:00 pm", "The caller is a registered representative", "The call is about a new public offering"],
+    "answer": 0,
+    "explanation": "An established business relationship, the person's prior written permission, or a personal relationship with the caller allows a call despite registry listing. Calling within permitted hours is required for every call but does not override the registry."
+  },
+  {
+    "id": 241,
+    "section": "Regulatory Framework",
+    "topic": "Political Contributions",
+    "type": "type_in",
+    "question": "Which MSRB rule number (in a format like G-12) governs political contributions and the pay-to-play ban on municipal securities business?",
+    "answer": "G-37",
+    "accepted": ["g-37", "g37", "g 37", "rule g-37", "rule g37", "msrb rule g-37", "msrb rule g37"],
+    "explanation": "MSRB Rule G-37 bans a dealer from municipal securities business with an issuer for two years after certain contributions to that issuer's officials. A municipal finance professional may give up to $250 per election to a candidate they can vote for without triggering the ban."
+  },
+  {
+    "id": 242,
+    "section": "Regulatory Framework",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, records of written customer complaints must be kept for at least:",
+    "choices": ["4 years", "1 year", "6 months", "3 months"],
+    "answer": 0,
+    "explanation": "FINRA Rule 4513 requires firms to keep records of written customer complaints for at least four years, at each office of supervisory jurisdiction. Shorter periods would not allow regulators to review complaint history."
+  },
+  {
+    "id": 243,
+    "section": "Regulatory Framework",
+    "topic": "Reportable Events",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 4530, a member firm must report specified events, such as an associated person being convicted of a felony, to FINRA within:",
+    "choices": ["10 business days", "5 calendar days", "30 calendar days", "The next quarterly report"],
+    "answer": 2,
+    "explanation": "Rule 4530 events must be reported within 30 calendar days after the firm knows or should have known of them. The quarterly filing under Rule 4530 is for statistical customer complaint data, not for these individual events."
+  },
+  {
+    "id": 244,
+    "section": "Regulatory Framework",
+    "topic": "AML",
+    "type": "type_in",
+    "question": "Which U.S. Treasury office, known by a four-letter acronym, maintains the Specially Designated Nationals (SDN) list that firms must check before doing business with a customer?",
+    "answer": "OFAC",
+    "accepted": ["ofac", "office of foreign assets control", "the office of foreign assets control"],
+    "explanation": "The Office of Foreign Assets Control (OFAC) publishes the SDN list of sanctioned individuals, entities and countries. Firms must block or reject transactions involving anyone on the list."
+  },
+  {
+    "id": 245,
+    "section": "Regulatory Framework",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "Over three days, a customer makes cash deposits of $9,000, $9,500 and $8,800, apparently to keep each deposit under $10,000. This activity is known as:",
+    "choices": ["Layering", "Integration", "Front-running", "Structuring"],
+    "answer": 3,
+    "explanation": "Breaking cash into amounts under $10,000 to avoid a currency transaction report is structuring, which is itself illegal and a red flag that calls for a SAR review. Layering and integration are later stages of money laundering."
+  },
+  {
+    "id": 246,
+    "section": "Regulatory Framework",
+    "topic": "AML",
+    "type": "multiple_choice",
+    "question": "A broker-dealer must generally file a suspicious activity report (SAR) no later than how long after first detecting facts that may require one?",
+    "choices": ["10 calendar days", "30 calendar days", "90 calendar days", "1 year"],
+    "answer": 1,
+    "explanation": "A SAR is generally due within 30 calendar days of initial detection. If no suspect has been identified, the firm may take up to 30 more days, for a maximum of 60."
+  },
+  {
+    "id": 247,
+    "section": "Regulatory Framework",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Under SEC record-retention rules, a broker-dealer must keep its business-related communications (correspondence) for at least:",
+    "choices": ["1 year", "6 years", "Until the customer closes the account", "3 years, the first 2 in an easily accessible place"],
+    "answer": 3,
+    "explanation": "SEC Rule 17a-4 requires firms to keep business communications for three years, with the first two years easily accessible. Six years applies to records such as blotters and account records."
+  },
+  {
+    "id": 248,
+    "section": "Regulatory Framework",
+    "topic": "Privacy",
+    "type": "multiple_choice",
+    "question": "Under Regulation S-P, a broker-dealer must deliver its initial privacy notice to a new customer:",
+    "choices": ["Within one year after the account is opened", "No later than when the customer relationship is established", "Only if the customer requests it", "Only after the firm shares information with a third party"],
+    "answer": 1,
+    "explanation": "Regulation S-P requires the initial privacy notice by the time the customer relationship begins, typically at account opening. The notice explains what information the firm collects and shares and how customers can opt out of certain sharing."
+  },
+  {
+    "id": 249,
+    "section": "Regulatory Framework",
+    "topic": "Business Continuity",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 4370, a member firm's business continuity plan must:",
+    "choices": ["Be reviewed annually, with a summary disclosed to customers when they open an account", "Be approved by the SEC before it takes effect", "Be kept confidential from customers", "Be updated only after a significant business disruption occurs"],
+    "answer": 0,
+    "explanation": "Rule 4370 requires a written BCP that is reviewed at least annually, with a summary given to customers at account opening and on request. Firms also give FINRA two emergency contact persons; the SEC does not approve the plan."
+  },
+  {
+    "id": 250,
+    "section": "Regulatory Framework",
+    "topic": "Disciplinary Actions",
+    "type": "multiple_choice",
+    "question": "Which sanction can FINRA NOT impose in a disciplinary proceeding?",
+    "choices": ["Censure", "Fines", "Imprisonment", "Expulsion of a member firm"],
+    "answer": 2,
+    "explanation": "Under its Code of Procedure, FINRA can censure, fine, suspend, bar or expel. Imprisonment can come only from a criminal court, as in a case brought by the Department of Justice."
+  }
+]

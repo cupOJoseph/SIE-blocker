@@ -4,7 +4,7 @@ Chrome extension that blocks distracting websites and replaces them with random 
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
-If you find any mistakes in the questions, please [open an issue](https://github.com/cupOJoseph/SIE-blocker/issues). The bank contains 180 original questions grounded in the official FINRA SIE content outline and primary sources (FINRA, SEC, and IRS materials). There could still be mistakes, and we waive all liability related to accuracy — use at your own risk, and verify current figures against official sources before your exam date. I'm pretty certain they are all correct though.
+If you find any mistakes in the questions, please [open an issue](https://github.com/cupOJoseph/SIE-blocker/issues). The bank contains 490 original questions grounded in the official FINRA SIE content outline and primary sources (FINRA, SEC, and IRS materials). There could still be mistakes, and we waive all liability related to accuracy — use at your own risk, and verify current figures against official sources before your exam date. I'm pretty certain they are all correct though.
 
 ## How it works
 
@@ -32,14 +32,14 @@ Right-click the extension icon → **Options** (or click "Settings" on the block
 
 ## The question bank
 
-`questions.json` contains **180 original questions** covering all four sections of the FINRA SIE content outline, weighted roughly to the real exam:
+`questions.json` contains **490 original questions** covering all four sections of the FINRA SIE content outline, weighted roughly to the real exam:
 
 | Section | Exam weight | Questions here |
 |---|---|---|
-| Knowledge of Capital Markets | 16% | 30 |
-| Understanding Products and Their Risks | 44% | 82 |
-| Trading, Customer Accounts & Prohibited Activities | 31% | 50 |
-| Overview of the Regulatory Framework | 9% | 18 |
+| Knowledge of Capital Markets | 16% | 70 |
+| Understanding Products and Their Risks | 44% | 242 |
+| Trading, Customer Accounts & Prohibited Activities | 31% | 130 |
+| Overview of the Regulatory Framework | 9% | 48 |
 
 **Accuracy & provenance:** All questions were written from scratch (original wording — no copied content from commercial prep providers) and grounded in:
 
@@ -72,7 +72,7 @@ manifest.json    Manifest V3 config (webNavigation, storage, alarms permissions)
 background.js    Service worker: blocks sites, holds the 30-minute unlock in memory
 blocked.html/css/js   The flashcard page and unlock meter
 options.html/js  Settings page
-questions.json   The 180-question bank
+questions.json   The 490-question bank
 data/            The bank split by section (source of truth for edits)
 scripts/         merge-questions.js rebuilds questions.json from data/
 icons/           Extension icons
