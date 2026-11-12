@@ -1,6 +1,6 @@
 # SIE Study Blocker
 
-Chrome extension that blocks distracting websites and replaces them with random SIE (Securities Industry Essentials) exam study questions. It's a blocker, not a gate: there's no "answer to unlock" — the study cards are the point. Get distracted, get educated.
+Chrome extension that blocks distracting websites and replaces them with random SIE (Securities Industry Essentials) exam study questions. Get 5 right and the blocked sites open for 30 minutes. Get distracted, get educated.
 
 ![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue) ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 
@@ -10,10 +10,11 @@ If you find any mistakes in the questions, please [open an issue](https://github
 
 1. You navigate to x.com, twitter.com, or any site on your blocklist.
 2. The extension intercepts the navigation and shows a random flashcard — multiple choice or type-in — with the answer and an explanation once you check it.
-3. Hit **Next card** (or press Enter/Space) for another one. Study as long as you like.
-4. There's no pass and no way through to the site — when you're done studying, close the tab and get back to work.
+3. Hit **Next card** (or press Enter/Space) for another one. Answer order is shuffled every time.
+4. Get **5 correct** and the blocked sites unlock for **30 minutes**. Hit **Go to x.com** to head back where you were going.
+5. When the 30 minutes are up, any open blocked tab returns to the study page and the count starts over.
 
-Session stats, all-time accuracy, and answer streaks are tracked locally via `chrome.storage.local`. Nothing leaves your machine.
+**No storage of your info.** Score and streak exist only while the study tab is open. The unlock timer is held in memory (`chrome.storage.session`) and is gone when Chrome closes. The only thing saved to disk is your blocklist.
 
 ## Install (load unpacked)
 
@@ -28,7 +29,6 @@ Session stats, all-time accuracy, and answer streaks are tracked locally via `ch
 Right-click the extension icon → **Options** (or click "Settings" on the block page):
 
 - **Blocked sites** — add more domains to the blocklist (subdomains are covered automatically). **Add-only by design:** there is no remove button, so Future You can't negotiate their way back to the feed. Removing a site requires reinstalling the extension.
-- **Reset all-time stats** — clears accuracy and streak counters.
 
 ## The question bank
 
@@ -68,9 +68,9 @@ Type-in questions use `"type": "type_in"`, a string `answer`, and an `accepted` 
 ## Project structure
 
 ```
-manifest.json    Manifest V3 config (webNavigation + storage permissions)
-background.js    Service worker: intercepts navigation to blocked sites
-blocked.html/css/js   The flashcard gate page
+manifest.json    Manifest V3 config (webNavigation, storage, alarms permissions)
+background.js    Service worker: blocks sites, holds the 30-minute unlock in memory
+blocked.html/css/js   The flashcard page and unlock meter
 options.html/js  Settings page
 questions.json   The 180-question bank
 data/            The bank split by section (source of truth for edits)
@@ -88,7 +88,7 @@ node scripts/merge-questions.js
 
 ## Privacy
 
-SIE Study Blocker collects no data. Your block list and study stats stay in your browser's local storage and never leave your machine — full details in [PRIVACY.md](PRIVACY.md). No remote code, no analytics, no tracking.
+SIE Study Blocker collects and stores no information about you. The only thing saved is your block list, in your browser on your machine — full details in [PRIVACY.md](PRIVACY.md). No remote code, no analytics, no tracking.
 
 ## Disclaimer
 
