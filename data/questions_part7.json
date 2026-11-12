@@ -1,0 +1,802 @@
+[
+  {
+    "id": 251,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A shareholder owns 100 shares, and three directors are up for election. Under statutory voting, what is the MAXIMUM number of votes the shareholder may cast for any single candidate?",
+    "choices": ["33", "100", "150", "300"],
+    "answer": 1,
+    "explanation": "Statutory voting allows one vote per share for each seat, so the shareholder can cast at most 100 votes for any one candidate (300 in total across the three seats). Placing all 300 votes on one candidate is possible only under cumulative voting."
+  },
+  {
+    "id": 252,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "type_in",
+    "question": "Under cumulative voting, a shareholder owns 200 shares and four directors are being elected. What is the maximum number of votes the shareholder may cast for a single candidate? (Enter a number)",
+    "answer": "800",
+    "accepted": ["800", "800 votes"],
+    "explanation": "Cumulative voting multiplies shares by seats (200 × 4 = 800) and lets the shareholder place all of those votes on one candidate. Under statutory voting, the limit would be 200 votes per candidate."
+  },
+  {
+    "id": 253,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which type of preferred stock may pay holders dividends ABOVE its stated rate when the issuer's earnings are strong?",
+    "choices": ["Participating preferred", "Cumulative preferred", "Callable preferred", "Adjustable-rate preferred"],
+    "answer": 0,
+    "explanation": "Participating preferred lets holders share in extra dividends beyond the fixed rate along with common stockholders. Cumulative preferred accumulates missed dividends at the stated rate but does not pay more than that rate."
+  },
+  {
+    "id": 254,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "The market price of which type of preferred stock is generally LEAST affected by changes in interest rates?",
+    "choices": ["Straight (fixed-rate) preferred", "Cumulative fixed-rate preferred", "Callable fixed-rate preferred", "Adjustable-rate preferred"],
+    "answer": 3,
+    "explanation": "Adjustable-rate preferred resets its dividend periodically based on a benchmark rate, so its price tends to stay near par as rates change. Fixed-rate preferred behaves like a bond, and its price falls when rates rise."
+  },
+  {
+    "id": 255,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A $100 par convertible preferred stock is convertible into common stock at $25 per share. If the common stock is trading at $30, what is the parity price of the preferred?",
+    "choices": ["$75", "$100", "$120", "$125"],
+    "answer": 2,
+    "explanation": "The conversion ratio is $100 ÷ $25 = 4 shares, so parity is 4 × $30 = $120. $100 is simply the par value, not the value of the shares the preferred converts into."
+  },
+  {
+    "id": 256,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a right of common stockholders?",
+    "choices": ["Receiving a guaranteed, fixed dividend each year", "Voting in the election of the board of directors", "Receiving dividends when the board declares them", "Transferring ownership of their shares"],
+    "answer": 0,
+    "explanation": "Common stockholders can vote, receive dividends if and when the board declares them, and freely transfer their shares. Common dividends are never guaranteed; a stated dividend rate is a feature of preferred stock."
+  },
+  {
+    "id": 257,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "For common stock, par value is:",
+    "choices": ["An arbitrary accounting value with little relation to market price", "The price at which the shares currently trade on an exchange", "The amount each shareholder receives if the company is liquidated", "The basis for calculating the stock's fixed annual dividend"],
+    "answer": 0,
+    "explanation": "Common stock par value is an accounting figure set in the corporate charter and has little to do with market value. For preferred stock, by contrast, par value is the basis for the stated dividend."
+  },
+  {
+    "id": 258,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A 6% preferred stock with a $100 par value pays dividends quarterly. How much is each quarterly dividend per share?",
+    "choices": ["$0.60", "$1.50", "$3.00", "$6.00"],
+    "answer": 1,
+    "explanation": "The annual dividend is 6% × $100 par = $6, and dividing by four quarterly payments gives $1.50 per share. $6.00 is the annual amount, not a single quarterly payment."
+  },
+  {
+    "id": 259,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "With regular-way T+1 settlement, the ex-dividend date for a regular cash dividend is normally set on:",
+    "choices": ["One business day before the record date", "The same business day as the record date", "Two business days before the record date", "One business day after the record date"],
+    "answer": 1,
+    "explanation": "Since the move to T+1 settlement in May 2024, a purchase made on the record date settles too late to put the buyer on the books, so the ex-dividend date and the record date fall on the same business day. One business day before the record date was the rule under the old T+2 cycle."
+  },
+  {
+    "id": 260,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A corporation sets a dividend record date of Thursday. Assuming no holidays and regular-way T+1 settlement, what is the LAST day an investor can buy the stock and still receive the dividend?",
+    "choices": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+    "answer": 2,
+    "explanation": "A purchase on Wednesday settles Thursday (T+1), so the buyer is a shareholder of record on the record date. Thursday is the ex-dividend date, and a buyer that day settles Friday, after the record date."
+  },
+  {
+    "id": 261,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which dividend date is set by the exchange (or by FINRA for over-the-counter stocks) rather than by the issuer's board of directors?",
+    "choices": ["Declaration date", "Record date", "Payable date", "Ex-dividend date"],
+    "answer": 3,
+    "explanation": "The board sets the declaration, record, and payable dates; the exchange or FINRA then sets the ex-dividend date based on settlement rules. Investors who buy on or after the ex-date do not receive the dividend."
+  },
+  {
+    "id": 262,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An investor sells a stock on its ex-dividend date. Who receives the declared dividend?",
+    "choices": ["The seller, because the seller is still the owner of record on the record date", "The buyer, because the buyer owns the shares on the payable date", "The buyer and the seller split the dividend equally", "Neither party, because dividends are canceled on shares traded on the ex-date"],
+    "answer": 0,
+    "explanation": "A trade on the ex-date settles after the record date, so the seller remains the shareholder of record and keeps the dividend. That is why the stock typically opens lower by about the dividend amount on the ex-date."
+  },
+  {
+    "id": 263,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "type_in",
+    "question": "An investor owns 100 shares of a stock trading at $60. After a 3-for-2 stock split, what is the adjusted market price per share? (Enter a number)",
+    "answer": "40",
+    "accepted": ["40", "40.0", "40.00"],
+    "explanation": "In a 3-for-2 split, 100 shares become 150 shares and the price is multiplied by 2/3: $60 × 2/3 = $40. The position is still worth $6,000 (150 × $40)."
+  },
+  {
+    "id": 264,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An investor owns 400 shares of a stock trading at $2. After a 1-for-4 reverse stock split, the investor's position is:",
+    "choices": ["1,600 shares at $0.50", "400 shares at $8", "100 shares at $2", "100 shares at $8"],
+    "answer": 3,
+    "explanation": "A 1-for-4 reverse split divides the share count by 4 (400 ÷ 4 = 100) and multiplies the price by 4 ($2 × 4 = $8), so the position stays at $800. 1,600 shares at $0.50 would result from a 4-for-1 forward split."
+  },
+  {
+    "id": 265,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An investor owns 200 shares of a stock trading at $55. The company pays a 10% stock dividend. Immediately afterward, the investor's position is approximately:",
+    "choices": ["200 shares at $60.50", "220 shares at $50", "220 shares at $55", "180 shares at $61.11"],
+    "answer": 1,
+    "explanation": "A 10% stock dividend adds 20 shares (200 × 10%), and the $11,000 total value is spread over 220 shares: $11,000 ÷ 220 = $50. The overall value does not change, so 220 shares at $55 is incorrect."
+  },
+  {
+    "id": 266,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Which statement about receiving an ordinary stock dividend is TRUE?",
+    "choices": ["It increases the total market value of the investor's position right away", "It is generally not taxable when received, and cost basis per share falls", "It is taxed as ordinary income at the share price on the date received", "It reduces the number of shares the investor owns"],
+    "answer": 1,
+    "explanation": "A stock dividend adds shares while total value and total cost basis stay the same, so basis per share falls and tax is due only when the shares are sold. Cash dividends, not stock dividends, are taxed when received."
+  },
+  {
+    "id": 267,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "A shareholder receives rights in a rights offering but does not want to buy additional shares. The shareholder may:",
+    "choices": ["Exchange the rights for the issuer's bonds", "Demand cash from the issuer equal to the rights' value", "Sell the rights in the secondary market before they expire", "Convert the rights into preferred stock"],
+    "answer": 2,
+    "explanation": "Rights are negotiable and trade in the market during the short subscription period, so a holder who does not want to subscribe can sell them. Rights that are neither exercised nor sold expire worthless."
+  },
+  {
+    "id": 268,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "type_in",
+    "question": "In a rights offering, a company issues one right per outstanding share and requires 10 rights plus the subscription price to buy one new share. An investor holding 1,000 shares may subscribe to how many new shares? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "100 shares"],
+    "explanation": "With one right per share, the investor holds 1,000 rights. At 10 rights per new share, 1,000 ÷ 10 = 100 new shares, each also requiring the subscription price."
+  },
+  {
+    "id": 269,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Warrants are MOST often issued:",
+    "choices": ["As a quarterly dividend to common stockholders", "To existing shareholders so they can maintain their proportionate ownership", "In exchange for shares surrendered in a reverse split", "Attached to a bond or preferred stock offering as a sweetener"],
+    "answer": 3,
+    "explanation": "Issuers attach warrants to new bonds or preferred stock to make the offering more attractive, often allowing a lower interest or dividend rate. Rights, not warrants, are issued to existing shareholders to maintain proportionate ownership."
+  },
+  {
+    "id": 270,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "An American Depositary Receipt (ADR) is created and issued by:",
+    "choices": ["A U.S. depositary bank that holds the foreign company's shares", "The foreign company's home-country government or central bank", "The Securities and Exchange Commission", "The clearing corporation of the U.S. exchange where it trades"],
+    "answer": 0,
+    "explanation": "A U.S. depositary bank holds the foreign shares (often through a custodian abroad) and issues ADRs that trade in U.S. dollars on U.S. markets. The SEC regulates securities markets but does not issue securities."
+  },
+  {
+    "id": 271,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "The maximum number of shares a corporation may issue, as set in its corporate charter, is its:",
+    "choices": ["Issued stock", "Authorized stock", "Outstanding stock", "Treasury stock"],
+    "answer": 1,
+    "explanation": "Authorized stock is the ceiling set by the charter, and raising it generally requires a shareholder vote. Issued stock is the portion of authorized shares actually sold, which may be less than the authorized amount."
+  },
+  {
+    "id": 272,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "Because of limited liability, the MOST a common stockholder can lose is:",
+    "choices": ["The par value of the shares", "A pro rata share of the corporation's total debts", "Twice the amount invested", "The amount invested in the shares"],
+    "answer": 3,
+    "explanation": "Shareholders are not personally responsible for a corporation's debts, so the maximum loss is the investment itself. Par value is an accounting figure unrelated to the investor's risk."
+  },
+  {
+    "id": 273,
+    "section": "Products and Risks",
+    "topic": "Equity",
+    "type": "multiple_choice",
+    "question": "When holders of a company's convertible bonds convert into common stock, the effect on existing common shareholders is:",
+    "choices": ["An increase in earnings per share and ownership percentage", "A required contribution of additional capital by each shareholder", "Dilution of their ownership percentage and earnings per share", "A reduction in the number of shares outstanding"],
+    "answer": 2,
+    "explanation": "Conversion creates new common shares, so each existing share represents a smaller percentage of the company and its earnings. That is why companies also report EPS on a fully diluted basis."
+  },
+  {
+    "id": 274,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond's nominal yield is the same as its:",
+    "choices": ["Coupon rate", "Current yield", "Yield to maturity", "Yield to call"],
+    "answer": 0,
+    "explanation": "Nominal yield is the stated coupon rate printed on the bond, and it stays fixed for the life of the bond. Current yield, YTM, and YTC all depend on the bond's market price."
+  },
+  {
+    "id": 275,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A $1,000 par bond with a 5% coupon is trading at 80. What is its current yield?",
+    "choices": ["4.00%", "5.00%", "6.25%", "8.00%"],
+    "answer": 2,
+    "explanation": "Annual interest is 5% × $1,000 = $50, and the price is 80% of par, or $800. Current yield = $50 ÷ $800 = 6.25%, which is above the 5% coupon because the bond trades at a discount."
+  },
+  {
+    "id": 276,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A $1,000 par bond with a 3% coupon is trading at 75. What is its current yield, in percent? (Enter a number)",
+    "answer": "4",
+    "accepted": ["4", "4.0", "4.00", "4 percent"],
+    "explanation": "Annual interest is 3% × $1,000 = $30, and the price is 75% of par, or $750. Current yield = $30 ÷ $750 = 4%."
+  },
+  {
+    "id": 277,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A callable bond is trading at a premium and is callable at par. When quoting its yield to a customer, a firm should generally show the:",
+    "choices": ["Yield to maturity, because it is the higher and longer-term yield", "Yield to call, because it is the lower, worst-case yield", "Nominal yield, because it stays fixed for the life of the bond", "Current yield, because it ignores the call feature"],
+    "answer": 1,
+    "explanation": "For a premium bond callable at par, an early call shortens the time to recover the premium, so the YTC is lower than the YTM. Firms quote the yield to worst so customers see the most conservative figure."
+  },
+  {
+    "id": 278,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "How many basis points equal one percentage point? (Enter a number)",
+    "answer": "100",
+    "accepted": ["100", "100 bp", "100 bps", "100 basis points"],
+    "explanation": "One basis point is 0.01%, so 100 basis points equal 1%. A yield move from 4.25% to 4.75%, for example, is 50 basis points."
+  },
+  {
+    "id": 279,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Duration is BEST described as a measure of a bond's:",
+    "choices": ["Price sensitivity to changes in interest rates", "Probability of default", "Time remaining until its first call date", "Credit rating relative to Treasury securities"],
+    "answer": 0,
+    "explanation": "Duration estimates how much a bond's price will change when interest rates move, based on the weighted average time to receive its cash flows. Longer duration means greater interest rate risk; default probability is a separate measure of credit risk."
+  },
+  {
+    "id": 280,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "For a zero-coupon bond, duration is equal to its:",
+    "choices": ["Half of its time remaining to maturity", "Time until its next coupon payment", "Coupon rate divided by its price", "Time remaining to maturity"],
+    "answer": 3,
+    "explanation": "A zero-coupon bond makes a single payment at maturity, so all its cash flow arrives at the end and its duration equals its maturity. Coupon bonds return some cash earlier, giving them a duration shorter than their maturity."
+  },
+  {
+    "id": 281,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A bond has a modified duration of 7. If market interest rates rise by 1 percentage point, by approximately what percentage will the bond's price fall? (Enter a number)",
+    "answer": "7",
+    "accepted": ["7", "7.0", "7 percent"],
+    "explanation": "Modified duration estimates the percentage price change for a 1-percentage-point change in yield: 7 × 1% ≈ a 7% price decline. The higher the duration, the more sensitive the bond is to rate changes."
+  },
+  {
+    "id": 282,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which credit rating is BELOW investment grade (speculative grade)?",
+    "choices": ["Baa3 (Moody's)", "BBB- (S&P)", "Ba1 (Moody's)", "A3 (Moody's)"],
+    "answer": 2,
+    "explanation": "Investment grade extends down to Baa3 at Moody's and BBB- at S&P and Fitch. Ba1 is the highest speculative-grade rating at Moody's, the first step into high-yield territory."
+  },
+  {
+    "id": 283,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "When an investor buys a corporate bond between interest payment dates, the buyer pays the seller accrued interest covering which period?",
+    "choices": ["From the last interest payment date up to and including the trade date", "From the last payment date up to, but not including, the settlement date", "From the trade date up to, but not including, the next payment date", "The full six-month coupon period, regardless of when the trade settles"],
+    "answer": 1,
+    "explanation": "The seller earned interest for each day it owned the bond, which runs through the day before settlement. The buyer is made whole when it receives the full coupon on the next payment date."
+  },
+  {
+    "id": 284,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond that trades without accrued interest, such as a bond in default or a zero-coupon bond, is said to trade:",
+    "choices": ["At par", "Ex-dividend", "Flat", "Regular way"],
+    "answer": 2,
+    "explanation": "Trading flat means the price includes no accrued interest; bonds in default, income bonds not paying interest, and zero-coupon bonds trade this way. Regular way refers to the settlement cycle, not to interest."
+  },
+  {
+    "id": 285,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Treasury bonds are issued with maturities of:",
+    "choices": ["Up to 52 weeks, sold at a discount", "From 2 years up to 10 years", "Over 30 years, up to 50 years", "Over 10 years, up to 30 years"],
+    "answer": 3,
+    "explanation": "Treasury bonds are currently issued in 20- and 30-year maturities. Treasury bills mature in 52 weeks or less, and Treasury notes mature in 2 to 10 years."
+  },
+  {
+    "id": 286,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "At maturity, the holder of a Treasury Inflation-Protected Security (TIPS) receives:",
+    "choices": ["The greater of the inflation-adjusted principal or original par", "The original par value, regardless of how much inflation occurred", "The inflation-adjusted principal, even if it has fallen below par", "Only a final coupon, since principal was returned in installments"],
+    "answer": 0,
+    "explanation": "TIPS principal rises with inflation (CPI) and can fall with deflation, but at maturity the Treasury pays whichever is greater: the adjusted principal or the original par. This floor protects the investor's original principal."
+  },
+  {
+    "id": 287,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An investor holds Treasury STRIPS in a taxable account. Which statement about taxation is TRUE?",
+    "choices": ["No federal or state tax is due until the STRIPS mature or are sold", "Annual accreted interest is federally taxable even though no cash is received", "The accreted interest is exempt from federal tax but subject to state tax", "The accreted interest is taxed only by the investor's state of residence"],
+    "answer": 1,
+    "explanation": "STRIPS are zero-coupon securities, and the yearly accretion toward par is taxed as federal income each year (often called phantom income). Like other Treasury interest, it is exempt from state and local tax, which is why STRIPS are often held in tax-advantaged accounts."
+  },
+  {
+    "id": 288,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Series I savings bonds earn interest based on:",
+    "choices": ["A single fixed rate set at purchase for the life of the bond", "The performance of the S&P 500, measured every six months", "The daily federal funds rate, reset at the start of each month", "A fixed rate plus an inflation rate that is reset every six months"],
+    "answer": 3,
+    "explanation": "I bonds combine a fixed rate set at purchase with a variable inflation rate tied to the CPI that is adjusted twice a year. This design protects the bond's purchasing power against inflation."
+  },
+  {
+    "id": 289,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "Series EE savings bonds are guaranteed by the Treasury to at least double in value if held for how many years? (Enter a number)",
+    "answer": "20",
+    "accepted": ["20", "20 years", "twenty", "twenty years"],
+    "explanation": "The Treasury guarantees that an EE bond will be worth at least twice its purchase price after 20 years, making a one-time adjustment at that point if needed. Like other Treasury interest, EE bond interest is exempt from state and local tax."
+  },
+  {
+    "id": 290,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which statement about U.S. savings bonds (Series EE and I) is TRUE?",
+    "choices": ["They trade in the secondary market like Treasury notes", "Their interest is subject to state and local income tax", "They are nonmarketable and cannot be sold to another investor", "They are backed by the FDIC rather than the U.S. government"],
+    "answer": 2,
+    "explanation": "Savings bonds are registered to the owner and are redeemed only with the Treasury, not sold to other investors. Their interest is exempt from state and local tax, and they carry the full faith and credit of the U.S. government."
+  },
+  {
+    "id": 291,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Securities issued by Fannie Mae (FNMA) and Freddie Mac (FHLMC) are BEST described as:",
+    "choices": ["Government-sponsored enterprise debt not backed by U.S. full faith and credit", "Direct obligations of the U.S. Treasury backed by its full faith and credit", "Municipal securities exempt from federal income tax on their interest", "Obligations insured by the FDIC up to $250,000 per investor"],
+    "answer": 0,
+    "explanation": "Fannie Mae and Freddie Mac are government-sponsored enterprises; their securities have very high credit quality but no explicit U.S. government guarantee. Ginnie Mae (GNMA), a government agency, is the one whose securities carry full faith and credit backing."
+  },
+  {
+    "id": 292,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Interest received from Ginnie Mae (GNMA) pass-through certificates is:",
+    "choices": ["Exempt from state and local tax, like Treasury interest", "Taxable at the federal, state, and local levels", "Exempt from federal tax, like municipal bond interest", "Exempt from all income taxes"],
+    "answer": 1,
+    "explanation": "Although GNMA securities carry the full faith and credit of the U.S. government, their interest is fully taxable at every level. Direct Treasury obligations are the ones whose interest is exempt from state and local tax."
+  },
+  {
+    "id": 293,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Which CMO tranche is designed to provide the MOST predictable cash flows, with protection against both prepayment risk and extension risk?",
+    "choices": ["Planned amortization class (PAC)", "Targeted amortization class (TAC)", "Companion (support) tranche", "Z-tranche (accrual tranche)"],
+    "answer": 0,
+    "explanation": "A PAC tranche follows a set principal repayment schedule, with companion tranches absorbing prepayments that come faster or slower than expected. A TAC tranche protects against prepayment risk only, leaving it exposed to extension risk."
+  },
+  {
+    "id": 294,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A targeted amortization class (TAC) CMO tranche protects investors against prepayment risk but NOT against:",
+    "choices": ["Prepayment risk", "Early return of principal when interest rates fall", "Reinvestment risk caused by faster prepayments", "Extension risk"],
+    "answer": 3,
+    "explanation": "A TAC limits the effect of faster prepayments, but if rates rise and prepayments slow, its average life can lengthen. PAC tranches protect against both prepayment and extension risk."
+  },
+  {
+    "id": 295,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "Which lettered CMO tranche receives no cash payments until all earlier tranches are paid off, behaving much like a zero-coupon bond? (Enter the letter)",
+    "answer": "Z",
+    "accepted": ["z", "z-tranche", "z tranche", "the z-tranche", "the z tranche", "accrual tranche", "z bond", "z-bond", "accrual bond"],
+    "explanation": "The Z-tranche (accrual tranche) accrues interest that is added to its principal rather than paid out, and it receives cash only after all prior tranches are retired. That makes it the longest and most rate-sensitive CMO tranche."
+  },
+  {
+    "id": 296,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Extension risk for a mortgage-backed security is greatest when:",
+    "choices": ["Interest rates fall and homeowners refinance more often", "The Federal Reserve lowers the discount rate", "Interest rates rise and homeowners refinance less often", "Home prices rise rapidly"],
+    "answer": 2,
+    "explanation": "When rates rise, prepayments slow, and investors get principal back later than expected, lengthening the security's life at a below-market rate. Falling rates create the opposite problem, prepayment risk."
+  },
+  {
+    "id": 297,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A corporate bond secured by a pledge of stocks and bonds of other companies that the issuer owns is a(n):",
+    "choices": ["Mortgage bond", "Collateral trust bond", "Equipment trust certificate", "Debenture"],
+    "answer": 1,
+    "explanation": "Collateral trust bonds are backed by marketable securities deposited with a trustee. Mortgage bonds are backed by real property, equipment trust certificates by equipment such as railcars or aircraft, and debentures by the issuer's general credit."
+  },
+  {
+    "id": 298,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "In a corporate liquidation, holders of subordinated debentures are paid:",
+    "choices": ["Before secured bondholders, because their bonds carry higher yields", "After preferred stockholders and general creditors, but before common stockholders", "After secured and senior unsecured creditors, but before preferred stockholders", "Only after common and preferred stockholders are paid in full"],
+    "answer": 2,
+    "explanation": "Subordinated debentures are debt, so they rank ahead of all equity holders, but they are junior to secured debt and to senior unsecured debt. Their higher yield compensates for that lower priority."
+  },
+  {
+    "id": 299,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A $1,000 par convertible bond is convertible into common stock at $50 per share. If the common stock is trading at $60, what is the bond's parity price?",
+    "choices": ["$833", "$1,000", "$1,100", "$1,200"],
+    "answer": 3,
+    "explanation": "The conversion ratio is $1,000 ÷ $50 = 20 shares, and 20 × $60 = $1,200. At parity, the bond's price equals the market value of the shares it converts into."
+  },
+  {
+    "id": 300,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "type_in",
+    "question": "A $1,000 par convertible bond is convertible at $25 per share and is trading at $1,100. What is the parity price of the common stock? (Enter a number)",
+    "answer": "27.50",
+    "accepted": ["27.5", "27.50"],
+    "explanation": "The conversion ratio is $1,000 ÷ $25 = 40 shares. Parity stock price = bond price ÷ conversion ratio = $1,100 ÷ 40 = $27.50."
+  },
+  {
+    "id": 301,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "An issuer calls its convertible bonds at a time when their conversion value is well above the call price. Most bondholders will:",
+    "choices": ["Accept the call price in cash from the issuer", "Hold the bonds until maturity to keep the coupon", "Exchange the bonds for warrants", "Convert their bonds into common stock"],
+    "answer": 3,
+    "explanation": "The shares received on conversion are worth more than the call price, so holders convert rather than accept less cash; this is called a forced conversion. Called bonds stop earning interest, so holders choose between converting and taking the call price."
+  },
+  {
+    "id": 302,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Compared with an otherwise identical bond without the feature, a puttable bond typically offers:",
+    "choices": ["A lower yield, because the put feature benefits the investor", "A higher yield, because the put feature benefits the issuer", "Greater call risk", "Larger price declines when interest rates rise"],
+    "answer": 0,
+    "explanation": "A put lets the investor sell the bond back to the issuer at a set price, which is especially valuable when rates rise, so investors accept a lower yield for it. The put also cushions price declines, since the bond will not fall far below the put price."
+  },
+  {
+    "id": 303,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "The period after issuance during which an issuer may NOT call its bonds is known as:",
+    "choices": ["The sinking fund period", "Call protection", "The put window", "The accrual period"],
+    "answer": 1,
+    "explanation": "Call protection guarantees investors a minimum period of interest income before the issuer can redeem the bonds early. Investors value it most when interest rates are falling, since calls are most likely then."
+  },
+  {
+    "id": 304,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "A bond issue with a sinking fund provision requires the issuer to:",
+    "choices": ["Pay interest only when earnings are sufficient to cover it", "Back the bonds with real estate pledged as collateral to bondholders", "Allow bondholders to convert into common stock at a fixed price", "Set aside money over time to retire the bonds, reducing default risk"],
+    "answer": 3,
+    "explanation": "A sinking fund retires bonds gradually or accumulates money for repayment, reducing the risk of one large payment at maturity. Paying interest only when earnings allow describes an income (adjustment) bond."
+  },
+  {
+    "id": 305,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "Treasury bills are quoted on a:",
+    "choices": ["Percentage of par in 32nds", "Current yield basis", "Discount yield basis", "Dollar price per share"],
+    "answer": 2,
+    "explanation": "T-bills are issued at a discount and quoted by their discount yield, so the bid yield is higher than the ask yield. Treasury notes and bonds are quoted as a percentage of par in 32nds."
+  },
+  {
+    "id": 306,
+    "section": "Products and Risks",
+    "topic": "Debt",
+    "type": "multiple_choice",
+    "question": "The legal contract between a corporate bond issuer and its bondholders, which spells out the coupon, maturity, covenants, and trustee, is the:",
+    "choices": ["Trust indenture", "Official statement", "Legal opinion", "Tombstone advertisement"],
+    "answer": 0,
+    "explanation": "The Trust Indenture Act of 1939 requires most public corporate bond issues to have an indenture and an independent trustee who acts for bondholders. The official statement is the disclosure document for municipal issues."
+  },
+  {
+    "id": 307,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A municipal revenue bond that is also backed by the full faith, credit, and taxing power of the issuer is called a:",
+    "choices": ["Moral obligation bond", "Double-barreled bond", "Special assessment bond", "Industrial development revenue bond"],
+    "answer": 1,
+    "explanation": "A double-barreled bond is paid first from project revenues, with the issuer's taxing power as a backup, so it is usually analyzed like a general obligation bond. A moral obligation bond has only a nonbinding promise of legislative support."
+  },
+  {
+    "id": 308,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "If revenues fall short, a state legislature may, but is NOT legally required to, appropriate funds to pay debt service on which type of bond?",
+    "choices": ["Moral obligation bond", "Double-barreled bond", "General obligation bond", "Special tax bond"],
+    "answer": 0,
+    "explanation": "A moral obligation bond carries a nonbinding pledge that the legislature may appropriate money to cover shortfalls. General obligation bonds are legally backed by the issuer's full taxing power."
+  },
+  {
+    "id": 309,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "Before issuing general obligation bonds, a municipality typically needs:",
+    "choices": ["A feasibility study projecting user fees from the financed facility", "A lease agreement with a private corporation that will use the facility", "A registration statement declared effective by the SEC", "Voter approval, with the new debt staying within statutory limits"],
+    "answer": 3,
+    "explanation": "GO bonds are repaid from taxes, so they generally require voter approval and are subject to debt limits. Feasibility studies are used for revenue bonds, and municipal securities are exempt from SEC registration."
+  },
+  {
+    "id": 310,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "The credit quality of an industrial development revenue bond (IDR) depends primarily on:",
+    "choices": ["The taxing power of the municipality that issued the bonds", "The full faith and credit of the state where the facility is located", "The corporation that leases the facility and makes the lease payments", "Property taxes collected from homeowners within the district"],
+    "answer": 2,
+    "explanation": "IDRs are issued by a municipality but repaid from a corporation's lease payments, so investors analyze the corporation's credit. The municipality's taxing power does not back these bonds."
+  },
+  {
+    "id": 311,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "An investor in the 40% tax bracket is considering a municipal bond yielding 3.6%. What is the tax-equivalent yield?",
+    "choices": ["2.16%", "5.04%", "6.00%", "9.00%"],
+    "answer": 2,
+    "explanation": "Tax-equivalent yield = municipal yield ÷ (1 − tax rate) = 3.6% ÷ 0.60 = 6.00%. Multiplying instead (3.6% × 0.60 = 2.16%) moves in the wrong direction."
+  },
+  {
+    "id": 312,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "type_in",
+    "question": "A corporate bond yields 7%. For an investor in the 30% tax bracket, what municipal bond yield, in percent, would produce the same after-tax return? (Enter a number)",
+    "answer": "4.9",
+    "accepted": ["4.9", "4.90"],
+    "explanation": "Tax-free equivalent yield = taxable yield × (1 − tax rate) = 7% × 0.70 = 4.9%. A municipal bond yielding more than 4.9% would give this investor a better after-tax return."
+  },
+  {
+    "id": 313,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A New York City resident buys a municipal bond issued by Puerto Rico. The interest is generally exempt from:",
+    "choices": ["Federal income tax only", "Federal, New York State, and New York City income taxes", "New York State and New York City income taxes only", "Puerto Rico income tax only"],
+    "answer": 1,
+    "explanation": "Bonds of U.S. territories such as Puerto Rico, Guam, and the U.S. Virgin Islands are exempt from federal, state, and local income tax in every state, giving them triple tax exemption. A NYC resident buying a New York City bond would receive the same triple exemption."
+  },
+  {
+    "id": 314,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A California resident buys a general obligation bond issued by the State of Texas. The interest is generally exempt from:",
+    "choices": ["Both federal and California income tax", "California income tax only", "Federal income tax only", "Neither federal nor California income tax"],
+    "answer": 2,
+    "explanation": "Municipal interest is generally exempt from federal tax, but states typically tax interest on bonds issued outside the state. A California resident would choose a California issue to also be exempt from California income tax."
+  },
+  {
+    "id": 315,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "An investor buys a municipal bond at par and later sells it at 105. The $50 profit is:",
+    "choices": ["Exempt from federal income tax, just like the interest the bond pays", "Exempt from all taxes if the bond was issued in the investor's home state", "Treated as additional tax-free interest earned on the bond", "Subject to capital gains tax, because only the bond's interest is tax-exempt"],
+    "answer": 3,
+    "explanation": "The federal exemption covers municipal interest, not gains from selling the bond. Buying an in-state bond can exempt the interest from state tax as well, but the capital gain remains taxable."
+  },
+  {
+    "id": 316,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "The primary disclosure document for a new municipal bond issue, similar to a corporate prospectus, is the:",
+    "choices": ["Official statement", "Trust indenture", "Registration statement", "Bond counsel's legal opinion"],
+    "answer": 0,
+    "explanation": "The issuer prepares the official statement, and the underwriter delivers it to purchasers of the new issue. Municipal securities are exempt from SEC registration, so no registration statement is filed."
+  },
+  {
+    "id": 317,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A municipal bond counsel's legal opinion primarily confirms:",
+    "choices": ["That the bonds will receive an investment-grade rating from an agency", "That the issue is legal and whether its interest is federally tax-exempt", "That the issuer has the financial ability to repay principal on schedule", "That the underwriter's spread is fair and reasonable for the issue"],
+    "answer": 1,
+    "explanation": "Bond counsel's opinion addresses the legality of the issue and the tax status of its interest. Creditworthiness is evaluated by rating agencies and by investors' own analysis."
+  },
+  {
+    "id": 318,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "A city issues short-term notes that will be repaid from the proceeds of a long-term bond issue it plans to sell next year. These notes are:",
+    "choices": ["Tax anticipation notes (TANs)", "Revenue anticipation notes (RANs)", "Tax and revenue anticipation notes (TRANs)", "Bond anticipation notes (BANs)"],
+    "answer": 3,
+    "explanation": "BANs provide interim financing for a project until the permanent bond financing is sold. TANs and RANs are repaid from expected tax collections and other expected revenues, respectively."
+  },
+  {
+    "id": 319,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "type_in",
+    "question": "What is the three-letter acronym for a short-term municipal note that will be repaid from expected property tax collections? (Enter the acronym)",
+    "answer": "TAN",
+    "accepted": ["tan", "tans", "a tan", "tax anticipation note", "tax anticipation notes"],
+    "explanation": "A tax anticipation note (TAN) lets a municipality cover expenses until scheduled tax receipts arrive. A RAN relies on other expected revenues, such as state aid, and a TRAN combines both sources."
+  },
+  {
+    "id": 320,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a type of short-term municipal note?",
+    "choices": ["Tax anticipation note (TAN)", "Revenue anticipation note (RAN)", "Banker's acceptance (BA)", "Bond anticipation note (BAN)"],
+    "answer": 2,
+    "explanation": "A banker's acceptance is a money market instrument used to finance international trade, not a municipal note. TANs, RANs, and BANs are short-term municipal borrowings repaid from taxes, revenues, or future bond proceeds."
+  },
+  {
+    "id": 321,
+    "section": "Products and Risks",
+    "topic": "Municipal Securities",
+    "type": "multiple_choice",
+    "question": "Auction rate securities (ARS) are long-term instruments whose interest rates reset through periodic auctions. When many ARS auctions failed in 2008, the key risk revealed was:",
+    "choices": ["Liquidity risk, because holders could not sell them at par", "Prepayment risk, because issuers repaid principal earlier than expected", "Currency risk, because the interest was set and paid in euros", "Inflation risk, because the rates were locked in for 30 years"],
+    "answer": 0,
+    "explanation": "ARS were marketed as cash-like because holders could normally sell at par at each auction, typically every 7, 28, or 35 days. When auctions failed, holders were left with long-term securities they could not readily sell."
+  },
+  {
+    "id": 322,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Money market instruments are debt securities that generally mature in:",
+    "choices": ["270 days to five years", "One year or less", "Two to ten years", "More than ten years"],
+    "answer": 1,
+    "explanation": "The money market is the market for short-term, highly liquid debt maturing in one year or less, such as T-bills, commercial paper, and banker's acceptances. Longer-term securities trade in the capital market."
+  },
+  {
+    "id": 323,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Commercial paper is BEST described as:",
+    "choices": ["Unsecured short-term corporate notes, usually sold at a discount", "Secured long-term bonds issued by banks to fund their lending", "Short-term notes issued by municipalities in anticipation of taxes", "Time drafts guaranteed by a bank to finance imports and exports"],
+    "answer": 0,
+    "explanation": "Highly rated corporations issue commercial paper to meet short-term needs such as payroll and inventory, usually at a discount from face value. A time draft guaranteed by a bank is a banker's acceptance."
+  },
+  {
+    "id": 324,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Which statement about negotiable (jumbo) certificates of deposit is TRUE?",
+    "choices": ["They are FDIC insured for their full face value, regardless of size", "They are issued and guaranteed by the U.S. Treasury", "They can be redeemed early at the issuing bank without penalty", "They can be sold in the secondary market before maturity"],
+    "answer": 3,
+    "explanation": "Negotiable CDs are large bank time deposits that investors can sell to other investors instead of redeeming early with the bank. FDIC insurance covers $250,000 per depositor, per bank, per ownership category, so much of a jumbo CD's value is typically uninsured."
+  },
+  {
+    "id": 325,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "In a reverse repurchase agreement, the party initiating the transaction:",
+    "choices": ["Sells securities and agrees to buy them back later at a higher price", "Issues commercial paper backed by Treasury securities", "Buys securities and agrees to sell them back later at a higher price", "Borrows reserves overnight from another bank"],
+    "answer": 2,
+    "explanation": "A reverse repo is the mirror image of a repo: the initiator buys securities now and resells them later, effectively lending cash secured by the securities. Selling now and repurchasing later is a regular repo, which is a way to borrow cash."
+  },
+  {
+    "id": 326,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Which money market instrument is most closely associated with financing imports and exports?",
+    "choices": ["A commercial paper note", "A banker's acceptance", "A 13-week Treasury bill", "A negotiable jumbo CD"],
+    "answer": 1,
+    "explanation": "A banker's acceptance is a time draft guaranteed by a bank, typically used to pay for goods in international trade. Commercial paper is short-term unsecured corporate borrowing, not a trade-finance instrument."
+  },
+  {
+    "id": 327,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Eurodollars are:",
+    "choices": ["Euro-denominated deposits held in banks inside the United States", "Bonds issued by European governments and sold in the U.S.", "U.S. dollar deposits held in banks outside the United States", "Euro currency reserves held by the Federal Reserve Bank of New York"],
+    "answer": 2,
+    "explanation": "A Eurodollar is any U.S. dollar deposit held outside the United States, whether in Europe or elsewhere. The 'Euro' prefix refers to offshore dollars, not to the euro currency."
+  },
+  {
+    "id": 328,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Regulators phased out U.S. dollar LIBOR as a benchmark rate primarily because it:",
+    "choices": ["Was set directly by the Federal Reserve each day, without any market input", "Applied only to Treasury bill yields, not to loans or derivatives", "Was quoted only in euros, so U.S. borrowers faced currency risk", "Relied on bank estimates, not actual trades, leaving it open to manipulation"],
+    "answer": 3,
+    "explanation": "LIBOR relied on banks' estimates of their own borrowing costs, and manipulation scandals undermined trust in it. Its replacement, SOFR, is based on a large volume of actual overnight repo transactions backed by Treasury securities."
+  },
+  {
+    "id": 329,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "type_in",
+    "question": "What is the four-letter acronym for the benchmark rate, based on overnight loans collateralized by Treasury securities, that replaced U.S. dollar LIBOR? (Enter the acronym)",
+    "answer": "SOFR",
+    "accepted": ["sofr", "secured overnight financing rate", "the secured overnight financing rate"],
+    "explanation": "The Secured Overnight Financing Rate (SOFR), published by the New York Fed, measures the cost of borrowing cash overnight with Treasury securities as collateral. U.S. dollar LIBOR panels ended in June 2023."
+  },
+  {
+    "id": 330,
+    "section": "Products and Risks",
+    "topic": "Money Markets",
+    "type": "multiple_choice",
+    "question": "Which of the following is NOT a money market instrument?",
+    "choices": ["A newly issued 10-year Treasury note", "A 26-week Treasury bill", "Commercial paper maturing in 90 days", "A banker's acceptance maturing in 120 days"],
+    "answer": 0,
+    "explanation": "Money market instruments mature in one year or less, so a newly issued 10-year note is a capital market security. T-bills, commercial paper, and banker's acceptances are all classic money market instruments."
+  }
+]

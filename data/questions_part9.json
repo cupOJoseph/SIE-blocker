@@ -1,0 +1,802 @@
+[
+  {
+    "id": 411,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Which pair of orders is placed BELOW the current market price?",
+    "choices": ["Buy stop and sell limit", "Buy stop and sell stop", "Buy limit and sell stop", "Buy limit and sell limit"],
+    "answer": 2,
+    "explanation": "Buy limit orders (buying cheaper) and sell stop orders (protecting against a decline) sit below the market. Buy stops and sell limits are placed above the market."
+  },
+  {
+    "id": 412,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "XYZ is trading at $50. A customer enters a buy stop order at $53. The order is triggered when:",
+    "choices": ["XYZ trades at or above $53", "XYZ trades at or below $53", "XYZ trades at or below $50", "The market closes for the day"],
+    "answer": 0,
+    "explanation": "A buy stop is placed above the market and becomes a market order once the stock trades at or above the stop price. Buy stops are used to protect a short position or to buy on an upside breakout."
+  },
+  {
+    "id": 413,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A customer enters a sell stop order at $45. The next trades in the stock are 45.30, 45.05, 44.90, and 45.10. Which trade triggers the order?",
+    "choices": ["45.30", "45.05", "45.10", "44.90"],
+    "answer": 3,
+    "explanation": "A sell stop is triggered by a trade at or below the stop price, so 44.90 is the first qualifying trade. The order then becomes a market order and fills at the next available price (here, about 45.10)."
+  },
+  {
+    "id": 414,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Which order must be executed immediately and in its entirety, or else it is canceled?",
+    "choices": ["All-or-none (AON)", "Fill-or-kill (FOK)", "Immediate-or-cancel (IOC)", "Good-'til-canceled (GTC)"],
+    "answer": 1,
+    "explanation": "A fill-or-kill order requires an immediate, complete execution or it is canceled. An IOC order accepts a partial immediate fill, and an AON order requires a full fill but not an immediate one."
+  },
+  {
+    "id": 415,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A customer enters an immediate-or-cancel (IOC) order to buy 1,000 shares at a limit price, and only 600 shares are available at that price. What happens?",
+    "choices": ["The entire order is canceled because it cannot be completely filled", "The 600 shares are bought and the remaining 400 shares are canceled", "The order stays open until all 1,000 shares are bought", "The order converts to a market order for all 1,000 shares"],
+    "answer": 1,
+    "explanation": "An IOC order executes whatever can be filled immediately and cancels the rest. Canceling the entire order unless fully filled describes a fill-or-kill order."
+  },
+  {
+    "id": 416,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "Which statement about an all-or-none (AON) order is TRUE?",
+    "choices": ["It must be executed immediately in full, or the entire order is canceled", "It may be partially filled at the limit price, with the rest left open", "It guarantees execution at the current market price", "It must be filled in its entirety, but not necessarily immediately"],
+    "answer": 3,
+    "explanation": "An AON order requires the full quantity to be filled in one execution but can remain open (as a day or GTC order) until that happens. Adding the requirement of immediate execution would make it a fill-or-kill order."
+  },
+  {
+    "id": 417,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "type_in",
+    "question": "What three-letter abbreviation describes an order that remains in force until it is executed or the customer cancels it? (Enter the abbreviation)",
+    "answer": "GTC",
+    "accepted": ["gtc", "good til canceled", "good till canceled", "good 'til canceled", "good-til-canceled", "good-till-canceled", "good til cancelled", "good till cancelled", "good-'til-canceled", "open order", "open"],
+    "explanation": "A good-'til-canceled (GTC), or open, order stays active across trading days until it fills or the customer cancels it. A day order, by contrast, expires at the end of the trading day."
+  },
+  {
+    "id": 418,
+    "section": "Trading & Accounts",
+    "topic": "Orders",
+    "type": "multiple_choice",
+    "question": "A customer enters a sell stop-limit order: 30 stop, 29.75 limit. Once the stock trades at or below 30, the order becomes:",
+    "choices": ["A limit order to sell at 29.75 or better", "A market order to sell at the next available price", "A buy limit order at 29.75 or lower", "An order canceled once the stop is elected"],
+    "answer": 0,
+    "explanation": "When the stop price is reached, a stop-limit order becomes a limit order at the stated limit, here a sell at 29.75 or higher. A plain stop order would instead become a market order."
+  },
+  {
+    "id": 419,
+    "section": "Trading & Accounts",
+    "topic": "Quotes",
+    "type": "type_in",
+    "question": "A stock is quoted at 24.85 bid and 25.05 ask. What is the spread, in dollars? (Enter a number)",
+    "answer": "0.20",
+    "accepted": ["0.20", "0.2", ".20", ".2", "20 cents", "0.20 dollars"],
+    "explanation": "The spread is the difference between the ask and the bid: 25.05 − 24.85 = 0.20, or 20 cents per share."
+  },
+  {
+    "id": 420,
+    "section": "Trading & Accounts",
+    "topic": "Quotes",
+    "type": "multiple_choice",
+    "question": "A market maker's firm quote obligates the market maker to:",
+    "choices": ["Reconfirm the price with the customer before trading", "Trade any quantity a customer requests at the quoted price", "Buy or sell at least the displayed size at the quoted price", "Guarantee the stock will not fall below the bid"],
+    "answer": 2,
+    "explanation": "A firm quote must be honored for at least the size displayed at the quoted price. The market maker is not required to trade unlimited size, and quotes that need reconfirmation are subject (nominal) quotes."
+  },
+  {
+    "id": 421,
+    "section": "Trading & Accounts",
+    "topic": "Quotes",
+    "type": "multiple_choice",
+    "question": "A dealer tells another firm, \"It's 20 to 20.25, subject.\" This quote is BEST described as:",
+    "choices": ["A firm quote good for at least one round lot", "A firm quote the dealer must honor for any size order", "A locked market between the two dealers", "A subject quote that must be reconfirmed before trading"],
+    "answer": 3,
+    "explanation": "A subject quote gives an indication of price but is not firm; the dealer must reconfirm before trading. A locked market is one where the bid equals the ask."
+  },
+  {
+    "id": 422,
+    "section": "Trading & Accounts",
+    "topic": "Quotes",
+    "type": "multiple_choice",
+    "question": "A market maker quotes a stock at 20.00 – 20.10, 5 × 3. This means the market maker will:",
+    "choices": ["Buy 300 shares at 20.00 and sell 500 shares at 20.10", "Buy 5 shares at 20.10 and sell 3 shares at 20.00", "Buy 500 shares at 20.00 and sell 300 shares at 20.10", "Buy 500 shares at 20.10 and sell 300 shares at 20.00"],
+    "answer": 2,
+    "explanation": "Size is quoted in round lots of 100 shares, with the bid size first: 5 × 100 = 500 shares bid at 20.00 and 3 × 100 = 300 shares offered at 20.10. The market maker buys at the bid and sells at the ask."
+  },
+  {
+    "id": 423,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "Under Regulation SHO, before accepting a customer's short sale order in an equity security, a broker-dealer must:",
+    "choices": ["Obtain the issuer's written consent to the short sale of its shares", "Have reasonable grounds to believe the shares can be borrowed for delivery (a locate)", "Confirm the stock's last trade was an uptick under the tick test", "Receive full cash payment equal to the sale proceeds before entering the order"],
+    "answer": 1,
+    "explanation": "Reg SHO's locate requirement means the firm must borrow, arrange to borrow, or reasonably believe it can borrow the shares so they can be delivered on time. The old tick-test uptick rule was eliminated in 2007."
+  },
+  {
+    "id": 424,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "Under Regulation SHO Rule 201 (the alternative uptick rule), short sale price restrictions are triggered when a stock falls by at least what percentage from the prior day's closing price?",
+    "choices": ["10%", "5%", "15%", "20%"],
+    "answer": 0,
+    "explanation": "A 10% intraday decline triggers the circuit breaker. For the rest of that day and the following trading day, short sales may be executed only at a price above the current national best bid."
+  },
+  {
+    "id": 425,
+    "section": "Trading & Accounts",
+    "topic": "Trading",
+    "type": "multiple_choice",
+    "question": "An investor is short 100 shares of ABC when ABC pays a $0.50 per share cash dividend. Which statement is TRUE?",
+    "choices": ["The short seller owes the $50 dividend to the lender of the shares", "The short seller receives the $50 dividend", "The dividend is split equally between the short seller and the lender", "No dividend is paid on shares that are on loan"],
+    "answer": 0,
+    "explanation": "The lender of the shares is entitled to the dividend, so the short seller must pay it: 100 × $0.50 = $50. The short seller never receives dividends on borrowed shares."
+  },
+  {
+    "id": 426,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "Regular way settlement for U.S. Treasury bills, notes, and bonds occurs:",
+    "choices": ["The same day as the trade (T+0)", "Two business days after the trade date (T+2)", "One business day after the trade date (T+1)", "Five business days after the trade date (T+5)"],
+    "answer": 2,
+    "explanation": "U.S. government securities settle regular way on the next business day (T+1). Same-day (T+0) settlement applies only to trades done for cash."
+  },
+  {
+    "id": 427,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "A trade in securities on a \"when, as, and if issued\" basis settles:",
+    "choices": ["One business day after the trade date, like regular-way trades", "On a date set once the securities are actually issued", "The same day as the trade", "Only after the issuer's next annual shareholder meeting"],
+    "answer": 1,
+    "explanation": "When-issued trades occur before the securities exist, so they settle on a date assigned once the securities are issued. Regular way T+1 cannot apply because there is nothing to deliver yet."
+  },
+  {
+    "id": 428,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "For a physical stock certificate to be considered good delivery, it must:",
+    "choices": ["Be signed by the issuer's CEO and corporate secretary at the time of the sale", "Be accompanied by a copy of the issuer's latest audited annual report and proxy statement", "Be already registered in the name of the buying customer before it is delivered", "Be properly endorsed by the registered owner, signed exactly as the name appears on its face"],
+    "answer": 3,
+    "explanation": "Good delivery requires a properly endorsed (and signature-guaranteed) certificate in acceptable denominations, signed exactly as the owner's name appears. The seller endorses it; it is re-registered to the buyer afterward."
+  },
+  {
+    "id": 429,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "multiple_choice",
+    "question": "A broker-dealer receives a comparison from another firm for a trade it has no record of. The firm should respond with a:",
+    "choices": ["Reclamation", "Buy-in (close-out) notice", "DK (don't know) notice", "Due bill"],
+    "answer": 2,
+    "explanation": "A DK notice tells the other firm it does not recognize the trade or its terms. A reclamation is a demand to return securities after a bad delivery, a different situation."
+  },
+  {
+    "id": 430,
+    "section": "Trading & Accounts",
+    "topic": "Settlement",
+    "type": "type_in",
+    "question": "In many institutional accounts, payment is released only when the securities are delivered to the customer's custodian bank. What three-letter abbreviation names this settlement arrangement? (Enter the abbreviation)",
+    "answer": "DVP",
+    "accepted": ["dvp", "delivery versus payment", "delivery vs payment", "delivery vs. payment", "delivery against payment", "cod", "cash on delivery"],
+    "explanation": "Delivery versus payment (DVP), also called cash on delivery (COD), means the customer pays when securities are delivered to its agent. The mirror image for sales is receipt versus payment (RVP)."
+  },
+  {
+    "id": 431,
+    "section": "Trading & Accounts",
+    "topic": "Corporate Actions",
+    "type": "multiple_choice",
+    "question": "With regular way settlement at T+1, the ex-dividend date for a regular cash dividend on a stock is typically:",
+    "choices": ["The same business day as the record date", "Two business days before the record date", "One business day after the record date", "The payable date"],
+    "answer": 0,
+    "explanation": "Under T+1 settlement, a buyer on the record date would not settle until the next day, so the ex-date and the record date fall on the same business day. Under the old T+2 cycle, the ex-date was one business day before the record date."
+  },
+  {
+    "id": 432,
+    "section": "Trading & Accounts",
+    "topic": "Corporate Actions",
+    "type": "multiple_choice",
+    "question": "For an exchange-listed stock, who sets the ex-dividend date for a cash dividend?",
+    "choices": ["The issuer's board of directors when it declares", "The issuer's transfer agent", "The SEC", "The exchange where the stock is listed"],
+    "answer": 3,
+    "explanation": "The board sets the declaration, record, and payable dates, while the exchange sets the ex-date based on the settlement cycle. FINRA sets the ex-date for over-the-counter stocks."
+  },
+  {
+    "id": 433,
+    "section": "Trading & Accounts",
+    "topic": "Corporate Actions",
+    "type": "multiple_choice",
+    "question": "An investor owns 100 shares bought at $44 per share. The company pays a 10% stock dividend. What is the investor's new position and per-share cost basis?",
+    "choices": ["100 shares at $40 per share", "110 shares at $40 per share", "110 shares at $44 per share", "110 shares at $48.40 per share"],
+    "answer": 1,
+    "explanation": "A 10% stock dividend adds 10 shares (100 × 10%), and the total basis stays $4,400: $4,400 ÷ 110 = $40 per share. Stock dividends are not taxed when received; the basis is simply spread over more shares."
+  },
+  {
+    "id": 434,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "A customer opens a new margin account and buys 100 shares at $30 ($3,000). What is the minimum deposit required?",
+    "choices": ["$1,500", "$2,000", "$3,000", "$900"],
+    "answer": 1,
+    "explanation": "Reg T alone would require 50% × $3,000 = $1,500, but FINRA requires at least $2,000 of equity in a margin account. The customer deposits the greater amount, $2,000."
+  },
+  {
+    "id": 435,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "A customer opens a new margin account and buys 50 shares at $30 ($1,500 total). How many dollars must the customer deposit? (Enter a number)",
+    "answer": "1500",
+    "accepted": ["1500", "1500.00", "1500 dollars"],
+    "explanation": "When a purchase costs less than the $2,000 FINRA minimum, the customer pays 100% of the cost, here $1,500. A customer is never required to deposit more than the purchase price."
+  },
+  {
+    "id": 436,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "A customer's margin account holds long stock worth $36,000 with a debit balance of $30,000. Under FINRA's 25% minimum maintenance requirement, the account:",
+    "choices": ["Meets the requirement with no call", "Has a maintenance call of $9,000", "Has excess equity of $6,000", "Has a maintenance call of $3,000"],
+    "answer": 3,
+    "explanation": "Equity = $36,000 − $30,000 = $6,000. Required equity = 25% × $36,000 = $9,000, so the customer receives a maintenance call for $9,000 − $6,000 = $3,000."
+  },
+  {
+    "id": 437,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "A margin account has a long market value of $50,000 and a debit balance of $28,000. Which statement is TRUE?",
+    "choices": ["The account is restricted: equity is below the 50% Reg T level but above the 25% minimum", "The customer faces a maintenance call because equity is below 50%", "The account has $3,000 of excess equity (SMA) that the customer may withdraw as cash", "The firm must liquidate positions immediately to bring equity back to 50%"],
+    "answer": 0,
+    "explanation": "Equity = $50,000 − $28,000 = $22,000 (44%). That is $3,000 short of the $25,000 Reg T level, making the account restricted, but well above the $12,500 maintenance level, so there is no call."
+  },
+  {
+    "id": 438,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "Which statement about a special memorandum account (SMA) is TRUE?",
+    "choices": ["SMA decreases automatically whenever the account's market value falls below its previous closing level", "SMA is cash the customer keeps in a separate bank account as backup collateral for margin calls", "SMA is a line of credit usable for cash withdrawals or purchases, and a market decline does not reduce it", "SMA exists only in cash accounts"],
+    "answer": 2,
+    "explanation": "SMA is a credit line created by excess equity in a margin account. It rises with market gains and deposits, and it stays in place when market value falls; using it increases the debit balance."
+  },
+  {
+    "id": 439,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "type_in",
+    "question": "A customer is short 400 shares of a stock now trading at $50 ($20,000 market value). Under FINRA's minimum maintenance requirement for short stock, how many dollars of equity must the account have? (Enter a number)",
+    "answer": "6000",
+    "accepted": ["6000", "6000.00", "6000 dollars"],
+    "explanation": "Short stock trading at $5 or more requires the greater of 30% of market value or $5 per share: 30% × $20,000 = $6,000, which exceeds $5 × 400 = $2,000."
+  },
+  {
+    "id": 440,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "If a customer does not meet a maintenance margin call, the broker-dealer may:",
+    "choices": ["Only send written reminder letters until the customer deposits the funds", "Convert the account to a cash account and wait for prices to recover", "Charge the shortfall to the registered representative's commission account", "Liquidate securities in the account, even without first contacting the customer"],
+    "answer": 3,
+    "explanation": "The margin agreement permits the firm to sell securities to bring the account back to the required level, and it may do so without prior notice. Firms are not required to wait for a market recovery."
+  },
+  {
+    "id": 441,
+    "section": "Trading & Accounts",
+    "topic": "Margin",
+    "type": "multiple_choice",
+    "question": "A broker-dealer pledges customers' margin securities to a bank as collateral for a loan to the broker-dealer. This is called:",
+    "choices": ["Hypothecation", "Commingling", "Rehypothecation", "Segregation"],
+    "answer": 2,
+    "explanation": "The customer hypothecates (pledges) securities to the broker-dealer; the broker-dealer then rehypothecates them to a bank, limited to 140% of the customer's debit balance. Hypothecation is the customer's original pledge."
+  },
+  {
+    "id": 442,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Two spouses own a brokerage account as joint tenants with rights of survivorship (JTWROS). When one spouse dies, the account:",
+    "choices": ["Passes to the deceased spouse's estate through probate", "Passes entirely to the surviving spouse", "Is split 50/50 between the survivor and the estate", "Is frozen until all heirs agree"],
+    "answer": 1,
+    "explanation": "With JTWROS, the surviving owner automatically receives the deceased owner's interest outside of probate. Passing the deceased's share to their estate describes tenants in common."
+  },
+  {
+    "id": 443,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A grandmother wants to make UTMA gifts of securities to her two grandchildren. How should the accounts be set up?",
+    "choices": ["Open a separate custodial account for each grandchild", "Open one custodial account naming both grandchildren", "Name herself and her son as co-custodians on one account for both", "Open a joint account with both grandchildren as tenants in common"],
+    "answer": 0,
+    "explanation": "Each custodial account has exactly one custodian and one minor, so two grandchildren need two accounts. She may serve as custodian of both."
+  },
+  {
+    "id": 444,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "To open a MARGIN account for a corporation, the broker-dealer must obtain:",
+    "choices": ["The corporate charter or bylaws showing the corporation may trade on margin", "The corporation's latest audited tax return and balance sheet", "Written consent from every shareholder of the corporation to use margin", "A copy of the corporation's SEC registration statement"],
+    "answer": 0,
+    "explanation": "The firm needs the charter or bylaws to confirm the corporation is permitted to borrow on margin, in addition to the corporate resolution naming who may trade. Shareholder consent is not required."
+  },
+  {
+    "id": 445,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "In a trust account, who has the authority to make investment decisions?",
+    "choices": ["The beneficiaries named in the trust agreement", "The grantor's heirs", "The trustee named in the trust agreement", "The broker-dealer's branch manager"],
+    "answer": 2,
+    "explanation": "The trustee manages trust assets under the trust agreement, which the firm should review when opening the account. Beneficiaries receive the benefits but do not direct the trading."
+  },
+  {
+    "id": 446,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement correctly compares a limited power of attorney with a full power of attorney over a brokerage account?",
+    "choices": ["A limited POA automatically expires after 30 days; a full POA can never be revoked", "A limited POA permits trading but not withdrawals; a full POA permits both", "A limited POA permits withdrawals of cash only; a full POA permits trading only", "They differ only in the fee the firm charges to set up the authorization"],
+    "answer": 1,
+    "explanation": "A limited (trading) authorization lets the agent enter buy and sell orders only. A full power of attorney also allows the agent to withdraw cash and securities."
+  },
+  {
+    "id": 447,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A fee-based account that charges an annual percentage of assets is generally LEAST suitable for a customer who:",
+    "choices": ["Trades frequently", "Wants ongoing advice and portfolio monitoring", "Wants predictable costs regardless of trading volume", "Trades rarely and plans to buy and hold"],
+    "answer": 3,
+    "explanation": "A buy-and-hold investor would usually pay less in occasional commissions than in an ongoing asset-based fee. Placing such a customer in a fee-based account is sometimes called reverse churning."
+  },
+  {
+    "id": 448,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A wrap account is BEST described as an account that:",
+    "choices": ["Holds only physical stock certificates registered in the customer's name", "Charges a commission on each trade plus a separate annual advisory fee based on assets", "Charges one bundled fee covering investment advice, trade execution, and custody", "Is limited to retirement assets"],
+    "answer": 2,
+    "explanation": "A wrap account wraps advisory, brokerage, and custody services into a single fee, usually a percentage of assets. Per-trade commissions plus a separate advisory fee describe an unbundled arrangement."
+  },
+  {
+    "id": 449,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "In a prime brokerage arrangement, an institutional customer:",
+    "choices": ["Uses one firm to clear, settle, and custody trades executed through several broker-dealers", "Must execute every trade through the prime broker's own trading desk", "Holds its securities directly with each issuer's transfer agent instead of a broker", "Pays no commissions on any trade"],
+    "answer": 0,
+    "explanation": "The prime broker provides centralized clearing, custody, financing, and reporting, while the customer chooses various executing brokers. This is common for hedge funds and other active institutions."
+  },
+  {
+    "id": 450,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 2165, when a firm reasonably believes a specified adult is being financially exploited, it may place a temporary hold on a disbursement for an initial period of up to:",
+    "choices": ["5 business days", "30 calendar days", "90 calendar days", "15 business days"],
+    "answer": 3,
+    "explanation": "The initial hold may last up to 15 business days, with a possible 10-business-day extension (and a further extension if the matter is reported to a state agency or court). The firm must notify authorized parties and the trusted contact person within two business days."
+  },
+  {
+    "id": 451,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "type_in",
+    "question": "Under FINRA Rule 2165, a \"specified adult\" includes any natural person age ___ or older. (Enter a number)",
+    "answer": "65",
+    "accepted": ["65", "65 years", "65 years old", "sixty-five", "sixty five"],
+    "explanation": "Specified adults are people 65 or older, plus people 18 or older whom the firm reasonably believes have a mental or physical impairment that makes them unable to protect their own interests."
+  },
+  {
+    "id": 452,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "FINRA Rule 2090 (Know Your Customer) requires firms to:",
+    "choices": ["Guarantee that every recommended investment will be profitable for the customer", "Use reasonable diligence to know and retain the essential facts about every customer", "Obtain each customer's credit report every year to verify net worth", "Review each customer's most recent tax return before accepting every trade"],
+    "answer": 1,
+    "explanation": "KYC applies to every account from opening onward and supports effective service, supervision, and compliance. It works alongside the suitability rule (2111), which governs recommendations."
+  },
+  {
+    "id": 453,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "Which is NOT one of the four component obligations of Regulation Best Interest?",
+    "choices": ["Disclosure Obligation", "Best Execution Obligation", "Care Obligation", "Conflict of Interest Obligation"],
+    "answer": 1,
+    "explanation": "Reg BI's four obligations are Disclosure, Care, Conflict of Interest, and Compliance. Best execution is an important but separate duty under FINRA Rule 5310."
+  },
+  {
+    "id": 454,
+    "section": "Trading & Accounts",
+    "topic": "Accounts",
+    "type": "multiple_choice",
+    "question": "A broker-dealer must deliver Form CRS (the client relationship summary) to a new retail investor no later than the earliest of:",
+    "choices": ["The delivery of the first quarterly account statement", "The customer's first written complaint or arbitration claim", "The end of the first calendar year after the account is opened", "A recommendation, an order, or the opening of an account"],
+    "answer": 3,
+    "explanation": "Form CRS is a short plain-English summary of services, fees, conflicts, and disciplinary history. A broker-dealer delivers it at or before the earliest of a recommendation, an order, or account opening."
+  },
+  {
+    "id": 455,
+    "section": "Trading & Accounts",
+    "topic": "Customer Communications",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, a customer complaint that must be recorded is defined as:",
+    "choices": ["Any written or electronic grievance by a customer involving the firm or its associated persons", "Any phone call or in-person conversation in which a customer sounds unhappy with the firm", "Only grievances filed in FINRA arbitration or with a state regulator", "Only written grievances alleging more than $5,000 in customer damages"],
+    "answer": 0,
+    "explanation": "A complaint is any written grievance, including email or other electronic messages, about the activities of the firm or its people. It need not be filed in arbitration or reach any dollar threshold."
+  },
+  {
+    "id": 456,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "type_in",
+    "question": "Under FINRA Rule 4513, a firm must keep records of written customer complaints at each office of supervisory jurisdiction for at least how many years? (Enter a number)",
+    "answer": "4",
+    "accepted": ["4", "4 years", "four", "four years"],
+    "explanation": "Written complaint records, including the action taken by the firm, must be kept for at least four years at the OSJ responsible for the associated person."
+  },
+  {
+    "id": 457,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Under SEC Rule 17a-4, business-related correspondence (including emails) must generally be retained for at least:",
+    "choices": ["1 year, the entire period in an easily accessible place", "6 years, the first 2 in an easily accessible place", "3 years, the first 2 in an easily accessible place", "Permanently, for the life of the firm"],
+    "answer": 2,
+    "explanation": "Communications relating to the firm's business are kept for three years, with the first two years easily accessible. Six-year retention applies to records such as blotters and customer account records."
+  },
+  {
+    "id": 458,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Which item is NOT required on a customer trade confirmation?",
+    "choices": ["Trade date and number of shares", "Whether the firm acted as agent or principal", "The price of the security", "The customer's investment objective"],
+    "answer": 3,
+    "explanation": "Confirmations show trade details such as the security, quantity, price, trade date, capacity, and commission when acting as agent. Investment objectives belong in the customer's account records, not on the confirmation."
+  },
+  {
+    "id": 459,
+    "section": "Trading & Accounts",
+    "topic": "Account Records",
+    "type": "multiple_choice",
+    "question": "Under SEC Rule 17a-4, customer account records such as the new account form must generally be kept for:",
+    "choices": ["1 year after the last trade in the account is settled", "3 years after the account is opened or the information is updated", "6 years after the account is closed or the information is updated", "Permanently, even after the account is closed"],
+    "answer": 2,
+    "explanation": "Account record information is retained until at least six years after the earlier of the account's closing or the information being replaced or updated. Three-year retention applies to items like correspondence."
+  },
+  {
+    "id": 460,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Contributions to a traditional or Roth IRA for a given tax year may be made until:",
+    "choices": ["December 31 of that year, the end of the tax year", "The following year's tax-filing deadline (generally April 15), not including extensions", "The following year's tax-filing deadline, including any extensions (generally October 15)", "The owner's birthday in the following year"],
+    "answer": 1,
+    "explanation": "IRA contributions for a tax year can be made up to the original filing deadline of the next year, typically April 15. Filing extensions do not extend the IRA contribution deadline."
+  },
+  {
+    "id": 461,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "A 45-year-old withdraws $20,000 from a traditional IRA funded entirely with pre-tax money, and no exception applies. The investor is in the 24% tax bracket. What is the early-withdrawal PENALTY?",
+    "choices": ["$2,000", "$4,800", "$6,800", "$0"],
+    "answer": 0,
+    "explanation": "The penalty is 10% × $20,000 = $2,000. Separately, the withdrawal is taxed as ordinary income (24% × $20,000 = $4,800), for a total cost of $6,800."
+  },
+  {
+    "id": 462,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which statement about moving IRA assets is TRUE?",
+    "choices": ["Only one 60-day IRA-to-IRA rollover is allowed per 12 months, but direct transfers are unlimited", "Trustee-to-trustee transfers are limited to one per year, but 60-day rollovers are unlimited", "Both 60-day rollovers and trustee-to-trustee transfers are unlimited", "Both rollovers and transfers trigger the 10% early-withdrawal penalty before age 59½"],
+    "answer": 0,
+    "explanation": "The once-per-12-months limit applies to 60-day rollovers where the owner takes possession of the money. Direct transfers between custodians never touch the owner's hands, so they are unlimited and not taxable."
+  },
+  {
+    "id": 463,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "type_in",
+    "question": "When an investor takes possession of IRA funds to do a rollover, the money must be redeposited into an IRA within how many days to avoid taxes and penalties? (Enter a number)",
+    "answer": "60",
+    "accepted": ["60", "60 days", "sixty", "sixty days"],
+    "explanation": "A rollover must be completed within 60 days of receiving the distribution. Missing the deadline generally makes the amount taxable and, if the owner is under 59 1/2, subject to the 10% penalty."
+  },
+  {
+    "id": 464,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "type_in",
+    "question": "When a rollover-eligible 401(k) distribution is paid directly to the participant instead of being transferred directly to an IRA, the plan must withhold what percentage for federal income tax? (Enter a number)",
+    "answer": "20",
+    "accepted": ["20", "20 percent", "twenty", "twenty percent"],
+    "explanation": "Employer plans must withhold 20% on eligible rollover distributions paid to the participant. A direct rollover to an IRA avoids the withholding entirely."
+  },
+  {
+    "id": 465,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "A 403(b) plan is available to employees of:",
+    "choices": ["Publicly traded corporations and their subsidiaries only", "Federal government agencies and the military only", "Public schools and 501(c)(3) tax-exempt organizations", "Self-employed individuals and sole proprietors only"],
+    "answer": 2,
+    "explanation": "403(b) plans (tax-sheltered annuities) serve public school systems and nonprofit 501(c)(3) organizations such as hospitals and charities. Corporations typically offer 401(k) plans instead."
+  },
+  {
+    "id": 466,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "A 457(b) deferred compensation plan is MOST commonly offered to employees of:",
+    "choices": ["Large private corporations", "State and local governments", "Sole proprietorships", "Partnerships"],
+    "answer": 1,
+    "explanation": "457 plans are primarily for state and local government workers, such as police, firefighters, and municipal employees. Private corporations generally use 401(k) plans."
+  },
+  {
+    "id": 467,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "Which statement about a SEP IRA is TRUE?",
+    "choices": ["Only employees contribute, through pretax salary deferrals taken from each paycheck", "It is limited to employees of public schools and 501(c)(3) organizations", "Contributions are never tax-deductible to the business, and all withdrawals are tax-free", "The employer makes the contributions, so it suits self-employed people and small businesses"],
+    "answer": 3,
+    "explanation": "A Simplified Employee Pension is funded by employer contributions that are tax-deductible to the business. Employee salary deferrals are a feature of 401(k) and SIMPLE plans."
+  },
+  {
+    "id": 468,
+    "section": "Trading & Accounts",
+    "topic": "Retirement",
+    "type": "multiple_choice",
+    "question": "A SIMPLE IRA plan may be established by an employer with:",
+    "choices": ["More than 500 employees who earned at least $5,000 in the prior year", "Employees at public school districts only", "100 or fewer employees who earned at least $5,000 in the prior year", "Only employees covered by a defined benefit pension plan"],
+    "answer": 2,
+    "explanation": "SIMPLE IRAs are designed for small employers with 100 or fewer employees earning $5,000 or more. Employees make salary deferrals, and the employer makes a matching or nonelective contribution."
+  },
+  {
+    "id": 469,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "type_in",
+    "question": "What is the maximum total annual contribution, in dollars, to Coverdell Education Savings Accounts for a single beneficiary? (Enter a number)",
+    "answer": "2000",
+    "accepted": ["2000", "2000 dollars", "2k", "two thousand"],
+    "explanation": "Coverdell ESA contributions are capped at $2,000 per beneficiary per year, no matter how many accounts or contributors. 529 plans have far higher limits."
+  },
+  {
+    "id": 470,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "multiple_choice",
+    "question": "Contributions to a Coverdell ESA generally must stop when the beneficiary turns ___, and the account generally must be used by age ___ (special-needs beneficiaries excepted).",
+    "choices": ["18; 30", "21; 25", "18; 25", "26; 30"],
+    "answer": 0,
+    "explanation": "Coverdell contributions may be made until the beneficiary turns 18, and remaining assets must be distributed (or rolled to another family member) by age 30. These age limits do not apply to special-needs beneficiaries."
+  },
+  {
+    "id": 471,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "multiple_choice",
+    "question": "If a 529 plan withdrawal is NOT used for qualified education expenses, the earnings portion is:",
+    "choices": ["Tax-free, as long as the account has been open five years", "Taxed at long-term capital gains rates, with no additional penalty", "Taxed only at the state level, with no federal tax due", "Taxed as ordinary income and generally subject to a 10% penalty"],
+    "answer": 3,
+    "explanation": "Nonqualified 529 withdrawals return contributions tax-free, but the earnings are taxed as ordinary income plus a 10% federal penalty. Capital gains rates do not apply."
+  },
+  {
+    "id": 472,
+    "section": "Trading & Accounts",
+    "topic": "Education Accounts",
+    "type": "multiple_choice",
+    "question": "Which statement correctly compares 529 plans with Coverdell ESAs?",
+    "choices": ["Coverdell ESAs have higher annual contribution limits per beneficiary than 529 plans do", "529 plans have no contributor income limits, while Coverdell contributions phase out for high earners", "529 plan assets must be used by the beneficiary's 30th birthday or be distributed with a penalty", "Coverdell contributions are federally tax-deductible, while 529 contributions are not"],
+    "answer": 1,
+    "explanation": "Anyone may contribute to a 529 plan regardless of income, while Coverdell eligibility phases out for high earners. The age-30 deadline belongs to Coverdell accounts, and neither account offers a federal deduction."
+  },
+  {
+    "id": 473,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "Qualified dividends paid to an individual investor are taxed at:",
+    "choices": ["Ordinary income rates, the same as wages", "The same lower rates as long-term capital gains", "A flat 10% rate", "Nothing, because qualified dividends are tax-exempt"],
+    "answer": 1,
+    "explanation": "Qualified dividends receive the preferential long-term capital gains rates (0%, 15%, or 20%). To qualify, the investor must meet a minimum holding period around the ex-dividend date."
+  },
+  {
+    "id": 474,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor buys 100 shares at $40, paying a $20 commission, and later sells all 100 shares at $50, paying another $20 commission. What is the capital gain?",
+    "choices": ["$1,000", "$1,040", "$980", "$960"],
+    "answer": 3,
+    "explanation": "Cost basis = $4,000 + $20 = $4,020. Net proceeds = $5,000 − $20 = $4,980. Gain = $4,980 − $4,020 = $960."
+  },
+  {
+    "id": 475,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor buys 100 shares at $50, sells them at $40 for a $1,000 loss, and buys 100 shares back 20 days later at $42. What is the cost basis per share of the new shares?",
+    "choices": ["$52 per share", "$42 per share", "$50 per share", "$32 per share"],
+    "answer": 0,
+    "explanation": "The repurchase within 30 days triggers the wash sale rule, so the $1,000 loss is disallowed and added to the new basis: $4,200 + $1,000 = $5,200, or $52 per share. The loss is deferred, not lost."
+  },
+  {
+    "id": 476,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "type_in",
+    "question": "This year an investor has $5,000 of short-term capital gains and $12,000 of long-term capital losses, and no other gains or losses. After deducting the maximum allowed against ordinary income, how many dollars of loss carry forward to next year? (Enter a number)",
+    "answer": "4000",
+    "accepted": ["4000", "4000.00", "4000 dollars"],
+    "explanation": "Net capital loss = $12,000 − $5,000 = $7,000. The investor deducts $3,000 against ordinary income and carries forward $7,000 − $3,000 = $4,000."
+  },
+  {
+    "id": 477,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "Which of the following is an example of a regressive tax?",
+    "choices": ["Federal income tax", "Federal estate tax", "Sales tax", "Federal gift tax"],
+    "answer": 2,
+    "explanation": "A sales tax charges everyone the same rate, so it takes a larger share of income from lower earners, making it regressive. Income, estate, and gift taxes use graduated rates, making them progressive."
+  },
+  {
+    "id": 478,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "Interest from which investment may be a tax preference item that must be added back when calculating the alternative minimum tax (AMT)?",
+    "choices": ["U.S. Treasury notes", "General obligation municipal bonds", "Corporate bonds", "Private activity municipal bonds"],
+    "answer": 3,
+    "explanation": "Interest on certain private activity municipal bonds is exempt from regular federal tax but is added back for AMT. GO bond interest is not an AMT preference item, and Treasury and corporate interest are already taxable."
+  },
+  {
+    "id": 479,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "An investor buys stock on March 10, 2025. What is the earliest date the investor can sell and receive long-term capital gains treatment?",
+    "choices": ["March 10, 2026", "September 11, 2025", "March 11, 2026", "March 10, 2027"],
+    "answer": 2,
+    "explanation": "The holding period starts the day after purchase and must exceed one year. A sale on March 10, 2026 is exactly one year (short-term), so March 11, 2026 is the first long-term date."
+  },
+  {
+    "id": 480,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "Who is generally responsible for paying any federal gift tax that is due?",
+    "choices": ["The recipient", "The donor", "The donor and recipient equally", "No one, because gifts are never taxed"],
+    "answer": 1,
+    "explanation": "The person making the gift (the donor) owes any gift tax. Gifts up to the annual exclusion per recipient are not taxable and do not require a gift tax return."
+  },
+  {
+    "id": 481,
+    "section": "Trading & Accounts",
+    "topic": "Taxes",
+    "type": "multiple_choice",
+    "question": "A fund makes a distribution classified as a return of capital. How is it treated for the investor?",
+    "choices": ["It reduces the investor's cost basis and is not taxed when received", "It is taxed as ordinary income in the year it is received", "It is taxed as a qualified dividend at capital gains rates", "It increases the investor's cost basis and is not taxed until the shares are sold"],
+    "answer": 0,
+    "explanation": "A return of capital gives back part of the original investment, so it lowers cost basis and is not currently taxed. The lower basis produces a larger gain (or smaller loss) when the shares are sold."
+  },
+  {
+    "id": 482,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A trader places large orders with no intention of having them executed, then cancels them after other traders react to the false impression of demand. This manipulation is called:",
+    "choices": ["Spoofing", "Front running", "Marking the close", "Churning"],
+    "answer": 0,
+    "explanation": "Spoofing uses non-bona fide orders to mislead the market about supply or demand. Front running is trading ahead of a known customer order, a different violation."
+  },
+  {
+    "id": 483,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A registered representative urges customers to buy a stock right before the ex-dividend date so they can \"capture\" the upcoming dividend. This prohibited practice is called:",
+    "choices": ["Breakpoint selling", "Front running", "Selling dividends", "Churning"],
+    "answer": 2,
+    "explanation": "The stock price drops by about the dividend amount on the ex-date, and the dividend is taxable, so buying just for the dividend gives no real benefit. Breakpoint selling relates to mutual fund sales charge discounts."
+  },
+  {
+    "id": 484,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, a registered representative may share in the profits and losses of a customer's account:",
+    "choices": ["In any percentage the customer agrees to orally, provided the branch manager is informed in advance", "Only with the firm's and customer's prior written approval, generally in proportion to the rep's investment", "Without any approval as long as the account remains profitable and the customer does not object", "In profits only, never in losses, with written approval from the customer"],
+    "answer": 1,
+    "explanation": "Sharing requires written authorization from both the firm and the customer and must be proportional to the rep's contribution. Accounts of the rep's immediate family are an exception to the proportional limit."
+  },
+  {
+    "id": 485,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 3240, if the firm's written procedures allow it, a registered representative may borrow money from a customer that is:",
+    "choices": ["Any customer with more than $1 million in investable assets at the firm", "Any customer who signs a written promissory note with a fixed interest rate", "A customer whose account has been profitable", "A bank or other financial institution in the business of lending money"],
+    "answer": 3,
+    "explanation": "Permitted lending arrangements include immediate family members and financial institutions in the business of lending, among a few others. A customer's wealth or account performance does not make a loan permissible."
+  },
+  {
+    "id": 486,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A broker-dealer mixes customers' fully paid securities with its own securities and pledges them together for a firm loan. This violation is called:",
+    "choices": ["Freeriding", "Front running", "Commingling", "Interpositioning"],
+    "answer": 2,
+    "explanation": "Commingling is mixing customer assets with firm assets. Fully paid customer securities must be segregated and may not be pledged for the firm's own borrowing."
+  },
+  {
+    "id": 487,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "type_in",
+    "question": "A market maker refuses to trade at the firm quote it is displaying. What two-word term describes this violation? (Enter the term)",
+    "answer": "Backing away",
+    "accepted": ["backing away", "backing-away", "back away", "backing away from a quote", "backing away from the quote"],
+    "explanation": "Backing away means failing to honor a firm quote for at least the displayed size. Market makers must trade at their firm quotes when a broker-dealer presents an order."
+  },
+  {
+    "id": 488,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "A broker-dealer keeps shares of a hot IPO, one trading at a premium, in its own account instead of distributing them to the public. This prohibited practice is called:",
+    "choices": ["Withholding", "Interpositioning", "Marking the close", "Selling away"],
+    "answer": 0,
+    "explanation": "Withholding hot-issue shares for the firm or its insiders is prohibited under FINRA's freeriding and withholding rules. Selling away is a rep's private securities transaction away from the firm."
+  },
+  {
+    "id": 489,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "Under FINRA Rule 5130, which person is a restricted person who generally may NOT buy shares of a new equity IPO?",
+    "choices": ["A bank teller with no broker-dealer affiliation", "A retired schoolteacher", "An employee of a manufacturing company", "An employee of a FINRA member broker-dealer"],
+    "answer": 3,
+    "explanation": "Restricted persons include broker-dealer employees, finders, portfolio managers buying for themselves, and certain immediate family members of these persons. Members of the general public are not restricted."
+  },
+  {
+    "id": 490,
+    "section": "Trading & Accounts",
+    "topic": "Prohibited Activities",
+    "type": "multiple_choice",
+    "question": "The Insider Trading and Securities Fraud Enforcement Act of 1988 requires broker-dealers to:",
+    "choices": ["Register all research analysts and investment bankers individually with the SEC", "Establish and enforce written procedures to prevent the misuse of material nonpublic information", "Guarantee customer accounts against any losses caused by other investors' insider trading", "Report all customer trades over $10,000 to the IRS within 15 days"],
+    "answer": 1,
+    "explanation": "ITSFEA requires written procedures, such as information barriers, to prevent misuse of inside information. It also expanded penalties, including liability for controlling persons who fail to prevent violations."
+  }
+]

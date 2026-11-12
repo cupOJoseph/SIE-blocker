@@ -65,9 +65,6 @@
     }
     button:hover { background: #10141b; }
     button:focus-visible { outline: 2px solid var(--rule-red); outline-offset: 2px; }
-    .danger { margin-top: 2rem; border-top: 1px solid #ddd6c4; padding-top: 1rem; }
-    .danger button { background: transparent; color: var(--rule-red); border: 1px solid var(--rule-red); }
-    .danger button:hover { background: rgba(194,80,75,.08); }
     .sites { margin-top: 0.6rem; }
     .site-list { list-style: none; margin: 0.6rem 0 0.9rem; }
     .site-list li {
@@ -107,7 +104,7 @@
 <body>
   <main class="panel">
     <h1>SIE Study Blocker</h1>
-    <p class="sub">Manage the sites you block and your study stats.</p>
+    <p class="sub">Manage the sites you block. Study stats are never saved.</p>
 
     <div class="sites">
       <label for="siteInput">Blocked sites</label>
@@ -118,10 +115,6 @@
       </div>
       <p id="siteMsg"></p>
       <p class="hint">Adding a site is permanent — there is no remove button, on purpose. Subdomains are blocked automatically (adding reddit.com also blocks old.reddit.com).</p>
-    </div>
-
-    <div class="danger">
-      <button id="resetBtn" type="button">Reset all-time stats</button>
     </div>
   </main>
   <script src="options.js"></script>

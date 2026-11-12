@@ -5,7 +5,7 @@
     "topic": "Registration",
     "type": "multiple_choice",
     "question": "Passing the SIE exam alone allows a candidate to:",
-    "choices": ["Solicit securities orders from the public", "Demonstrate basic industry knowledge — but not to conduct securities business until a representative-level 'top-off' exam and registration are completed", "Act as a principal of a member firm", "Trade for a firm's proprietary account"],
+    "choices": ["Solicit securities orders from the public as long as a registered rep supervises the activity", "Show basic industry knowledge; a top-off exam and registration are still needed to do business", "Act as a principal of a member firm after one year of industry experience", "Trade for a firm's proprietary account as a registered Securities Trader"],
     "answer": 1,
     "explanation": "The SIE is a prerequisite, not a registration. To function as a representative, the candidate must be associated with a member firm, pass a top-off exam such as the Series 6 or 7, and be registered. An SIE passing result remains valid for 4 years."
   },
@@ -55,7 +55,7 @@
     "topic": "Outside Activities",
     "type": "multiple_choice",
     "question": "Before taking a paid weekend job outside the firm, a registered representative must:",
-    "choices": ["Do nothing — outside work is personal business", "Provide prior written notice of the outside business activity to the firm", "Obtain approval from FINRA directly", "Resign from the firm"],
+    "choices": ["Do nothing, since weekend work outside the firm is personal business", "Give the firm prior written notice of the outside business activity", "Obtain written approval directly from FINRA before starting the job", "Resign from the firm and re-register after the job ends"],
     "answer": 1,
     "explanation": "Outside business activities (OBAs) require prior written notice to the employing firm, which may restrict or prohibit the activity. Passive investments generally don't count as OBAs."
   },
@@ -65,7 +65,7 @@
     "topic": "Outside Activities",
     "type": "multiple_choice",
     "question": "A rep helps a friend's startup sell shares to investors, away from the rep's firm, and receives compensation. Without notifying the firm, this is a violation known as:",
-    "choices": ["Churning", "Selling away (an unapproved private securities transaction)", "Front-running", "Interpositioning"],
+    "choices": ["Churning (excessive trading to generate commissions)", "Selling away (an unapproved private securities transaction)", "Front-running (trading ahead of a customer's block order)", "Interpositioning (inserting a third party between customer and market)"],
     "answer": 1,
     "explanation": "Private securities transactions require prior written notice; if the rep is compensated, the firm must approve, record, and supervise the transactions. Doing it secretly is 'selling away.'"
   },
@@ -75,9 +75,9 @@
     "topic": "Gifts",
     "type": "type_in",
     "question": "Under FINRA's gifts rule, what is the maximum dollar value of gifts a member may give per person, per year, in connection with the firm's business? (Enter a number)",
-    "answer": "100",
-    "accepted": ["100", "$100", "100 dollars"],
-    "explanation": "FINRA Rule 3220 caps business-related gifts at $100 per person per year. Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
+    "answer": "300",
+    "accepted": ["300", "$300", "300 dollars"],
+    "explanation": "FINRA Rule 3220 caps business-related gifts at $300 per person per year (raised from $100, effective March 30, 2026). Ordinary business entertainment (where the giver attends) is treated separately and must not be excessive."
   },
   {
     "id": 131,
@@ -125,7 +125,7 @@
     "topic": "Reportable Events",
     "type": "multiple_choice",
     "question": "Which event must a registered representative report to their firm by amending Form U4?",
-    "choices": ["Getting married", "A compromise with creditors or personal bankruptcy", "Buying a new home", "Taking a vacation abroad"],
+    "choices": ["Opening a joint bank account with a spouse", "A compromise with creditors or personal bankruptcy", "Refinancing a home with a conventional 30-year mortgage", "Taking a two-week vacation abroad with family"],
     "answer": 1,
     "explanation": "Reportable U4 events include criminal charges and convictions, customer complaints meeting thresholds, liens and judgments, bankruptcies and compromises with creditors, and certain regulatory actions."
   },
@@ -145,7 +145,7 @@
     "topic": "Continuing Education",
     "type": "multiple_choice",
     "question": "The Firm Element of the continuing education requirement is BEST described as:",
-    "choices": ["FINRA-administered computer training taken every three years", "Annual, firm-designed training on job- and product-related topics for covered persons", "A requalification exam after any disciplinary event", "Optional training the firm may offer new hires"],
+    "choices": ["FINRA-administered computer training taken every three years", "Annual, firm-designed training on job- and product-related topics", "A requalification exam required after any disciplinary event", "Optional training the firm may offer to newly hired representatives"],
     "answer": 1,
     "explanation": "The Firm Element is annual training that each firm designs from its own needs analysis, covering products, regulations, and suitability relevant to its business. The Regulatory Element is the separate, FINRA-administered annual requirement."
   },
@@ -165,9 +165,9 @@
     "topic": "Gifts",
     "type": "multiple_choice",
     "question": "A registered representative wants to take a client to a professional basketball game. Under FINRA rules, this entertainment is permissible if:",
-    "choices": ["Its value is under $100, like any gift", "The representative attends with the client and the entertainment is neither excessive nor a condition of doing business", "The client reimburses half the cost", "A principal attends as chaperone"],
+    "choices": ["Its value is under $300 per person per year, the same as any gift", "The rep attends too, and it is not excessive or a condition of business", "The client reimburses at least half the cost of the tickets in advance", "A principal of the firm attends the game as a chaperone"],
     "answer": 1,
-    "explanation": "Business entertainment is not subject to the $100 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $100 cap."
+    "explanation": "Business entertainment is not subject to the $300 gift limit as long as the associated person attends and it is neither too frequent nor extravagant. If the rep just hands over the tickets and stays home, it becomes a gift subject to the $300 cap."
   },
   {
     "id": 180,
@@ -175,7 +175,7 @@
     "topic": "Political Contributions",
     "type": "multiple_choice",
     "question": "A municipal finance professional contributes $500 to the campaign of a mayor for whom the MFP cannot vote. The consequence for the firm is:",
-    "choices": ["Nothing - contributions under $1,000 are always permitted", "A two-year ban on negotiated municipal securities business with that issuer", "A fine payable to the MSRB", "The MFP must resign"],
+    "choices": ["Nothing, since contributions under $1,000 are always permitted", "A two-year ban on negotiated municipal business with that issuer", "A fine payable to the MSRB equal to the contribution amount", "The MFP must resign from the firm within 30 days"],
     "answer": 1,
     "explanation": "Under MSRB Rule G-37, a contribution above the de minimis allowance ($250, and only where the MFP can vote for the candidate) triggers a two-year ban on negotiated municipal underwriting business with that issuer."
   }

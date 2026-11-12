@@ -5,7 +5,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "An investor places an order to buy mutual fund shares at 2:00 pm ET. The price the investor pays is based on:",
-    "choices": ["The NAV calculated the previous day", "The next NAV calculated after the order is received (forward pricing)", "The average NAV of the past week", "The intraday market price at 2:00 pm"],
+    "choices": ["The NAV calculated at the previous day's close", "The next NAV calculated after the order is received", "The average NAV over the past five trading days", "The fund's intraday market price at 2:00 pm"],
     "answer": 1,
     "explanation": "Open-end funds use forward pricing: orders receive the next computed NAV (typically calculated once daily after the market close), plus any applicable sales charge."
   },
@@ -15,7 +15,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "Which statement about open-end mutual fund shares is TRUE?",
-    "choices": ["They trade between investors on an exchange", "They are purchased from and redeemed by the fund itself", "They may trade at a discount to NAV", "The number of shares outstanding is fixed"],
+    "choices": ["They trade between investors on a national securities exchange", "They are purchased from and redeemed by the fund itself", "They may trade at a discount to NAV in the secondary market", "The number of shares outstanding is fixed at the initial offering"],
     "answer": 1,
     "explanation": "Open-end funds continuously issue and redeem shares at NAV (plus/minus charges); there is no secondary market. Closed-end funds have a fixed share count and trade on exchanges at premiums or discounts to NAV."
   },
@@ -25,7 +25,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "Under FINRA rules, the maximum sales charge on a mutual fund purchase is:",
-    "choices": ["5% of the amount invested", "8.5% of the public offering price", "10% of NAV", "There is no maximum"],
+    "choices": ["5% of the net asset value per share", "8.5% of the public offering price", "10% of the fund's net asset value", "There is no maximum sales charge"],
     "answer": 1,
     "explanation": "FINRA caps mutual fund sales charges at 8.5% of the public offering price, and a fund may only charge the maximum if it offers breakpoints and rights of accumulation."
   },
@@ -75,7 +75,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "Compared with traditional open-end index mutual funds, ETFs generally offer:",
-    "choices": ["Intraday trading, the ability to be sold short, and margin eligibility", "Guaranteed returns tied to the index", "Forward pricing once per day", "Freedom from all market risk"],
+    "choices": ["Intraday trading, short selling, and margin eligibility", "Guaranteed returns that match the index they track", "Forward pricing at a single NAV computed once per day", "Freedom from market risk because they are diversified"],
     "answer": 0,
     "explanation": "ETFs trade throughout the day at market prices, can be bought on margin or sold short, and tend to have low expense ratios — but they still carry the full market risk of what they hold, and trades incur commissions."
   },
@@ -85,7 +85,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "Which statement about money market mutual funds is TRUE?",
-    "choices": ["They are guaranteed by the FDIC", "They aim to maintain a stable $1.00 NAV but this is not guaranteed", "They cannot lose value", "They invest primarily in long-term bonds"],
+    "choices": ["They are insured by the FDIC up to $250,000 per depositor", "They seek a stable $1.00 NAV, but it is not guaranteed", "They cannot lose value because they hold Treasury bills", "They invest primarily in long-term corporate and municipal bonds"],
     "answer": 1,
     "explanation": "Money market funds target a stable $1 NAV using short-term debt, but they are not insured or guaranteed and can 'break the buck.'"
   },
@@ -95,7 +95,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "A unit investment trust (UIT) is BEST described as having:",
-    "choices": ["An actively managed portfolio and a board of directors", "A fixed, unmanaged portfolio with redeemable units and a termination date", "Exchange-traded shares priced at a premium to NAV", "A portfolio that changes daily at the sponsor's discretion"],
+    "choices": ["An actively managed portfolio overseen by an investment adviser and board", "A fixed, unmanaged portfolio with redeemable units and an end date", "Shares issued once in an IPO and traded only on an exchange", "A portfolio the sponsor may change daily at its own discretion"],
     "answer": 1,
     "explanation": "UITs assemble a fixed portfolio, issue redeemable units, have no investment adviser or active management, and terminate on a set date."
   },
@@ -115,7 +115,7 @@
     "topic": "Alternatives",
     "type": "multiple_choice",
     "question": "Which characteristic is typical of hedge funds?",
-    "choices": ["Daily redemption at NAV for any investor", "Registration and pricing rules identical to mutual funds", "Limited liquidity, performance-based fees, and availability mainly to accredited investors", "FDIC insurance on invested capital"],
+    "choices": ["Daily redemption at NAV and no minimum investment for any investor", "Registration, pricing, and leverage rules identical to those of mutual funds", "Limited liquidity, performance fees, and sales mainly to accredited investors", "FDIC insurance on invested capital up to the standard coverage limit"],
     "answer": 2,
     "explanation": "Hedge funds are typically private, lightly regulated pools open to accredited or qualified investors, often using leverage and short selling, charging management plus performance fees, with restricted (lock-up) liquidity."
   },
@@ -165,7 +165,7 @@
     "topic": "Options",
     "type": "multiple_choice",
     "question": "Which option position exposes the investor to theoretically UNLIMITED loss?",
-    "choices": ["Buying a call", "Buying a put", "Writing an uncovered (naked) call", "Writing a covered call"],
+    "choices": ["Buying a call on a volatile stock", "Buying a put on a volatile stock", "Writing an uncovered (naked) call", "Writing a covered call on stock held"],
     "answer": 2,
     "explanation": "A naked call writer must deliver stock they don't own; since a stock's price has no ceiling, potential loss is unlimited. Option buyers can never lose more than the premium."
   },
@@ -215,7 +215,7 @@
     "topic": "Options",
     "type": "multiple_choice",
     "question": "When an index option is exercised, the writer must deliver:",
-    "choices": ["A basket of the index's component stocks", "Cash equal to the option's in-the-money amount", "Shares of an index ETF", "A futures contract on the index"],
+    "choices": ["The component stocks of the index in their index weights", "Cash equal to the option's in-the-money amount", "Shares of an ETF that tracks the same index", "A futures contract on the underlying index"],
     "answer": 1,
     "explanation": "Index options settle in cash — the in-the-money amount times the multiplier — since delivering hundreds of stocks would be impractical."
   },
@@ -225,7 +225,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "Which statement about variable annuities is TRUE?",
-    "choices": ["Contributions are invested in the insurer's general account", "The insurance company bears the investment risk", "Payments are funded through a separate account, and the product is regulated as a security", "Returns are guaranteed by the issuing insurer"],
+    "choices": ["Contributions are invested in the insurer's general account, like a fixed annuity", "The insurance company bears the investment risk on the separate account", "Premiums go into a separate account, and the product is regulated as a security", "Returns are guaranteed by the issuing insurer, so no prospectus is required"],
     "answer": 2,
     "explanation": "Variable annuity premiums go into a separate account invested in subaccounts; the annuitant bears the investment risk, so the product must be registered as a security and sold with a prospectus."
   },
@@ -245,7 +245,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "A Section 1035 exchange allows an investor to:",
-    "choices": ["Exchange one annuity contract for another without current taxation", "Withdraw annuity earnings tax-free before age 59 1/2", "Convert a traditional IRA into a Roth IRA tax-free", "Exchange stock for bonds without capital gains tax"],
+    "choices": ["Exchange one annuity contract for another without current taxation", "Withdraw annuity earnings tax-free and penalty-free before age 59 1/2", "Convert a traditional IRA into a Roth IRA without paying any income tax", "Exchange stock for bonds without recognizing capital gains tax"],
     "answer": 0,
     "explanation": "A 1035 exchange defers tax when swapping one insurance/annuity contract for another — but surrender charges and a new surrender period may still apply, so suitability matters."
   },
@@ -275,7 +275,7 @@
     "topic": "Risk Types",
     "type": "multiple_choice",
     "question": "Diversifying a portfolio across many different companies primarily reduces:",
-    "choices": ["Systematic risk", "Nonsystematic (company-specific) risk", "Inflation risk", "Interest rate risk"],
+    "choices": ["Systematic (market-wide) risk", "Nonsystematic (company-specific) risk", "Inflation (purchasing power) risk", "Interest rate and reinvestment risk"],
     "answer": 1,
     "explanation": "Diversification reduces nonsystematic risks like business and credit risk. Systematic risks — market, interest rate, inflation — affect the entire market and cannot be diversified away."
   },
@@ -295,7 +295,7 @@
     "topic": "Risk Types",
     "type": "multiple_choice",
     "question": "An investor whose entire portfolio is long-term fixed-rate bonds and a fixed annuity is MOST exposed to:",
-    "choices": ["Currency risk", "Purchasing power (inflation) risk", "Business risk", "Regulatory risk"],
+    "choices": ["Currency (exchange-rate) risk", "Purchasing power (inflation) risk", "Business (company-specific) risk", "Regulatory (legislative) risk"],
     "answer": 1,
     "explanation": "Fixed payment streams lose real value when inflation rises. Equities historically offer better inflation protection than fixed-income products."
   },
@@ -315,7 +315,7 @@
     "topic": "Risk Types",
     "type": "multiple_choice",
     "question": "A U.S. investor holding ADRs of a Japanese company is exposed to which risk NOT faced by an investor holding only U.S. domestic stocks?",
-    "choices": ["Market risk", "Currency (exchange-rate) risk", "Interest rate risk", "Reinvestment risk"],
+    "choices": ["Market (systematic) risk", "Currency (exchange-rate) risk", "Interest rate (price) risk", "Inflation (purchasing power) risk"],
     "answer": 1,
     "explanation": "Even though ADRs trade in dollars, the underlying shares and dividends are in yen, so changes in the dollar/yen exchange rate affect returns."
   },
@@ -325,7 +325,7 @@
     "topic": "Risk Types",
     "type": "multiple_choice",
     "question": "Reinvestment risk is the risk that:",
-    "choices": ["A bond's issuer will default", "Interest payments and returned principal must be reinvested at lower rates", "A stock cannot be sold quickly", "The market as a whole declines"],
+    "choices": ["A bond's issuer will default on interest or principal payments", "Coupons and returned principal must be reinvested at lower rates", "A stock cannot be sold quickly without a significant price concession", "The market as a whole declines, lowering nearly all security prices"],
     "answer": 1,
     "explanation": "When rates fall, coupons and called/matured principal can only be reinvested at lower yields. Zero-coupon bonds held to maturity avoid reinvestment risk because there are no coupons to reinvest."
   },
@@ -365,7 +365,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "A collateralized mortgage obligation (CMO) differs from a simple mortgage pass-through primarily because a CMO:",
-    "choices": ["Is backed by the U.S. government", "Divides cash flows into tranches with different expected maturities and risk levels", "Pays no interest until maturity", "Is free of prepayment risk"],
+    "choices": ["Is always backed by the full faith and credit of the U.S. government", "Divides cash flows into tranches with different maturities and risks", "Pays no interest to any investor until the mortgages mature", "Is completely free of prepayment and extension risk"],
     "answer": 1,
     "explanation": "A CMO carves mortgage cash flows into tranches; each tranche has its own expected maturity and priority for receiving principal, letting investors choose different prepayment-risk profiles."
   },
@@ -415,7 +415,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Compared with a similar nonconvertible bond from the same issuer, a convertible bond typically pays:",
-    "choices": ["A higher coupon, because it is riskier", "A lower coupon, because the conversion feature has value to the investor", "The same coupon", "No coupon at all"],
+    "choices": ["A higher coupon, because conversion exposes the investor to stock risk", "A lower coupon, because investors value the conversion feature", "The same coupon, since conversion does not affect the bond's yield", "No coupon at all, like a zero-coupon bond until conversion"],
     "answer": 1,
     "explanation": "The right to convert into common stock is valuable, so investors accept a lower coupon. The issuer gets cheaper financing in exchange for potential future dilution."
   },
@@ -465,7 +465,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "A 12b-1 fee charged by a mutual fund pays for:",
-    "choices": ["The portfolio manager's advisory services", "Distribution and marketing costs, deducted annually from fund assets", "Brokerage commissions on portfolio trades", "The one-time cost of buying fund shares"],
+    "choices": ["The portfolio manager's advisory services, billed as a management fee", "Distribution and marketing costs, deducted yearly from fund assets", "Brokerage commissions the fund pays on its portfolio trades", "A one-time sales load charged when the investor buys shares"],
     "answer": 1,
     "explanation": "12b-1 fees cover distribution, marketing, and sometimes shareholder-service costs. They are taken out of fund assets each year, reducing the investor's return — they are not a sales load paid at purchase."
   },
@@ -475,7 +475,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "To advertise itself as a 'diversified' investment company, a fund must meet the 75-5-10 test, which requires that:",
-    "choices": ["75% of shareholders approve the strategy each year", "In at least 75% of its assets, no more than 5% is in any one issuer and no more than 10% of any issuer's voting stock is owned", "The fund hold at least 75 different stocks across 10 sectors", "No single holding exceed 75% of assets"],
+    "choices": ["75% of assets be invested in stocks, with no more than 5% in cash and 10% in bonds", "75% of assets meet a 5% single-issuer cap and a 10% cap on any issuer's voting stock", "The fund hold at least 75 different stocks, with no more than 10% in any one sector", "No single holding exceed 75% of assets, and at least 5% of assets be held in cash"],
     "answer": 1,
     "explanation": "The Investment Company Act's 75-5-10 test: within 75% of the portfolio, max 5% of fund assets in any single issuer and max 10% of any one issuer's voting shares. The remaining 25% is unrestricted."
   },
@@ -515,7 +515,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "Once a variable annuity is annuitized, which statement about annuity units is TRUE?",
-    "choices": ["The number of units and their value are both fixed", "The number of units is fixed, but each unit's value varies with separate account performance", "The number of units varies, but each unit's value is fixed", "Both the number of units and their value vary each month"],
+    "choices": ["The number of units and their value are both fixed for the life of the contract", "The number of units is fixed, but each unit's value varies with separate account performance", "The number of units varies with performance, but each unit's value is fixed at annuitization", "Both the number of units and each unit's value change monthly with separate account performance"],
     "answer": 1,
     "explanation": "At annuitization, accumulation units convert into a fixed number of annuity units. The monthly check equals that fixed number times the fluctuating unit value, which depends on separate account performance versus the assumed interest rate (AIR)."
   },
@@ -525,7 +525,7 @@
     "topic": "Insurance",
     "type": "multiple_choice",
     "question": "Which statement about term life insurance is TRUE?",
-    "choices": ["It builds cash value that can be borrowed against", "It provides a pure death benefit for a set period and builds no cash value", "It requires a securities license to sell", "Its premiums never change, even upon renewal at an older age"],
+    "choices": ["It builds cash value that the policyholder can borrow against at any time", "It provides a pure death benefit for a set period and builds no cash value", "It requires a securities license because it is registered with the SEC", "Its premiums never change, even upon renewal at an older age"],
     "answer": 1,
     "explanation": "Term insurance is pure protection: coverage for a stated period, no cash value. It is the cheapest form of life insurance initially, but renewal premiums rise with age. No securities registration is needed because there is no investment component."
   },
