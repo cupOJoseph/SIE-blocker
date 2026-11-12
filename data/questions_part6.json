@@ -25,7 +25,7 @@
     "topic": "Monetary Policy",
     "type": "multiple_choice",
     "question": "If the Federal Reserve raises the reserve requirement for member banks, the most likely result is:",
-    "choices": ["Banks have less money to lend, so the money supply tightens and interest rates tend to rise", "Banks have more money to lend, so interest rates tend to fall", "The federal budget deficit shrinks immediately", "Bond prices tend to rise across all maturities"],
+    "choices": ["Banks have less to lend, so the money supply tightens and rates tend to rise", "Banks have more money to lend, so the money supply expands and interest rates fall", "The federal budget deficit shrinks because the Treasury collects more revenue", "Bond prices tend to rise across all maturities as market yields decline"],
     "answer": 0,
     "explanation": "A higher reserve requirement means banks must hold back more of their deposits, leaving less to lend, which tightens credit and pushes rates up. Rising rates push bond prices down, not up."
   },
@@ -65,7 +65,7 @@
     "topic": "Economic Factors",
     "type": "multiple_choice",
     "question": "Which of the following is a COINCIDENT economic indicator, moving at about the same time as the overall economy?",
-    "choices": ["Building permits for new housing", "Average duration of unemployment", "Stock prices", "Personal income (excluding transfer payments)"],
+    "choices": ["Building permits for new private housing units", "Average duration of unemployment, in weeks", "Stock prices of the 500 companies in the S&P 500", "Personal income (excluding transfer payments)"],
     "answer": 3,
     "explanation": "Coincident indicators such as personal income, industrial production, nonfarm payrolls and manufacturing and trade sales track the economy in real time. Building permits and stock prices are leading indicators, and the average duration of unemployment is a lagging one."
   },
@@ -105,7 +105,7 @@
     "topic": "Economic Factors",
     "type": "multiple_choice",
     "question": "Stagflation describes an economy experiencing:",
-    "choices": ["High inflation combined with slow growth and high unemployment", "Falling prices combined with rapid growth", "Low inflation combined with full employment", "Rising GDP and a strengthening currency"],
+    "choices": ["High inflation combined with slow growth and high unemployment", "Falling prices combined with rapid growth and rising employment", "Low inflation combined with full employment and steady growth", "Rising GDP combined with a strengthening currency and low unemployment"],
     "answer": 0,
     "explanation": "Stagflation pairs rising prices with a stagnant economy and high unemployment, which makes it hard for policymakers to respond. A sustained fall in prices is deflation, a different condition."
   },
@@ -145,7 +145,7 @@
     "topic": "Economic Factors",
     "type": "multiple_choice",
     "question": "During an economic downturn, which type of company's earnings tend to hold up BEST?",
-    "choices": ["An automobile manufacturer", "A heavy-equipment maker", "A luxury cruise line", "A food and household products company"],
+    "choices": ["A manufacturer of new cars and light trucks", "A maker of heavy construction equipment", "A cruise line offering luxury vacations", "A food and household products company"],
     "answer": 3,
     "explanation": "Defensive companies such as food, household products and utilities sell necessities that people keep buying in any economy. Cars, heavy equipment and luxury travel are cyclical, so their sales tend to drop in a recession."
   },
@@ -165,7 +165,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "Shelf registration under SEC Rule 415 allows an eligible issuer to:",
-    "choices": ["Sell securities without ever filing a registration statement", "Skip delivering a prospectus to investors", "Register securities now and sell them in portions over time, generally up to three years", "Sell restricted stock to the public after a six-month holding period"],
+    "choices": ["Sell securities without ever filing a registration statement with the SEC", "Skip delivering a prospectus to investors", "Register securities once and sell them in portions over up to three years", "Sell restricted stock to the public after a six-month holding period"],
     "answer": 2,
     "explanation": "A shelf registration lets a qualifying issuer register securities once and take them 'off the shelf' as needed, generally over up to three years. The issuer still files a registration statement and provides a prospectus."
   },
@@ -185,7 +185,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "A tombstone advertisement for a new issue is BEST described as:",
-    "choices": ["A binding offer to sell shares at a stated price", "A required filing that makes the registration statement effective", "A brief announcement of basic offering facts that states it is not an offer to sell", "A notice published when an issuer files for bankruptcy"],
+    "choices": ["A binding offer to sell shares at a stated price to anyone who responds", "A required filing that makes the registration statement effective", "A brief announcement of offering facts stating it is not an offer to sell", "A notice published in newspapers when an issuer files for bankruptcy"],
     "answer": 2,
     "explanation": "A tombstone announces the basic facts of an offering, such as the issuer, security, amount and where to get a prospectus, and says it is neither an offer to sell nor a solicitation. Only the prospectus can be used to offer the securities."
   },
@@ -215,7 +215,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "An issuer organized and doing business in Ohio wants to raise capital only from Ohio residents without registering with the SEC. Which exemption fits BEST?",
-    "choices": ["Rule 147 (intrastate offering)", "Rule 144", "Regulation S", "Rule 144A"],
+    "choices": ["Rule 147 (intrastate offering)", "Rule 144 (resale of restricted stock)", "Regulation S (offshore offering)", "Rule 144A (resales to QIBs)"],
     "answer": 0,
     "explanation": "Rule 147 exempts intrastate offerings in which the issuer and all purchasers are in the same state, though the offering must still meet that state's blue-sky rules. Regulation S covers offerings made outside the United States, and Rule 144 governs resales, not new issues."
   },
@@ -235,7 +235,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "Which statement about a Regulation D Rule 506(c) offering is TRUE?",
-    "choices": ["Up to 35 non-accredited investors may participate", "General solicitation is allowed, but every purchaser must be accredited and the issuer must take reasonable steps to verify that status", "The securities are freely tradable immediately after purchase", "The offering is limited to $5 million"],
+    "choices": ["Up to 35 non-accredited investors may participate if they are financially sophisticated", "General solicitation is allowed, but the issuer must verify that every buyer is accredited", "The securities are freely tradable immediately after purchase, without any holding period", "The offering is limited to $5 million raised within any 12-month period"],
     "answer": 1,
     "explanation": "Rule 506(c) permits general solicitation and advertising in exchange for selling only to verified accredited investors. The allowance for up to 35 non-accredited purchasers belongs to Rule 506(b), and Rule 506 offerings have no dollar cap."
   },
@@ -275,7 +275,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "In a mini-max underwriting:",
-    "choices": ["A minimum amount must be sold before the deal proceeds, and investor funds are held in escrow until it is reached", "The underwriter buys the entire issue and resells it to the public", "Every share must be sold or the entire deal is canceled", "The underwriter buys any shares left unsubscribed in a rights offering"],
+    "choices": ["A minimum must be sold for the deal to proceed, with funds held in escrow until it is reached", "The underwriter buys the entire issue from the issuer and resells it to the public at a fixed price", "Every share must be sold or the entire deal is canceled and investor funds are returned", "The underwriter buys any shares left unsubscribed in a rights offering"],
     "answer": 0,
     "explanation": "A mini-max is a best efforts underwriting with a minimum that must be sold, up to a stated maximum, with funds held in escrow until the minimum is met. Buying the whole issue is a firm commitment, and selling every share or canceling is all-or-none."
   },
@@ -285,7 +285,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "How does a selling group member differ from a member of the underwriting syndicate?",
-    "choices": ["Selling group members sign the underwriting agreement with the issuer", "Selling group members manage the offering and allocate shares", "Selling group members receive the entire underwriting spread", "Selling group members sell shares as agents and have no financial liability for unsold shares"],
+    "choices": ["Selling group members sign the underwriting agreement directly with the issuer", "Selling group members manage the offering and allocate shares to the syndicate", "Selling group members receive the entire underwriting spread", "Selling group members act as agents and bear no liability for unsold shares"],
     "answer": 3,
     "explanation": "Selling group firms help distribute the issue as agents and earn the selling concession, but they take on no underwriting risk. Syndicate members commit capital and share liability for unsold shares, and the managing underwriter runs the deal."
   },
@@ -335,7 +335,7 @@
     "topic": "Market Structure",
     "type": "multiple_choice",
     "question": "A dark pool is BEST described as:",
-    "choices": ["An unregulated market with no SEC oversight", "An alternative trading system that does not publicly display quotes, used largely for large institutional orders", "The market for securities that have been delisted from an exchange", "A Federal Reserve facility for overnight bank lending"],
+    "choices": ["An unregulated offshore market with no SEC oversight or reporting requirements", "An alternative trading system that does not display quotes, used mainly by institutions", "The market for securities that have been delisted from a national securities exchange", "A Federal Reserve facility for overnight lending between member banks"],
     "answer": 1,
     "explanation": "Dark pools let institutions trade large blocks without displaying their orders publicly, which limits market impact. They are regulated by the SEC as alternative trading systems under Regulation ATS."
   },
@@ -345,7 +345,7 @@
     "topic": "Market Structure",
     "type": "multiple_choice",
     "question": "Which of the following is a secondary market transaction?",
-    "choices": ["An investor buys 100 shares of a listed stock from another investor on an exchange", "An investor buys shares in a company's initial public offering", "A public company sells newly issued shares in a follow-on offering", "A startup sells new shares to accredited investors in a private placement"],
+    "choices": ["An investor buys 100 listed shares from another investor on an exchange", "An investor buys shares directly from a company in its initial public offering", "A public company sells newly issued shares in a follow-on offering", "A startup sells new shares to accredited investors in a private placement"],
     "answer": 0,
     "explanation": "In the secondary market, investors trade already-outstanding securities with each other, and the issuer receives nothing. IPOs, follow-on offerings and private placements are all primary market sales of new securities."
   },
@@ -355,7 +355,7 @@
     "topic": "Market Participants",
     "type": "multiple_choice",
     "question": "On the NYSE, the firm responsible for maintaining a fair and orderly market in its assigned stocks, trading for its own account when needed, is the:",
-    "choices": ["Floor broker", "Transfer agent", "Designated market maker (DMM)", "Syndicate manager"],
+    "choices": ["Floor broker (commission house broker)", "Issuer's transfer agent", "Designated market maker (DMM)", "Syndicate manager (lead underwriter)"],
     "answer": 2,
     "explanation": "The designated market maker oversees trading in its assigned stocks and commits its own capital to smooth out imbalances. A floor broker executes orders for customers as an agent and does not have that obligation."
   },
@@ -365,7 +365,7 @@
     "topic": "Market Structure",
     "type": "multiple_choice",
     "question": "A broker-dealer must file Form 211 with FINRA before it:",
-    "choices": ["Opens a new branch office", "Begins publishing quotations for an OTC equity security in a quotation medium", "Hires a new registered representative", "Underwrites a municipal bond issue"],
+    "choices": ["Opens a new branch office or office of supervisory jurisdiction", "Begins quoting an OTC equity security in a quotation medium", "Hires a new registered representative from another member firm", "Underwrites a new municipal bond issue for a state agency"],
     "answer": 1,
     "explanation": "Form 211 shows FINRA that the firm has reviewed current information about the issuer, as SEC Rule 15c2-11 requires, before it starts quoting an OTC equity security. Hiring a representative uses Form U4."
   },
@@ -445,7 +445,7 @@
     "topic": "Registration",
     "type": "multiple_choice",
     "question": "Which of the following would MOST likely result in statutory disqualification?",
-    "choices": ["A customer complaint that was later withdrawn", "Being terminated by a prior firm for missing sales goals", "A traffic ticket for speeding", "A misdemeanor conviction for embezzlement within the past 10 years"],
+    "choices": ["A customer complaint that was later withdrawn by the customer", "Being terminated by a prior employer for repeatedly missing sales goals", "A traffic ticket for speeding in a school zone", "A misdemeanor conviction for embezzlement within the past 10 years"],
     "answer": 3,
     "explanation": "Statutory disqualification includes any felony conviction within 10 years and misdemeanors within 10 years that involve securities, money or dishonesty, such as embezzlement. Withdrawn complaints, routine terminations and traffic tickets are not disqualifying."
   },
@@ -485,7 +485,7 @@
     "topic": "Registration",
     "type": "multiple_choice",
     "question": "Which statement about eligibility to take the SIE exam is TRUE?",
-    "choices": ["It is open to anyone age 18 or older, without sponsorship by a member firm", "Candidates must be sponsored by a FINRA member firm", "Candidates must first pass the Series 7", "Only college graduates may take the exam"],
+    "choices": ["Anyone age 18 or older may take it without firm sponsorship", "Candidates must be sponsored by a FINRA member firm before enrolling", "Candidates must first pass the Series 7 general securities exam", "Only college graduates with a business degree may take the exam"],
     "answer": 0,
     "explanation": "Anyone 18 or older, including students, may take the SIE without being associated with a firm. Firm sponsorship is required for the representative-level top-off exams such as the Series 7, which come after the SIE."
   },
@@ -495,7 +495,7 @@
     "topic": "Continuing Education",
     "type": "multiple_choice",
     "question": "A registered representative fails to complete the Regulatory Element of continuing education by the deadline. As a result, the representative:",
-    "choices": ["Has their registration permanently revoked", "Pays a fine but may keep working as usual", "Becomes CE inactive and may not perform, or be paid for, registered activities until the requirement is completed", "Must retake the SIE exam"],
+    "choices": ["Has their registration permanently revoked and must reapply to FINRA as a new candidate", "Pays a fine to FINRA but may keep working as usual until the next CE cycle", "Becomes CE inactive and cannot do or be paid for registered work until it is completed", "Must retake the SIE exam before resuming any registered activity"],
     "answer": 2,
     "explanation": "Missing the Regulatory Element deadline makes the person CE inactive, which bars registered activity and related compensation until the training is done. Registration is not revoked immediately, and the SIE does not need to be retaken."
   },
@@ -515,7 +515,7 @@
     "topic": "Outside Activities",
     "type": "multiple_choice",
     "question": "A registered representative wants to participate in a private securities transaction away from the firm and will be paid for it. Under FINRA Rule 3280, the representative must:",
-    "choices": ["Simply notify the customer in writing", "Give prior written notice to the firm, and if the firm approves, the transaction is recorded and supervised as if it were the firm's own", "Obtain approval from the SEC", "File a Form U5 before the transaction"],
+    "choices": ["Simply notify the customer in writing and disclose how much they are being paid by the issuer", "Give the firm prior written notice; if approved, the firm records and supervises it as its own", "Obtain approval from the SEC and file a notice with the state regulator", "File a Form U5 with FINRA before the transaction and notify the firm once it closes"],
     "answer": 1,
     "explanation": "For a paid private securities transaction, the rep must give the firm prior written notice, and an approving firm must record and supervise it as its own business. Doing it without notice is selling away."
   },
@@ -525,7 +525,7 @@
     "topic": "Outside Activities",
     "type": "multiple_choice",
     "question": "A registered representative wants to open a brokerage account at a different FINRA member firm. Under FINRA Rule 3210, the representative must first:",
-    "choices": ["Notify FINRA in writing", "Close all accounts at the employing firm", "Obtain prior written consent from the employing firm", "Have the account approved by the SEC"],
+    "choices": ["Notify FINRA in writing and send it copies of statements", "Close all brokerage accounts held at the employing firm", "Obtain prior written consent from the employing firm", "Have the new account approved by the SEC"],
     "answer": 2,
     "explanation": "Rule 3210 requires prior written consent from the employing firm before an associated person opens an account at another member. The executing firm must send duplicate statements and confirmations to the employing firm on request."
   },
@@ -545,7 +545,7 @@
     "topic": "Communications",
     "type": "multiple_choice",
     "question": "Under FINRA Rule 2210, a retail communication generally must be:",
-    "choices": ["Filed with the SEC before use", "Reviewed by a principal within 30 days after first use", "Approved by the customer before distribution", "Approved by an appropriately qualified registered principal before use or filing"],
+    "choices": ["Filed with the SEC for review at least 10 days before use", "Reviewed by a principal within 30 days after it is first used", "Approved by the customer before it is distributed", "Approved by a qualified registered principal before use or filing"],
     "answer": 3,
     "explanation": "Retail communications generally need registered principal approval before the earlier of first use or filing with FINRA. Post-use review is the approach for correspondence, not retail communications."
   },
@@ -575,7 +575,7 @@
     "topic": "Arbitration",
     "type": "multiple_choice",
     "question": "An award issued in a FINRA arbitration is generally:",
-    "choices": ["Advisory only, and either party may ignore it", "Final and binding, with very limited grounds for a court to overturn it", "Automatically appealable to the SEC", "Binding on the customer but not on the firm"],
+    "choices": ["Advisory only, and either party may ignore it without consequence", "Final and binding, with narrow grounds for a court to overturn it", "Automatically appealable to the SEC within 30 days of issuance", "Binding on the customer but not on the member firm"],
     "answer": 1,
     "explanation": "FINRA arbitration awards are final and binding on all parties, and courts may vacate them only on narrow grounds such as fraud or arbitrator misconduct. There is no automatic appeal to the SEC."
   },
@@ -595,7 +595,7 @@
     "topic": "Telemarketing",
     "type": "multiple_choice",
     "question": "A firm may make a telemarketing call to a person listed on the national do-not-call registry if:",
-    "choices": ["The person has an established business relationship with the firm, such as being a current customer", "The call is made between 8:00 am and 9:00 pm", "The caller is a registered representative", "The call is about a new public offering"],
+    "choices": ["The person has an established business relationship with the firm", "The call is made between 8:00 am and 9:00 pm in the person's local time", "The caller is a registered representative with a valid license", "The call is about a new public offering the firm is underwriting"],
     "answer": 0,
     "explanation": "An established business relationship, the person's prior written permission, or a personal relationship with the caller allows a call despite registry listing. Calling within permitted hours is required for every call but does not override the registry."
   },
@@ -665,7 +665,7 @@
     "topic": "Account Records",
     "type": "multiple_choice",
     "question": "Under SEC record-retention rules, a broker-dealer must keep its business-related communications (correspondence) for at least:",
-    "choices": ["1 year", "6 years", "Until the customer closes the account", "3 years, the first 2 in an easily accessible place"],
+    "choices": ["1 year, kept in an easily accessible place", "6 years, the first 2 in an easily accessible place", "Until the customer closes the account", "3 years, the first 2 in an easily accessible place"],
     "answer": 3,
     "explanation": "SEC Rule 17a-4 requires firms to keep business communications for three years, with the first two years easily accessible. Six years applies to records such as blotters and account records."
   },
@@ -685,7 +685,7 @@
     "topic": "Business Continuity",
     "type": "multiple_choice",
     "question": "Under FINRA Rule 4370, a member firm's business continuity plan must:",
-    "choices": ["Be reviewed annually, with a summary disclosed to customers when they open an account", "Be approved by the SEC before it takes effect", "Be kept confidential from customers", "Be updated only after a significant business disruption occurs"],
+    "choices": ["Be reviewed annually, with a summary given to customers at account opening", "Be approved by the SEC before it takes effect and after each update", "Be kept confidential from customers and disclosed only to FINRA", "Be updated only after a significant business disruption actually occurs"],
     "answer": 0,
     "explanation": "Rule 4370 requires a written BCP that is reviewed at least annually, with a summary given to customers at account opening and on request. Firms also give FINRA two emergency contact persons; the SEC does not approve the plan."
   },

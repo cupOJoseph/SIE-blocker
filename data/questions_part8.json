@@ -5,7 +5,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "The Investment Company Act of 1940 classifies investment companies into which three types?",
-    "choices": ["Open-end funds, closed-end funds, and hedge funds", "Mutual funds, ETFs, and REITs", "Face-amount certificate companies, unit investment trusts, and management companies", "Unit investment trusts, REITs, and limited partnerships"],
+    "choices": ["Open-end management companies, closed-end funds, and private hedge funds", "Mutual funds, exchange-traded funds, and real estate investment trusts", "Face-amount certificate companies, unit investment trusts, and management companies", "Unit investment trusts, real estate investment trusts, and limited partnerships"],
     "answer": 2,
     "explanation": "The 1940 Act names three types: face-amount certificate companies, UITs, and management companies. Open-end and closed-end funds are both subtypes of management companies."
   },
@@ -85,7 +85,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "Mutual fund breakpoint discounts are available to all of the following EXCEPT:",
-    "choices": ["A married couple combining purchases in a joint account", "A trustee purchasing for a single trust account", "A parent purchasing for a minor child's account", "An investment club formed to pool members' money and qualify for the discount"],
+    "choices": ["A married couple combining purchases in a joint account", "A trustee purchasing on behalf of a single trust account", "A parent purchasing for a minor child's custodial account", "An investment club formed to obtain a sales charge discount"],
     "answer": 3,
     "explanation": "Breakpoints are available to individuals, family units such as spouses and minor children, trusts, and corporations. Groups formed for the purpose of obtaining a sales charge discount, such as investment clubs, do not qualify."
   },
@@ -105,7 +105,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "An investor signs a letter of intent to invest $50,000 over 13 months but invests only $30,000 by the deadline. What happens?",
-    "choices": ["The investor pays the higher sales charge that applies to the amount actually invested", "The entire investment is redeemed and returned to the investor", "Nothing; the reduced sales charge remains in place", "FINRA fines the investor for breaking the agreement"],
+    "choices": ["The investor pays the higher sales charge that applies to the amount actually invested", "The entire investment is redeemed at NAV and the proceeds are returned to the investor", "Nothing; the reduced sales charge from the letter of intent remains in place", "FINRA fines the investor for breaking the letter of intent agreement"],
     "answer": 0,
     "explanation": "A letter of intent is not a binding obligation to invest. If the target is missed, the fund collects the higher sales charge for the amount actually invested, usually from shares held in escrow."
   },
@@ -175,7 +175,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "A mutual fund shareholder reinvests all dividend and capital gains distributions. For tax purposes, these distributions are:",
-    "choices": ["Tax-deferred until the shares are sold", "Taxable to the shareholder in the year they are distributed", "Tax-free because they were reinvested", "Taxable only if they exceed $1,000 for the year"],
+    "choices": ["Tax-deferred until the reinvested shares are eventually sold", "Taxable to the shareholder in the year they are distributed", "Tax-free because they were reinvested in additional fund shares", "Taxable only if they exceed $1,000 for the year"],
     "answer": 1,
     "explanation": "Fund distributions are taxable in the year paid whether taken in cash or reinvested. Reinvested amounts add to the investor's cost basis, which reduces the gain when the shares are later sold."
   },
@@ -185,7 +185,7 @@
     "topic": "Investment Companies",
     "type": "multiple_choice",
     "question": "An investor uses a fund family's exchange privilege to move money from its growth fund to its bond fund. Which statement is TRUE?",
-    "choices": ["The exchange is tax-free and has no sales charge", "A new full sales charge applies, but the exchange is tax-free", "No new sales charge is usually applied, but the exchange is a taxable sale of the growth fund shares", "The exchange is permitted only once per calendar year"],
+    "choices": ["The exchange is tax-free and no new sales charge applies to the bond fund purchase", "A new full sales charge applies to the bond fund, but the exchange itself is tax-free", "Usually no new sales charge applies, but the exchange is a taxable sale of the growth shares", "The exchange is permitted only once per calendar year and must be made in writing"],
     "answer": 2,
     "explanation": "Exchanges within the same fund family are usually made at NAV without a new sales charge. For tax purposes, though, the investor has sold the growth fund shares, so any gain or loss is recognized."
   },
@@ -225,7 +225,7 @@
     "topic": "ETFs",
     "type": "multiple_choice",
     "question": "Which statement BEST distinguishes an exchange-traded note (ETN) from an exchange-traded fund (ETF)?",
-    "choices": ["An ETN holds a portfolio of stocks, while an ETF holds only bonds", "An ETN does not trade on an exchange and may be redeemed only at NAV", "An ETN is insured by the FDIC up to $250,000", "An ETN is an unsecured debt obligation of its issuer, often a bank, so investors bear the issuer's credit risk"],
+    "choices": ["An ETN holds a diversified portfolio of stocks, while an ETF may hold only government bonds", "An ETN does not trade on any exchange and may be redeemed only at the next computed NAV", "An ETN is insured by the FDIC up to $250,000 per investor, just like a bank savings deposit", "An ETN is unsecured debt of its issuer, often a bank, so investors bear the issuer's credit risk"],
     "answer": 3,
     "explanation": "An ETN is a senior unsecured note that promises a return linked to an index but owns no underlying portfolio. If the issuer fails, investors can lose money regardless of the index's performance, unlike an ETF, which holds the underlying assets."
   },
@@ -235,7 +235,7 @@
     "topic": "ETFs",
     "type": "multiple_choice",
     "question": "Throughout the trading day, an ETF's market price is determined by:",
-    "choices": ["The NAV calculated at the close of trading", "Supply and demand on the exchange, generally kept close to NAV by the creation and redemption process", "The fund sponsor, which sets one fixed price each day", "The NAV plus a sales charge of up to 8.5%"],
+    "choices": ["The NAV calculated at the close of trading on the previous business day", "Supply and demand on the exchange, generally kept near NAV by creation and redemption", "The fund sponsor, which sets one fixed offering price at the start of each trading day", "The NAV plus a sales charge of up to 8.5%, as with mutual fund shares"],
     "answer": 1,
     "explanation": "ETF shares trade intraday at market prices. Authorized participants create and redeem shares in large blocks, which keeps the market price close to NAV; forward pricing at the next NAV applies to mutual funds, not ETFs."
   },
@@ -455,7 +455,7 @@
     "topic": "Options",
     "type": "multiple_choice",
     "question": "A customer would like to buy XYZ, now trading at $52, if it falls to about $50, and wants to earn income while waiting. Which strategy fits BEST?",
-    "choices": ["Buy an XYZ 50 put", "Write (sell) an XYZ 50 put", "Write an XYZ 50 call", "Buy an XYZ 55 call"],
+    "choices": ["Buy (go long) an XYZ 50 put", "Write (sell) an XYZ 50 put", "Write (sell) an XYZ 50 call", "Buy an XYZ 55 call"],
     "answer": 1,
     "explanation": "Writing a put collects premium now, and if XYZ falls below $50, the customer is assigned and buys the stock at $50, for a net cost of $50 minus the premium. Buying a put would be a bearish position, not a way to acquire the stock."
   },
@@ -465,7 +465,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "During the accumulation phase of a variable annuity, the owner's contributions purchase:",
-    "choices": ["Annuity units, whose number changes each month", "Shares of the insurance company's common stock", "Units whose value is guaranteed by the insurer's general account", "Accumulation units, whose value changes with the performance of the separate account"],
+    "choices": ["Annuity units, whose number changes each month with separate account results", "Shares of the insurance company's common stock, held in its general account", "Units whose value is guaranteed by the insurer and held in its general account", "Accumulation units, whose value changes with the performance of the separate account"],
     "answer": 3,
     "explanation": "Contributions during the accumulation phase buy accumulation units, which rise and fall with the separate account. At annuitization, accumulation units are converted into a fixed number of annuity units."
   },
@@ -515,7 +515,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "Which statement about a fixed annuity is TRUE?",
-    "choices": ["The annuitant bears the investment risk through a separate account", "It must be registered with the SEC as a security", "The insurance company bears the investment risk and guarantees a minimum rate of return", "Its payments are designed to rise with inflation"],
+    "choices": ["The annuitant bears the investment risk through the insurer's separate account", "It must be registered with the SEC as a security and sold with a prospectus", "The insurer bears the investment risk and guarantees a minimum rate of return", "Its payments are designed to rise each year along with inflation"],
     "answer": 2,
     "explanation": "Fixed annuity assets are held in the insurer's general account, and the insurer guarantees the rate, so it bears the investment risk. Fixed annuities are insurance products, not securities, and their level payments expose owners to inflation risk."
   },
@@ -525,7 +525,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "A 50-year-old withdraws money from a non-qualified deferred annuity purchased with after-tax dollars. How is the withdrawal generally treated?",
-    "choices": ["Treated as a tax-free return of principal first", "Taxed as ordinary income to the extent of earnings, plus a 10% penalty on the taxable portion", "Taxed at long-term capital gains rates", "Entirely tax-free because the contributions were made with after-tax money"],
+    "choices": ["Treated as a tax-free return of principal first, with earnings taxed only later", "Taxed as ordinary income to the extent of earnings, plus a 10% penalty on that portion", "Taxed at long-term capital gains rates on the earnings portion, with no penalty", "Entirely tax-free because all of the contributions were made with after-tax money"],
     "answer": 1,
     "explanation": "Withdrawals from a non-qualified annuity come from earnings first (LIFO), and earnings are taxed as ordinary income. Before age 59½, a 10% penalty also applies to the taxable portion; the after-tax cost basis comes out tax-free only after the earnings."
   },
@@ -545,7 +545,7 @@
     "topic": "Annuities",
     "type": "multiple_choice",
     "question": "A fixed indexed (equity-indexed) annuity typically:",
-    "choices": ["Credits interest based on a market index's gains, subject to caps or participation rates, while protecting the account from index losses", "Invests directly in the index through a separate account with no guarantees", "Pays a return equal to 100% of the index's gains and losses", "Guarantees payments that rise with the Consumer Price Index"],
+    "choices": ["Credits interest tied to an index's gains, limited by caps or participation rates, and protects against index losses", "Invests directly in the index through a separate account, with no guarantee of principal or any minimum return", "Pays a return equal to 100% of the index's gains and losses, with no cap or participation rate", "Guarantees payments that rise each year with the Consumer Price Index, regardless of how the market performs"],
     "answer": 0,
     "explanation": "Indexed annuities link credited interest to an index's gains, limited by caps or participation rates, and protect the owner from index declines. A product passing through 100% of gains and losses would be closer to a variable annuity."
   },
@@ -565,7 +565,7 @@
     "topic": "Insurance",
     "type": "multiple_choice",
     "question": "Compared with variable life insurance, the cash value of a traditional whole life policy:",
-    "choices": ["Varies with the performance of separate-account subaccounts", "Is not guaranteed and may fall to zero because of market losses", "Grows at a rate guaranteed by the insurer, with assets held in the insurer's general account", "Becomes available only after the policy has been in force for 20 years"],
+    "choices": ["Varies with the performance of the subaccounts in the separate account", "Is not guaranteed and may fall to zero because of market losses", "Grows at a guaranteed rate, backed by the insurer's general account", "Becomes available only after the policy has been in force for 20 years"],
     "answer": 2,
     "explanation": "Whole life has fixed premiums and a guaranteed cash value backed by the insurer's general account. Variable life cash value is invested in separate-account subaccounts and can rise or fall."
   },
@@ -595,7 +595,7 @@
     "topic": "REITs",
     "type": "multiple_choice",
     "question": "The main drawback of a non-traded REIT compared with an exchange-listed REIT is:",
-    "choices": ["Limited liquidity, since shares do not trade on an exchange and redemptions may be restricted", "It is not required to distribute any of its income", "It may not own commercial property", "Its share price changes minute by minute with the stock market"],
+    "choices": ["Limited liquidity, since shares are not exchange-traded and redemptions may be restricted", "It is not required to distribute any of its taxable income to shareholders", "It is prohibited from owning commercial property such as office buildings", "Its share price changes minute by minute with the broader stock market's movements"],
     "answer": 0,
     "explanation": "Non-traded REITs are registered with the SEC but are not listed, so investors may have difficulty selling, and sponsor redemption programs can be limited or suspended. Listed REITs trade throughout the day like stocks."
   },
@@ -605,7 +605,7 @@
     "topic": "REITs",
     "type": "multiple_choice",
     "question": "Most dividends paid by a REIT are taxed to shareholders as:",
-    "choices": ["Qualified dividends at long-term capital gains rates", "A tax-free return of capital", "Passive income that can offset passive losses", "Ordinary income, since they generally are not qualified dividends"],
+    "choices": ["Qualified dividends taxed at the lower long-term capital gains rates", "A tax-free return of capital that only reduces cost basis", "Passive income that can offset passive losses", "Ordinary income, since they generally are not qualified dividends"],
     "answer": 3,
     "explanation": "Because a REIT generally pays no corporate tax on distributed income, most of its dividends do not qualify for the lower qualified-dividend rate and are taxed as ordinary income. REIT dividends are portfolio income, not passive income."
   },
@@ -635,7 +635,7 @@
     "topic": "DPPs",
     "type": "multiple_choice",
     "question": "The primary tax characteristic of a direct participation program (DPP) is that:",
-    "choices": ["The partnership pays corporate income tax before making distributions", "Income, gains, losses, and deductions flow through directly to the investors' tax returns", "All partnership income is tax-exempt", "Losses must stay inside the partnership until it is dissolved"],
+    "choices": ["The partnership pays corporate income tax at the entity level before making distributions", "Income, gains, losses, and deductions flow through directly to the investors' tax returns", "All partnership income is tax-exempt to the limited partners", "Losses must stay inside the partnership until it is dissolved"],
     "answer": 1,
     "explanation": "DPPs such as limited partnerships are pass-through entities that pay no tax at the entity level. Each partner reports a share of the income, losses, and deductions on their own return."
   },
@@ -695,7 +695,7 @@
     "topic": "Alternatives",
     "type": "multiple_choice",
     "question": "Which statement BEST describes a typical private equity fund?",
-    "choices": ["It trades listed stocks daily and lets investors redeem at NAV each day", "It buys stakes in private companies or takes public companies private, with long holding periods and limited liquidity", "It must invest at least 80% of its assets in government securities", "It is registered as an open-end investment company and available to all investors"],
+    "choices": ["It trades listed stocks daily and lets any investor redeem shares at NAV at the end of each day", "It buys private companies or takes public ones private, holding them for years with limited liquidity", "It must invest at least 80% of its assets in government securities", "It is registered as an open-end investment company and sold to all investors through a prospectus"],
     "answer": 1,
     "explanation": "Private equity funds invest in private businesses, often using buyouts, and hold them for years before exiting through a sale or IPO. They are generally limited to accredited or qualified investors and offer little liquidity."
   },

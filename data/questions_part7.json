@@ -65,7 +65,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "For common stock, par value is:",
-    "choices": ["An arbitrary value assigned for accounting purposes, with little relation to the market price", "The price at which the shares trade on an exchange", "The amount each shareholder receives if the company is liquidated", "The basis for calculating the stock's fixed dividend"],
+    "choices": ["An arbitrary accounting value with little relation to market price", "The price at which the shares currently trade on an exchange", "The amount each shareholder receives if the company is liquidated", "The basis for calculating the stock's fixed annual dividend"],
     "answer": 0,
     "explanation": "Common stock par value is an accounting figure set in the corporate charter and has little to do with market value. For preferred stock, by contrast, par value is the basis for the stated dividend."
   },
@@ -155,7 +155,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "Which statement about receiving an ordinary stock dividend is TRUE?",
-    "choices": ["It increases the total market value of the investor's position", "It is generally not taxable when received, and the investor's cost basis per share is reduced", "It is taxed as ordinary income in the year it is received", "It reduces the number of shares the investor owns"],
+    "choices": ["It increases the total market value of the investor's position right away", "It is generally not taxable when received, and cost basis per share falls", "It is taxed as ordinary income at the share price on the date received", "It reduces the number of shares the investor owns"],
     "answer": 1,
     "explanation": "A stock dividend adds shares while total value and total cost basis stay the same, so basis per share falls and tax is due only when the shares are sold. Cash dividends, not stock dividends, are taxed when received."
   },
@@ -195,7 +195,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "An American Depositary Receipt (ADR) is created and issued by:",
-    "choices": ["A U.S. depositary bank that holds the foreign company's shares", "The foreign company's home-country government", "The Securities and Exchange Commission", "The clearing corporation of a U.S. stock exchange"],
+    "choices": ["A U.S. depositary bank that holds the foreign company's shares", "The foreign company's home-country government or central bank", "The Securities and Exchange Commission", "The clearing corporation of the U.S. exchange where it trades"],
     "answer": 0,
     "explanation": "A U.S. depositary bank holds the foreign shares (often through a custodian abroad) and issues ADRs that trade in U.S. dollars on U.S. markets. The SEC regulates securities markets but does not issue securities."
   },
@@ -225,7 +225,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "When holders of a company's convertible bonds convert into common stock, the effect on existing common shareholders is:",
-    "choices": ["An increase in earnings per share", "A required contribution of additional capital", "Dilution of their ownership percentage and earnings per share", "A reduction in the number of shares outstanding"],
+    "choices": ["An increase in earnings per share and ownership percentage", "A required contribution of additional capital by each shareholder", "Dilution of their ownership percentage and earnings per share", "A reduction in the number of shares outstanding"],
     "answer": 2,
     "explanation": "Conversion creates new common shares, so each existing share represents a smaller percentage of the company and its earnings. That is why companies also report EPS on a fully diluted basis."
   },
@@ -265,7 +265,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "A callable bond is trading at a premium and is callable at par. When quoting its yield to a customer, a firm should generally show the:",
-    "choices": ["Yield to maturity, because it is the higher yield", "Yield to call, because it is the lower (worst-case) yield", "Nominal yield, because it stays fixed", "Current yield, because it ignores the call feature"],
+    "choices": ["Yield to maturity, because it is the higher and longer-term yield", "Yield to call, because it is the lower, worst-case yield", "Nominal yield, because it stays fixed for the life of the bond", "Current yield, because it ignores the call feature"],
     "answer": 1,
     "explanation": "For a premium bond callable at par, an early call shortens the time to recover the premium, so the YTC is lower than the YTM. Firms quote the yield to worst so customers see the most conservative figure."
   },
@@ -325,7 +325,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "When an investor buys a corporate bond between interest payment dates, the buyer pays the seller accrued interest covering which period?",
-    "choices": ["From the last interest payment date through the trade date", "From the last interest payment date up to, but not including, the settlement date", "From the trade date to the next interest payment date", "The full six-month coupon period"],
+    "choices": ["From the last interest payment date up to and including the trade date", "From the last payment date up to, but not including, the settlement date", "From the trade date up to, but not including, the next payment date", "The full six-month coupon period, regardless of when the trade settles"],
     "answer": 1,
     "explanation": "The seller earned interest for each day it owned the bond, which runs through the day before settlement. The buyer is made whole when it receives the full coupon on the next payment date."
   },
@@ -345,7 +345,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Treasury bonds are issued with maturities of:",
-    "choices": ["Up to 52 weeks", "2 to 10 years", "Exactly 50 years", "More than 10 years, up to 30 years"],
+    "choices": ["Up to 52 weeks, sold at a discount", "From 2 years up to 10 years", "Over 30 years, up to 50 years", "Over 10 years, up to 30 years"],
     "answer": 3,
     "explanation": "Treasury bonds are currently issued in 20- and 30-year maturities. Treasury bills mature in 52 weeks or less, and Treasury notes mature in 2 to 10 years."
   },
@@ -355,7 +355,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "At maturity, the holder of a Treasury Inflation-Protected Security (TIPS) receives:",
-    "choices": ["The greater of the inflation-adjusted principal or the original par value", "The original par value, regardless of inflation", "The inflation-adjusted principal, even if it has fallen below par", "Only a final coupon, since principal was returned in installments"],
+    "choices": ["The greater of the inflation-adjusted principal or original par", "The original par value, regardless of how much inflation occurred", "The inflation-adjusted principal, even if it has fallen below par", "Only a final coupon, since principal was returned in installments"],
     "answer": 0,
     "explanation": "TIPS principal rises with inflation (CPI) and can fall with deflation, but at maturity the Treasury pays whichever is greater: the adjusted principal or the original par. This floor protects the investor's original principal."
   },
@@ -365,7 +365,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "An investor holds Treasury STRIPS in a taxable account. Which statement about taxation is TRUE?",
-    "choices": ["No tax is due until the STRIPS mature or are sold", "The annual accreted interest is subject to federal income tax even though no cash is received", "The accreted interest is exempt from federal tax but subject to state tax", "The accreted interest is taxed only by the investor's state"],
+    "choices": ["No federal or state tax is due until the STRIPS mature or are sold", "Annual accreted interest is federally taxable even though no cash is received", "The accreted interest is exempt from federal tax but subject to state tax", "The accreted interest is taxed only by the investor's state of residence"],
     "answer": 1,
     "explanation": "STRIPS are zero-coupon securities, and the yearly accretion toward par is taxed as federal income each year (often called phantom income). Like other Treasury interest, it is exempt from state and local tax, which is why STRIPS are often held in tax-advantaged accounts."
   },
@@ -375,7 +375,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Series I savings bonds earn interest based on:",
-    "choices": ["A single fixed rate for the life of the bond", "The performance of the S&P 500", "The daily federal funds rate", "A fixed rate plus an inflation rate that is reset every six months"],
+    "choices": ["A single fixed rate set at purchase for the life of the bond", "The performance of the S&P 500, measured every six months", "The daily federal funds rate, reset at the start of each month", "A fixed rate plus an inflation rate that is reset every six months"],
     "answer": 3,
     "explanation": "I bonds combine a fixed rate set at purchase with a variable inflation rate tied to the CPI that is adjusted twice a year. This design protects the bond's purchasing power against inflation."
   },
@@ -405,7 +405,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Securities issued by Fannie Mae (FNMA) and Freddie Mac (FHLMC) are BEST described as:",
-    "choices": ["Obligations of government-sponsored enterprises that are not directly backed by the full faith and credit of the U.S. government", "Direct obligations of the U.S. Treasury", "Municipal securities exempt from federal income tax", "Obligations insured by the FDIC"],
+    "choices": ["Government-sponsored enterprise debt not backed by U.S. full faith and credit", "Direct obligations of the U.S. Treasury backed by its full faith and credit", "Municipal securities exempt from federal income tax on their interest", "Obligations insured by the FDIC up to $250,000 per investor"],
     "answer": 0,
     "explanation": "Fannie Mae and Freddie Mac are government-sponsored enterprises; their securities have very high credit quality but no explicit U.S. government guarantee. Ginnie Mae (GNMA), a government agency, is the one whose securities carry full faith and credit backing."
   },
@@ -475,7 +475,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "In a corporate liquidation, holders of subordinated debentures are paid:",
-    "choices": ["Before secured bondholders, because their bonds carry higher yields", "After preferred stockholders, but before common stockholders", "After secured bondholders and senior unsecured creditors, but before preferred stockholders", "Only after common stockholders are paid in full"],
+    "choices": ["Before secured bondholders, because their bonds carry higher yields", "After preferred stockholders and general creditors, but before common stockholders", "After secured and senior unsecured creditors, but before preferred stockholders", "Only after common and preferred stockholders are paid in full"],
     "answer": 2,
     "explanation": "Subordinated debentures are debt, so they rank ahead of all equity holders, but they are junior to secured debt and to senior unsecured debt. Their higher yield compensates for that lower priority."
   },
@@ -505,7 +505,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "An issuer calls its convertible bonds at a time when their conversion value is well above the call price. Most bondholders will:",
-    "choices": ["Accept the call price in cash", "Hold the bonds until maturity", "Exchange the bonds for warrants", "Convert their bonds into common stock"],
+    "choices": ["Accept the call price in cash from the issuer", "Hold the bonds until maturity to keep the coupon", "Exchange the bonds for warrants", "Convert their bonds into common stock"],
     "answer": 3,
     "explanation": "The shares received on conversion are worth more than the call price, so holders convert rather than accept less cash; this is called a forced conversion. Called bonds stop earning interest, so holders choose between converting and taking the call price."
   },
@@ -535,7 +535,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "A bond issue with a sinking fund provision requires the issuer to:",
-    "choices": ["Pay interest only when earnings are sufficient", "Back the bonds with real estate as collateral", "Allow bondholders to convert into common stock", "Set aside money over time to retire the bonds, which reduces default risk"],
+    "choices": ["Pay interest only when earnings are sufficient to cover it", "Back the bonds with real estate pledged as collateral to bondholders", "Allow bondholders to convert into common stock at a fixed price", "Set aside money over time to retire the bonds, reducing default risk"],
     "answer": 3,
     "explanation": "A sinking fund retires bonds gradually or accumulates money for repayment, reducing the risk of one large payment at maturity. Paying interest only when earnings allow describes an income (adjustment) bond."
   },
@@ -585,7 +585,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "Before issuing general obligation bonds, a municipality typically needs:",
-    "choices": ["A feasibility study projecting user fees", "A lease agreement with a private corporation", "A registration statement declared effective by the SEC", "Voter approval, with the new debt staying within statutory debt limits"],
+    "choices": ["A feasibility study projecting user fees from the financed facility", "A lease agreement with a private corporation that will use the facility", "A registration statement declared effective by the SEC", "Voter approval, with the new debt staying within statutory limits"],
     "answer": 3,
     "explanation": "GO bonds are repaid from taxes, so they generally require voter approval and are subject to debt limits. Feasibility studies are used for revenue bonds, and municipal securities are exempt from SEC registration."
   },
@@ -595,7 +595,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "The credit quality of an industrial development revenue bond (IDR) depends primarily on:",
-    "choices": ["The taxing power of the issuing municipality", "The full faith and credit of the state", "The private corporation that leases the facility and makes the lease payments", "Property taxes collected within the district"],
+    "choices": ["The taxing power of the municipality that issued the bonds", "The full faith and credit of the state where the facility is located", "The corporation that leases the facility and makes the lease payments", "Property taxes collected from homeowners within the district"],
     "answer": 2,
     "explanation": "IDRs are issued by a municipality but repaid from a corporation's lease payments, so investors analyze the corporation's credit. The municipality's taxing power does not back these bonds."
   },
@@ -645,7 +645,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "An investor buys a municipal bond at par and later sells it at 105. The $50 profit is:",
-    "choices": ["Exempt from federal tax, like the bond's interest", "Exempt from all taxes if the bond was issued in the investor's home state", "Treated as additional tax-free interest", "Subject to capital gains tax, because the tax exemption applies only to the bond's interest"],
+    "choices": ["Exempt from federal income tax, just like the interest the bond pays", "Exempt from all taxes if the bond was issued in the investor's home state", "Treated as additional tax-free interest earned on the bond", "Subject to capital gains tax, because only the bond's interest is tax-exempt"],
     "answer": 3,
     "explanation": "The federal exemption covers municipal interest, not gains from selling the bond. Buying an in-state bond can exempt the interest from state tax as well, but the capital gain remains taxable."
   },
@@ -665,7 +665,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "A municipal bond counsel's legal opinion primarily confirms:",
-    "choices": ["That the bonds will receive an investment-grade rating", "That the bonds are legally issued, and whether the interest is exempt from federal tax", "That the issuer has the financial ability to repay on schedule", "That the underwriter's spread is fair and reasonable"],
+    "choices": ["That the bonds will receive an investment-grade rating from an agency", "That the issue is legal and whether its interest is federally tax-exempt", "That the issuer has the financial ability to repay principal on schedule", "That the underwriter's spread is fair and reasonable for the issue"],
     "answer": 1,
     "explanation": "Bond counsel's opinion addresses the legality of the issue and the tax status of its interest. Creditworthiness is evaluated by rating agencies and by investors' own analysis."
   },
@@ -705,7 +705,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "Auction rate securities (ARS) are long-term instruments whose interest rates reset through periodic auctions. When many ARS auctions failed in 2008, the key risk revealed was:",
-    "choices": ["Liquidity risk, because holders could not sell their securities at par", "Prepayment risk, because issuers repaid principal early", "Currency risk, because the rates were set in euros", "Inflation risk, because the rates were fixed for 30 years"],
+    "choices": ["Liquidity risk, because holders could not sell them at par", "Prepayment risk, because issuers repaid principal earlier than expected", "Currency risk, because the interest was set and paid in euros", "Inflation risk, because the rates were locked in for 30 years"],
     "answer": 0,
     "explanation": "ARS were marketed as cash-like because holders could normally sell at par at each auction, typically every 7, 28, or 35 days. When auctions failed, holders were left with long-term securities they could not readily sell."
   },
@@ -725,7 +725,7 @@
     "topic": "Money Markets",
     "type": "multiple_choice",
     "question": "Commercial paper is BEST described as:",
-    "choices": ["Unsecured short-term promissory notes issued by corporations, typically at a discount", "Secured long-term bonds issued by banks", "Short-term notes issued by municipalities in anticipation of taxes", "Time drafts guaranteed by a bank to finance imports"],
+    "choices": ["Unsecured short-term corporate notes, usually sold at a discount", "Secured long-term bonds issued by banks to fund their lending", "Short-term notes issued by municipalities in anticipation of taxes", "Time drafts guaranteed by a bank to finance imports and exports"],
     "answer": 0,
     "explanation": "Highly rated corporations issue commercial paper to meet short-term needs such as payroll and inventory, usually at a discount from face value. A time draft guaranteed by a bank is a banker's acceptance."
   },
@@ -755,7 +755,7 @@
     "topic": "Money Markets",
     "type": "multiple_choice",
     "question": "Which money market instrument is most closely associated with financing imports and exports?",
-    "choices": ["Commercial paper", "A banker's acceptance", "A Treasury bill", "A negotiable CD"],
+    "choices": ["A commercial paper note", "A banker's acceptance", "A 13-week Treasury bill", "A negotiable jumbo CD"],
     "answer": 1,
     "explanation": "A banker's acceptance is a time draft guaranteed by a bank, typically used to pay for goods in international trade. Commercial paper is short-term unsecured corporate borrowing, not a trade-finance instrument."
   },
@@ -765,7 +765,7 @@
     "topic": "Money Markets",
     "type": "multiple_choice",
     "question": "Eurodollars are:",
-    "choices": ["Euro-denominated deposits held in U.S. banks", "Bonds issued by European governments and sold in the U.S.", "U.S. dollar-denominated deposits held in banks outside the United States", "Euro currency reserves held by the Federal Reserve"],
+    "choices": ["Euro-denominated deposits held in banks inside the United States", "Bonds issued by European governments and sold in the U.S.", "U.S. dollar deposits held in banks outside the United States", "Euro currency reserves held by the Federal Reserve Bank of New York"],
     "answer": 2,
     "explanation": "A Eurodollar is any U.S. dollar deposit held outside the United States, whether in Europe or elsewhere. The 'Euro' prefix refers to offshore dollars, not to the euro currency."
   },
@@ -775,7 +775,7 @@
     "topic": "Money Markets",
     "type": "multiple_choice",
     "question": "Regulators phased out U.S. dollar LIBOR as a benchmark rate primarily because it:",
-    "choices": ["Was set directly by the Federal Reserve each day", "Applied only to Treasury bill yields", "Was quoted only in euros", "Was based on estimates submitted by panel banks rather than actual transactions, making it vulnerable to manipulation"],
+    "choices": ["Was set directly by the Federal Reserve each day, without any market input", "Applied only to Treasury bill yields, not to loans or derivatives", "Was quoted only in euros, so U.S. borrowers faced currency risk", "Relied on bank estimates, not actual trades, leaving it open to manipulation"],
     "answer": 3,
     "explanation": "LIBOR relied on banks' estimates of their own borrowing costs, and manipulation scandals undermined trust in it. Its replacement, SOFR, is based on a large volume of actual overnight repo transactions backed by Treasury securities."
   },

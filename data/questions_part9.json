@@ -45,7 +45,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "A customer enters an immediate-or-cancel (IOC) order to buy 1,000 shares at a limit price, and only 600 shares are available at that price. What happens?",
-    "choices": ["The entire order is canceled", "The 600 shares are bought and the remaining 400 shares are canceled", "The order stays open until all 1,000 shares are bought", "The order converts to a market order for all 1,000 shares"],
+    "choices": ["The entire order is canceled because it cannot be completely filled", "The 600 shares are bought and the remaining 400 shares are canceled", "The order stays open until all 1,000 shares are bought", "The order converts to a market order for all 1,000 shares"],
     "answer": 1,
     "explanation": "An IOC order executes whatever can be filled immediately and cancels the rest. Canceling the entire order unless fully filled describes a fill-or-kill order."
   },
@@ -55,7 +55,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "Which statement about an all-or-none (AON) order is TRUE?",
-    "choices": ["It must be executed immediately or it is canceled", "It may be partially filled at the limit price", "It guarantees execution at the current market price", "It must be filled in its entirety, but it does not have to be filled immediately"],
+    "choices": ["It must be executed immediately in full, or the entire order is canceled", "It may be partially filled at the limit price, with the rest left open", "It guarantees execution at the current market price", "It must be filled in its entirety, but not necessarily immediately"],
     "answer": 3,
     "explanation": "An AON order requires the full quantity to be filled in one execution but can remain open (as a day or GTC order) until that happens. Adding the requirement of immediate execution would make it a fill-or-kill order."
   },
@@ -75,7 +75,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "A customer enters a sell stop-limit order: 30 stop, 29.75 limit. Once the stock trades at or below 30, the order becomes:",
-    "choices": ["A limit order to sell at 29.75 or better", "A market order to sell", "A buy limit order at 29.75", "A canceled order"],
+    "choices": ["A limit order to sell at 29.75 or better", "A market order to sell at the next available price", "A buy limit order at 29.75 or lower", "An order canceled once the stop is elected"],
     "answer": 0,
     "explanation": "When the stop price is reached, a stop-limit order becomes a limit order at the stated limit, here a sell at 29.75 or higher. A plain stop order would instead become a market order."
   },
@@ -105,7 +105,7 @@
     "topic": "Quotes",
     "type": "multiple_choice",
     "question": "A dealer tells another firm, \"It's 20 to 20.25, subject.\" This quote is BEST described as:",
-    "choices": ["A firm quote good for one round lot", "A quote the dealer must honor for any size", "A locked market", "A nominal (subject) quote that must be reconfirmed before a trade"],
+    "choices": ["A firm quote good for at least one round lot", "A firm quote the dealer must honor for any size order", "A locked market between the two dealers", "A subject quote that must be reconfirmed before trading"],
     "answer": 3,
     "explanation": "A subject quote gives an indication of price but is not firm; the dealer must reconfirm before trading. A locked market is one where the bid equals the ask."
   },
@@ -125,7 +125,7 @@
     "topic": "Trading",
     "type": "multiple_choice",
     "question": "Under Regulation SHO, before accepting a customer's short sale order in an equity security, a broker-dealer must:",
-    "choices": ["Obtain the issuer's written consent", "Have reasonable grounds to believe the shares can be borrowed and delivered by settlement (a locate)", "Confirm the stock's last trade was an uptick", "Receive full cash payment equal to the sale proceeds"],
+    "choices": ["Obtain the issuer's written consent to the short sale of its shares", "Have reasonable grounds to believe the shares can be borrowed for delivery (a locate)", "Confirm the stock's last trade was an uptick under the tick test", "Receive full cash payment equal to the sale proceeds before entering the order"],
     "answer": 1,
     "explanation": "Reg SHO's locate requirement means the firm must borrow, arrange to borrow, or reasonably believe it can borrow the shares so they can be delivered on time. The old tick-test uptick rule was eliminated in 2007."
   },
@@ -165,7 +165,7 @@
     "topic": "Settlement",
     "type": "multiple_choice",
     "question": "A trade in securities on a \"when, as, and if issued\" basis settles:",
-    "choices": ["One business day after the trade date", "On a date set once the securities are actually issued", "The same day as the trade", "Only after the issuer's next annual meeting"],
+    "choices": ["One business day after the trade date, like regular-way trades", "On a date set once the securities are actually issued", "The same day as the trade", "Only after the issuer's next annual shareholder meeting"],
     "answer": 1,
     "explanation": "When-issued trades occur before the securities exist, so they settle on a date assigned once the securities are issued. Regular way T+1 cannot apply because there is nothing to deliver yet."
   },
@@ -175,7 +175,7 @@
     "topic": "Settlement",
     "type": "multiple_choice",
     "question": "For a physical stock certificate to be considered good delivery, it must:",
-    "choices": ["Be signed by the issuer's CEO at the time of sale", "Be accompanied by a copy of the issuer's latest annual report", "Be registered in the name of the buying customer", "Be properly endorsed by the registered owner, with the signature matching the name on the certificate exactly"],
+    "choices": ["Be signed by the issuer's CEO and corporate secretary at the time of the sale", "Be accompanied by a copy of the issuer's latest audited annual report and proxy statement", "Be already registered in the name of the buying customer before it is delivered", "Be properly endorsed by the registered owner, signed exactly as the name appears on its face"],
     "answer": 3,
     "explanation": "Good delivery requires a properly endorsed (and signature-guaranteed) certificate in acceptable denominations, signed exactly as the owner's name appears. The seller endorses it; it is re-registered to the buyer afterward."
   },
@@ -185,7 +185,7 @@
     "topic": "Settlement",
     "type": "multiple_choice",
     "question": "A broker-dealer receives a comparison from another firm for a trade it has no record of. The firm should respond with a:",
-    "choices": ["Reclamation", "Buy-in notice", "DK (don't know) notice", "Due bill"],
+    "choices": ["Reclamation", "Buy-in (close-out) notice", "DK (don't know) notice", "Due bill"],
     "answer": 2,
     "explanation": "A DK notice tells the other firm it does not recognize the trade or its terms. A reclamation is a demand to return securities after a bad delivery, a different situation."
   },
@@ -215,7 +215,7 @@
     "topic": "Corporate Actions",
     "type": "multiple_choice",
     "question": "For an exchange-listed stock, who sets the ex-dividend date for a cash dividend?",
-    "choices": ["The issuer's board of directors", "The transfer agent", "The SEC", "The exchange where the stock is listed"],
+    "choices": ["The issuer's board of directors when it declares", "The issuer's transfer agent", "The SEC", "The exchange where the stock is listed"],
     "answer": 3,
     "explanation": "The board sets the declaration, record, and payable dates, while the exchange sets the ex-date based on the settlement cycle. FINRA sets the ex-date for over-the-counter stocks."
   },
@@ -265,7 +265,7 @@
     "topic": "Margin",
     "type": "multiple_choice",
     "question": "A margin account has a long market value of $50,000 and a debit balance of $28,000. Which statement is TRUE?",
-    "choices": ["The account is restricted: equity is below the 50% Regulation T level but above the 25% maintenance level", "The customer faces a maintenance call", "The account has $3,000 of excess equity that may be withdrawn", "The firm must liquidate positions immediately"],
+    "choices": ["The account is restricted: equity is below the 50% Reg T level but above the 25% minimum", "The customer faces a maintenance call because equity is below 50%", "The account has $3,000 of excess equity (SMA) that the customer may withdraw as cash", "The firm must liquidate positions immediately to bring equity back to 50%"],
     "answer": 0,
     "explanation": "Equity = $50,000 − $28,000 = $22,000 (44%). That is $3,000 short of the $25,000 Reg T level, making the account restricted, but well above the $12,500 maintenance level, so there is no call."
   },
@@ -275,7 +275,7 @@
     "topic": "Margin",
     "type": "multiple_choice",
     "question": "Which statement about a special memorandum account (SMA) is TRUE?",
-    "choices": ["SMA decreases whenever the account's market value falls", "SMA is cash the customer keeps at a separate bank", "SMA is a line of credit that can be used to withdraw cash or buy securities, and it is not reduced by a decline in market value", "SMA exists only in cash accounts"],
+    "choices": ["SMA decreases automatically whenever the account's market value falls below its previous closing level", "SMA is cash the customer keeps in a separate bank account as backup collateral for margin calls", "SMA is a line of credit usable for cash withdrawals or purchases, and a market decline does not reduce it", "SMA exists only in cash accounts"],
     "answer": 2,
     "explanation": "SMA is a credit line created by excess equity in a margin account. It rises with market gains and deposits, and it stays in place when market value falls; using it increases the debit balance."
   },
@@ -295,7 +295,7 @@
     "topic": "Margin",
     "type": "multiple_choice",
     "question": "If a customer does not meet a maintenance margin call, the broker-dealer may:",
-    "choices": ["Only send reminder letters until the customer pays", "Convert the account to a cash account and wait for prices to recover", "Charge the shortfall to the registered representative", "Liquidate securities in the account, even without first contacting the customer"],
+    "choices": ["Only send written reminder letters until the customer deposits the funds", "Convert the account to a cash account and wait for prices to recover", "Charge the shortfall to the registered representative's commission account", "Liquidate securities in the account, even without first contacting the customer"],
     "answer": 3,
     "explanation": "The margin agreement permits the firm to sell securities to bring the account back to the required level, and it may do so without prior notice. Firms are not required to wait for a market recovery."
   },
@@ -335,7 +335,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "To open a MARGIN account for a corporation, the broker-dealer must obtain:",
-    "choices": ["A copy of the corporate charter (or bylaws) showing the corporation may trade on margin", "The corporation's latest audited tax return", "Written consent from every shareholder", "An SEC registration statement"],
+    "choices": ["The corporate charter or bylaws showing the corporation may trade on margin", "The corporation's latest audited tax return and balance sheet", "Written consent from every shareholder of the corporation to use margin", "A copy of the corporation's SEC registration statement"],
     "answer": 0,
     "explanation": "The firm needs the charter or bylaws to confirm the corporation is permitted to borrow on margin, in addition to the corporate resolution naming who may trade. Shareholder consent is not required."
   },
@@ -345,7 +345,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "In a trust account, who has the authority to make investment decisions?",
-    "choices": ["The beneficiaries", "The grantor's heirs", "The trustee named in the trust agreement", "The broker-dealer's branch manager"],
+    "choices": ["The beneficiaries named in the trust agreement", "The grantor's heirs", "The trustee named in the trust agreement", "The broker-dealer's branch manager"],
     "answer": 2,
     "explanation": "The trustee manages trust assets under the trust agreement, which the firm should review when opening the account. Beneficiaries receive the benefits but do not direct the trading."
   },
@@ -355,7 +355,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "Which statement correctly compares a limited power of attorney with a full power of attorney over a brokerage account?",
-    "choices": ["A limited POA expires after 30 days; a full POA never expires", "A limited POA permits trading but not withdrawals of cash or securities; a full POA permits both", "A limited POA permits withdrawals only; a full POA permits trading", "They differ only in the fee charged"],
+    "choices": ["A limited POA automatically expires after 30 days; a full POA can never be revoked", "A limited POA permits trading but not withdrawals; a full POA permits both", "A limited POA permits withdrawals of cash only; a full POA permits trading only", "They differ only in the fee the firm charges to set up the authorization"],
     "answer": 1,
     "explanation": "A limited (trading) authorization lets the agent enter buy and sell orders only. A full power of attorney also allows the agent to withdraw cash and securities."
   },
@@ -375,7 +375,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "A wrap account is BEST described as an account that:",
-    "choices": ["Holds only physical stock certificates", "Charges a commission on each trade plus a separate advisory fee", "Charges one bundled fee covering investment advice, trade execution, and custody", "Is limited to retirement assets"],
+    "choices": ["Holds only physical stock certificates registered in the customer's name", "Charges a commission on each trade plus a separate annual advisory fee based on assets", "Charges one bundled fee covering investment advice, trade execution, and custody", "Is limited to retirement assets"],
     "answer": 2,
     "explanation": "A wrap account wraps advisory, brokerage, and custody services into a single fee, usually a percentage of assets. Per-trade commissions plus a separate advisory fee describe an unbundled arrangement."
   },
@@ -385,7 +385,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "In a prime brokerage arrangement, an institutional customer:",
-    "choices": ["Uses one firm to clear, settle, and hold custody of trades that are executed through several different broker-dealers", "Must execute every trade through a single broker-dealer", "Holds its securities directly with each issuer", "Pays no commissions on any trade"],
+    "choices": ["Uses one firm to clear, settle, and custody trades executed through several broker-dealers", "Must execute every trade through the prime broker's own trading desk", "Holds its securities directly with each issuer's transfer agent instead of a broker", "Pays no commissions on any trade"],
     "answer": 0,
     "explanation": "The prime broker provides centralized clearing, custody, financing, and reporting, while the customer chooses various executing brokers. This is common for hedge funds and other active institutions."
   },
@@ -415,7 +415,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "FINRA Rule 2090 (Know Your Customer) requires firms to:",
-    "choices": ["Guarantee that recommended investments will be profitable", "Use reasonable diligence to know and retain the essential facts about every customer, at account opening and throughout the relationship", "Obtain each customer's credit report every year", "Review each customer's tax return before every trade"],
+    "choices": ["Guarantee that every recommended investment will be profitable for the customer", "Use reasonable diligence to know and retain the essential facts about every customer", "Obtain each customer's credit report every year to verify net worth", "Review each customer's most recent tax return before accepting every trade"],
     "answer": 1,
     "explanation": "KYC applies to every account from opening onward and supports effective service, supervision, and compliance. It works alongside the suitability rule (2111), which governs recommendations."
   },
@@ -435,7 +435,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "A broker-dealer must deliver Form CRS (the client relationship summary) to a new retail investor no later than the earliest of:",
-    "choices": ["The first quarterly account statement", "The customer's first written complaint", "The end of the first calendar year", "A recommendation, the placement of an order, or the opening of an account"],
+    "choices": ["The delivery of the first quarterly account statement", "The customer's first written complaint or arbitration claim", "The end of the first calendar year after the account is opened", "A recommendation, an order, or the opening of an account"],
     "answer": 3,
     "explanation": "Form CRS is a short plain-English summary of services, fees, conflicts, and disciplinary history. A broker-dealer delivers it at or before the earliest of a recommendation, an order, or account opening."
   },
@@ -445,7 +445,7 @@
     "topic": "Customer Communications",
     "type": "multiple_choice",
     "question": "Under FINRA rules, a customer complaint that must be recorded is defined as:",
-    "choices": ["Any grievance in writing (including electronic) by a customer involving the firm or its associated persons", "Any phone call in which a customer sounds unhappy", "Only grievances filed in FINRA arbitration", "Only grievances alleging more than $5,000 in damages"],
+    "choices": ["Any written or electronic grievance by a customer involving the firm or its associated persons", "Any phone call or in-person conversation in which a customer sounds unhappy with the firm", "Only grievances filed in FINRA arbitration or with a state regulator", "Only written grievances alleging more than $5,000 in customer damages"],
     "answer": 0,
     "explanation": "A complaint is any written grievance, including email or other electronic messages, about the activities of the firm or its people. It need not be filed in arbitration or reach any dollar threshold."
   },
@@ -465,7 +465,7 @@
     "topic": "Account Records",
     "type": "multiple_choice",
     "question": "Under SEC Rule 17a-4, business-related correspondence (including emails) must generally be retained for at least:",
-    "choices": ["1 year", "6 years", "3 years, the first 2 in an easily accessible place", "Permanently"],
+    "choices": ["1 year, the entire period in an easily accessible place", "6 years, the first 2 in an easily accessible place", "3 years, the first 2 in an easily accessible place", "Permanently, for the life of the firm"],
     "answer": 2,
     "explanation": "Communications relating to the firm's business are kept for three years, with the first two years easily accessible. Six-year retention applies to records such as blotters and customer account records."
   },
@@ -485,7 +485,7 @@
     "topic": "Account Records",
     "type": "multiple_choice",
     "question": "Under SEC Rule 17a-4, customer account records such as the new account form must generally be kept for:",
-    "choices": ["1 year after the last trade", "3 years after the account is opened", "At least 6 years after the account is closed (or the information is updated)", "Permanently"],
+    "choices": ["1 year after the last trade in the account is settled", "3 years after the account is opened or the information is updated", "6 years after the account is closed or the information is updated", "Permanently, even after the account is closed"],
     "answer": 2,
     "explanation": "Account record information is retained until at least six years after the earlier of the account's closing or the information being replaced or updated. Three-year retention applies to items like correspondence."
   },
@@ -495,7 +495,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "Contributions to a traditional or Roth IRA for a given tax year may be made until:",
-    "choices": ["December 31 of that year", "The tax-filing deadline of the following year (generally April 15), not including extensions", "The tax-filing deadline including any extensions", "The owner's birthday in the following year"],
+    "choices": ["December 31 of that year, the end of the tax year", "The following year's tax-filing deadline (generally April 15), not including extensions", "The following year's tax-filing deadline, including any extensions (generally October 15)", "The owner's birthday in the following year"],
     "answer": 1,
     "explanation": "IRA contributions for a tax year can be made up to the original filing deadline of the next year, typically April 15. Filing extensions do not extend the IRA contribution deadline."
   },
@@ -515,7 +515,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "Which statement about moving IRA assets is TRUE?",
-    "choices": ["An investor may do only one 60-day IRA-to-IRA rollover in any 12-month period, but direct trustee-to-trustee transfers are unlimited", "Trustee-to-trustee transfers are limited to one per year, but 60-day rollovers are unlimited", "Both rollovers and transfers are unlimited", "Both rollovers and transfers trigger the 10% early-withdrawal penalty"],
+    "choices": ["Only one 60-day IRA-to-IRA rollover is allowed per 12 months, but direct transfers are unlimited", "Trustee-to-trustee transfers are limited to one per year, but 60-day rollovers are unlimited", "Both 60-day rollovers and trustee-to-trustee transfers are unlimited", "Both rollovers and transfers trigger the 10% early-withdrawal penalty before age 59½"],
     "answer": 0,
     "explanation": "The once-per-12-months limit applies to 60-day rollovers where the owner takes possession of the money. Direct transfers between custodians never touch the owner's hands, so they are unlimited and not taxable."
   },
@@ -545,7 +545,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "A 403(b) plan is available to employees of:",
-    "choices": ["Publicly traded corporations only", "The federal government only", "Public schools and 501(c)(3) tax-exempt organizations", "Self-employed individuals only"],
+    "choices": ["Publicly traded corporations and their subsidiaries only", "Federal government agencies and the military only", "Public schools and 501(c)(3) tax-exempt organizations", "Self-employed individuals and sole proprietors only"],
     "answer": 2,
     "explanation": "403(b) plans (tax-sheltered annuities) serve public school systems and nonprofit 501(c)(3) organizations such as hospitals and charities. Corporations typically offer 401(k) plans instead."
   },
@@ -565,7 +565,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "Which statement about a SEP IRA is TRUE?",
-    "choices": ["Only employees contribute, through salary deferrals", "It is limited to employees of public schools", "Contributions are made with after-tax dollars and qualified withdrawals are tax-free", "Contributions are made by the employer, making it an easy plan for self-employed people and small businesses"],
+    "choices": ["Only employees contribute, through pretax salary deferrals taken from each paycheck", "It is limited to employees of public schools and 501(c)(3) organizations", "Contributions are never tax-deductible to the business, and all withdrawals are tax-free", "The employer makes the contributions, so it suits self-employed people and small businesses"],
     "answer": 3,
     "explanation": "A Simplified Employee Pension is funded by employer contributions that are tax-deductible to the business. Employee salary deferrals are a feature of 401(k) and SIMPLE plans."
   },
@@ -575,7 +575,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "A SIMPLE IRA plan may be established by an employer with:",
-    "choices": ["More than 500 employees", "Employees at public school districts only", "100 or fewer employees (counting those who earned at least $5,000 in the prior year)", "Only employees covered by a defined benefit pension plan"],
+    "choices": ["More than 500 employees who earned at least $5,000 in the prior year", "Employees at public school districts only", "100 or fewer employees who earned at least $5,000 in the prior year", "Only employees covered by a defined benefit pension plan"],
     "answer": 2,
     "explanation": "SIMPLE IRAs are designed for small employers with 100 or fewer employees earning $5,000 or more. Employees make salary deferrals, and the employer makes a matching or nonelective contribution."
   },
@@ -605,7 +605,7 @@
     "topic": "Education Accounts",
     "type": "multiple_choice",
     "question": "If a 529 plan withdrawal is NOT used for qualified education expenses, the earnings portion is:",
-    "choices": ["Tax-free", "Taxed at long-term capital gains rates with no penalty", "Taxed only at the state level", "Taxed as ordinary income and generally subject to a 10% penalty"],
+    "choices": ["Tax-free, as long as the account has been open five years", "Taxed at long-term capital gains rates, with no additional penalty", "Taxed only at the state level, with no federal tax due", "Taxed as ordinary income and generally subject to a 10% penalty"],
     "answer": 3,
     "explanation": "Nonqualified 529 withdrawals return contributions tax-free, but the earnings are taxed as ordinary income plus a 10% federal penalty. Capital gains rates do not apply."
   },
@@ -615,7 +615,7 @@
     "topic": "Education Accounts",
     "type": "multiple_choice",
     "question": "Which statement correctly compares 529 plans with Coverdell ESAs?",
-    "choices": ["Coverdell ESAs have higher annual contribution limits than 529 plans", "529 plans have no income limits for contributors, while Coverdell contributions phase out at higher incomes", "529 plan assets must be used by the beneficiary's 30th birthday", "Coverdell contributions are federally tax-deductible"],
+    "choices": ["Coverdell ESAs have higher annual contribution limits per beneficiary than 529 plans do", "529 plans have no contributor income limits, while Coverdell contributions phase out for high earners", "529 plan assets must be used by the beneficiary's 30th birthday or be distributed with a penalty", "Coverdell contributions are federally tax-deductible, while 529 contributions are not"],
     "answer": 1,
     "explanation": "Anyone may contribute to a 529 plan regardless of income, while Coverdell eligibility phases out for high earners. The age-30 deadline belongs to Coverdell accounts, and neither account offers a federal deduction."
   },
@@ -705,7 +705,7 @@
     "topic": "Taxes",
     "type": "multiple_choice",
     "question": "A fund makes a distribution classified as a return of capital. How is it treated for the investor?",
-    "choices": ["It reduces the investor's cost basis rather than being taxed as income when received", "It is taxed as ordinary income", "It is taxed as a qualified dividend", "It increases the investor's cost basis"],
+    "choices": ["It reduces the investor's cost basis and is not taxed when received", "It is taxed as ordinary income in the year it is received", "It is taxed as a qualified dividend at capital gains rates", "It increases the investor's cost basis and is not taxed until the shares are sold"],
     "answer": 0,
     "explanation": "A return of capital gives back part of the original investment, so it lowers cost basis and is not currently taxed. The lower basis produces a larger gain (or smaller loss) when the shares are sold."
   },
@@ -735,7 +735,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "Under FINRA rules, a registered representative may share in the profits and losses of a customer's account:",
-    "choices": ["In any percentage the customer agrees to orally", "Only with prior written approval from the firm and the customer, and generally only in proportion to the rep's own financial contribution", "Without approval as long as the account is profitable", "In profits only, never in losses"],
+    "choices": ["In any percentage the customer agrees to orally, provided the branch manager is informed in advance", "Only with the firm's and customer's prior written approval, generally in proportion to the rep's investment", "Without any approval as long as the account remains profitable and the customer does not object", "In profits only, never in losses, with written approval from the customer"],
     "answer": 1,
     "explanation": "Sharing requires written authorization from both the firm and the customer and must be proportional to the rep's contribution. Accounts of the rep's immediate family are an exception to the proportional limit."
   },
@@ -745,7 +745,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "Under FINRA Rule 3240, if the firm's written procedures allow it, a registered representative may borrow money from a customer that is:",
-    "choices": ["Any customer with more than $1 million in assets", "Any customer who signs a promissory note", "A customer whose account has been profitable", "A bank or other financial institution that is in the business of lending money"],
+    "choices": ["Any customer with more than $1 million in investable assets at the firm", "Any customer who signs a written promissory note with a fixed interest rate", "A customer whose account has been profitable", "A bank or other financial institution in the business of lending money"],
     "answer": 3,
     "explanation": "Permitted lending arrangements include immediate family members and financial institutions in the business of lending, among a few others. A customer's wealth or account performance does not make a loan permissible."
   },
@@ -795,7 +795,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "The Insider Trading and Securities Fraud Enforcement Act of 1988 requires broker-dealers to:",
-    "choices": ["Register all research analysts with the SEC", "Establish, maintain, and enforce written policies and procedures to prevent the misuse of material nonpublic information", "Guarantee customer accounts against losses caused by insider trading", "Report all trades over $10,000 to the IRS"],
+    "choices": ["Register all research analysts and investment bankers individually with the SEC", "Establish and enforce written procedures to prevent the misuse of material nonpublic information", "Guarantee customer accounts against any losses caused by other investors' insider trading", "Report all customer trades over $10,000 to the IRS within 15 days"],
     "answer": 1,
     "explanation": "ITSFEA requires written procedures, such as information barriers, to prevent misuse of inside information. It also expanded penalties, including liability for controlling persons who fail to prevent violations."
   }
