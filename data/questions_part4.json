@@ -15,7 +15,7 @@
     "topic": "Margin",
     "type": "multiple_choice",
     "question": "Under Regulation T, a customer's payment for a purchase in a cash account is due no later than:",
-    "choices": ["The trade date", "One business day after the trade date", "Two business days after the settlement date", "Ten business days after the trade date"],
+    "choices": ["The close of business on the trade date", "One business day after the trade date", "Two business days after the settlement date", "Ten business days after the settlement date"],
     "answer": 2,
     "explanation": "Reg T payment is due two business days after regular way settlement. With T+1 settlement, that means payment is due by T+3."
   },
@@ -25,7 +25,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "A customer buys stock in a cash account and sells it before paying for the original purchase. The consequence of this freeriding violation is:",
-    "choices": ["A fine payable to FINRA", "The account is frozen for 90 days, requiring cash up front for purchases", "Permanent closure of the account", "Conversion of the account to a margin account"],
+    "choices": ["A fine payable to FINRA equal to the profit on the trade", "A 90-day freeze requiring full payment up front for any purchase", "Permanent closure of the account and a report to the SEC", "Automatic conversion of the account to a margin account for 90 days"],
     "answer": 1,
     "explanation": "Freeriding — paying for a purchase with the proceeds of its own sale — results in a 90-day freeze during which the customer must deposit full payment before any buy order."
   },
@@ -115,7 +115,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "The main risk of using a stop-limit order instead of a plain stop order is that:",
-    "choices": ["It converts to a market order at the worst price", "The order may never be executed if the price gaps through the limit", "It expires at the end of the day automatically", "It requires a margin account"],
+    "choices": ["Once triggered, it converts to a market order at the worst available price", "The order may never be executed if the price gaps through the limit", "It automatically expires at the end of the day, even if marked GTC", "It can only be entered in a margin account, not a cash account"],
     "answer": 1,
     "explanation": "Once triggered, a stop-limit becomes a limit order. In a fast-moving market the price can blow through the limit and the investor may be left unprotected with no execution."
   },
@@ -135,7 +135,7 @@
     "topic": "Trading",
     "type": "multiple_choice",
     "question": "Which statement about short selling is TRUE?",
-    "choices": ["Maximum loss is limited to the amount invested", "The trade must occur in a cash account", "Shares must be located and borrowed, and potential loss is unlimited", "Short sales are prohibited on exchange-listed stocks"],
+    "choices": ["Maximum loss is limited to the proceeds received from the short sale", "The trade must occur in a cash account, with full payment up front", "Shares must be located and borrowed, and potential loss is unlimited", "Short sales are prohibited on exchange-listed stocks under Regulation SHO"],
     "answer": 2,
     "explanation": "Short sellers borrow shares (Regulation SHO requires a locate) and profit if the price falls. Because a stock can rise without limit, the potential loss is unlimited, and short sales must occur in a margin account."
   },
@@ -175,7 +175,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "Under insider trading law, a person who trades on material nonpublic information may face a civil penalty of up to:",
-    "choices": ["The amount of the profit gained", "Twice the profit gained or loss avoided", "Three times the profit gained or loss avoided", "$10,000 regardless of profit"],
+    "choices": ["The amount of the profit gained or loss avoided", "Twice the profit gained or loss avoided", "Three times the profit gained or loss avoided", "$10,000 per violation, regardless of the profit"],
     "answer": 2,
     "explanation": "Civil penalties can reach treble (3x) the profit gained or loss avoided; criminal penalties can include large fines and prison. Both tippers and tippees can be liable."
   },
@@ -185,7 +185,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "Under the Customer Identification Program (CIP), which of the following is NOT required to open an account for an individual?",
-    "choices": ["Name", "Date of birth", "Physical address", "Employer's federal tax bracket"],
+    "choices": ["Customer's full legal name", "Customer's date of birth", "Residential or business street address", "Employer's federal tax bracket"],
     "answer": 3,
     "explanation": "CIP requires name, date of birth, address, and an identification number (usually SSN or taxpayer ID), and the firm must verify the customer's identity. Tax bracket is suitability information, not CIP."
   },
@@ -195,7 +195,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "When opening an account for a retail customer, FINRA rules require the firm to make reasonable efforts to obtain the name of a:",
-    "choices": ["Co-signer for the account", "Trusted contact person age 18 or older", "Beneficiary for the account", "Power of attorney"],
+    "choices": ["Co-signer who guarantees the account's debts", "Trusted contact person age 18 or older", "Beneficiary named to inherit the account", "Person holding power of attorney"],
     "answer": 1,
     "explanation": "Firms must ask for a trusted contact person the firm may reach about possible financial exploitation or diminished capacity. The customer can decline, and the account can still be opened."
   },
@@ -204,8 +204,8 @@
     "section": "Trading & Accounts",
     "topic": "Accounts",
     "type": "multiple_choice",
-    "question": "A registered representative decides the security, and the number of shares to buy for a customer without speaking to them first. This is permissible ONLY if:",
-    "choices": ["The trade is under $10,000", "The customer has provided written discretionary authorization accepted by the firm", "The rep calls the customer within 24 hours", "The customer has a margin account"],
+    "question": "A registered representative decides the security and the number of shares to buy for a customer without speaking to them first. This is permissible ONLY if:",
+    "choices": ["The trade is under $10,000 and in a security the customer already owns", "The customer has given written discretionary authority accepted by the firm", "The rep calls the customer within 24 hours to confirm the trade details", "The customer has a margin account with a signed margin agreement"],
     "answer": 1,
     "explanation": "Choosing the asset, action, or amount requires prior written discretionary authority. Choosing only time and/or price for an order the customer specified is NOT discretion."
   },
@@ -215,7 +215,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "Which statement about UGMA/UTMA custodial accounts is TRUE?",
-    "choices": ["There may be multiple custodians and multiple minors on one account", "Gifts to the account are revocable until the minor turns 18", "The account uses the minor's Social Security number and gifts are irrevocable", "The custodian may trade on margin freely"],
+    "choices": ["There may be multiple custodians and multiple minors named on one account", "Gifts to the account are revocable by the donor until the minor turns 18", "The account uses the minor's Social Security number and gifts are irrevocable", "The custodian may trade on margin freely if the minor consents"],
     "answer": 2,
     "explanation": "Custodial accounts have one custodian and one minor; the minor is the beneficial owner (minor's SSN), all gifts are irrevocable, and assets transfer to the child at the age of majority. Margin trading is prohibited."
   },
@@ -235,7 +235,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "Which statement about traditional IRAs is TRUE?",
-    "choices": ["Withdrawals of earnings are always tax-free", "Contributions may be tax-deductible, and withdrawals before age 59 1/2 generally incur a 10% penalty", "There are no required minimum distributions", "Only employees of large companies may contribute"],
+    "choices": ["Withdrawals of earnings are always tax-free once the account has been open five years", "Contributions may be deductible, and withdrawals before 59 1/2 generally incur a 10% penalty", "There are no required minimum distributions during the owner's lifetime", "Only employees of companies without a workplace retirement plan may contribute"],
     "answer": 1,
     "explanation": "Traditional IRA contributions may be deductible (subject to income limits if covered by a workplace plan), growth is tax-deferred, distributions are taxed as ordinary income, early withdrawals generally face a 10% penalty, and RMDs currently begin at age 73."
   },
@@ -245,7 +245,7 @@
     "topic": "Retirement",
     "type": "multiple_choice",
     "question": "Which feature belongs to a Roth IRA but NOT a traditional IRA?",
-    "choices": ["Tax-deferred growth", "A 10% penalty on some early withdrawals", "Tax-free qualified withdrawals and no lifetime required minimum distributions", "Annual contribution limits"],
+    "choices": ["Tax-deferred growth on investment earnings inside the account", "A 10% penalty on some withdrawals of earnings taken before age 59 1/2", "Tax-free qualified withdrawals and no RMDs during the owner's lifetime", "Annual contribution limits set by the IRS and indexed for inflation"],
     "answer": 2,
     "explanation": "Roth contributions are made after-tax; qualified distributions (account open 5 years and owner 59 1/2, among other triggers) are entirely tax-free, and Roth IRA owners face no lifetime RMDs."
   },
@@ -265,7 +265,7 @@
     "topic": "Education Accounts",
     "type": "multiple_choice",
     "question": "Which statement about 529 college savings plans is TRUE?",
-    "choices": ["Contributions are deductible on federal income taxes", "Earnings grow tax-deferred and qualified education withdrawals are federal tax-free", "The beneficiary controls the account at age 18", "Contributions are limited to $2,000 per year"],
+    "choices": ["Contributions are deductible on federal income taxes up to the annual gift exclusion", "Earnings grow tax-deferred and qualified education withdrawals are federal tax-free", "The beneficiary takes legal control of the account at the age of majority", "Contributions are limited to $2,000 per beneficiary per year, as with a Coverdell ESA"],
     "answer": 1,
     "explanation": "529 plans are municipal fund securities: after-tax contributions, tax-deferred growth, and tax-free withdrawals for qualified education expenses. The account owner — not the beneficiary — retains control."
   },
@@ -295,7 +295,7 @@
     "topic": "Taxes",
     "type": "multiple_choice",
     "question": "An investor inherits stock that the deceased bought at $20 per share; it is worth $50 on the date of death. The heir's cost basis is:",
-    "choices": ["$20 — the original purchase price", "$50 — stepped up to the value at death", "$35 — the average of the two", "Zero until the heir sells"],
+    "choices": ["$20 — the original purchase price", "$50 — stepped up to the value at death", "$35 — the average of cost and value at death", "Zero, since the heir paid nothing for it"],
     "answer": 1,
     "explanation": "Inherited securities receive a stepped-up basis to fair market value at death, and the holding period is automatically long-term. Gifted securities, by contrast, generally carry over the donor's basis."
   },
@@ -315,7 +315,7 @@
     "topic": "Account Records",
     "type": "multiple_choice",
     "question": "Customer account statements must be sent at least:",
-    "choices": ["Monthly in all cases", "Quarterly, and monthly for any month with activity", "Annually", "Only when the customer requests one"],
+    "choices": ["Monthly in all cases, even with no account activity", "Quarterly, and monthly for any month with activity", "Annually, with a year-end tax summary", "Only when the customer requests one in writing"],
     "answer": 1,
     "explanation": "Statements go out at least quarterly; accounts with activity (trades, or receipt/delivery of cash or securities) receive a statement for that month."
   },
@@ -325,7 +325,7 @@
     "topic": "Account Records",
     "type": "multiple_choice",
     "question": "A trade confirmation must be delivered to the customer:",
-    "choices": ["At or before the completion of the transaction (settlement date)", "Within one week of the trade", "Only for trades over $10,000", "Quarterly with the account statement"],
+    "choices": ["At or before completion of the transaction (settlement)", "Within one week of the trade date, by first-class mail", "Only for trades over $10,000, by the next business day", "Quarterly, together with the customer's account statement"],
     "answer": 0,
     "explanation": "Confirmations disclosing the trade details (security, price, capacity, commission) must reach the customer at or before completion of the transaction — the settlement date."
   },
@@ -355,7 +355,7 @@
     "topic": "AML",
     "type": "multiple_choice",
     "question": "A firm detects a suspicious transaction involving at least $5,000 and suspects the funds derive from illegal activity. The firm must file a:",
-    "choices": ["Currency transaction report (CTR)", "Suspicious activity report (SAR), without notifying the customer", "Form U4 amendment", "Complaint with the SEC, copying the customer"],
+    "choices": ["Currency transaction report (CTR) within 15 days of the transaction", "Suspicious activity report (SAR), without notifying the customer", "Form U4 amendment for the registered rep who handled it", "Complaint with the SEC, copying the customer"],
     "answer": 1,
     "explanation": "SARs are filed confidentially with FinCEN (generally within 30 days of detection). Tipping off the customer that a SAR was filed is prohibited."
   },
@@ -365,7 +365,7 @@
     "topic": "Privacy",
     "type": "multiple_choice",
     "question": "Regulation S-P requires broker-dealers to:",
-    "choices": ["Report all customer trades to the IRS", "Provide privacy notices and give customers the chance to opt out of sharing nonpublic personal information with nonaffiliated third parties", "Encrypt every email to customers", "Share customer data freely with marketing partners"],
+    "choices": ["Report all customer trades and account balances to the IRS at the end of each quarter", "Send privacy notices and allow opt-outs from sharing data with nonaffiliated third parties", "Encrypt every email sent to customers and keep a copy of each message for six years", "Share customer data freely with marketing partners without giving any notice"],
     "answer": 1,
     "explanation": "Reg S-P (the SEC's privacy rule) requires initial and annual privacy notices, opt-out rights for sharing with nonaffiliated third parties, and safeguards for customer records."
   },
@@ -385,7 +385,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "Unless the customer specifies otherwise, an order entered during market hours is assumed to be:",
-    "choices": ["Good-til-canceled (GTC)", "A day order that expires at the close if unexecuted", "Immediate-or-cancel", "Good for one week"],
+    "choices": ["Good-til-canceled (GTC), remaining open until filled", "A day order that expires at the close if unexecuted", "Immediate-or-cancel, with any unfilled portion canceled", "Good for one week unless the customer cancels it"],
     "answer": 1,
     "explanation": "Orders are day orders by default — if not executed by the close, they expire. A customer must explicitly mark an order GTC for it to carry over to later sessions."
   },
@@ -395,7 +395,7 @@
     "topic": "Orders",
     "type": "multiple_choice",
     "question": "A customer tells a registered representative to sell 1,000 shares of XYZ 'whenever you think the price is best today.' Without written discretionary authority, the representative:",
-    "choices": ["Must refuse the order", "May accept it — time and price discretion is permitted verbally for that day", "May choose a different stock if it seems better", "Must have a principal place the trade"],
+    "choices": ["Must refuse the order until a signed discretionary form is on file", "May accept it — time and price discretion is allowed verbally for the day", "May also choose a different stock or share amount if it seems better", "Must have a principal approve and place the trade before the close"],
     "answer": 1,
     "explanation": "When the customer names the security, the action, and the amount, choosing only time and price is a 'not held' order — valid without written discretionary authorization, but good for that trading day only."
   },
@@ -425,7 +425,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "A customer wants their brokerage account identified only by a number for privacy. This is permitted if:",
-    "choices": ["A principal approves it verbally", "The customer signs a written statement attesting to ownership of the account", "The account is a margin account", "FINRA grants a written exemption"],
+    "choices": ["A principal approves it verbally and notes it on the new account form", "The customer signs a written statement attesting to ownership of the account", "The account is a margin account with a signed hypothecation agreement", "FINRA grants a written exemption after reviewing the customer's identity"],
     "answer": 1,
     "explanation": "Numbered (or symbol-titled) accounts are allowed, but the firm must keep a written statement, signed by the customer, attesting to who actually owns the account."
   },
@@ -435,7 +435,7 @@
     "topic": "Accounts",
     "type": "multiple_choice",
     "question": "The main benefit of adding a transfer-on-death (TOD) designation to an individual brokerage account is that at the owner's death, the assets:",
-    "choices": ["Avoid estate taxes entirely", "Pass directly to the named beneficiary without going through probate", "Transfer to the surviving joint tenant", "Are liquidated automatically and mailed as a check"],
+    "choices": ["Avoid all federal and state estate taxes, regardless of the estate's size", "Pass directly to the named beneficiary without going through probate", "Transfer automatically to the surviving joint tenant on the account", "Are liquidated automatically and mailed as a check"],
     "answer": 1,
     "explanation": "TOD registration passes the account directly to named beneficiaries, bypassing probate. It does not avoid estate tax, and the owner keeps full control during their lifetime."
   },
@@ -465,7 +465,7 @@
     "topic": "Taxes",
     "type": "multiple_choice",
     "question": "After netting all capital gains and losses, an investor has a $10,000 net capital loss this year. On this year's return, the investor may deduct against ordinary income a maximum of:",
-    "choices": ["$0", "$3,000, carrying the remaining $7,000 forward", "$10,000", "$5,000, forfeiting the rest"],
+    "choices": ["$0, carrying the full $10,000 forward", "$3,000, carrying the remaining $7,000 forward", "$10,000, with nothing left to carry forward", "$5,000, forfeiting the remaining $5,000"],
     "answer": 1,
     "explanation": "Net capital losses offset ordinary income up to $3,000 per year; the unused balance carries forward indefinitely to future years."
   },
@@ -475,7 +475,7 @@
     "topic": "Taxes",
     "type": "multiple_choice",
     "question": "An investor receives stock as a gift. The donor bought it at $30 per share, and it is worth $50 when gifted. For calculating a future gain, the recipient's cost basis is:",
-    "choices": ["$50 - the value on the gift date", "$30 - the donor's original cost basis carries over", "$0", "The average of $30 and $50"],
+    "choices": ["$50 - stepped up to the value on the gift date", "$30 - the donor's original cost basis carries over", "$0 - the recipient paid nothing for it", "$40 - the average of the donor's cost and gift value"],
     "answer": 1,
     "explanation": "Gifted securities keep the donor's basis for gains ($30 here). Contrast with inherited securities, which are stepped up to fair market value at the date of death."
   },
@@ -485,7 +485,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "Two traders repeatedly buy and sell the same security back and forth between their accounts, with no change in beneficial ownership, to create the appearance of heavy trading volume. This prohibited practice is called:",
-    "choices": ["Front-running", "Matched orders (painting the tape)", "Churning", "Freeriding"],
+    "choices": ["Front-running (trading ahead of customers)", "Matched orders (painting the tape)", "Churning (excessive trading for commissions)", "Freeriding (selling before paying)"],
     "answer": 1,
     "explanation": "Matched orders or wash trades — offsetting trades with no real change in ownership — manufacture fake volume to lure investors, a form of market manipulation often called painting the tape."
   },
@@ -495,7 +495,7 @@
     "topic": "Prohibited Activities",
     "type": "multiple_choice",
     "question": "After a customer's account loses value, a registered representative offers to personally repay the losses if the customer stays with the firm. This is:",
-    "choices": ["Permitted if the rep uses personal funds", "Permitted with written principal approval", "Prohibited - guaranteeing a customer against loss is never allowed", "Required under FINRA's customer-protection rules"],
+    "choices": ["Permitted if the rep uses personal funds rather than the firm's money", "Permitted with written principal approval and customer consent", "Prohibited - guaranteeing a customer against loss is never allowed", "Required under FINRA's customer-protection rules"],
     "answer": 2,
     "explanation": "Guaranteeing customers against loss (or promising a specific return) is strictly prohibited, no matter whose money is used or who approves it. Sharing in an account's gains and losses is allowed only in narrow, pre-approved proportionate arrangements."
   }

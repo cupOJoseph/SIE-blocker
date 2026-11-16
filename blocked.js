@@ -1,10 +1,17 @@
 // SIE Study Blocker — blocked.js
-// Renders SIE study cards on the block page. This is a blocker, not a
-// gate: there is no pass and no way through to the site. Answer as many
-// cards as you like, then close the tab and get back to work.
+// Renders SIE study cards on the block page. Get UNLOCK_CORRECT right and
+// the blocked sites open for a while (the background worker holds that
+// unlock in memory). Nothing on this page is saved: stats, streak and the
+// recently shown cards live only as long as the tab does.
 
 const els = {
   progressLine: document.getElementById("progressLine"),
+  unlockPanel: document.getElementById("unlockPanel"),
+  unlockPips: document.getElementById("unlockPips"),
+  unlockLabel: document.getElementById("unlockLabel"),
+  unlockedPanel: document.getElementById("unlockedPanel"),
+  unlockedText: document.getElementById("unlockedText"),
+  goBtn: document.getElementById("goBtn"),
   qSection: document.getElementById("qSection"),
   qNumber: document.getElementById("qNumber"),
   qText: document.getElementById("qText"),
@@ -17,40 +24,51 @@ const els = {
   kbdHint: document.getElementById("kbdHint"),
   sessionStat: document.getElementById("sessionStat"),
   streakStat: document.getElementById("streakStat"),
-  allTimeStat: document.getElementById("allTimeStat"),
   optionsLink: document.getElementById("optionsLink"),
 };
 
 const state = {
   questions: [],
   current: null,
-  selectedChoice: null,
+  order: [], // display position -> original choice index
+  selectedChoice: null, // original choice index
   answered: false,
   sessionCorrect: 0,
   sessionAnswered: 0,
-  stats: { totalAnswered: 0, totalCorrect: 0, streak: 0 },
+  streak: 0,
   recentIds: [],
+  required: 5,
+  minutes: 30,
+  unlockProgress: 0, // correct answers toward the next unlock
+  unlockedUntil: 0,
+  returnUrl: "https://x.com/",
 };
 
 // ---------- setup ----------
 
+// Where the user was headed before being blocked; only web URLs.
+function readReturnUrl() {
+  const from = new URLSearchParams(location.search).get("from");
+  try {
+    const url = new URL(from);
+    if (url.protocol === "http:" || url.protocol === "https:") return url.href;
+  } catch {}
+  return "https://x.com/";
+}
+
 async function init() {
-  const [questions, stored] = await Promise.all([
+  state.returnUrl = readReturnUrl();
+  const [questions, unlock] = await Promise.all([
     fetch(chrome.runtime.getURL("questions.json")).then((r) => r.json()),
-    chrome.storage.local.get([
-      "totalAnswered",
-      "totalCorrect",
-      "streak",
-      "recentIds",
-    ]),
+    chrome.runtime.sendMessage({ type: "getUnlock" }),
   ]);
 
   state.questions = questions;
-  state.stats.totalAnswered = stored.totalAnswered || 0;
-  state.stats.totalCorrect = stored.totalCorrect || 0;
-  state.stats.streak = stored.streak || 0;
-  state.recentIds = Array.isArray(stored.recentIds) ? stored.recentIds : [];
+  state.required = unlock.required;
+  state.minutes = unlock.minutes;
+  state.unlockedUntil = unlock.unlockedUntil;
 
+  renderUnlock();
   renderStats();
   nextQuestion();
 }
@@ -65,15 +83,23 @@ function pickQuestion() {
   return source[Math.floor(Math.random() * source.length)];
 }
 
+function shuffledIndexes(n) {
+  const order = [...Array(n).keys()];
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [order[i], order[j]] = [order[j], order[i]];
+  }
+  return order;
+}
+
 function nextQuestion() {
   state.current = pickQuestion();
   state.selectedChoice = null;
   state.answered = false;
 
-  // Remember the last 20 shown so cards don't repeat back-to-back.
+  // Remember the last 50 shown so cards don't repeat back-to-back.
   state.recentIds.push(state.current.id);
-  if (state.recentIds.length > 20) state.recentIds.shift();
-  chrome.storage.local.set({ recentIds: state.recentIds });
+  if (state.recentIds.length > 50) state.recentIds.shift();
 
   const q = state.current;
   els.qSection.textContent = q.section + " · " + q.topic;
@@ -89,20 +115,22 @@ function nextQuestion() {
   els.answerArea.innerHTML = "";
 
   if (q.type === "multiple_choice") {
-    q.choices.forEach((text, i) => {
+    // Shuffle so the right answer isn't always in the same slot.
+    state.order = shuffledIndexes(q.choices.length);
+    state.order.forEach((original, pos) => {
       const btn = document.createElement("button");
       btn.type = "button";
       btn.className = "choice";
-      btn.dataset.index = i;
+      btn.dataset.index = original;
       const letter = document.createElement("span");
       letter.className = "choice-letter";
-      letter.textContent = String.fromCharCode(65 + i) + ".";
+      letter.textContent = String.fromCharCode(65 + pos) + ".";
       const label = document.createElement("span");
-      label.textContent = text;
+      label.textContent = q.choices[original];
       btn.append(letter, label);
       btn.addEventListener("click", () => {
         if (state.answered) return;
-        state.selectedChoice = i;
+        state.selectedChoice = original;
         els.answerArea
           .querySelectorAll(".choice")
           .forEach((c) => c.classList.remove("selected"));
@@ -163,19 +191,20 @@ function grade() {
 
   state.answered = true;
   state.sessionAnswered += 1;
-  state.stats.totalAnswered += 1;
 
   if (correct) {
     state.sessionCorrect += 1;
-    state.stats.totalCorrect += 1;
-    state.stats.streak += 1;
+    state.unlockProgress += 1;
+    state.streak += 1;
     els.verdict.textContent = "Correct";
     els.verdict.className = "feedback-verdict ok";
   } else {
-    state.stats.streak = 0;
+    state.streak = 0;
     const answerText =
       q.type === "multiple_choice"
-        ? String.fromCharCode(65 + q.answer) + ". " + q.choices[q.answer]
+        ? String.fromCharCode(65 + state.order.indexOf(q.answer)) +
+          ". " +
+          q.choices[q.answer]
         : q.answer;
     els.verdict.textContent = "Not quite — answer: " + answerText;
     els.verdict.className = "feedback-verdict bad";
@@ -187,44 +216,103 @@ function grade() {
   els.nextBtn.hidden = false;
   els.kbdHint.hidden = false;
 
-  chrome.storage.local.set({
-    totalAnswered: state.stats.totalAnswered,
-    totalCorrect: state.stats.totalCorrect,
-    streak: state.stats.streak,
-  });
   renderStats();
+  if (correct) maybeUnlock();
   els.nextBtn.focus();
   // The bigger card can push the action row below the fold on short
   // screens; make sure Next card is visible once the answer is shown.
   els.nextBtn.scrollIntoView({ block: "nearest" });
 }
 
-// ---------- stats ----------
+// ---------- unlock ----------
+
+function isUnlocked() {
+  return state.unlockedUntil > Date.now();
+}
+
+function returnHost() {
+  return new URL(state.returnUrl).hostname.replace(/^www\./, "");
+}
+
+async function maybeUnlock() {
+  if (isUnlocked() || state.unlockProgress < state.required) {
+    renderUnlock();
+    return;
+  }
+  const { unlockedUntil } = await chrome.runtime.sendMessage({
+    type: "unlock",
+  });
+  state.unlockedUntil = unlockedUntil;
+  renderUnlock();
+}
+
+function renderUnlock() {
+  const host = returnHost();
+  if (isUnlocked()) {
+    const until = new Date(state.unlockedUntil).toLocaleTimeString([], {
+      hour: "numeric",
+      minute: "2-digit",
+    });
+    els.unlockPanel.hidden = true;
+    els.unlockedPanel.hidden = false;
+    els.unlockedText.textContent = "Unlocked until " + until + ".";
+    els.goBtn.textContent = "Go to " + host;
+    els.progressLine.textContent =
+      "Nice work. Keep studying, or take your break.";
+    return;
+  }
+
+  els.unlockPanel.hidden = false;
+  els.unlockedPanel.hidden = true;
+  const got = Math.min(state.unlockProgress, state.required);
+  els.unlockPips.innerHTML = "";
+  for (let i = 0; i < state.required; i++) {
+    const pip = document.createElement("span");
+    pip.className = "pip" + (i < got ? " on" : "");
+    els.unlockPips.appendChild(pip);
+  }
+  els.unlockLabel.textContent = got + " / " + state.required + " correct";
+  els.progressLine.textContent =
+    "Get " + state.required + " right to open " + host + " for " + state.minutes + " minutes.";
+}
+
+async function goToSite() {
+  // The unlock may have run out while this page sat open.
+  const { unlockedUntil } = await chrome.runtime.sendMessage({
+    type: "getUnlock",
+  });
+  state.unlockedUntil = unlockedUntil;
+  if (!isUnlocked()) {
+    state.unlockProgress = 0;
+    renderUnlock();
+    return;
+  }
+  location.href = state.returnUrl;
+}
+
+// ---------- stats (this tab only) ----------
 
 function renderStats() {
   els.sessionStat.textContent =
     state.sessionCorrect + " / " + state.sessionAnswered;
-  els.streakStat.textContent = state.stats.streak;
-  const pct = state.stats.totalAnswered
-    ? Math.round((state.stats.totalCorrect / state.stats.totalAnswered) * 100)
-    : 0;
-  els.allTimeStat.textContent =
-    pct + "% (" + state.stats.totalAnswered + " answered)";
+  els.streakStat.textContent = state.streak;
 }
 
 // ---------- wiring ----------
 
 els.submitBtn.addEventListener("click", grade);
 els.nextBtn.addEventListener("click", nextQuestion);
+els.goBtn.addEventListener("click", goToSite);
 
 // Once the answer is shown, Enter or Space jumps to the next card.
-// When the Next button itself is focused, let it handle the key natively
-// (avoids firing the jump twice).
+// When a button itself is focused, let it handle the key natively
+// (avoids firing twice).
 document.addEventListener("keydown", (e) => {
   if (!state.answered) return;
   if (e.key !== "Enter" && e.key !== " ") return;
   if (e.repeat) return;
-  if (document.activeElement === els.nextBtn) return;
+  if (document.activeElement && document.activeElement.tagName === "BUTTON")
+    return;
   e.preventDefault();
   nextQuestion();
 });

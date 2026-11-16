@@ -11,8 +11,18 @@
     <header class="desk-head">
       <p class="desk-kicker">Route intercepted</p>
       <h1 class="desk-title">Study instead</h1>
-      <p class="desk-sub" id="progressLine">This site is blocked. Run as many SIE cards as you like, then get back to work.</p>
+      <p class="desk-sub" id="progressLine">Get 5 right to open this site for 30 minutes.</p>
     </header>
+
+    <div class="unlock" id="unlockPanel">
+      <span class="unlock-pips" id="unlockPips" aria-hidden="true"></span>
+      <span class="unlock-label" id="unlockLabel">0 / 5 correct</span>
+    </div>
+
+    <div class="unlock unlocked" id="unlockedPanel" hidden>
+      <span class="unlock-label" id="unlockedText">Unlocked.</span>
+      <button class="btn btn-go" id="goBtn" type="button">Go to x.com</button>
+    </div>
 
     <section class="card" id="card" aria-live="polite">
       <div class="card-topline">
@@ -39,7 +49,6 @@
     <footer class="desk-foot">
       <div class="stat"><span class="stat-label">Session</span><span class="stat-value" id="sessionStat">0 / 0</span></div>
       <div class="stat"><span class="stat-label">Streak</span><span class="stat-value" id="streakStat">0</span></div>
-      <div class="stat"><span class="stat-label">All-time</span><span class="stat-value" id="allTimeStat">0%</span></div>
       <a class="foot-link" href="#" id="optionsLink">Settings</a>
     </footer>
   </main>

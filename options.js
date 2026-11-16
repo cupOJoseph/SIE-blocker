@@ -3,7 +3,6 @@
 // Always blocked; user-added sites are stored separately in blockedSites.
 const DEFAULT_SITES = ["x.com", "twitter.com"];
 
-const resetBtn = document.getElementById("resetBtn");
 const siteList = document.getElementById("siteList");
 const siteInput = document.getElementById("siteInput");
 const addSiteBtn = document.getElementById("addSiteBtn");
@@ -86,18 +85,6 @@ async function addSite() {
   showSiteMsg(host + " is now blocked. No take-backs.", "ok");
 }
 
-async function resetStats() {
-  await chrome.storage.local.set({
-    totalAnswered: 0,
-    totalCorrect: 0,
-    streak: 0,
-    recentIds: [],
-  });
-  resetBtn.textContent = "Stats cleared";
-  setTimeout(() => (resetBtn.textContent = "Reset all-time stats"), 1800);
-}
-
-resetBtn.addEventListener("click", resetStats);
 addSiteBtn.addEventListener("click", addSite);
 siteInput.addEventListener("keydown", (e) => {
   if (e.key === "Enter") addSite();

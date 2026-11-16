@@ -5,7 +5,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "Preemptive rights give a common stockholder the ability to:",
-    "choices": ["Vote on the corporation's dividend policy", "Maintain their proportionate ownership when new shares are issued", "Convert common stock into preferred stock", "Receive dividends before preferred stockholders"],
+    "choices": ["Vote on the board's dividend policy before each declaration", "Maintain proportionate ownership when new shares are issued", "Convert common shares into preferred shares at a set ratio", "Receive dividends before preferred stockholders are paid"],
     "answer": 1,
     "explanation": "Preemptive rights let existing shareholders buy enough of a new issue to keep their ownership percentage from being diluted."
   },
@@ -55,7 +55,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "An American Depositary Receipt (ADR) is designed to:",
-    "choices": ["Let U.S. investors conveniently trade shares of foreign companies in U.S. markets", "Let foreign investors trade U.S. stocks abroad", "Eliminate currency risk for U.S. investors", "Guarantee dividend payments in U.S. dollars"],
+    "choices": ["Let U.S. investors trade foreign company shares in U.S. markets", "Let foreign investors trade U.S. company shares on foreign exchanges", "Eliminate currency risk for U.S. investors who own foreign shares", "Guarantee dividend payments in U.S. dollars from the depositary bank"],
     "answer": 0,
     "explanation": "ADRs are receipts for foreign shares held by a U.S. bank, trading in U.S. dollars in U.S. markets. Holders still bear currency (exchange-rate) risk, and ADR holders generally do not receive preemptive rights."
   },
@@ -65,7 +65,7 @@
     "topic": "Equity",
     "type": "multiple_choice",
     "question": "Which statement correctly compares warrants and rights?",
-    "choices": ["Warrants are short-term; rights are long-term", "Warrants are issued with an exercise price above the current market price; rights are issued with a subscription price below it", "Rights are usually attached to bond offerings as sweeteners", "Warrants are issued only to existing shareholders"],
+    "choices": ["Warrants are short-term, expiring within weeks; rights are long-term, lasting for years", "Warrants carry an exercise price above market at issuance; rights carry a subscription price below it", "Rights are usually attached to new bond offerings as sweeteners that lower the coupon rate", "Warrants are issued only to existing shareholders, in proportion to the shares they already own"],
     "answer": 1,
     "explanation": "Warrants are long-term instruments with exercise prices above the market at issuance, often attached to bonds as sweeteners. Rights are short-term, offered to existing shareholders at below-market prices."
   },
@@ -135,7 +135,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Which is TRUE of zero-coupon bonds?",
-    "choices": ["They pay semiannual interest", "They are purchased at a discount and are the most price-sensitive to interest rate changes for a given maturity", "They carry no tax consequences until maturity", "They have high reinvestment risk"],
+    "choices": ["They pay semiannual interest and return par value at maturity", "They are bought at a discount and are the most rate-sensitive bonds for a given maturity", "They carry no tax consequences until maturity, even in a taxable account", "They have high reinvestment risk because each coupon must be reinvested at current rates"],
     "answer": 1,
     "explanation": "Zeros pay no periodic interest, are bought at a deep discount, and exhibit the greatest price volatility for a given maturity. They eliminate reinvestment risk, but taxable zeros generate annual 'phantom income' on the accreted discount."
   },
@@ -175,7 +175,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Interest received from U.S. Treasury securities is:",
-    "choices": ["Exempt from federal tax but subject to state tax", "Subject to federal tax but exempt from state and local tax", "Exempt from all taxation", "Fully taxable at every level"],
+    "choices": ["Exempt from federal tax but subject to state and local tax", "Subject to federal tax but exempt from state and local tax", "Exempt from all federal, state, and local taxation", "Fully taxable at the federal, state, and local levels"],
     "answer": 1,
     "explanation": "Treasury interest is federally taxable but exempt from state and local income taxes — the mirror image of municipal bond interest."
   },
@@ -185,7 +185,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "A general obligation (GO) municipal bond is backed by:",
-    "choices": ["Revenues of the facility it finances", "The full faith, credit, and taxing power of the issuer", "A corporate guarantee", "Federal government backing"],
+    "choices": ["Revenues generated by the facility or project it finances", "The full faith, credit, and taxing power of the issuer", "A guarantee from the corporation leasing the facility", "The full faith and credit of the federal government"],
     "answer": 1,
     "explanation": "GO bonds are supported by the issuer's taxing power and typically require voter approval. Revenue bonds are backed only by revenues from the financed project (tolls, fees, etc.)."
   },
@@ -195,7 +195,7 @@
     "topic": "Municipal Securities",
     "type": "multiple_choice",
     "question": "A revenue bond issued to build a toll road would MOST likely be evaluated using a:",
-    "choices": ["Voter referendum", "Feasibility study of projected tolls and expenses", "Analysis of the issuer's property tax base", "Debt-per-capita ratio"],
+    "choices": ["Voter referendum approving the bond issue", "Feasibility study of projected tolls and expenses", "Analysis of the issuer's assessed property tax base", "Debt-per-capita ratio for the issuing municipality"],
     "answer": 1,
     "explanation": "Revenue bonds are analyzed on the project's ability to generate revenue, so a feasibility study is key. Taxing-power measures like tax base and debt per capita apply to GO bonds."
   },
@@ -255,7 +255,7 @@
     "topic": "Debt",
     "type": "multiple_choice",
     "question": "Holders of mortgage-backed securities face prepayment risk, which is greatest when:",
-    "choices": ["Interest rates rise and homeowners stop refinancing", "Interest rates fall and homeowners refinance their mortgages", "Home prices decline", "The Fed raises the discount rate"],
+    "choices": ["Interest rates rise and homeowners stop refinancing their loans", "Interest rates fall and homeowners refinance their mortgages", "Home prices decline and new home sales slow", "The Fed raises the discount rate charged to member banks"],
     "answer": 1,
     "explanation": "Falling rates trigger refinancing, returning principal to MBS investors early — exactly when reinvestment options pay less. Rising rates cause the opposite: extension risk."
   },

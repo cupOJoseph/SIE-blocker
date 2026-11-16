@@ -67,6 +67,44 @@ body {
   color: #8d95a3;
 }
 
+/* ---- Unlock meter ---- */
+.unlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.9rem;
+  min-height: 2.6rem;
+}
+
+.unlock[hidden] { display: none; }
+
+.unlock-pips { display: flex; gap: 0.4rem; }
+
+.pip {
+  width: 1.6rem;
+  height: 0.45rem;
+  border-radius: 2px;
+  background: rgba(216, 220, 227, 0.14);
+  transition: background 0.25s ease;
+}
+
+.pip.on { background: var(--board-green); }
+
+.unlock-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8d95a3;
+}
+
+.unlocked .unlock-label { color: var(--board-green); }
+
+.btn-go {
+  background: var(--board-green);
+  color: #0e1219;
+}
+.btn-go:hover { background: #4bb07d; }
+
 /* ---- The index card ---- */
 .card {
   position: relative;
@@ -276,4 +314,5 @@ body {
 
 @media (prefers-reduced-motion: reduce) {
   .card { animation: none; }
+  .pip { transition: none; }
 }

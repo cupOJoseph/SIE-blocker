@@ -15,7 +15,7 @@
     "topic": "Regulators",
     "type": "multiple_choice",
     "question": "The Securities Act of 1933 primarily regulates which of the following?",
-    "choices": ["Trading of outstanding securities between investors", "Registration and disclosure requirements for new issues of securities", "The activities of investment advisers", "Margin lending by broker-dealers"],
+    "choices": ["Trading of outstanding securities between investors in the secondary market", "Registration and disclosure for new issues of securities", "The registration and conduct of investment advisers", "Margin lending by broker-dealers to their customers"],
     "answer": 1,
     "explanation": "The 1933 Act covers the primary market: it requires issuers of new securities to register with the SEC and deliver a prospectus so investors receive full and fair disclosure."
   },
@@ -45,7 +45,7 @@
     "topic": "Investor Protection",
     "type": "multiple_choice",
     "question": "Which statement about FDIC insurance is TRUE?",
-    "choices": ["It covers securities held at a broker-dealer", "It covers bank deposits up to $250,000 per depositor, per bank, per ownership category", "It protects investors from market losses", "It covers money market mutual funds"],
+    "choices": ["It covers stocks and bonds held in a customer's account at an SEC-registered broker-dealer", "It covers bank deposits up to $250,000 per depositor, per bank, per ownership category", "It protects investors from market losses on securities bought through a bank", "It covers money market mutual funds sold through a bank's brokerage affiliate"],
     "answer": 1,
     "explanation": "The FDIC insures bank deposits (checking, savings, CDs) up to $250,000 per depositor, per insured bank, per ownership category. It never covers securities or mutual funds, even those sold at a bank."
   },
@@ -55,7 +55,7 @@
     "topic": "Economic Factors",
     "type": "multiple_choice",
     "question": "Which of the following is NOT a tool of the Federal Reserve's monetary policy?",
-    "choices": ["Open market operations", "Setting the discount rate", "Changing reserve requirements", "Raising or lowering federal income tax rates"],
+    "choices": ["Conducting open market operations in Treasuries", "Setting the discount rate for member bank loans", "Changing reserve requirements for member banks", "Raising or lowering federal income tax rates"],
     "answer": 3,
     "explanation": "Taxation and government spending are fiscal policy, controlled by Congress and the President. The Fed's monetary tools include open market operations, the discount rate, and reserve requirements."
   },
@@ -65,7 +65,7 @@
     "topic": "Economic Factors",
     "type": "multiple_choice",
     "question": "The Federal Open Market Committee (FOMC) implements monetary policy primarily by:",
-    "choices": ["Buying and selling U.S. government securities in the open market", "Setting the prime rate that banks charge customers", "Approving new stock exchange listings", "Setting margin requirements for customers"],
+    "choices": ["Buying and selling U.S. Treasury securities in the open market", "Setting the prime rate that commercial banks charge their best customers", "Approving new stock listings on the national securities exchanges", "Setting margin requirements for customers' stock purchases"],
     "answer": 0,
     "explanation": "The FOMC conducts open market operations — buying Treasuries to inject money into the economy or selling them to drain it. The prime rate is set by banks themselves."
   },
@@ -125,7 +125,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "A company that is already publicly traded issues additional new shares to raise capital. This is best described as a(n):",
-    "choices": ["Initial public offering (IPO)", "Follow-on (subsequent/additional) offering", "Secondary market transaction", "Private placement"],
+    "choices": ["Initial public offering (IPO)", "Follow-on (subsequent) offering", "Secondary market (resale) transaction", "Private placement"],
     "answer": 1,
     "explanation": "An IPO is a company's first sale of stock to the public. Later primary offerings by an already-public issuer are follow-on (also called subsequent or additional) offerings."
   },
@@ -155,7 +155,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "In a firm commitment underwriting, the underwriter:",
-    "choices": ["Acts as the issuer's agent and returns unsold shares", "Buys the entire issue from the issuer and bears the risk of unsold shares", "Guarantees the stock price will not fall after the offering", "Sells shares only to accredited investors"],
+    "choices": ["Acts only as the issuer's agent and returns any unsold shares to the issuer", "Buys the entire issue and bears the risk of any unsold shares", "Guarantees the stock price will not fall after the offering", "Sells shares only to accredited investors in a private placement"],
     "answer": 1,
     "explanation": "In a firm commitment, the underwriter acts as principal, purchasing the whole issue and reselling it — taking on the financial risk. In a best efforts deal, the underwriter acts only as agent."
   },
@@ -185,7 +185,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "To qualify as an accredited investor based on income, an individual generally must have earned income exceeding:",
-    "choices": ["$100,000 in the most recent year", "$200,000 (or $300,000 jointly with a spouse) in each of the two most recent years", "$500,000 in each of the past five years", "$1,000,000 in the most recent year"],
+    "choices": ["$100,000 ($200,000 joint) in each of the two most recent years", "$200,000 ($300,000 joint) in each of the two most recent years", "$500,000 in each of the past five years", "$1,000,000 in the most recent year"],
     "answer": 1,
     "explanation": "Under Regulation D, an accredited investor includes an individual with income over $200,000 ($300,000 joint) in each of the last two years with the same expectation this year, or net worth over $1 million excluding the primary residence."
   },
@@ -225,7 +225,7 @@
     "topic": "Offerings",
     "type": "multiple_choice",
     "question": "In which type of underwriting is the entire offering canceled and all investor funds returned unless every share is sold?",
-    "choices": ["Firm commitment", "Best efforts all-or-none", "Standby", "Best efforts mini-max"],
+    "choices": ["Firm commitment underwriting", "Best efforts all-or-none", "Standby underwriting", "Best efforts mini-max"],
     "answer": 1,
     "explanation": "In an all-or-none (AON) best efforts deal, investor funds are held in escrow and returned if the full issue does not sell. A mini-max deal sets a minimum floor rather than requiring every share to sell."
   },
@@ -265,7 +265,7 @@
     "topic": "Market Participants",
     "type": "multiple_choice",
     "question": "A broker-dealer accepts customer orders and handles the customer relationship, but a second firm executes the trades, settles them, and holds the customers' cash and securities. The second firm is the:",
-    "choices": ["Introducing firm", "Clearing (carrying) firm", "Transfer agent", "Investment adviser"],
+    "choices": ["Introducing (correspondent) firm", "Clearing (carrying) firm", "Transfer agent", "Investment adviser"],
     "answer": 1,
     "explanation": "The clearing (carrying) firm executes, settles, and custodies assets; the introducing firm maintains the customer relationship and passes orders along on a fully disclosed basis."
   },

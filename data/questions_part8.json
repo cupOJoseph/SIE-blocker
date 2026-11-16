@@ -1,0 +1,802 @@
+[
+  {
+    "id": 331,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "The Investment Company Act of 1940 classifies investment companies into which three types?",
+    "choices": ["Open-end management companies, closed-end funds, and private hedge funds", "Mutual funds, exchange-traded funds, and real estate investment trusts", "Face-amount certificate companies, unit investment trusts, and management companies", "Unit investment trusts, real estate investment trusts, and limited partnerships"],
+    "answer": 2,
+    "explanation": "The 1940 Act names three types: face-amount certificate companies, UITs, and management companies. Open-end and closed-end funds are both subtypes of management companies."
+  },
+  {
+    "id": 332,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A closed-end fund has a NAV of $15.00 per share, and its shares trade on the exchange at $13.50. The fund is trading at:",
+    "choices": ["A discount to NAV", "A premium to NAV", "Its public offering price", "Its redemption value"],
+    "answer": 0,
+    "explanation": "Closed-end shares trade on an exchange at prices set by supply and demand, so they can sell above or below NAV. A market price below NAV ($13.50 vs. $15.00) is a discount."
+  },
+  {
+    "id": 333,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Under the Investment Company Act of 1940, an open-end fund must generally pay redemption proceeds within how many calendar days of receiving a proper redemption request?",
+    "choices": ["1 business day", "3 business days", "30 days", "7 days"],
+    "answer": 3,
+    "explanation": "The 1940 Act requires an open-end fund to pay redemptions within seven calendar days of receiving a proper request. Shares are redeemed at the next calculated NAV."
+  },
+  {
+    "id": 334,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A mutual fund has a NAV of $9.40 and a public offering price of $10.00. What is the sales charge as a percentage? (Enter a number)",
+    "answer": "6",
+    "accepted": ["6", "6.0", "6.00", "6 percent"],
+    "explanation": "Sales charge % = (POP − NAV) ÷ POP = ($10.00 − $9.40) ÷ $10.00 = 6%. The sales charge percentage is always based on the POP, not the NAV."
+  },
+  {
+    "id": 335,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A mutual fund has a NAV of $47.50 and a public offering price of $50.00. What is the sales charge percentage?",
+    "choices": ["5.26%", "5%", "2.5%", "4.75%"],
+    "answer": 1,
+    "explanation": "Sales charge % = (POP − NAV) ÷ POP = $2.50 ÷ $50.00 = 5%. Dividing by NAV instead ($2.50 ÷ $47.50 ≈ 5.26%) is the common mistake."
+  },
+  {
+    "id": 336,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A mutual fund has a NAV of $11.40 and a sales charge of 5%. What is its public offering price?",
+    "choices": ["$11.97", "$12.00", "$11.40", "$12.50"],
+    "answer": 1,
+    "explanation": "POP = NAV ÷ (1 − sales charge %) = $11.40 ÷ 0.95 = $12.00. Adding 5% to NAV ($11.97) is incorrect because the sales charge is a percentage of the POP."
+  },
+  {
+    "id": 337,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A mutual fund's public offering price is $20.00 and its sales charge is 4.5%. What is the fund's NAV per share? (Enter a number)",
+    "answer": "19.10",
+    "accepted": ["19.10", "19.1"],
+    "explanation": "NAV = POP × (1 − sales charge %) = $20.00 × 0.955 = $19.10. The sales charge is $0.90, which is 4.5% of the $20.00 POP."
+  },
+  {
+    "id": 338,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A mutual fund has total assets of $52 million, total liabilities of $2 million, and 5 million shares outstanding. What is its NAV per share? (Enter a number)",
+    "answer": "10",
+    "accepted": ["10", "10.0", "10.00"],
+    "explanation": "NAV per share = (assets − liabilities) ÷ shares outstanding = ($52 million − $2 million) ÷ 5 million = $10.00."
+  },
+  {
+    "id": 339,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Mutual fund breakpoint discounts are available to all of the following EXCEPT:",
+    "choices": ["A married couple combining purchases in a joint account", "A trustee purchasing on behalf of a single trust account", "A parent purchasing for a minor child's custodial account", "An investment club formed to obtain a sales charge discount"],
+    "answer": 3,
+    "explanation": "Breakpoints are available to individuals, family units such as spouses and minor children, trusts, and corporations. Groups formed for the purpose of obtaining a sales charge discount, such as investment clubs, do not qualify."
+  },
+  {
+    "id": 340,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "type_in",
+    "question": "A letter of intent may be backdated up to how many days to include a mutual fund purchase the investor already made? (Enter a number)",
+    "answer": "90",
+    "accepted": ["90", "90 days", "ninety", "ninety days"],
+    "explanation": "A letter of intent covers 13 months and may be backdated up to 90 days, so a recent purchase can count toward the breakpoint. The 13-month window then starts from the backdated date."
+  },
+  {
+    "id": 341,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "An investor signs a letter of intent to invest $50,000 over 13 months but invests only $30,000 by the deadline. What happens?",
+    "choices": ["The investor pays the higher sales charge that applies to the amount actually invested", "The entire investment is redeemed at NAV and the proceeds are returned to the investor", "Nothing; the reduced sales charge from the letter of intent remains in place", "FINRA fines the investor for breaking the letter of intent agreement"],
+    "answer": 0,
+    "explanation": "A letter of intent is not a binding obligation to invest. If the target is missed, the fund collects the higher sales charge for the amount actually invested, usually from shares held in escrow."
+  },
+  {
+    "id": 342,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "An investor holds shares in a fund family currently worth $42,000 and invests another $10,000. The family's next breakpoint is at $50,000. Under rights of accumulation:",
+    "choices": ["No discount applies because the new purchase alone is under $50,000", "The investor must first sign a letter of intent to receive any discount", "The $10,000 purchase receives the reduced sales charge for the $50,000 level", "The investor receives a refund of sales charges paid on earlier purchases"],
+    "answer": 2,
+    "explanation": "Rights of accumulation combine existing holdings with the new purchase: $42,000 + $10,000 = $52,000, which crosses the $50,000 breakpoint. The reduced rate applies to the new purchase only; past sales charges are not refunded."
+  },
+  {
+    "id": 343,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which mutual fund share class typically has a contingent deferred sales charge that declines each year the shares are held, and often converts to Class A shares after several years?",
+    "choices": ["Class A", "Class C", "Class I (institutional)", "Class B"],
+    "answer": 3,
+    "explanation": "Class B shares have no front-end load but charge a back-end CDSC that declines over time, and they typically convert to lower-expense Class A shares after six to eight years. Class A shares charge a front-end load instead."
+  },
+  {
+    "id": 344,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "For an investor who expects to hold fund shares for only about two to three years, which share class is generally the lowest-cost choice?",
+    "choices": ["Class A", "Class B", "Class C", "Any class, because total costs are identical over every holding period"],
+    "answer": 2,
+    "explanation": "Class C shares have a level load (an ongoing 12b-1 fee) and usually only a small CDSC in the first year, which suits short holding periods. Class A front-end loads and Class B early-year CDSCs make those classes costlier for short-term holders."
+  },
+  {
+    "id": 345,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Under FINRA rules, a mutual fund may describe itself as 'no-load' only if it has no front-end or deferred sales charge and its 12b-1 and service fees do not exceed:",
+    "choices": ["0.75% of average net assets per year", "0.25% of average net assets per year", "1.00% of average net assets per year", "8.5% of the public offering price"],
+    "answer": 1,
+    "explanation": "A fund may call itself no-load only if it charges no sales loads and its combined asset-based sales charges and service fees are 0.25% per year or less. The 1% figure is the overall 12b-1 cap, not the no-load limit."
+  },
+  {
+    "id": 346,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which document must a purchaser of mutual fund shares receive, and summarizes the fund's investment objective, risks, fees, and past performance?",
+    "choices": ["The prospectus", "The statement of additional information (SAI)", "The fund's Form N-CEN filing", "The custodial agreement"],
+    "answer": 0,
+    "explanation": "The prospectus must be delivered to purchasers and describes the fund's objective, risks, fees, and performance. The SAI contains more detailed information and is provided free of charge on request."
+  },
+  {
+    "id": 347,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which party is responsible for safeguarding a mutual fund's cash and securities?",
+    "choices": ["The custodian bank", "The investment adviser", "The principal underwriter (distributor)", "The transfer agent"],
+    "answer": 0,
+    "explanation": "The custodian, usually a bank, holds the fund's cash and securities for safekeeping. The transfer agent maintains shareholder records and issues and redeems shares, while the adviser manages the portfolio."
+  },
+  {
+    "id": 348,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "A mutual fund shareholder reinvests all dividend and capital gains distributions. For tax purposes, these distributions are:",
+    "choices": ["Tax-deferred until the reinvested shares are eventually sold", "Taxable to the shareholder in the year they are distributed", "Tax-free because they were reinvested in additional fund shares", "Taxable only if they exceed $1,000 for the year"],
+    "answer": 1,
+    "explanation": "Fund distributions are taxable in the year paid whether taken in cash or reinvested. Reinvested amounts add to the investor's cost basis, which reduces the gain when the shares are later sold."
+  },
+  {
+    "id": 349,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "An investor uses a fund family's exchange privilege to move money from its growth fund to its bond fund. Which statement is TRUE?",
+    "choices": ["The exchange is tax-free and no new sales charge applies to the bond fund purchase", "A new full sales charge applies to the bond fund, but the exchange itself is tax-free", "Usually no new sales charge applies, but the exchange is a taxable sale of the growth shares", "The exchange is permitted only once per calendar year and must be made in writing"],
+    "answer": 2,
+    "explanation": "Exchanges within the same fund family are usually made at NAV without a new sales charge. For tax purposes, though, the investor has sold the growth fund shares, so any gain or loss is recognized."
+  },
+  {
+    "id": 350,
+    "section": "Products and Risks",
+    "topic": "Investment Companies",
+    "type": "multiple_choice",
+    "question": "Which cost is NOT included in a mutual fund's expense ratio?",
+    "choices": ["The management (advisory) fee", "The 12b-1 fee", "Administrative and custodial expenses", "The front-end sales charge"],
+    "answer": 3,
+    "explanation": "The expense ratio measures ongoing operating costs paid from fund assets, including management, 12b-1, and administrative fees, divided by average net assets. Sales loads are paid by the investor at purchase or redemption, so they are excluded."
+  },
+  {
+    "id": 351,
+    "section": "Products and Risks",
+    "topic": "ETFs",
+    "type": "multiple_choice",
+    "question": "Leveraged and inverse ETFs are generally designed to deliver their stated multiple of an index's return over what period?",
+    "choices": ["One calendar month", "One year", "A single trading day", "The life of the fund"],
+    "answer": 2,
+    "explanation": "Leveraged and inverse ETFs reset daily, so their stated objective applies to one day. Because of compounding, returns over longer periods can differ significantly from the stated multiple of the index's return."
+  },
+  {
+    "id": 352,
+    "section": "Products and Risks",
+    "topic": "ETFs",
+    "type": "multiple_choice",
+    "question": "An index starts at 100, rises 10% on day one, and falls 10% on day two, ending at 99. A 2x daily leveraged ETF on the index starts at $100. Where does the ETF end day two?",
+    "choices": ["$96", "$98", "$100", "$102"],
+    "answer": 0,
+    "explanation": "Day one: $100 × 1.20 = $120. Day two: $120 × 0.80 = $96. The ETF is down 4% even though the index fell only 1%, showing why daily-reset products can drift from twice the index's multi-day return ($98)."
+  },
+  {
+    "id": 353,
+    "section": "Products and Risks",
+    "topic": "ETFs",
+    "type": "multiple_choice",
+    "question": "Which statement BEST distinguishes an exchange-traded note (ETN) from an exchange-traded fund (ETF)?",
+    "choices": ["An ETN holds a diversified portfolio of stocks, while an ETF may hold only government bonds", "An ETN does not trade on any exchange and may be redeemed only at the next computed NAV", "An ETN is insured by the FDIC up to $250,000 per investor, just like a bank savings deposit", "An ETN is unsecured debt of its issuer, often a bank, so investors bear the issuer's credit risk"],
+    "answer": 3,
+    "explanation": "An ETN is a senior unsecured note that promises a return linked to an index but owns no underlying portfolio. If the issuer fails, investors can lose money regardless of the index's performance, unlike an ETF, which holds the underlying assets."
+  },
+  {
+    "id": 354,
+    "section": "Products and Risks",
+    "topic": "ETFs",
+    "type": "multiple_choice",
+    "question": "Throughout the trading day, an ETF's market price is determined by:",
+    "choices": ["The NAV calculated at the close of trading on the previous business day", "Supply and demand on the exchange, generally kept near NAV by creation and redemption", "The fund sponsor, which sets one fixed offering price at the start of each trading day", "The NAV plus a sales charge of up to 8.5%, as with mutual fund shares"],
+    "answer": 1,
+    "explanation": "ETF shares trade intraday at market prices. Authorized participants create and redeem shares in large blocks, which keeps the market price close to NAV; forward pricing at the next NAV applies to mutual funds, not ETFs."
+  },
+  {
+    "id": 355,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "The buyer of a put option has the:",
+    "choices": ["Obligation to sell the underlying stock at the strike price", "Right to sell the underlying stock at the strike price", "Right to buy the underlying stock at the strike price", "Obligation to buy the underlying stock at the strike price"],
+    "answer": 1,
+    "explanation": "Option buyers have rights and option sellers have obligations. A put buyer has the right to sell at the strike price; the put writer has the obligation to buy if assigned."
+  },
+  {
+    "id": 356,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "If assigned, the writer of a call option is obligated to:",
+    "choices": ["Buy the underlying stock at the strike price", "Buy the underlying stock at the current market price", "Return the premium to the option buyer", "Sell the underlying stock at the strike price"],
+    "answer": 3,
+    "explanation": "A call buyer has the right to buy at the strike price, so the assigned call writer must sell (deliver) the stock at the strike price. The writer keeps the premium either way."
+  },
+  {
+    "id": 357,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which pair of option positions are BOTH bullish on the underlying stock?",
+    "choices": ["Long call and short put", "Long put and short call", "Long call and long put", "Short call and short put"],
+    "answer": 0,
+    "explanation": "A call buyer profits when the stock rises, and a put writer profits when the stock stays above the strike, so both are bullish. Long puts and short calls are bearish positions."
+  },
+  {
+    "id": 358,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor buys 1 XYZ 60 call at 4. What is the maximum potential loss, in dollars? (Enter a number)",
+    "answer": "400",
+    "accepted": ["400", "400.00", "400 dollars"],
+    "explanation": "An option buyer's maximum loss is the premium paid: 4 × 100 shares = $400. This occurs if the stock is at or below $60 at expiration and the call expires worthless."
+  },
+  {
+    "id": 359,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor writes 1 XYZ 40 put at 3. What is the maximum potential loss?",
+    "choices": ["$4,300", "$300", "$3,700", "Unlimited"],
+    "answer": 2,
+    "explanation": "The worst case is the stock falling to zero: the writer buys at $40 but has collected $3, so the loss is ($40 − $3) × 100 = $3,700. Loss is limited because a stock cannot fall below zero."
+  },
+  {
+    "id": 360,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor writes 1 uncovered ABC 55 call at 4. What is the maximum potential gain?",
+    "choices": ["$5,100", "$5,900", "Unlimited", "$400"],
+    "answer": 3,
+    "explanation": "An option writer's maximum gain is the premium received: 4 × 100 = $400, earned if the call expires worthless. The writer's potential loss is unlimited, but the gain is capped at the premium."
+  },
+  {
+    "id": 361,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor writes 1 ABC 40 put at 3. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "37",
+    "accepted": ["37", "37.00"],
+    "explanation": "Put breakeven = strike price − premium = $40 − $3 = $37. The breakeven is the same for the put buyer and the put writer."
+  },
+  {
+    "id": 362,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "An investor writes 1 DEF 70 call at 5. At what stock price does the investor break even at expiration? (Enter a number)",
+    "answer": "75",
+    "accepted": ["75", "75.00"],
+    "explanation": "Call breakeven = strike price + premium = $70 + $5 = $75. Above $75 the writer loses money; below $75 the writer keeps some or all of the premium."
+  },
+  {
+    "id": 363,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor buys 1 XYZ 60 call at 3. At expiration, XYZ is at $68, and the investor exercises and immediately sells the stock. What is the profit?",
+    "choices": ["$800", "$300", "$500", "$1,100"],
+    "answer": 2,
+    "explanation": "Intrinsic value at expiration is $68 − $60 = $8; subtracting the $3 premium leaves $5 per share × 100 = $500. Forgetting the premium gives $800."
+  },
+  {
+    "id": 364,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor buys 1 ABC 45 put at 2.50. At expiration, ABC is at $38. What is the investor's profit?",
+    "choices": ["$700", "$450", "$250", "$950"],
+    "answer": 1,
+    "explanation": "The put is worth $45 − $38 = $7 at expiration; subtracting the $2.50 premium leaves $4.50 per share × 100 = $450. The $700 figure ignores the premium paid."
+  },
+  {
+    "id": 365,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "With the underlying stock at $42, what is the intrinsic value of a 50 put? (Enter a number)",
+    "answer": "8",
+    "accepted": ["8", "8.00", "8 points"],
+    "explanation": "A put is in the money when the stock is below the strike. Intrinsic value = strike − stock price = $50 − $42 = $8."
+  },
+  {
+    "id": 366,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor owns 100 shares of XYZ bought at $50 and writes 1 XYZ 55 call at 2. What is the breakeven price for the position?",
+    "choices": ["$48", "$52", "$53", "$57"],
+    "answer": 0,
+    "explanation": "For a covered call, breakeven = stock cost − premium received = $50 − $2 = $48. The premium lowers the effective cost of the shares; $57 is the breakeven for the call buyer, not this position."
+  },
+  {
+    "id": 367,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor owns 100 shares of ABC bought at $40 and writes 1 ABC 45 call at 3. What is the maximum potential gain?",
+    "choices": ["$800", "$500", "$300", "Unlimited"],
+    "answer": 0,
+    "explanation": "If the call is exercised, the shares are sold at $45: a $5 stock gain plus the $3 premium = $8 × 100 = $800. Writing the call caps the upside, so the gain is limited."
+  },
+  {
+    "id": 368,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An investor buys 100 shares of XYZ at $60 and buys 1 XYZ 55 put at 2 for protection. What is the maximum potential loss?",
+    "choices": ["$500", "$700", "$200", "$5,800"],
+    "answer": 1,
+    "explanation": "The put lets the investor sell at $55, so the most the stock can lose is $60 − $55 = $5, plus the $2 premium = $7 × 100 = $700. Without the put, the loss could be the full $6,000."
+  },
+  {
+    "id": 369,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "With XYZ stock trading at $48, which option is in the money?",
+    "choices": ["XYZ 50 call", "XYZ 45 put", "XYZ 50 put", "XYZ 48 call"],
+    "answer": 2,
+    "explanation": "A put is in the money when the stock is below the strike, so the 50 put has $2 of intrinsic value. The 50 call and 45 put are out of the money, and the 48 call is at the money."
+  },
+  {
+    "id": 370,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "An XYZ 70 call trades at a premium of 1.50 while XYZ is at $66. The premium consists of:",
+    "choices": ["$1.50 of intrinsic value and no time value", "$0.75 of intrinsic value and $0.75 of time value", "$4.00 of intrinsic value offset by negative time value", "$1.50 of time value and no intrinsic value"],
+    "answer": 3,
+    "explanation": "A call with the stock below the strike is out of the money and has zero intrinsic value. Premium = intrinsic + time value, so the entire 1.50 premium is time value."
+  },
+  {
+    "id": 371,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Which statement about option exercise styles is TRUE?",
+    "choices": ["European-style options may be exercised any time up to expiration, while American-style options may be exercised only at expiration", "Both styles may be exercised at any time before expiration", "American-style options may be exercised any time up to expiration, while European-style options may be exercised only at expiration", "Exercise style refers to whether the option settles in cash or in shares"],
+    "answer": 2,
+    "explanation": "American style allows exercise on any business day through expiration; European style allows exercise only at expiration. Exercise style is unrelated to whether an option settles in cash or shares."
+  },
+  {
+    "id": 372,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "type_in",
+    "question": "What is the three-letter abbreviation for the document, titled 'Characteristics and Risks of Standardized Options,' that must be delivered to a customer no later than when the account is approved for options trading?",
+    "answer": "ODD",
+    "accepted": ["odd", "the odd", "options disclosure document", "the options disclosure document", "characteristics and risks of standardized options"],
+    "explanation": "The Options Disclosure Document (ODD), published by the OCC, must be delivered at or before the time the customer's account is approved for options trading. It explains the features and risks of listed options."
+  },
+  {
+    "id": 373,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "After a firm approves a customer's account for options trading, the customer must return a signed options agreement within:",
+    "choices": ["15 days", "30 days", "5 business days", "90 days"],
+    "answer": 0,
+    "explanation": "FINRA rules require the signed options agreement to be returned within 15 days after account approval. If it is not received, the customer may only close existing positions."
+  },
+  {
+    "id": 374,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "When a customer buys a listed equity option, the trade settles:",
+    "choices": ["Two business days after the trade date (T+2)", "Three business days after the trade date (T+3)", "On the option's expiration date", "One business day after the trade date (T+1)"],
+    "answer": 3,
+    "explanation": "Option premium trades settle T+1, so the buyer must pay for the option the next business day. Exercised equity options also settle T+1, matching regular-way stock settlement."
+  },
+  {
+    "id": 375,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "Standard monthly listed equity options expire on the:",
+    "choices": ["Last business day of the expiration month", "Third Friday of the expiration month", "First Monday of the expiration month", "Third Thursday of the expiration month"],
+    "answer": 1,
+    "explanation": "Standard monthly equity options expire on the third Friday of the expiration month. Weekly options are also available with other expiration dates, but the standard monthly cycle uses the third Friday."
+  },
+  {
+    "id": 376,
+    "section": "Products and Risks",
+    "topic": "Options",
+    "type": "multiple_choice",
+    "question": "A customer would like to buy XYZ, now trading at $52, if it falls to about $50, and wants to earn income while waiting. Which strategy fits BEST?",
+    "choices": ["Buy (go long) an XYZ 50 put", "Write (sell) an XYZ 50 put", "Write (sell) an XYZ 50 call", "Buy an XYZ 55 call"],
+    "answer": 1,
+    "explanation": "Writing a put collects premium now, and if XYZ falls below $50, the customer is assigned and buys the stock at $50, for a net cost of $50 minus the premium. Buying a put would be a bearish position, not a way to acquire the stock."
+  },
+  {
+    "id": 377,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "During the accumulation phase of a variable annuity, the owner's contributions purchase:",
+    "choices": ["Annuity units, whose number changes each month with separate account results", "Shares of the insurance company's common stock, held in its general account", "Units whose value is guaranteed by the insurer and held in its general account", "Accumulation units, whose value changes with the performance of the separate account"],
+    "answer": 3,
+    "explanation": "Contributions during the accumulation phase buy accumulation units, which rise and fall with the separate account. At annuitization, accumulation units are converted into a fixed number of annuity units."
+  },
+  {
+    "id": 378,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "A variable annuity has an assumed interest rate (AIR) of 4%. If the separate account's actual annualized return is 3%, the next annuity payment will:",
+    "choices": ["Decrease compared with the prior payment", "Increase compared with the prior payment", "Stay the same as the prior payment", "Fall to a guaranteed minimum payment"],
+    "answer": 0,
+    "explanation": "Payments rise when actual returns exceed the AIR, stay the same when they equal it, and fall when they are below it. A 3% return is positive but below the 4% AIR, so the payment decreases."
+  },
+  {
+    "id": 379,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "type_in",
+    "question": "In a variable annuity, payments rise when separate-account returns beat a benchmark rate set by the insurer and fall when they lag it. What is the three-letter abbreviation for this benchmark? (Enter the abbreviation)",
+    "answer": "AIR",
+    "accepted": ["air", "the air", "assumed interest rate", "the assumed interest rate", "assumed investment rate", "the assumed investment rate"],
+    "explanation": "The assumed interest rate (AIR) is the insurer's earnings projection used to set the first annuity payment. Later payments change based on how actual separate-account returns compare with the AIR."
+  },
+  {
+    "id": 380,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "An annuitant chooses a life annuity with a 10-year period certain and dies after receiving payments for 4 years. What happens next?",
+    "choices": ["Payments stop immediately", "The beneficiary receives payments for another 10 years", "The named beneficiary receives payments for the remaining 6 years", "The beneficiary receives a lump-sum refund of all premiums paid"],
+    "answer": 2,
+    "explanation": "Life with period certain pays for the annuitant's life but guarantees payments for at least the stated period. Since only 4 of the 10 guaranteed years were paid, the beneficiary receives the remaining 6 years."
+  },
+  {
+    "id": 381,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which annuity payout option continues payments for life to a surviving spouse after the first annuitant dies?",
+    "choices": ["Life only (straight life)", "Life with 10-year period certain", "Unit refund life annuity", "Joint and last survivor"],
+    "answer": 3,
+    "explanation": "Joint and last survivor pays as long as either annuitant is alive. Life only stops at the annuitant's death, which is why it provides the largest payment."
+  },
+  {
+    "id": 382,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which statement about a fixed annuity is TRUE?",
+    "choices": ["The annuitant bears the investment risk through the insurer's separate account", "It must be registered with the SEC as a security and sold with a prospectus", "The insurer bears the investment risk and guarantees a minimum rate of return", "Its payments are designed to rise each year along with inflation"],
+    "answer": 2,
+    "explanation": "Fixed annuity assets are held in the insurer's general account, and the insurer guarantees the rate, so it bears the investment risk. Fixed annuities are insurance products, not securities, and their level payments expose owners to inflation risk."
+  },
+  {
+    "id": 383,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "A 50-year-old withdraws money from a non-qualified deferred annuity purchased with after-tax dollars. How is the withdrawal generally treated?",
+    "choices": ["Treated as a tax-free return of principal first, with earnings taxed only later", "Taxed as ordinary income to the extent of earnings, plus a 10% penalty on that portion", "Taxed at long-term capital gains rates on the earnings portion, with no penalty", "Entirely tax-free because all of the contributions were made with after-tax money"],
+    "answer": 1,
+    "explanation": "Withdrawals from a non-qualified annuity come from earnings first (LIFO), and earnings are taxed as ordinary income. Before age 59½, a 10% penalty also applies to the taxable portion; the after-tax cost basis comes out tax-free only after the earnings."
+  },
+  {
+    "id": 384,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "Which exchange does NOT qualify as tax-free under Section 1035 of the Internal Revenue Code?",
+    "choices": ["An annuity contract exchanged for a life insurance policy", "A life insurance policy exchanged for an annuity", "A variable annuity exchanged for a fixed annuity", "A whole life policy exchanged for a variable life policy"],
+    "answer": 0,
+    "explanation": "Section 1035 permits life-to-life, life-to-annuity, and annuity-to-annuity exchanges without current taxation. An annuity cannot be exchanged tax-free for a life insurance policy."
+  },
+  {
+    "id": 385,
+    "section": "Products and Risks",
+    "topic": "Annuities",
+    "type": "multiple_choice",
+    "question": "A fixed indexed (equity-indexed) annuity typically:",
+    "choices": ["Credits interest tied to an index's gains, limited by caps or participation rates, and protects against index losses", "Invests directly in the index through a separate account, with no guarantee of principal or any minimum return", "Pays a return equal to 100% of the index's gains and losses, with no cap or participation rate", "Guarantees payments that rise each year with the Consumer Price Index, regardless of how the market performs"],
+    "answer": 0,
+    "explanation": "Indexed annuities link credited interest to an index's gains, limited by caps or participation rates, and protect the owner from index declines. A product passing through 100% of gains and losses would be closer to a variable annuity."
+  },
+  {
+    "id": 386,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "In a scheduled-premium variable life insurance policy, which feature is guaranteed?",
+    "choices": ["The cash value", "A minimum death benefit", "The rate of return on the separate account", "Annual increases in the death benefit"],
+    "answer": 1,
+    "explanation": "Variable life guarantees a minimum death benefit, while the cash value and any death benefit above the minimum vary with separate-account performance. The cash value is not guaranteed."
+  },
+  {
+    "id": 387,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Compared with variable life insurance, the cash value of a traditional whole life policy:",
+    "choices": ["Varies with the performance of the subaccounts in the separate account", "Is not guaranteed and may fall to zero because of market losses", "Grows at a guaranteed rate, backed by the insurer's general account", "Becomes available only after the policy has been in force for 20 years"],
+    "answer": 2,
+    "explanation": "Whole life has fixed premiums and a guaranteed cash value backed by the insurer's general account. Variable life cash value is invested in separate-account subaccounts and can rise or fall."
+  },
+  {
+    "id": 388,
+    "section": "Products and Risks",
+    "topic": "Insurance",
+    "type": "multiple_choice",
+    "question": "Which type of life insurance offers BOTH flexible premium payments and separate-account investment options chosen by the policyholder?",
+    "choices": ["Whole life", "Term life", "Scheduled-premium variable life", "Variable universal life"],
+    "answer": 3,
+    "explanation": "Variable universal life combines universal life's flexible premiums with variable life's separate-account investing. Scheduled-premium variable life invests in a separate account but has fixed premiums."
+  },
+  {
+    "id": 389,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "A REIT that earns most of its income from interest on loans made to real estate owners is a(n):",
+    "choices": ["Equity REIT", "Hybrid REIT", "Mortgage REIT", "Real estate limited partnership"],
+    "answer": 2,
+    "explanation": "Mortgage REITs lend money or buy mortgages and earn interest income. Equity REITs own properties and earn rent; hybrid REITs do both."
+  },
+  {
+    "id": 390,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "The main drawback of a non-traded REIT compared with an exchange-listed REIT is:",
+    "choices": ["Limited liquidity, since shares are not exchange-traded and redemptions may be restricted", "It is not required to distribute any of its taxable income to shareholders", "It is prohibited from owning commercial property such as office buildings", "Its share price changes minute by minute with the broader stock market's movements"],
+    "answer": 0,
+    "explanation": "Non-traded REITs are registered with the SEC but are not listed, so investors may have difficulty selling, and sponsor redemption programs can be limited or suspended. Listed REITs trade throughout the day like stocks."
+  },
+  {
+    "id": 391,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "Most dividends paid by a REIT are taxed to shareholders as:",
+    "choices": ["Qualified dividends taxed at the lower long-term capital gains rates", "A tax-free return of capital that only reduces cost basis", "Passive income that can offset passive losses", "Ordinary income, since they generally are not qualified dividends"],
+    "answer": 3,
+    "explanation": "Because a REIT generally pays no corporate tax on distributed income, most of its dividends do not qualify for the lower qualified-dividend rate and are taxed as ordinary income. REIT dividends are portfolio income, not passive income."
+  },
+  {
+    "id": 392,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "multiple_choice",
+    "question": "Which statement correctly compares a REIT with a real estate limited partnership?",
+    "choices": ["REIT losses flow through to investors, while limited partnership losses do not", "Limited partnership losses flow through to investors, while REIT losses do not", "Both pass losses through to investors", "Both are taxed as corporations on all of their income"],
+    "answer": 1,
+    "explanation": "A limited partnership is a pass-through entity, so its losses flow to partners' tax returns. A REIT is a corporation or trust that can pass through income but not losses."
+  },
+  {
+    "id": 393,
+    "section": "Products and Risks",
+    "topic": "REITs",
+    "type": "type_in",
+    "question": "To qualify as a REIT, a company must hold at least what percentage of its total assets in real estate, cash, and government securities? (Enter a number)",
+    "answer": "75",
+    "accepted": ["75", "75 percent", "seventy-five", "seventy five"],
+    "explanation": "A REIT must invest at least 75% of its total assets in real estate, cash, and government securities, and earn at least 75% of its gross income from real estate sources. It must also distribute at least 90% of taxable income."
+  },
+  {
+    "id": 394,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "The primary tax characteristic of a direct participation program (DPP) is that:",
+    "choices": ["The partnership pays corporate income tax at the entity level before making distributions", "Income, gains, losses, and deductions flow through directly to the investors' tax returns", "All partnership income is tax-exempt to the limited partners", "Losses must stay inside the partnership until it is dissolved"],
+    "answer": 1,
+    "explanation": "DPPs such as limited partnerships are pass-through entities that pay no tax at the entity level. Each partner reports a share of the income, losses, and deductions on their own return."
+  },
+  {
+    "id": 395,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "Which action could cause a limited partner to lose limited liability status?",
+    "choices": ["Reviewing the partnership's books and records", "Voting on a proposed sale of the partnership's property", "Suing the general partner for breach of fiduciary duty", "Taking an active role in managing the partnership's business"],
+    "answer": 3,
+    "explanation": "Limited partners are passive investors; one who participates in management can be treated as a general partner with unlimited liability. Inspecting records, voting on major decisions, and suing the general partner are normal limited partner rights."
+  },
+  {
+    "id": 396,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "Which of the following is a role of the general partner in a limited partnership?",
+    "choices": ["Managing the partnership's day-to-day business", "Contributing capital without any management role", "Being liable only up to the amount invested", "Voting only on admitting new limited partners"],
+    "answer": 0,
+    "explanation": "The general partner runs the business, makes management decisions, owes a fiduciary duty to the limited partners, and has unlimited liability. Passive capital contribution with limited liability describes a limited partner."
+  },
+  {
+    "id": 397,
+    "section": "Products and Risks",
+    "topic": "DPPs",
+    "type": "multiple_choice",
+    "question": "Losses passed through from a limited partnership investment can generally be used to offset:",
+    "choices": ["Wages and salary", "Portfolio income such as dividends and interest", "Passive income from other sources", "Any type of income without limit"],
+    "answer": 2,
+    "explanation": "DPP losses are passive losses and generally may offset only passive income, such as income from other limited partnerships or rental real estate. They cannot offset earned income or portfolio income."
+  },
+  {
+    "id": 398,
+    "section": "Products and Risks",
+    "topic": "Hedge Funds",
+    "type": "multiple_choice",
+    "question": "The traditional hedge fund compensation structure known as '2 and 20' refers to:",
+    "choices": ["A 2% sales load plus a 20% redemption fee", "A 20% annual management fee on assets plus 2% of profits", "A 2% 12b-1 fee plus a 20% back-end load", "A 2% annual management fee on assets plus 20% of profits"],
+    "answer": 3,
+    "explanation": "Hedge fund managers traditionally charge about 2% of assets each year plus a performance fee of about 20% of profits. Hedge funds do not charge mutual fund-style sales loads or 12b-1 fees."
+  },
+  {
+    "id": 399,
+    "section": "Products and Risks",
+    "topic": "Hedge Funds",
+    "type": "multiple_choice",
+    "question": "A hedge fund provision that bars investors from redeeming their shares for an initial period, such as one year, is called a:",
+    "choices": ["Blackout window", "Cooling-off period", "Lock-up period", "Free-look period"],
+    "answer": 2,
+    "explanation": "A lock-up period prevents redemptions for a set time after investing, which adds to hedge funds' liquidity risk. The cooling-off period is the time between filing a registration statement and its effective date."
+  },
+  {
+    "id": 400,
+    "section": "Products and Risks",
+    "topic": "Alternatives",
+    "type": "multiple_choice",
+    "question": "Which statement BEST describes a typical private equity fund?",
+    "choices": ["It trades listed stocks daily and lets any investor redeem shares at NAV at the end of each day", "It buys private companies or takes public ones private, holding them for years with limited liquidity", "It must invest at least 80% of its assets in government securities", "It is registered as an open-end investment company and sold to all investors through a prospectus"],
+    "answer": 1,
+    "explanation": "Private equity funds invest in private businesses, often using buyouts, and hold them for years before exiting through a sale or IPO. They are generally limited to accredited or qualified investors and offer little liquidity."
+  },
+  {
+    "id": 401,
+    "section": "Products and Risks",
+    "topic": "Alternatives",
+    "type": "multiple_choice",
+    "question": "Private equity financing provided to early-stage startup companies with high growth potential is called:",
+    "choices": ["Venture capital", "Mezzanine financing", "A leveraged buyout", "A bridge loan"],
+    "answer": 0,
+    "explanation": "Venture capital funds invest in young companies in exchange for equity. A leveraged buyout uses borrowed money to acquire an established company."
+  },
+  {
+    "id": 402,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which of the following is a form of systematic risk?",
+    "choices": ["Interest-rate risk", "Business risk", "Default risk of a single corporate issuer", "Concentration risk"],
+    "answer": 0,
+    "explanation": "Systematic risks, such as market, interest-rate, and inflation risk, affect the whole market and cannot be diversified away. Business risk, a single issuer's default risk, and concentration risk are unsystematic and can be reduced through diversification."
+  },
+  {
+    "id": 403,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which bond carries the LOWEST credit (default) risk?",
+    "choices": ["A AAA-rated corporate bond", "A U.S. Treasury bond", "A municipal revenue bond", "A high-yield corporate bond"],
+    "answer": 1,
+    "explanation": "U.S. Treasury securities are backed by the full faith and credit of the U.S. government and are considered to have the lowest default risk. High-yield bonds carry the most credit risk of the choices."
+  },
+  {
+    "id": 404,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "A U.S. investor owns shares of a company based in a country whose new government threatens to nationalize the company's industry. This is an example of:",
+    "choices": ["Reinvestment risk", "Interest-rate risk", "Political risk", "Liquidity risk"],
+    "answer": 2,
+    "explanation": "Political risk is the risk that government actions, such as nationalization, capital controls, or instability, reduce an investment's value. It is especially relevant for foreign and emerging market investments."
+  },
+  {
+    "id": 405,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "A client holds 70% of her portfolio in her employer's stock. The risk MOST associated with this position is:",
+    "choices": ["Reinvestment risk", "Call risk", "Purchasing power risk", "Concentration risk"],
+    "answer": 3,
+    "explanation": "Holding a large share of a portfolio in one security creates concentration risk, since a problem at that one company could cause major losses. Diversifying across many holdings reduces it."
+  },
+  {
+    "id": 406,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "A stock with a beta of 0.8:",
+    "choices": ["Tends to be more volatile than the overall market", "Tends to move in the opposite direction of the market", "Tends to be less volatile than the overall market", "Has no market risk"],
+    "answer": 2,
+    "explanation": "Beta measures volatility relative to the market, which has a beta of 1.0. A beta of 0.8 means the stock tends to move about 80% as much as the market, in the same direction."
+  },
+  {
+    "id": 407,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "type_in",
+    "question": "A stock has a beta of 1.5. If the overall market rises 10%, by what percentage would the stock be expected to rise? (Enter a number)",
+    "answer": "15",
+    "accepted": ["15", "15.0", "15 percent"],
+    "explanation": "Expected move = beta × market move = 1.5 × 10% = 15%. A beta above 1.0 indicates a stock that tends to be more volatile than the market."
+  },
+  {
+    "id": 408,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which security, if held to maturity, has NO reinvestment risk?",
+    "choices": ["A zero-coupon bond", "A 30-year coupon-paying Treasury bond", "A callable corporate bond", "A mortgage-backed pass-through security"],
+    "answer": 0,
+    "explanation": "A zero-coupon bond makes no periodic payments, so there is nothing to reinvest before maturity and its return is locked in at purchase. Coupon bonds, callable bonds, and mortgage pass-throughs all return cash that may need to be reinvested at lower rates."
+  },
+  {
+    "id": 409,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Which investment offers the MOST diversification for an investor with a small amount to invest?",
+    "choices": ["Shares of a single blue-chip company", "A technology sector fund", "A single municipal bond", "A broad-based stock index mutual fund"],
+    "answer": 3,
+    "explanation": "A broad-based index fund spreads a small investment across hundreds of companies and industries, reducing unsystematic risk. A sector fund is diversified across companies but concentrated in one industry."
+  },
+  {
+    "id": 410,
+    "section": "Products and Risks",
+    "topic": "Risk Types",
+    "type": "multiple_choice",
+    "question": "Diversification reduces portfolio volatility most effectively when the assets combined have returns that are:",
+    "choices": ["Highly positively correlated with each other", "Low or negatively correlated with each other", "All tied to the same industry", "All issued by the same company"],
+    "answer": 1,
+    "explanation": "When assets do not move together, losses in one can be offset by gains or stability in another, smoothing overall returns. Highly correlated assets tend to rise and fall together, which provides little diversification benefit."
+  }
+]
